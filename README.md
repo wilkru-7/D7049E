@@ -13,7 +13,7 @@
 ## Development Environment
 - 3D rendering library: BGFX
   - https://github.com/bkaradzic/bgfx
-- Physics library: TBD
+- Physics library: ReactPhysics3D
 - Audio library: TBD
 - Math library: TBD
 - Containers (or STL): TBD
