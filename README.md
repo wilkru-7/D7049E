@@ -14,6 +14,6 @@
 - 3D rendering library: BGFX
   - https://github.com/bkaradzic/bgfx
 - Physics library: ReactPhysics3D
-- Audio library: TBD
+- Audio library: SoLoud
 - Math library: GLM
 - Containers (or STL): TBD
