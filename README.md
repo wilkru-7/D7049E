@@ -1,8 +1,14 @@
 # D7049E
 ## Game Idea
-- Third person perspective
-- Walk around in a world
-  - Interagate with objects
+- Third person perspective 
+  - Control a character in the scene
+- Puzzel/Exploring game
+  - Build up your own home
+  - Solve puzzels by finding and integrate with objects
+  - Earn rewards by solving puzzels
+- Suitable background music depending on the environment
+  - Special sound effects when interacting with objects
+- Realistic movements such as walking, jumping and climbing 
 
 ## Development Environment
 - 3D rendering library: BGFX
