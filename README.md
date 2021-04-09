@@ -15,5 +15,5 @@
   - https://github.com/bkaradzic/bgfx
 - Physics library: ReactPhysics3D
 - Audio library: TBD
-- Math library: TBD
+- Math library: GLM
 - Containers (or STL): TBD
