@@ -13,3 +13,6 @@
 [submodule "eigen"]
 	path = eigen
 	url = https://gitlab.com/libeigen/eigen.git
+[submodule "glm"]
+	path = glm
+	url = https://github.com/g-truc/glm.git
