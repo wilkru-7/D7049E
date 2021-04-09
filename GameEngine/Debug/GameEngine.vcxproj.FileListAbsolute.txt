@@ -1,2 +1,0 @@
-C:\Users\andre\source\repos\D7049E\GameEngine\Debug\GameEngine.exe
-C:\Users\andre\source\repos\D7049E\GameEngine\Debug\GameEngine.pdb
