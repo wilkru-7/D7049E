@@ -69,9 +69,7 @@ bgfx::ShaderHandle loadShader(const char *FILENAME)
     memcpy(&filePath[shaderLen], FILENAME, fileLen);
 
     FILE *file = fopen(filePath, "rb");
-    cout << filePath;
     fseek(file, 0, SEEK_END);
-    cout << "Nohoooo";
     long fileSize = ftell(file);
     fseek(file, 0, SEEK_SET);
 
@@ -114,7 +112,7 @@ int main(void)
     bgfx::ShaderHandle fsh = loadShader("fs_cubes.bin");
     bgfx::ProgramHandle program = bgfx::createProgram(vsh, fsh, true);
     unsigned int counter = 0;
-    while(true) {
+    while(!glfwWindowShouldClose(window)) {
         const bx::Vec3 at = {0.0f, 0.0f,  0.0f};
         const bx::Vec3 eye = {0.0f, 0.0f, -5.0f};
         float view[16];
