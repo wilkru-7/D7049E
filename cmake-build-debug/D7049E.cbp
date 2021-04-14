@@ -57,7 +57,6 @@
 					<Add option="-D__STDC_LIMIT_MACROS"/>
 					<Add option="-D__STDC_FORMAT_MACROS"/>
 					<Add option="-D__STDC_CONSTANT_MACROS"/>
-					<Add directory="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glad/include"/>
 					<Add directory="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/include"/>
 					<Add directory="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/include"/>
 					<Add directory="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/3rdparty"/>
@@ -96,7 +95,6 @@
 					<Add option="-D__STDC_LIMIT_MACROS"/>
 					<Add option="-D__STDC_FORMAT_MACROS"/>
 					<Add option="-D__STDC_CONSTANT_MACROS"/>
-					<Add directory="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glad/include"/>
 					<Add directory="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/include"/>
 					<Add directory="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/include"/>
 					<Add directory="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/3rdparty"/>
@@ -120,52 +118,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\Makefile VERBOSE=1 bgfx_test/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="glad">
-				<Option output="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/glad.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glad/include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\Makefile VERBOSE=1 glad"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="glad/fast">
-				<Option output="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/glad.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="msvc8"/>
-				<Compiler>
-					<Add directory="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glad/include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\include"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\Makefile VERBOSE=1 glad/fast"/>
 					<CompileFile command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 					<DistClean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\Makefile VERBOSE=1 clean"/>
@@ -8984,9 +8936,6 @@
 		</Unit>
 		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/glfw/src/glfw_config.h">
 			<Option target="glfw"/>
-		</Unit>
-		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glad/src/glad.c">
-			<Option target="glad"/>
 		</Unit>
 		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/include/GLFW/glfw3.h">
 			<Option target="glfw"/>

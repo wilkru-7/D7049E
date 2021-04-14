@@ -16,7 +16,6 @@ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/CMakeFiles
 C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/CMakeFiles/ExperimentalUpdate.dir
 C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/CMakeFiles/ContinuousMemCheck.dir
 C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/CMakeFiles/ExperimentalConfigure.dir
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/CMakeFiles/glad.dir
 C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/CMakeFiles/ExperimentalTest.dir
 C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/CMakeFiles/package_source.dir
 C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/CMakeFiles/ExperimentalCoverage.dir

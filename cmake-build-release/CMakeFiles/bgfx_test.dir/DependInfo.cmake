@@ -17,7 +17,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../glad/include"
   "../bgfx.cmake/bgfx/include"
   "../bgfx.cmake/bx/include"
   "../bgfx.cmake/bx/3rdparty"
@@ -38,7 +37,6 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/bgfx.dir/DependInfo.cmake"
   "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/example-common.dir/DependInfo.cmake"
   "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/CMakeFiles/glad.dir/DependInfo.cmake"
   "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/bimg.dir/DependInfo.cmake"
   "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/astc-codec.dir/DependInfo.cmake"
   "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/astc.dir/DependInfo.cmake"

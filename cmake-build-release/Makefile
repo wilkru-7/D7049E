@@ -415,19 +415,6 @@ ExperimentalConfigure\fast:
 .PHONY : ExperimentalConfigure\fast
 
 #=============================================================================
-# Target rules for targets named glad
-
-# Build rule for target.
-glad: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) glad
-.PHONY : glad
-
-# fast build rule for target.
-glad\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glad.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\glad.dir\build
-.PHONY : glad\fast
-
-#=============================================================================
 # Target rules for targets named ExperimentalTest
 
 # Build rule for target.
@@ -1467,33 +1454,6 @@ glfw\fast:
 	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\glfw.dir\build.make /nologo -$(MAKEFLAGS) glfw\src\CMakeFiles\glfw.dir\build
 .PHONY : glfw\fast
 
-glad\src\glad.obj: glad\src\glad.c.obj
-
-.PHONY : glad\src\glad.obj
-
-# target to build an object file
-glad\src\glad.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glad.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\glad.dir\glad\src\glad.c.obj
-.PHONY : glad\src\glad.c.obj
-
-glad\src\glad.i: glad\src\glad.c.i
-
-.PHONY : glad\src\glad.i
-
-# target to preprocess a source file
-glad\src\glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glad.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\glad.dir\glad\src\glad.c.i
-.PHONY : glad\src\glad.c.i
-
-glad\src\glad.s: glad\src\glad.c.s
-
-.PHONY : glad\src\glad.s
-
-# target to generate assembly for a file
-glad\src\glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\glad.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\glad.dir\glad\src\glad.c.s
-.PHONY : glad\src\glad.c.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -1618,7 +1578,6 @@ help:
 	@echo ... fcpp
 	@echo ... geometryc
 	@echo ... geometryv
-	@echo ... glad
 	@echo ... glcpp
 	@echo ... glfw
 	@echo ... glsl-optimizer
@@ -1634,9 +1593,6 @@ help:
 	@echo ... squish
 	@echo ... texturec
 	@echo ... texturev
-	@echo ... glad/src/glad.obj
-	@echo ... glad/src/glad.i
-	@echo ... glad/src/glad.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
