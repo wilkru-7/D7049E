@@ -19,3 +19,9 @@
 [submodule "soloud"]
 	path = soloud
 	url = https://github.com/jarikomppa/soloud.git
+[submodule "glfw"]
+	path = glfw
+	url = https://github.com/glfw/glfw.git
+[submodule "bgfx.cmake"]
+	path = bgfx.cmake
+	url = https://github.com/widberg/bgfx.cmake.git

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/wilma/Documents/D7049E/bgfx.cmake/bimg/3rdparty/etc1/etc1.cpp
+etc1.h
+C:/Users/wilma/Documents/D7049E/bgfx.cmake/bimg/3rdparty/etc1/etc1.h
+cstring
+-
+
+C:/Users/wilma/Documents/D7049E/bgfx.cmake/bimg/3rdparty/etc1/etc1.h
+
