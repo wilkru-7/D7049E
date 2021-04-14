@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/wilma/Documents/D7049E/bgfx.cmake
+# Install script for directory: C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,108 +33,108 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/bgfx" TYPE FILE FILES "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/LICENSE")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/bgfx" TYPE FILE FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/LICENSE")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/bgfx" TYPE FILE FILES "C:/Users/wilma/Documents/D7049E/bgfx.cmake/README.md")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/bgfx" TYPE FILE FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/README.md")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/bgfx.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/bgfx.lib")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/bimg.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/bimg.lib")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/bx.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/bx.lib")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/astc-codec.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/astc-codec.lib")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/astc.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/astc.lib")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/edtaa3.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/edtaa3.lib")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/etc1.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/etc1.lib")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/etc2.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/etc2.lib")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/iqa.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/iqa.lib")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/squish.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/squish.lib")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/nvtt.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/nvtt.lib")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/pvrtc.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/pvrtc.lib")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES
-    "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/include/bx"
-    "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/include/compat"
-    "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/include/tinystl"
+    "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/include/bx"
+    "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/include/compat"
+    "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/include/tinystl"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bimg/include/bimg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/include/bimg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/include/bgfx")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/include/bgfx")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/bgfx" TYPE FILE FILES
-    "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_shader.sh"
-    "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_compute.sh"
+    "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_shader.sh"
+    "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_compute.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/shaderc.exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/shaderc.exe")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/geometryc.exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/geometryc.exe")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/geometryv.exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/geometryv.exe")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/texturec.exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/texturec.exe")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/texturev.exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/texturev.exe")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/bgfx" TYPE FILE FILES
-    "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/generated/bgfxConfig.cmake"
-    "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/generated/bgfxConfigVersion.cmake"
+    "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/generated/bgfxConfig.cmake"
+    "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/generated/bgfxConfigVersion.cmake"
     )
 endif()
 
@@ -142,7 +142,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/bgfx/bgfxTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/bgfx/bgfxTargets.cmake"
-         "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/Export/lib/cmake/bgfx/bgfxTargets.cmake")
+         "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/Export/lib/cmake/bgfx/bgfxTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/bgfx/bgfxTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -151,9 +151,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/bgfx" TYPE FILE FILES "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/Export/lib/cmake/bgfx/bgfxTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/bgfx" TYPE FILE FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/Export/lib/cmake/bgfx/bgfxTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/bgfx" TYPE FILE FILES "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/Export/lib/cmake/bgfx/bgfxTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/bgfx" TYPE FILE FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/Export/lib/cmake/bgfx/bgfxTargets-release.cmake")
   endif()
 endif()
 

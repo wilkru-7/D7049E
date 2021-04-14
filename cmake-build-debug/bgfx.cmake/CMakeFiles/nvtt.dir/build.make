@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\wilma\Documents\D7049E
+CMAKE_SOURCE_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\wilma\Documents\D7049E\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include bgfx.cmake\CMakeFiles\nvtt.dir\depend.make
@@ -62,403 +62,403 @@ include bgfx.cmake\CMakeFiles\nvtt.dir\flags.make
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zoh.cpp.obj: bgfx.cmake\CMakeFiles\nvtt.dir\flags.make
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zoh.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zoh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc6h/zoh.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zoh.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zoh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc6h/zoh.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zoh.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zoh.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zoh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc6h/zoh.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zoh.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zoh.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zoh.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zoh.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zoh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc6h/zoh.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zoh.cpp.s /c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zoh.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zoh.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zoh.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zoh_utils.cpp.obj: bgfx.cmake\CMakeFiles\nvtt.dir\flags.make
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zoh_utils.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zoh_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc6h/zoh_utils.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zoh_utils.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zoh_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc6h/zoh_utils.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zoh_utils.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zoh_utils.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zoh_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc6h/zoh_utils.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zoh_utils.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zoh_utils.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zoh_utils.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zoh_utils.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zoh_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc6h/zoh_utils.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zoh_utils.cpp.s /c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zoh_utils.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zoh_utils.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zoh_utils.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zohone.cpp.obj: bgfx.cmake\CMakeFiles\nvtt.dir\flags.make
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zohone.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zohone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc6h/zohone.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zohone.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zohone.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc6h/zohone.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zohone.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zohone.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zohone.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc6h/zohone.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zohone.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zohone.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zohone.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zohone.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zohone.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc6h/zohone.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zohone.cpp.s /c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zohone.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zohone.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zohone.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zohtwo.cpp.obj: bgfx.cmake\CMakeFiles\nvtt.dir\flags.make
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zohtwo.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zohtwo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc6h/zohtwo.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zohtwo.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zohtwo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc6h/zohtwo.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zohtwo.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zohtwo.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zohtwo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc6h/zohtwo.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zohtwo.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zohtwo.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zohtwo.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zohtwo.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zohtwo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc6h/zohtwo.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zohtwo.cpp.s /c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zohtwo.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc6h\zohtwo.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc6h\zohtwo.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl.cpp.obj: bgfx.cmake\CMakeFiles\nvtt.dir\flags.make
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl.cpp.s /c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode0.cpp.obj: bgfx.cmake\CMakeFiles\nvtt.dir\flags.make
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode0.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode0.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode0.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode0.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode0.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode0.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode0.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode0.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode0.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode0.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode0.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode0.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode0.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode0.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode0.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode0.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode0.cpp.s /c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode0.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode0.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode0.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode1.cpp.obj: bgfx.cmake\CMakeFiles\nvtt.dir\flags.make
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode1.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode1.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode1.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode1.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode1.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode1.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode1.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode1.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode1.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode1.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode1.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode1.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode1.cpp.s /c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode1.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode1.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode1.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode2.cpp.obj: bgfx.cmake\CMakeFiles\nvtt.dir\flags.make
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode2.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode2.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode2.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode2.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode2.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode2.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode2.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode2.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode2.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode2.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode2.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode2.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode2.cpp.s /c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode2.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode2.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode2.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode3.cpp.obj: bgfx.cmake\CMakeFiles\nvtt.dir\flags.make
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode3.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode3.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode3.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode3.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode3.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode3.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode3.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode3.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode3.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode3.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode3.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode3.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode3.cpp.s /c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode3.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode3.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode3.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode4.cpp.obj: bgfx.cmake\CMakeFiles\nvtt.dir\flags.make
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode4.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode4.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode4.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode4.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode4.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode4.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode4.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode4.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode4.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode4.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode4.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode4.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode4.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode4.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode4.cpp.s /c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode4.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode4.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode4.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode5.cpp.obj: bgfx.cmake\CMakeFiles\nvtt.dir\flags.make
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode5.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode5.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode5.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode5.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode5.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode5.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode5.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode5.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode5.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode5.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode5.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode5.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode5.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode5.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode5.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode5.cpp.s /c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode5.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode5.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode5.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode6.cpp.obj: bgfx.cmake\CMakeFiles\nvtt.dir\flags.make
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode6.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode6.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode6.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode6.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode6.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode6.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode6.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode6.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode6.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode6.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode6.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode6.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode6.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode6.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode6.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode6.cpp.s /c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode6.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode6.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode6.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode7.cpp.obj: bgfx.cmake\CMakeFiles\nvtt.dir\flags.make
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode7.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode7.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode7.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode7.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode7.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode7.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode7.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode7.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode7.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode7.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode7.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode7.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode7.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode7.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode7.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_mode7.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode7.cpp.s /c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode7.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_mode7.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_mode7.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_utils.cpp.obj: bgfx.cmake\CMakeFiles\nvtt.dir\flags.make
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_utils.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_utils.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_utils.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_utils.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_utils.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_utils.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_utils.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_utils.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_utils.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_utils.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_utils.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/bc7/avpcl_utils.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_utils.cpp.s /c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_utils.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\bc7\avpcl_utils.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\bc7\avpcl_utils.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\nvmath\fitting.cpp.obj: bgfx.cmake\CMakeFiles\nvtt.dir\flags.make
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\nvmath\fitting.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\nvtt\nvmath\fitting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/nvmath/fitting.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\nvmath\fitting.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\nvmath\fitting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/nvmath/fitting.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\nvmath\fitting.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\nvmath\fitting.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\nvmath\fitting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/nvmath/fitting.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\nvmath\fitting.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\nvmath\fitting.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\nvmath\fitting.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\nvmath\fitting.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\nvmath\fitting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/nvmath/fitting.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\nvmath\fitting.cpp.s /c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\nvmath\fitting.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\nvmath\fitting.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\nvmath\fitting.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\nvtt.cpp.obj: bgfx.cmake\CMakeFiles\nvtt.dir\flags.make
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\nvtt.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\nvtt\nvtt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/nvtt.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\nvtt.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\nvtt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object bgfx.cmake/CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/nvtt.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\nvtt.cpp.obj /FdCMakeFiles\nvtt.dir\nvtt.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\nvtt.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\nvtt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/nvtt.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\nvtt.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\nvtt.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\nvtt.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\nvtt.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\nvtt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nvtt.dir/bimg/3rdparty/nvtt/nvtt.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\nvtt.cpp.s /c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\nvtt.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\nvtt.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\nvtt\nvtt.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 # Object files for target nvtt
 nvtt_OBJECTS = \
@@ -500,13 +500,13 @@ bgfx.cmake\nvtt.lib: bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\nvmath\fi
 bgfx.cmake\nvtt.lib: bgfx.cmake\CMakeFiles\nvtt.dir\bimg\3rdparty\nvtt\nvtt.cpp.obj
 bgfx.cmake\nvtt.lib: bgfx.cmake\CMakeFiles\nvtt.dir\build.make
 bgfx.cmake\nvtt.lib: bgfx.cmake\CMakeFiles\nvtt.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX static library nvtt.lib"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX static library nvtt.lib"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
 	$(CMAKE_COMMAND) -P CMakeFiles\nvtt.dir\cmake_clean_target.cmake
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:nvtt.lib @CMakeFiles\nvtt.dir\objects1.rsp 
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:nvtt.lib @CMakeFiles\nvtt.dir\objects1.rsp 
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 # Rule to build all files generated by this target.
 bgfx.cmake\CMakeFiles\nvtt.dir\build: bgfx.cmake\nvtt.lib
@@ -514,12 +514,12 @@ bgfx.cmake\CMakeFiles\nvtt.dir\build: bgfx.cmake\nvtt.lib
 .PHONY : bgfx.cmake\CMakeFiles\nvtt.dir\build
 
 bgfx.cmake\CMakeFiles\nvtt.dir\clean:
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
 	$(CMAKE_COMMAND) -P CMakeFiles\nvtt.dir\cmake_clean.cmake
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 .PHONY : bgfx.cmake\CMakeFiles\nvtt.dir\clean
 
 bgfx.cmake\CMakeFiles\nvtt.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\wilma\Documents\D7049E C:\Users\wilma\Documents\D7049E\bgfx.cmake C:\Users\wilma\Documents\D7049E\cmake-build-debug C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake\CMakeFiles\nvtt.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake\CMakeFiles\nvtt.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : bgfx.cmake\CMakeFiles\nvtt.dir\depend
 

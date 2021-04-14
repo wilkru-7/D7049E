@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/glcpp/glcpp-lex.c" "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/glcpp.dir/bgfx/3rdparty/glsl-optimizer/src/glsl/glcpp/glcpp-lex.c.obj"
-  "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/glcpp/glcpp-parse.c" "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/glcpp.dir/bgfx/3rdparty/glsl-optimizer/src/glsl/glcpp/glcpp-parse.c.obj"
-  "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/glcpp/pp.c" "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/glcpp.dir/bgfx/3rdparty/glsl-optimizer/src/glsl/glcpp/pp.c.obj"
-  "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/util/hash_table.c" "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/glcpp.dir/bgfx/3rdparty/glsl-optimizer/src/util/hash_table.c.obj"
-  "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/util/ralloc.c" "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/glcpp.dir/bgfx/3rdparty/glsl-optimizer/src/util/ralloc.c.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/glcpp/glcpp-lex.c" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/glcpp.dir/bgfx/3rdparty/glsl-optimizer/src/glsl/glcpp/glcpp-lex.c.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/glcpp/glcpp-parse.c" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/glcpp.dir/bgfx/3rdparty/glsl-optimizer/src/glsl/glcpp/glcpp-parse.c.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/glcpp/pp.c" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/glcpp.dir/bgfx/3rdparty/glsl-optimizer/src/glsl/glcpp/pp.c.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/util/hash_table.c" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/glcpp.dir/bgfx/3rdparty/glsl-optimizer/src/util/hash_table.c.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/util/ralloc.c" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/glcpp.dir/bgfx/3rdparty/glsl-optimizer/src/util/ralloc.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 

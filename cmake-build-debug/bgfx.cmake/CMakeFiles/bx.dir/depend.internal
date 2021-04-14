@@ -15,8 +15,8 @@ bgfx.cmake/CMakeFiles/bx.dir/bx/src/allocator.cpp.obj
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/allocator.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/bx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/allocator.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/bx_p.h
 bgfx.cmake/CMakeFiles/bx.dir/bx/src/bx.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -47,8 +47,8 @@ bgfx.cmake/CMakeFiles/bx.dir/bx/src/bx.cpp.obj
  ../bgfx.cmake/bx/include/bx/simd_t.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/bx.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/bx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/bx.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/bx_p.h
 bgfx.cmake/CMakeFiles/bx.dir/bx/src/commandline.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -64,8 +64,8 @@ bgfx.cmake/CMakeFiles/bx.dir/bx/src/commandline.cpp.obj
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/bx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/commandline.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/bx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/commandline.cpp
 bgfx.cmake/CMakeFiles/bx.dir/bx/src/crtnone.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -102,8 +102,8 @@ bgfx.cmake/CMakeFiles/bx.dir/bx/src/crtnone.cpp.obj
  ../bgfx.cmake/bx/include/bx/timer.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/bx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/crtnone.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/bx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/crtnone.cpp
 bgfx.cmake/CMakeFiles/bx.dir/bx/src/debug.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -137,8 +137,8 @@ bgfx.cmake/CMakeFiles/bx.dir/bx/src/debug.cpp.obj
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
  ../bgfx.cmake/bx/include/compat/msvc/inttypes.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/bx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/debug.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/bx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/debug.cpp
 bgfx.cmake/CMakeFiles/bx.dir/bx/src/dtoa.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -166,8 +166,8 @@ bgfx.cmake/CMakeFiles/bx.dir/bx/src/dtoa.cpp.obj
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/bx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/dtoa.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/bx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/dtoa.cpp
 bgfx.cmake/CMakeFiles/bx.dir/bx/src/easing.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -195,8 +195,8 @@ bgfx.cmake/CMakeFiles/bx.dir/bx/src/easing.cpp.obj
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/bx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/easing.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/bx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/easing.cpp
 bgfx.cmake/CMakeFiles/bx.dir/bx/src/file.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -229,8 +229,8 @@ bgfx.cmake/CMakeFiles/bx.dir/bx/src/file.cpp.obj
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
  ../bgfx.cmake/bx/include/compat/msvc/dirent.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/bx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/file.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/bx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/file.cpp
 bgfx.cmake/CMakeFiles/bx.dir/bx/src/filepath.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -265,8 +265,8 @@ bgfx.cmake/CMakeFiles/bx.dir/bx/src/filepath.cpp.obj
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/bx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/filepath.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/bx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/filepath.cpp
 bgfx.cmake/CMakeFiles/bx.dir/bx/src/hash.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -283,8 +283,8 @@ bgfx.cmake/CMakeFiles/bx.dir/bx/src/hash.cpp.obj
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/bx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/hash.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/bx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/hash.cpp
 bgfx.cmake/CMakeFiles/bx.dir/bx/src/math.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -310,8 +310,8 @@ bgfx.cmake/CMakeFiles/bx.dir/bx/src/math.cpp.obj
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/bx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/math.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/bx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/math.cpp
 bgfx.cmake/CMakeFiles/bx.dir/bx/src/mutex.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -330,8 +330,8 @@ bgfx.cmake/CMakeFiles/bx.dir/bx/src/mutex.cpp.obj
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/bx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/mutex.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/bx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/mutex.cpp
 bgfx.cmake/CMakeFiles/bx.dir/bx/src/os.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -350,8 +350,8 @@ bgfx.cmake/CMakeFiles/bx.dir/bx/src/os.cpp.obj
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/bx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/os.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/bx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/os.cpp
 bgfx.cmake/CMakeFiles/bx.dir/bx/src/process.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -385,8 +385,8 @@ bgfx.cmake/CMakeFiles/bx.dir/bx/src/process.cpp.obj
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/bx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/process.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/bx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/process.cpp
 bgfx.cmake/CMakeFiles/bx.dir/bx/src/semaphore.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -402,8 +402,8 @@ bgfx.cmake/CMakeFiles/bx.dir/bx/src/semaphore.cpp.obj
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/bx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/semaphore.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/bx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/semaphore.cpp
 bgfx.cmake/CMakeFiles/bx.dir/bx/src/settings.cpp.obj
  ../bgfx.cmake/bx/3rdparty/ini/ini.h
  ../bgfx.cmake/bx/include/bx/allocator.h
@@ -438,8 +438,8 @@ bgfx.cmake/CMakeFiles/bx.dir/bx/src/settings.cpp.obj
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/bx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/settings.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/bx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/settings.cpp
 bgfx.cmake/CMakeFiles/bx.dir/bx/src/sort.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -456,8 +456,8 @@ bgfx.cmake/CMakeFiles/bx.dir/bx/src/sort.cpp.obj
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/bx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/sort.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/bx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/sort.cpp
 bgfx.cmake/CMakeFiles/bx.dir/bx/src/string.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -493,8 +493,8 @@ bgfx.cmake/CMakeFiles/bx.dir/bx/src/string.cpp.obj
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/bx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/string.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/bx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/string.cpp
 bgfx.cmake/CMakeFiles/bx.dir/bx/src/thread.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -519,8 +519,8 @@ bgfx.cmake/CMakeFiles/bx.dir/bx/src/thread.cpp.obj
  ../bgfx.cmake/bx/include/bx/thread.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/bx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/thread.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/bx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/thread.cpp
 bgfx.cmake/CMakeFiles/bx.dir/bx/src/timer.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -536,8 +536,8 @@ bgfx.cmake/CMakeFiles/bx.dir/bx/src/timer.cpp.obj
  ../bgfx.cmake/bx/include/bx/timer.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/bx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/timer.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/bx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/timer.cpp
 bgfx.cmake/CMakeFiles/bx.dir/bx/src/url.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -553,5 +553,5 @@ bgfx.cmake/CMakeFiles/bx.dir/bx/src/url.cpp.obj
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/bx/url.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/bx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bx/src/url.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/bx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bx/src/url.cpp

@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\wilma\Documents\D7049E
+CMAKE_SOURCE_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\wilma\Documents\D7049E\cmake-build-release
+CMAKE_BINARY_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
 
 # Utility rule file for ContinuousTest.
 
@@ -74,6 +74,6 @@ CMakeFiles\ContinuousTest.dir\clean:
 .PHONY : CMakeFiles\ContinuousTest.dir\clean
 
 CMakeFiles\ContinuousTest.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\wilma\Documents\D7049E C:\Users\wilma\Documents\D7049E C:\Users\wilma\Documents\D7049E\cmake-build-release C:\Users\wilma\Documents\D7049E\cmake-build-release C:\Users\wilma\Documents\D7049E\cmake-build-release\CMakeFiles\ContinuousTest.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles\ContinuousTest.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\ContinuousTest.dir\depend
 

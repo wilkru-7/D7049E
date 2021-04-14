@@ -18,4 +18,10 @@ add_subdirectory(bgfx.cmake)
 add_subdirectory(glfw)
 
 target_link_libraries(bgfx_test bgfx example-common glfw)
+# glad
+add_library("glad" "glad/src/glad.c")
+target_include_directories("glad" PRIVATE "glad/include")
+target_include_directories(bgfx_test PRIVATE "glad/include")
+target_link_libraries(bgfx_test glad)
+
 #target_link_libraries(bgfx_test glfw)

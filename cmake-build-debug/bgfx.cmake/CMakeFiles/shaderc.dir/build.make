@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\wilma\Documents\D7049E
+CMAKE_SOURCE_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\wilma\Documents\D7049E\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include bgfx.cmake\CMakeFiles\shaderc.dir\depend.make
@@ -62,203 +62,203 @@ include bgfx.cmake\CMakeFiles\shaderc.dir\flags.make
 
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc.cpp.obj: bgfx.cmake\CMakeFiles\shaderc.dir\flags.make
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc.cpp.obj: ..\bgfx.cmake\bgfx\tools\shaderc\shaderc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bgfx.cmake/CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc.cpp.obj /FdCMakeFiles\shaderc.dir\ /FS -c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bgfx.cmake/CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc.cpp.obj /FdCMakeFiles\shaderc.dir\ /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc.cpp.s /c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_glsl.cpp.obj: bgfx.cmake\CMakeFiles\shaderc.dir\flags.make
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_glsl.cpp.obj: ..\bgfx.cmake\bgfx\tools\shaderc\shaderc_glsl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bgfx.cmake/CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc_glsl.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_glsl.cpp.obj /FdCMakeFiles\shaderc.dir\ /FS -c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_glsl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bgfx.cmake/CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc_glsl.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_glsl.cpp.obj /FdCMakeFiles\shaderc.dir\ /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_glsl.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_glsl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc_glsl.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_glsl.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_glsl.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_glsl.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_glsl.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_glsl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc_glsl.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_glsl.cpp.s /c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_glsl.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_glsl.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_glsl.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_hlsl.cpp.obj: bgfx.cmake\CMakeFiles\shaderc.dir\flags.make
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_hlsl.cpp.obj: ..\bgfx.cmake\bgfx\tools\shaderc\shaderc_hlsl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object bgfx.cmake/CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc_hlsl.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_hlsl.cpp.obj /FdCMakeFiles\shaderc.dir\ /FS -c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_hlsl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object bgfx.cmake/CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc_hlsl.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_hlsl.cpp.obj /FdCMakeFiles\shaderc.dir\ /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_hlsl.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_hlsl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc_hlsl.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_hlsl.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_hlsl.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_hlsl.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_hlsl.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_hlsl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc_hlsl.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_hlsl.cpp.s /c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_hlsl.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_hlsl.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_hlsl.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_pssl.cpp.obj: bgfx.cmake\CMakeFiles\shaderc.dir\flags.make
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_pssl.cpp.obj: ..\bgfx.cmake\bgfx\tools\shaderc\shaderc_pssl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object bgfx.cmake/CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc_pssl.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_pssl.cpp.obj /FdCMakeFiles\shaderc.dir\ /FS -c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_pssl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object bgfx.cmake/CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc_pssl.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_pssl.cpp.obj /FdCMakeFiles\shaderc.dir\ /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_pssl.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_pssl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc_pssl.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_pssl.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_pssl.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_pssl.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_pssl.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_pssl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc_pssl.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_pssl.cpp.s /c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_pssl.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_pssl.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_pssl.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_spirv.cpp.obj: bgfx.cmake\CMakeFiles\shaderc.dir\flags.make
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_spirv.cpp.obj: ..\bgfx.cmake\bgfx\tools\shaderc\shaderc_spirv.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object bgfx.cmake/CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc_spirv.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_spirv.cpp.obj /FdCMakeFiles\shaderc.dir\ /FS -c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_spirv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object bgfx.cmake/CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc_spirv.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_spirv.cpp.obj /FdCMakeFiles\shaderc.dir\ /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_spirv.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_spirv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc_spirv.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_spirv.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_spirv.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_spirv.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_spirv.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_spirv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc_spirv.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_spirv.cpp.s /c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_spirv.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_spirv.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_spirv.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_metal.cpp.obj: bgfx.cmake\CMakeFiles\shaderc.dir\flags.make
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_metal.cpp.obj: ..\bgfx.cmake\bgfx\tools\shaderc\shaderc_metal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object bgfx.cmake/CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc_metal.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_metal.cpp.obj /FdCMakeFiles\shaderc.dir\ /FS -c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_metal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object bgfx.cmake/CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc_metal.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_metal.cpp.obj /FdCMakeFiles\shaderc.dir\ /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_metal.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_metal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc_metal.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_metal.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_metal.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_metal.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_metal.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_metal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shaderc.dir/bgfx/tools/shaderc/shaderc_metal.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_metal.cpp.s /c C:\Users\wilma\Documents\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_metal.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\shaderc.dir\bgfx\tools\shaderc\shaderc_metal.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\tools\shaderc\shaderc_metal.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\generated\vertexlayout.cpp.obj: bgfx.cmake\CMakeFiles\shaderc.dir\flags.make
 bgfx.cmake\CMakeFiles\shaderc.dir\generated\vertexlayout.cpp.obj: bgfx.cmake\generated\vertexlayout.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object bgfx.cmake/CMakeFiles/shaderc.dir/generated/vertexlayout.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\shaderc.dir\generated\vertexlayout.cpp.obj /FdCMakeFiles\shaderc.dir\ /FS -c C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake\generated\vertexlayout.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object bgfx.cmake/CMakeFiles/shaderc.dir/generated/vertexlayout.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\shaderc.dir\generated\vertexlayout.cpp.obj /FdCMakeFiles\shaderc.dir\ /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake\generated\vertexlayout.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\generated\vertexlayout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shaderc.dir/generated/vertexlayout.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\shaderc.dir\generated\vertexlayout.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake\generated\vertexlayout.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\shaderc.dir\generated\vertexlayout.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake\generated\vertexlayout.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\generated\vertexlayout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shaderc.dir/generated/vertexlayout.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\shaderc.dir\generated\vertexlayout.cpp.s /c C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake\generated\vertexlayout.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\shaderc.dir\generated\vertexlayout.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake\generated\vertexlayout.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\generated\shader_spirv.cpp.obj: bgfx.cmake\CMakeFiles\shaderc.dir\flags.make
 bgfx.cmake\CMakeFiles\shaderc.dir\generated\shader_spirv.cpp.obj: bgfx.cmake\generated\shader_spirv.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object bgfx.cmake/CMakeFiles/shaderc.dir/generated/shader_spirv.cpp.obj"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\shaderc.dir\generated\shader_spirv.cpp.obj /FdCMakeFiles\shaderc.dir\ /FS -c C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake\generated\shader_spirv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object bgfx.cmake/CMakeFiles/shaderc.dir/generated/shader_spirv.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\shaderc.dir\generated\shader_spirv.cpp.obj /FdCMakeFiles\shaderc.dir\ /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake\generated\shader_spirv.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\generated\shader_spirv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shaderc.dir/generated/shader_spirv.cpp.i"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\shaderc.dir\generated\shader_spirv.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake\generated\shader_spirv.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\shaderc.dir\generated\shader_spirv.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake\generated\shader_spirv.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\shaderc.dir\generated\shader_spirv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shaderc.dir/generated/shader_spirv.cpp.s"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\shaderc.dir\generated\shader_spirv.cpp.s /c C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake\generated\shader_spirv.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\shaderc.dir\generated\shader_spirv.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake\generated\shader_spirv.cpp
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 # Object files for target shaderc
 shaderc_OBJECTS = \
@@ -303,12 +303,12 @@ bgfx.cmake\shaderc.exe: bgfx.cmake\pvrtc.lib
 bgfx.cmake\shaderc.exe: bgfx.cmake\glcpp.lib
 bgfx.cmake\shaderc.exe: bgfx.cmake\mesa.lib
 bgfx.cmake\shaderc.exe: bgfx.cmake\CMakeFiles\shaderc.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable shaderc.exe"
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	"C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\shaderc.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\shaderc.dir\objects1.rsp @<<
- /out:shaderc.exe /implib:shaderc.lib /pdb:C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake\shaderc.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  bx.lib bimg.lib fcpp.lib glsl-optimizer.lib glslang.lib spirv-cross.lib spirv-tools.lib astc-codec.lib astc.lib edtaa3.lib etc1.lib etc2.lib iqa.lib squish.lib nvtt.lib bx.lib psapi.lib pvrtc.lib glcpp.lib mesa.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable shaderc.exe"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	"C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\shaderc.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\shaderc.dir\objects1.rsp @<<
+ /out:shaderc.exe /implib:shaderc.lib /pdb:C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake\shaderc.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  bx.lib bimg.lib fcpp.lib glsl-optimizer.lib glslang.lib spirv-cross.lib spirv-tools.lib astc-codec.lib astc.lib edtaa3.lib etc1.lib etc2.lib iqa.lib squish.lib nvtt.lib bx.lib psapi.lib pvrtc.lib glcpp.lib mesa.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 # Rule to build all files generated by this target.
 bgfx.cmake\CMakeFiles\shaderc.dir\build: bgfx.cmake\shaderc.exe
@@ -316,12 +316,12 @@ bgfx.cmake\CMakeFiles\shaderc.dir\build: bgfx.cmake\shaderc.exe
 .PHONY : bgfx.cmake\CMakeFiles\shaderc.dir\build
 
 bgfx.cmake\CMakeFiles\shaderc.dir\clean:
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
 	$(CMAKE_COMMAND) -P CMakeFiles\shaderc.dir\cmake_clean.cmake
-	cd C:\Users\wilma\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 .PHONY : bgfx.cmake\CMakeFiles\shaderc.dir\clean
 
 bgfx.cmake\CMakeFiles\shaderc.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\wilma\Documents\D7049E C:\Users\wilma\Documents\D7049E\bgfx.cmake C:\Users\wilma\Documents\D7049E\cmake-build-debug C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake C:\Users\wilma\Documents\D7049E\cmake-build-debug\bgfx.cmake\CMakeFiles\shaderc.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake\CMakeFiles\shaderc.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : bgfx.cmake\CMakeFiles\shaderc.dir\depend
 

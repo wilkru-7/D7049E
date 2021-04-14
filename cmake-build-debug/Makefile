@@ -51,10 +51,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\wilma\Documents\D7049E
+CMAKE_SOURCE_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\wilma\Documents\D7049E\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = C:\Users\wilma\Documents\D7049E\cmake-build-debug
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/wilma/Documents/D7049E/cmake-build-debug/CPackSourceConfig.cmake
+	echo >nul && "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -150,9 +150,9 @@ install\fast: preinstall\fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles C:\Users\wilma\Documents\D7049E\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wilma\Documents\D7049E\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -413,6 +413,19 @@ ExperimentalConfigure: cmake_check_build_system
 ExperimentalConfigure\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExperimentalConfigure.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ExperimentalConfigure.dir\build
 .PHONY : ExperimentalConfigure\fast
+
+#=============================================================================
+# Target rules for targets named glad
+
+# Build rule for target.
+glad: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) glad
+.PHONY : glad
+
+# fast build rule for target.
+glad\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glad.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\glad.dir\build
+.PHONY : glad\fast
 
 #=============================================================================
 # Target rules for targets named ExperimentalTest
@@ -1454,6 +1467,33 @@ glfw\fast:
 	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\glfw.dir\build.make /nologo -$(MAKEFLAGS) glfw\src\CMakeFiles\glfw.dir\build
 .PHONY : glfw\fast
 
+glad\src\glad.obj: glad\src\glad.c.obj
+
+.PHONY : glad\src\glad.obj
+
+# target to build an object file
+glad\src\glad.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glad.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\glad.dir\glad\src\glad.c.obj
+.PHONY : glad\src\glad.c.obj
+
+glad\src\glad.i: glad\src\glad.c.i
+
+.PHONY : glad\src\glad.i
+
+# target to preprocess a source file
+glad\src\glad.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glad.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\glad.dir\glad\src\glad.c.i
+.PHONY : glad\src\glad.c.i
+
+glad\src\glad.s: glad\src\glad.c.s
+
+.PHONY : glad\src\glad.s
+
+# target to generate assembly for a file
+glad\src\glad.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\glad.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\glad.dir\glad\src\glad.c.s
+.PHONY : glad\src\glad.c.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -1578,6 +1618,7 @@ help:
 	@echo ... fcpp
 	@echo ... geometryc
 	@echo ... geometryv
+	@echo ... glad
 	@echo ... glcpp
 	@echo ... glfw
 	@echo ... glsl-optimizer
@@ -1593,6 +1634,9 @@ help:
 	@echo ... squish
 	@echo ... texturec
 	@echo ... texturev
+	@echo ... glad/src/glad.obj
+	@echo ... glad/src/glad.i
+	@echo ... glad/src/glad.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

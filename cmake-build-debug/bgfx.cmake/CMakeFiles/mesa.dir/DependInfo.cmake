@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/main/imports.c" "C:/Users/wilma/Documents/D7049E/cmake-build-debug/bgfx.cmake/CMakeFiles/mesa.dir/bgfx/3rdparty/glsl-optimizer/src/mesa/main/imports.c.obj"
-  "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/program/prog_hash_table.c" "C:/Users/wilma/Documents/D7049E/cmake-build-debug/bgfx.cmake/CMakeFiles/mesa.dir/bgfx/3rdparty/glsl-optimizer/src/mesa/program/prog_hash_table.c.obj"
-  "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/program/symbol_table.c" "C:/Users/wilma/Documents/D7049E/cmake-build-debug/bgfx.cmake/CMakeFiles/mesa.dir/bgfx/3rdparty/glsl-optimizer/src/mesa/program/symbol_table.c.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/main/imports.c" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/bgfx.cmake/CMakeFiles/mesa.dir/bgfx/3rdparty/glsl-optimizer/src/mesa/main/imports.c.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/program/prog_hash_table.c" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/bgfx.cmake/CMakeFiles/mesa.dir/bgfx/3rdparty/glsl-optimizer/src/mesa/program/prog_hash_table.c.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/program/symbol_table.c" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/bgfx.cmake/CMakeFiles/mesa.dir/bgfx/3rdparty/glsl-optimizer/src/mesa/program/symbol_table.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 

@@ -1,4 +1,6 @@
-#include <stdio.h>
+//#include <stdio.h>
+#include <cstdio>
+#include <iostream>
 #include "bgfx/bgfx.h"
 #include "bgfx/platform.h"
 #include "bx/math.h"
@@ -8,7 +10,7 @@
 
 #define WNDW_WIDTH 1600
 #define WNDW_HEIGHT 900
-
+using namespace std;
 struct PosColorVertex
 {
     float x;
@@ -48,27 +50,28 @@ static const uint16_t cubeTriList[] =
 bgfx::ShaderHandle loadShader(const char *FILENAME)
 {
     const char* shaderPath = "???";
-
     switch(bgfx::getRendererType()) {
         case bgfx::RendererType::Noop:
-        case bgfx::RendererType::Direct3D9:  shaderPath = "shaders/dx9/";   break;
-        case bgfx::RendererType::Direct3D11:
-        case bgfx::RendererType::Direct3D12: shaderPath = "shaders/dx11/";  break;
-        case bgfx::RendererType::Gnm:        shaderPath = "shaders/pssl/";  break;
-        case bgfx::RendererType::Metal:      shaderPath = "shaders/metal/"; break;
-        case bgfx::RendererType::OpenGL:     shaderPath = "shaders/glsl/";  break;
-        case bgfx::RendererType::OpenGLES:   shaderPath = "shaders/essl/";  break;
-        case bgfx::RendererType::Vulkan:     shaderPath = "shaders/spirv/"; break;
+        case bgfx::RendererType::Direct3D9:  shaderPath = "../bgfx.cmake/bgfx/examples/runtime/shaders/dx9/";   break;
+        case bgfx::RendererType::Direct3D11: shaderPath = "../bgfx.cmake/bgfx/examples/runtime/shaders/dx11/";  break;
+        case bgfx::RendererType::Direct3D12: shaderPath = "../bgfx.cmake/bgfx/examples/runtime/shaders/dx12/";  break;
+        case bgfx::RendererType::Gnm:        shaderPath = "../bgfx.cmake/bgfx/examples/runtime/shaders/pssl/";  break;
+        case bgfx::RendererType::Metal:      shaderPath = "../bgfx.cmake/bgfx/examples/runtime/shaders/metal/"; break;
+        case bgfx::RendererType::OpenGL:     shaderPath = "../bgfx.cmake/bgfx/examples/runtime/shaders/glsl/";  break;
+        case bgfx::RendererType::OpenGLES:   shaderPath = "../bgfx.cmake/bgfx/examples/runtime/shaders/essl/";  break;
+        case bgfx::RendererType::Vulkan:     shaderPath = "../bgfx.cmake/bgfx/examples/runtime/shaders/spirv/"; break;
     }
-
     size_t shaderLen = strlen(shaderPath);
     size_t fileLen = strlen(FILENAME);
-    char *filePath = (char *)malloc(shaderLen + fileLen);
+    char *filePath = (char *)calloc(1, shaderLen + fileLen + 1);
+
     memcpy(filePath, shaderPath, shaderLen);
     memcpy(&filePath[shaderLen], FILENAME, fileLen);
 
-    FILE *file = fopen(FILENAME, "rb");
+    FILE *file = fopen(filePath, "rb");
+    cout << filePath;
     fseek(file, 0, SEEK_END);
+    cout << "Nohoooo";
     long fileSize = ftell(file);
     fseek(file, 0, SEEK_SET);
 
@@ -110,7 +113,6 @@ int main(void)
     bgfx::ShaderHandle vsh = loadShader("vs_cubes.bin");
     bgfx::ShaderHandle fsh = loadShader("fs_cubes.bin");
     bgfx::ProgramHandle program = bgfx::createProgram(vsh, fsh, true);
-
     unsigned int counter = 0;
     while(true) {
         const bx::Vec3 at = {0.0f, 0.0f,  0.0f};
@@ -130,6 +132,8 @@ int main(void)
 
         bgfx::submit(0, program);
         bgfx::frame();
+        glfwSwapBuffers(window);
+        //glfwWaitEvents();
         counter++;
     }
 

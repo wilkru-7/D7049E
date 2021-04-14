@@ -11,79 +11,79 @@ bgfx.cmake/CMakeFiles/dear-imgui.dir/bgfx/3rdparty/dear-imgui/imgui.cpp.obj
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
  ../bgfx.cmake/bx/include/compat/msvc/dirent.h
  ../bgfx.cmake/bx/include/compat/msvc/inttypes.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imconfig.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_internal.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_user.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_user.inl
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imstb_textedit.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/color_picker.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/color_picker.inl
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/color_wheel.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/color_wheel.inl
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/dock.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/dock.inl
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/file_list.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/file_list.inl
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/gizmo.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/gizmo.inl
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/markdown.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/markdown.inl
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/memory_editor.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/memory_editor.inl
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/range_slider.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/range_slider.inl
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imconfig.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_internal.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_user.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_user.inl
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imstb_textedit.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/color_picker.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/color_picker.inl
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/color_wheel.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/color_wheel.inl
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/dock.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/dock.inl
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/file_list.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/file_list.inl
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/gizmo.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/gizmo.inl
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/markdown.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/markdown.inl
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/memory_editor.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/memory_editor.inl
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/range_slider.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/range_slider.inl
 bgfx.cmake/CMakeFiles/dear-imgui.dir/bgfx/3rdparty/dear-imgui/imgui_demo.cpp.obj
  ../bgfx.cmake/bx/include/compat/msvc/inttypes.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imconfig.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_demo.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_user.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/color_picker.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/color_wheel.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/dock.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/file_list.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/gizmo.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/markdown.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/memory_editor.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/range_slider.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imconfig.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_demo.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_user.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/color_picker.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/color_wheel.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/dock.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/file_list.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/gizmo.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/markdown.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/memory_editor.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/range_slider.h
 bgfx.cmake/CMakeFiles/dear-imgui.dir/bgfx/3rdparty/dear-imgui/imgui_draw.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/stb/stb_rect_pack.h
  ../bgfx.cmake/bgfx/3rdparty/stb/stb_textedit.h
  ../bgfx.cmake/bgfx/3rdparty/stb/stb_truetype.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
  ../bgfx.cmake/bx/include/compat/msvc/inttypes.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imconfig.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_draw.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_internal.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_user.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imstb_rectpack.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imstb_textedit.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imstb_truetype.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/color_picker.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/color_wheel.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/dock.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/file_list.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/gizmo.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/markdown.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/memory_editor.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/range_slider.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imconfig.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_draw.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_internal.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_user.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imstb_rectpack.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imstb_textedit.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imstb_truetype.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/color_picker.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/color_wheel.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/dock.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/file_list.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/gizmo.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/markdown.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/memory_editor.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/range_slider.h
 bgfx.cmake/CMakeFiles/dear-imgui.dir/bgfx/3rdparty/dear-imgui/imgui_widgets.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/stb/stb_textedit.h
  ../bgfx.cmake/bx/include/compat/msvc/inttypes.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imconfig.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_internal.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_user.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_widgets.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imstb_textedit.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/color_picker.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/color_wheel.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/dock.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/file_list.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/gizmo.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/markdown.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/memory_editor.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/range_slider.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imconfig.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_internal.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_user.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_widgets.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imstb_textedit.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/color_picker.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/color_wheel.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/dock.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/file_list.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/gizmo.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/markdown.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/memory_editor.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/widgets/range_slider.h

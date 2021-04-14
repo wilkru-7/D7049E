@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bimg/3rdparty/edtaa3/edtaa3func.cpp" "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/edtaa3.dir/bimg/3rdparty/edtaa3/edtaa3func.cpp.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/edtaa3/edtaa3func.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/edtaa3.dir/bimg/3rdparty/edtaa3/edtaa3func.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

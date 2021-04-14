@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/tools/geometryc/geometryc.cpp" "C:/Users/wilma/Documents/D7049E/cmake-build-debug/bgfx.cmake/CMakeFiles/geometryc.dir/bgfx/tools/geometryc/geometryc.cpp.obj"
-  "C:/Users/wilma/Documents/D7049E/cmake-build-debug/bgfx.cmake/generated/bounds.cpp" "C:/Users/wilma/Documents/D7049E/cmake-build-debug/bgfx.cmake/CMakeFiles/geometryc.dir/generated/bounds.cpp.obj"
-  "C:/Users/wilma/Documents/D7049E/cmake-build-debug/bgfx.cmake/generated/vertexlayout.cpp" "C:/Users/wilma/Documents/D7049E/cmake-build-debug/bgfx.cmake/CMakeFiles/geometryc.dir/generated/vertexlayout.cpp.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/tools/geometryc/geometryc.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/bgfx.cmake/CMakeFiles/geometryc.dir/bgfx/tools/geometryc/geometryc.cpp.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/bgfx.cmake/generated/bounds.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/bgfx.cmake/CMakeFiles/geometryc.dir/generated/bounds.cpp.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/bgfx.cmake/generated/vertexlayout.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/bgfx.cmake/CMakeFiles/geometryc.dir/generated/vertexlayout.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
@@ -30,8 +30,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/wilma/Documents/D7049E/cmake-build-debug/bgfx.cmake/CMakeFiles/bx.dir/DependInfo.cmake"
-  "C:/Users/wilma/Documents/D7049E/cmake-build-debug/bgfx.cmake/CMakeFiles/meshoptimizer.dir/DependInfo.cmake"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/bgfx.cmake/CMakeFiles/bx.dir/DependInfo.cmake"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/bgfx.cmake/CMakeFiles/meshoptimizer.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

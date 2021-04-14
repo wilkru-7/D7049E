@@ -4,18 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/main.cpp" "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/main.cpp.obj"
-  "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/spirv_cfg.cpp" "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/spirv_cfg.cpp.obj"
-  "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/spirv_cpp.cpp" "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/spirv_cpp.cpp.obj"
-  "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/spirv_cross.cpp" "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/spirv_cross.cpp.obj"
-  "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/spirv_cross_c.cpp" "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/spirv_cross_c.cpp.obj"
-  "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/spirv_cross_parsed_ir.cpp" "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/spirv_cross_parsed_ir.cpp.obj"
-  "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/spirv_cross_util.cpp" "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/spirv_cross_util.cpp.obj"
-  "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/spirv_glsl.cpp" "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/spirv_glsl.cpp.obj"
-  "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/spirv_hlsl.cpp" "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/spirv_hlsl.cpp.obj"
-  "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/spirv_msl.cpp" "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/spirv_msl.cpp.obj"
-  "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/spirv_parser.cpp" "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/spirv_parser.cpp.obj"
-  "C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/spirv_reflect.cpp" "C:/Users/wilma/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/spirv_reflect.cpp.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/main.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/main.cpp.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/spirv_cfg.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/spirv_cfg.cpp.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/spirv_cpp.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/spirv_cpp.cpp.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/spirv_cross.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/spirv_cross.cpp.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/spirv_cross_c.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/spirv_cross_c.cpp.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/spirv_cross_parsed_ir.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/spirv_cross_parsed_ir.cpp.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/spirv_cross_util.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/spirv_cross_util.cpp.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/spirv_glsl.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/spirv_glsl.cpp.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/spirv_hlsl.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/spirv_hlsl.cpp.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/spirv_msl.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/spirv_msl.cpp.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/spirv_parser.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/spirv_parser.cpp.obj"
+  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/spirv-cross/spirv_reflect.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/spirv-cross.dir/bgfx/3rdparty/spirv-cross/spirv_reflect.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

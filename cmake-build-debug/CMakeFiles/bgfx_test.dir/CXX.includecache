@@ -202,17 +202,19 @@ EGL/egl.h
 GL/osmesa.h
 -
 
-C:/Users/wilma/Documents/D7049E/main.cpp
-stdio.h
+C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/main.cpp
+cstdio
+-
+iostream
 -
 bgfx/bgfx.h
-C:/Users/wilma/Documents/D7049E/bgfx/bgfx.h
+C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx/bgfx.h
 bgfx/platform.h
-C:/Users/wilma/Documents/D7049E/bgfx/platform.h
+C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx/platform.h
 bx/math.h
-C:/Users/wilma/Documents/D7049E/bx/math.h
+C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bx/math.h
 GLFW/glfw3.h
-C:/Users/wilma/Documents/D7049E/glfw/glfw3.h
+C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/glfw3.h
 GLFW/glfw3native.h
-C:/Users/wilma/Documents/D7049E/glfw/glfw3native.h
+C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/glfw3native.h
 

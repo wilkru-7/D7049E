@@ -73,26 +73,26 @@ bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/bgfx.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
  ../bgfx.cmake/bx/include/tinystl/unordered_set.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx.idl.inl
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/charset.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear0.bin.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear1.bin.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear2.bin.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear3.bin.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear4.bin.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear5.bin.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear6.bin.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear7.bin.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/fs_debugfont.bin.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/topology.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/version.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vs_clear.bin.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vs_debugfont.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx.idl.inl
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/charset.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear0.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear1.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear2.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear3.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear4.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear5.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear6.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear7.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_debugfont.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/topology.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/version.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vs_clear.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vs_debugfont.bin.h
 bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/debug_renderdoc.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/winapifamily.h
  ../bgfx.cmake/bgfx/3rdparty/renderdoc/renderdoc_app.h
@@ -162,11 +162,11 @@ bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/debug_renderdoc.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
  ../bgfx.cmake/bx/include/tinystl/unordered_set.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
 bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/dxgi.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/d3dcommon.h
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/dxgi1_2.h
@@ -241,13 +241,13 @@ bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/dxgi.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
  ../bgfx.cmake/bx/include/tinystl/unordered_set.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/dxgi.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/dxgi.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/dxgi.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/dxgi.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
 bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/glcontext_egl.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/winapifamily.h
  ../bgfx.cmake/bgfx/3rdparty/khronos/EGL/egl.h
@@ -329,22 +329,22 @@ bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/glcontext_egl.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
  ../bgfx.cmake/bx/include/tinystl/unordered_set.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/emscripten.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_eagl.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_egl.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_egl.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_glx.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_html5.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_nsgl.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_wgl.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glimports.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_gl.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/emscripten.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_eagl.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_egl.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_egl.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_glx.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_html5.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_nsgl.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_wgl.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glimports.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_gl.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
 bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/glcontext_html5.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/winapifamily.h
  ../bgfx.cmake/bgfx/3rdparty/khronos/EGL/egl.h
@@ -426,22 +426,22 @@ bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/glcontext_html5.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
  ../bgfx.cmake/bx/include/tinystl/unordered_set.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/emscripten.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_eagl.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_egl.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_glx.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_html5.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_html5.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_nsgl.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_wgl.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glimports.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_gl.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/emscripten.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_eagl.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_egl.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_glx.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_html5.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_html5.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_nsgl.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_wgl.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glimports.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_gl.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
 bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/glcontext_wgl.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/winapifamily.h
  ../bgfx.cmake/bgfx/3rdparty/khronos/EGL/egl.h
@@ -523,22 +523,22 @@ bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/glcontext_wgl.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
  ../bgfx.cmake/bx/include/tinystl/unordered_set.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/emscripten.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_eagl.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_egl.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_glx.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_html5.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_nsgl.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_wgl.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_wgl.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glimports.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_gl.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/emscripten.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_eagl.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_egl.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_glx.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_html5.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_nsgl.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_wgl.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_wgl.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glimports.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_gl.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
 bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/nvapi.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/winapifamily.h
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
@@ -607,12 +607,12 @@ bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/nvapi.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
  ../bgfx.cmake/bx/include/tinystl/unordered_set.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/nvapi.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/nvapi.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/nvapi.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/nvapi.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
 bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_d3d11.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/d3d11.h
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/d3d11_1.h
@@ -692,18 +692,18 @@ bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_d3d11.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
  ../bgfx.cmake/bx/include/tinystl/unordered_set.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/dxgi.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/nvapi.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d11.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d11.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader_dxbc.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/dxgi.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/nvapi.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d11.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d11.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_dxbc.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
 bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_d3d12.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/PIXEventsCommon.h
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/PIXEventsGenerated.h
@@ -787,18 +787,18 @@ bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_d3d12.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
  ../bgfx.cmake/bx/include/tinystl/unordered_set.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/dxgi.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/nvapi.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d12.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d12.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader_dxbc.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/dxgi.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/nvapi.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d12.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d12.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_dxbc.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
 bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_d3d9.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/d3d9.h
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/d3d9caps.h
@@ -872,15 +872,15 @@ bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_d3d9.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
  ../bgfx.cmake/bx/include/tinystl/unordered_set.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/nvapi.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d9.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d9.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/nvapi.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d9.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d9.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
 bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_gl.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/winapifamily.h
  ../bgfx.cmake/bgfx/3rdparty/khronos/EGL/egl.h
@@ -962,22 +962,22 @@ bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_gl.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
  ../bgfx.cmake/bx/include/tinystl/unordered_set.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/emscripten.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_eagl.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_egl.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_glx.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_html5.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_nsgl.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_wgl.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/glimports.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_gl.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_gl.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/emscripten.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_eagl.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_egl.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_glx.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_html5.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_nsgl.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_wgl.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glimports.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_gl.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_gl.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
 bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_gnm.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/winapifamily.h
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
@@ -1046,11 +1046,11 @@ bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_gnm.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
  ../bgfx.cmake/bx/include/tinystl/unordered_set.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_gnm.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_gnm.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
 bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_noop.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/winapifamily.h
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
@@ -1119,11 +1119,11 @@ bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_noop.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
  ../bgfx.cmake/bx/include/tinystl/unordered_set.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_noop.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_noop.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
 bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_nvn.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/winapifamily.h
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
@@ -1192,11 +1192,11 @@ bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_nvn.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
  ../bgfx.cmake/bx/include/tinystl/unordered_set.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_nvn.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_nvn.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
 bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_vk.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/winapifamily.h
  ../bgfx.cmake/bgfx/3rdparty/khronos/vulkan-local/vk_platform.h
@@ -1281,14 +1281,14 @@ bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_vk.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
  ../bgfx.cmake/bx/include/tinystl/unordered_set.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_vk.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_vk.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_vk.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_vk.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
 bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_webgpu.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/winapifamily.h
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
@@ -1357,15 +1357,15 @@ bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_webgpu.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
  ../bgfx.cmake/bx/include/tinystl/unordered_set.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/emscripten.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_webgpu.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_webgpu.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/emscripten.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_webgpu.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_webgpu.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
 bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/shader.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/winapifamily.h
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
@@ -1434,14 +1434,14 @@ bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/shader.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
  ../bgfx.cmake/bx/include/tinystl/unordered_set.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader_dx9bc.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader_dxbc.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader_spirv.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_dx9bc.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_dxbc.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_spirv.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
 bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/shader_dx9bc.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/winapifamily.h
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
@@ -1510,12 +1510,12 @@ bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/shader_dx9bc.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
  ../bgfx.cmake/bx/include/tinystl/unordered_set.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader_dx9bc.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader_dx9bc.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_dx9bc.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_dx9bc.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
 bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/shader_dxbc.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/winapifamily.h
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
@@ -1584,12 +1584,12 @@ bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/shader_dxbc.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
  ../bgfx.cmake/bx/include/tinystl/unordered_set.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader_dxbc.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader_dxbc.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_dxbc.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_dxbc.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
 bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/shader_spirv.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/winapifamily.h
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
@@ -1658,12 +1658,12 @@ bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/shader_spirv.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
  ../bgfx.cmake/bx/include/tinystl/unordered_set.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader_spirv.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/shader_spirv.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_spirv.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_spirv.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
 bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/topology.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/winapifamily.h
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
@@ -1693,9 +1693,9 @@ bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/topology.cpp.obj
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/topology.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/topology.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/topology.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/topology.h
 bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/vertexlayout.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dxsdk/include/winapifamily.h
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
@@ -1735,5 +1735,5 @@ bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/vertexlayout.cpp.obj
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.cpp
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h

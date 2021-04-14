@@ -38,9 +38,9 @@ bgfx.cmake/CMakeFiles/bimg.dir/bimg/src/image.cpp.obj
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bimg/src/bimg_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bimg/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bimg/src/image.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/bimg_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/image.cpp
 bgfx.cmake/CMakeFiles/bimg.dir/bimg/src/image_cubemap_filter.cpp.obj
  ../bgfx.cmake/bimg/include/bimg/bimg.h
  ../bgfx.cmake/bimg/include/bimg/encode.h
@@ -77,9 +77,9 @@ bgfx.cmake/CMakeFiles/bimg.dir/bimg/src/image_cubemap_filter.cpp.obj
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bimg/src/bimg_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bimg/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bimg/src/image_cubemap_filter.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/bimg_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/image_cubemap_filter.cpp
 bgfx.cmake/CMakeFiles/bimg.dir/bimg/src/image_decode.cpp.obj
  ../bgfx.cmake/bimg/3rdparty/lodepng/lodepng.cpp
  ../bgfx.cmake/bimg/3rdparty/lodepng/lodepng.h
@@ -113,9 +113,9 @@ bgfx.cmake/CMakeFiles/bimg.dir/bimg/src/image_decode.cpp.obj
  ../bgfx.cmake/bx/include/bx/simd_t.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bimg/src/bimg_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bimg/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bimg/src/image_decode.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/bimg_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/image_decode.cpp
 bgfx.cmake/CMakeFiles/bimg.dir/bimg/src/image_encode.cpp.obj
  ../bgfx.cmake/bimg/3rdparty/astc/astc_lib.h
  ../bgfx.cmake/bimg/3rdparty/edtaa3/edtaa3func.h
@@ -163,9 +163,9 @@ bgfx.cmake/CMakeFiles/bimg.dir/bimg/src/image_encode.cpp.obj
  ../bgfx.cmake/bx/include/bx/simd_t.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bimg/src/bimg_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bimg/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bimg/src/image_encode.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/bimg_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/image_encode.cpp
 bgfx.cmake/CMakeFiles/bimg.dir/bimg/src/image_gnf.cpp.obj
  ../bgfx.cmake/bimg/include/bimg/bimg.h
  ../bgfx.cmake/bx/include/bx/allocator.h
@@ -199,6 +199,6 @@ bgfx.cmake/CMakeFiles/bimg.dir/bimg/src/image_gnf.cpp.obj
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bimg/src/bimg_p.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bimg/src/config.h
- C:/Users/wilma/Documents/D7049E/bgfx.cmake/bimg/src/image_gnf.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/bimg_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/config.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/image_gnf.cpp
