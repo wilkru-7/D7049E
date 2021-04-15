@@ -5,7 +5,8 @@
 - Puzzel/Exploring game
   - Build up your own home
   - Solve puzzels by finding and integrate with objects
-  - Earn rewards by solving puzzels
+  - Earn rewards (objects) by solving puzzels
+  - Tile based placement system for the objects (choose between 2-4 options)
 - Suitable background music depending on the environment
   - Special sound effects when interacting with objects
 - Realistic movements such as walking, jumping and climbing 
