@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bgfx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bgfx.cmake" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bgfx.cmake/bgfx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bgfx.cmake/bimg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bgfx.cmake/bx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bimg" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bx" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/glfw" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/glm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/reactphysics3d" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/soloud" vcs="Git" />
+  </component>
+</project>

@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/dear-imgui.dir/bgfx/3rdparty/dear-imgui/imgui.cpp.obj"
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_demo.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/dear-imgui.dir/bgfx/3rdparty/dear-imgui/imgui_demo.cpp.obj"
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_draw.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/dear-imgui.dir/bgfx/3rdparty/dear-imgui/imgui_draw.cpp.obj"
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_widgets.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/dear-imgui.dir/bgfx/3rdparty/dear-imgui/imgui_widgets.cpp.obj"
+  "C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui.cpp" "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/dear-imgui.dir/bgfx/3rdparty/dear-imgui/imgui.cpp.obj"
+  "C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_demo.cpp" "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/dear-imgui.dir/bgfx/3rdparty/dear-imgui/imgui_demo.cpp.obj"
+  "C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_draw.cpp" "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/dear-imgui.dir/bgfx/3rdparty/dear-imgui/imgui_draw.cpp.obj"
+  "C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui_widgets.cpp" "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/dear-imgui.dir/bgfx/3rdparty/dear-imgui/imgui_widgets.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
@@ -29,7 +29,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/bx.dir/DependInfo.cmake"
+  "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/bx.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

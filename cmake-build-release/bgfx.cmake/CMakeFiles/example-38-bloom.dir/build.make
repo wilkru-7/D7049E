@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E
+CMAKE_SOURCE_DIR = C:\Users\carol\Documents\D7049E
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+CMAKE_BINARY_DIR = C:\Users\carol\Documents\D7049E\cmake-build-release
 
 # Include any dependencies generated for this target.
 include bgfx.cmake\CMakeFiles\example-38-bloom.dir\depend.make
@@ -61,14 +61,14 @@ include bgfx.cmake\CMakeFiles\example-38-bloom.dir\progress.make
 include bgfx.cmake\CMakeFiles\example-38-bloom.dir\flags.make
 
 ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx9\fs_albedo_output.bin: ..\bgfx.cmake\bgfx\examples\38-bloom\fs_albedo_output.sc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling shader 38-bloom/fs_albedo_output.sc for DX9, DX11, ESSL, GLSL, SPIRV"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_albedo_output.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx9/fs_albedo_output.bin --platform windows --type fragment --profile ps_3_0 -O 3
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_albedo_output.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx11/fs_albedo_output.bin --platform windows --type fragment --profile ps_5_0 -O 3
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_albedo_output.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/essl/fs_albedo_output.bin --platform android --type fragment
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_albedo_output.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/glsl/fs_albedo_output.bin --platform linux --type fragment --profile 120
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_albedo_output.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/spirv/fs_albedo_output.bin --platform linux --type fragment --profile spirv
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Compiling shader 38-bloom/fs_albedo_output.sc for DX9, DX11, ESSL, GLSL, SPIRV"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_albedo_output.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx9/fs_albedo_output.bin --platform windows --type fragment --profile ps_3_0 -O 3
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_albedo_output.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx11/fs_albedo_output.bin --platform windows --type fragment --profile ps_5_0 -O 3
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_albedo_output.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/essl/fs_albedo_output.bin --platform android --type fragment
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_albedo_output.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/glsl/fs_albedo_output.bin --platform linux --type fragment --profile 120
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_albedo_output.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/spirv/fs_albedo_output.bin --platform linux --type fragment --profile spirv
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx11\fs_albedo_output.bin: ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx9\fs_albedo_output.bin
 	@$(CMAKE_COMMAND) -E touch_nocreate ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx11\fs_albedo_output.bin
@@ -83,14 +83,14 @@ include bgfx.cmake\CMakeFiles\example-38-bloom.dir\flags.make
 	@$(CMAKE_COMMAND) -E touch_nocreate ..\bgfx.cmake\bgfx\examples\runtime\shaders\spirv\fs_albedo_output.bin
 
 ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx9\fs_bloom_combine.bin: ..\bgfx.cmake\bgfx\examples\38-bloom\fs_bloom_combine.sc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Compiling shader 38-bloom/fs_bloom_combine.sc for DX9, DX11, ESSL, GLSL, SPIRV"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_bloom_combine.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx9/fs_bloom_combine.bin --platform windows --type fragment --profile ps_3_0 -O 3
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_bloom_combine.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx11/fs_bloom_combine.bin --platform windows --type fragment --profile ps_5_0 -O 3
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_bloom_combine.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/essl/fs_bloom_combine.bin --platform android --type fragment
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_bloom_combine.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/glsl/fs_bloom_combine.bin --platform linux --type fragment --profile 120
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_bloom_combine.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/spirv/fs_bloom_combine.bin --platform linux --type fragment --profile spirv
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Compiling shader 38-bloom/fs_bloom_combine.sc for DX9, DX11, ESSL, GLSL, SPIRV"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_bloom_combine.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx9/fs_bloom_combine.bin --platform windows --type fragment --profile ps_3_0 -O 3
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_bloom_combine.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx11/fs_bloom_combine.bin --platform windows --type fragment --profile ps_5_0 -O 3
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_bloom_combine.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/essl/fs_bloom_combine.bin --platform android --type fragment
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_bloom_combine.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/glsl/fs_bloom_combine.bin --platform linux --type fragment --profile 120
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_bloom_combine.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/spirv/fs_bloom_combine.bin --platform linux --type fragment --profile spirv
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx11\fs_bloom_combine.bin: ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx9\fs_bloom_combine.bin
 	@$(CMAKE_COMMAND) -E touch_nocreate ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx11\fs_bloom_combine.bin
@@ -105,14 +105,14 @@ include bgfx.cmake\CMakeFiles\example-38-bloom.dir\flags.make
 	@$(CMAKE_COMMAND) -E touch_nocreate ..\bgfx.cmake\bgfx\examples\runtime\shaders\spirv\fs_bloom_combine.bin
 
 ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx9\fs_downsample.bin: ..\bgfx.cmake\bgfx\examples\38-bloom\fs_downsample.sc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Compiling shader 38-bloom/fs_downsample.sc for DX9, DX11, ESSL, GLSL, SPIRV"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_downsample.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx9/fs_downsample.bin --platform windows --type fragment --profile ps_3_0 -O 3
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_downsample.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx11/fs_downsample.bin --platform windows --type fragment --profile ps_5_0 -O 3
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_downsample.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/essl/fs_downsample.bin --platform android --type fragment
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_downsample.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/glsl/fs_downsample.bin --platform linux --type fragment --profile 120
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_downsample.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/spirv/fs_downsample.bin --platform linux --type fragment --profile spirv
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Compiling shader 38-bloom/fs_downsample.sc for DX9, DX11, ESSL, GLSL, SPIRV"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_downsample.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx9/fs_downsample.bin --platform windows --type fragment --profile ps_3_0 -O 3
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_downsample.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx11/fs_downsample.bin --platform windows --type fragment --profile ps_5_0 -O 3
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_downsample.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/essl/fs_downsample.bin --platform android --type fragment
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_downsample.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/glsl/fs_downsample.bin --platform linux --type fragment --profile 120
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_downsample.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/spirv/fs_downsample.bin --platform linux --type fragment --profile spirv
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx11\fs_downsample.bin: ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx9\fs_downsample.bin
 	@$(CMAKE_COMMAND) -E touch_nocreate ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx11\fs_downsample.bin
@@ -127,14 +127,14 @@ include bgfx.cmake\CMakeFiles\example-38-bloom.dir\flags.make
 	@$(CMAKE_COMMAND) -E touch_nocreate ..\bgfx.cmake\bgfx\examples\runtime\shaders\spirv\fs_downsample.bin
 
 ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx9\fs_upsample.bin: ..\bgfx.cmake\bgfx\examples\38-bloom\fs_upsample.sc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Compiling shader 38-bloom/fs_upsample.sc for DX9, DX11, ESSL, GLSL, SPIRV"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_upsample.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx9/fs_upsample.bin --platform windows --type fragment --profile ps_3_0 -O 3
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_upsample.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx11/fs_upsample.bin --platform windows --type fragment --profile ps_5_0 -O 3
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_upsample.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/essl/fs_upsample.bin --platform android --type fragment
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_upsample.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/glsl/fs_upsample.bin --platform linux --type fragment --profile 120
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_upsample.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/spirv/fs_upsample.bin --platform linux --type fragment --profile spirv
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Compiling shader 38-bloom/fs_upsample.sc for DX9, DX11, ESSL, GLSL, SPIRV"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_upsample.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx9/fs_upsample.bin --platform windows --type fragment --profile ps_3_0 -O 3
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_upsample.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx11/fs_upsample.bin --platform windows --type fragment --profile ps_5_0 -O 3
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_upsample.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/essl/fs_upsample.bin --platform android --type fragment
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_upsample.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/glsl/fs_upsample.bin --platform linux --type fragment --profile 120
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/fs_upsample.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/spirv/fs_upsample.bin --platform linux --type fragment --profile spirv
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx11\fs_upsample.bin: ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx9\fs_upsample.bin
 	@$(CMAKE_COMMAND) -E touch_nocreate ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx11\fs_upsample.bin
@@ -149,14 +149,14 @@ include bgfx.cmake\CMakeFiles\example-38-bloom.dir\flags.make
 	@$(CMAKE_COMMAND) -E touch_nocreate ..\bgfx.cmake\bgfx\examples\runtime\shaders\spirv\fs_upsample.bin
 
 ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx9\vs_albedo_output.bin: ..\bgfx.cmake\bgfx\examples\38-bloom\vs_albedo_output.sc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Compiling shader 38-bloom/vs_albedo_output.sc for DX9, DX11, ESSL, GLSL, SPIRV"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_albedo_output.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx9/vs_albedo_output.bin --platform windows --type vertex --profile vs_3_0 -O 3
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_albedo_output.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx11/vs_albedo_output.bin --platform windows --type vertex --profile vs_5_0 -O 3
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_albedo_output.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/essl/vs_albedo_output.bin --platform android --type vertex
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_albedo_output.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/glsl/vs_albedo_output.bin --platform linux --type vertex --profile 120
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_albedo_output.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/spirv/vs_albedo_output.bin --platform linux --type vertex --profile spirv
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Compiling shader 38-bloom/vs_albedo_output.sc for DX9, DX11, ESSL, GLSL, SPIRV"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_albedo_output.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx9/vs_albedo_output.bin --platform windows --type vertex --profile vs_3_0 -O 3
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_albedo_output.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx11/vs_albedo_output.bin --platform windows --type vertex --profile vs_5_0 -O 3
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_albedo_output.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/essl/vs_albedo_output.bin --platform android --type vertex
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_albedo_output.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/glsl/vs_albedo_output.bin --platform linux --type vertex --profile 120
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_albedo_output.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/spirv/vs_albedo_output.bin --platform linux --type vertex --profile spirv
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx11\vs_albedo_output.bin: ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx9\vs_albedo_output.bin
 	@$(CMAKE_COMMAND) -E touch_nocreate ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx11\vs_albedo_output.bin
@@ -171,14 +171,14 @@ include bgfx.cmake\CMakeFiles\example-38-bloom.dir\flags.make
 	@$(CMAKE_COMMAND) -E touch_nocreate ..\bgfx.cmake\bgfx\examples\runtime\shaders\spirv\vs_albedo_output.bin
 
 ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx9\vs_deferred_combine.bin: ..\bgfx.cmake\bgfx\examples\38-bloom\vs_deferred_combine.sc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Compiling shader 38-bloom/vs_deferred_combine.sc for DX9, DX11, ESSL, GLSL, SPIRV"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_deferred_combine.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx9/vs_deferred_combine.bin --platform windows --type vertex --profile vs_3_0 -O 3
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_deferred_combine.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx11/vs_deferred_combine.bin --platform windows --type vertex --profile vs_5_0 -O 3
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_deferred_combine.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/essl/vs_deferred_combine.bin --platform android --type vertex
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_deferred_combine.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/glsl/vs_deferred_combine.bin --platform linux --type vertex --profile 120
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_deferred_combine.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/spirv/vs_deferred_combine.bin --platform linux --type vertex --profile spirv
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Compiling shader 38-bloom/vs_deferred_combine.sc for DX9, DX11, ESSL, GLSL, SPIRV"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_deferred_combine.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx9/vs_deferred_combine.bin --platform windows --type vertex --profile vs_3_0 -O 3
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_deferred_combine.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx11/vs_deferred_combine.bin --platform windows --type vertex --profile vs_5_0 -O 3
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_deferred_combine.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/essl/vs_deferred_combine.bin --platform android --type vertex
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_deferred_combine.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/glsl/vs_deferred_combine.bin --platform linux --type vertex --profile 120
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_deferred_combine.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/spirv/vs_deferred_combine.bin --platform linux --type vertex --profile spirv
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx11\vs_deferred_combine.bin: ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx9\vs_deferred_combine.bin
 	@$(CMAKE_COMMAND) -E touch_nocreate ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx11\vs_deferred_combine.bin
@@ -193,14 +193,14 @@ include bgfx.cmake\CMakeFiles\example-38-bloom.dir\flags.make
 	@$(CMAKE_COMMAND) -E touch_nocreate ..\bgfx.cmake\bgfx\examples\runtime\shaders\spirv\vs_deferred_combine.bin
 
 ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx9\vs_fullscreen.bin: ..\bgfx.cmake\bgfx\examples\38-bloom\vs_fullscreen.sc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Compiling shader 38-bloom/vs_fullscreen.sc for DX9, DX11, ESSL, GLSL, SPIRV"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_fullscreen.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx9/vs_fullscreen.bin --platform windows --type vertex --profile vs_3_0 -O 3
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_fullscreen.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx11/vs_fullscreen.bin --platform windows --type vertex --profile vs_5_0 -O 3
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_fullscreen.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/essl/vs_fullscreen.bin --platform android --type vertex
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_fullscreen.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/glsl/vs_fullscreen.bin --platform linux --type vertex --profile 120
-	.\shaderc.exe -f C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_fullscreen.sc -i C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src -o C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/spirv/vs_fullscreen.bin --platform linux --type vertex --profile spirv
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Compiling shader 38-bloom/vs_fullscreen.sc for DX9, DX11, ESSL, GLSL, SPIRV"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_fullscreen.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx9/vs_fullscreen.bin --platform windows --type vertex --profile vs_3_0 -O 3
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_fullscreen.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/dx11/vs_fullscreen.bin --platform windows --type vertex --profile vs_5_0 -O 3
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_fullscreen.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/essl/vs_fullscreen.bin --platform android --type vertex
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_fullscreen.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/glsl/vs_fullscreen.bin --platform linux --type vertex --profile 120
+	.\shaderc.exe -f C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/38-bloom/vs_fullscreen.sc -i C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src -o C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/shaders/spirv/vs_fullscreen.bin --platform linux --type vertex --profile spirv
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx11\vs_fullscreen.bin: ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx9\vs_fullscreen.bin
 	@$(CMAKE_COMMAND) -E touch_nocreate ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx11\vs_fullscreen.bin
@@ -216,28 +216,28 @@ include bgfx.cmake\CMakeFiles\example-38-bloom.dir\flags.make
 
 bgfx.cmake\CMakeFiles\example-38-bloom.dir\bgfx\examples\38-bloom\bloom.cpp.obj: bgfx.cmake\CMakeFiles\example-38-bloom.dir\flags.make
 bgfx.cmake\CMakeFiles\example-38-bloom.dir\bgfx\examples\38-bloom\bloom.cpp.obj: ..\bgfx.cmake\bgfx\examples\38-bloom\bloom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object bgfx.cmake/CMakeFiles/example-38-bloom.dir/bgfx/examples/38-bloom/bloom.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\example-38-bloom.dir\bgfx\examples\38-bloom\bloom.cpp.obj /FdCMakeFiles\example-38-bloom.dir\ /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\examples\38-bloom\bloom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object bgfx.cmake/CMakeFiles/example-38-bloom.dir/bgfx/examples/38-bloom/bloom.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\example-38-bloom.dir\bgfx\examples\38-bloom\bloom.cpp.obj /FdCMakeFiles\example-38-bloom.dir\ /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\examples\38-bloom\bloom.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\example-38-bloom.dir\bgfx\examples\38-bloom\bloom.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example-38-bloom.dir/bgfx/examples/38-bloom/bloom.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\example-38-bloom.dir\bgfx\examples\38-bloom\bloom.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\examples\38-bloom\bloom.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\example-38-bloom.dir\bgfx\examples\38-bloom\bloom.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\examples\38-bloom\bloom.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\example-38-bloom.dir\bgfx\examples\38-bloom\bloom.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example-38-bloom.dir/bgfx/examples/38-bloom/bloom.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\example-38-bloom.dir\bgfx\examples\38-bloom\bloom.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\examples\38-bloom\bloom.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\example-38-bloom.dir\bgfx\examples\38-bloom\bloom.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\examples\38-bloom\bloom.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 # Object files for target example-38-bloom
 example__38__bloom_OBJECTS = \
@@ -264,15 +264,15 @@ bgfx.cmake\example-38-bloom.exe: bgfx.cmake\dear-imgui.lib
 bgfx.cmake\example-38-bloom.exe: bgfx.cmake\bx.lib
 bgfx.cmake\example-38-bloom.exe: bgfx.cmake\meshoptimizer.lib
 bgfx.cmake\example-38-bloom.exe: bgfx.cmake\CMakeFiles\example-38-bloom.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable example-38-bloom.exe"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	"C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\example-38-bloom.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\example-38-bloom.dir\objects1.rsp @<<
- /out:example-38-bloom.exe /implib:example-38-bloom.lib /pdb:C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake\example-38-bloom.pdb /version:0.0 /machine:X86 /INCREMENTAL:NO /subsystem:windows /ENTRY:"mainCRTStartup"  example-common.lib bgfx.lib bimg.lib astc-codec.lib astc.lib edtaa3.lib etc1.lib etc2.lib iqa.lib squish.lib nvtt.lib pvrtc.lib dear-imgui.lib bx.lib psapi.lib meshoptimizer.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable example-38-bloom.exe"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	"C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\example-38-bloom.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\example-38-bloom.dir\objects1.rsp @<<
+ /out:example-38-bloom.exe /implib:example-38-bloom.lib /pdb:C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake\example-38-bloom.pdb /version:0.0 /machine:X86 /INCREMENTAL:NO /subsystem:windows /ENTRY:"mainCRTStartup"  example-common.lib bgfx.lib bimg.lib astc-codec.lib astc.lib edtaa3.lib etc1.lib etc2.lib iqa.lib squish.lib nvtt.lib pvrtc.lib dear-imgui.lib bx.lib psapi.lib meshoptimizer.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	echo >nul && "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E copy_directory C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/runtime/ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	echo >nul && "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E copy_directory C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/runtime/ C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 # Rule to build all files generated by this target.
 bgfx.cmake\CMakeFiles\example-38-bloom.dir\build: bgfx.cmake\example-38-bloom.exe
@@ -280,9 +280,9 @@ bgfx.cmake\CMakeFiles\example-38-bloom.dir\build: bgfx.cmake\example-38-bloom.ex
 .PHONY : bgfx.cmake\CMakeFiles\example-38-bloom.dir\build
 
 bgfx.cmake\CMakeFiles\example-38-bloom.dir\clean:
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
 	$(CMAKE_COMMAND) -P CMakeFiles\example-38-bloom.dir\cmake_clean.cmake
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 .PHONY : bgfx.cmake\CMakeFiles\example-38-bloom.dir\clean
 
 bgfx.cmake\CMakeFiles\example-38-bloom.dir\depend: ..\bgfx.cmake\bgfx\examples\runtime\shaders\dx11\fs_albedo_output.bin
@@ -320,6 +320,6 @@ bgfx.cmake\CMakeFiles\example-38-bloom.dir\depend: ..\bgfx.cmake\bgfx\examples\r
 bgfx.cmake\CMakeFiles\example-38-bloom.dir\depend: ..\bgfx.cmake\bgfx\examples\runtime\shaders\spirv\vs_albedo_output.bin
 bgfx.cmake\CMakeFiles\example-38-bloom.dir\depend: ..\bgfx.cmake\bgfx\examples\runtime\shaders\spirv\vs_deferred_combine.bin
 bgfx.cmake\CMakeFiles\example-38-bloom.dir\depend: ..\bgfx.cmake\bgfx\examples\runtime\shaders\spirv\vs_fullscreen.bin
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake\CMakeFiles\example-38-bloom.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\carol\Documents\D7049E C:\Users\carol\Documents\D7049E\bgfx.cmake C:\Users\carol\Documents\D7049E\cmake-build-release C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake\CMakeFiles\example-38-bloom.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : bgfx.cmake\CMakeFiles\example-38-bloom.dir\depend
 

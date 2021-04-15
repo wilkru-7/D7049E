@@ -111,6 +111,7 @@ int main(void)
     bgfx::ShaderHandle vsh = loadShader("vs_cubes.bin");
     bgfx::ShaderHandle fsh = loadShader("fs_cubes.bin");
     bgfx::ProgramHandle program = bgfx::createProgram(vsh, fsh, true);
+
     unsigned int counter = 0;
     while(!glfwWindowShouldClose(window)) {
         const bx::Vec3 at = {0.0f, 0.0f,  0.0f};
@@ -131,6 +132,7 @@ int main(void)
         bgfx::submit(0, program);
         bgfx::frame();
         glfwSwapBuffers(window);
+        glfwPollEvents();
         //glfwWaitEvents();
         counter++;
     }

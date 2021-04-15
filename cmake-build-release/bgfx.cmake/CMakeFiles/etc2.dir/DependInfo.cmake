@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/etc2/ProcessRGB.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/etc2.dir/bimg/3rdparty/etc2/ProcessRGB.cpp.obj"
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/etc2/Tables.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/etc2.dir/bimg/3rdparty/etc2/Tables.cpp.obj"
+  "C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/etc2/ProcessRGB.cpp" "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/etc2.dir/bimg/3rdparty/etc2/ProcessRGB.cpp.obj"
+  "C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/etc2/Tables.cpp" "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/etc2.dir/bimg/3rdparty/etc2/Tables.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
@@ -26,7 +26,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/bx.dir/DependInfo.cmake"
+  "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/bx.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

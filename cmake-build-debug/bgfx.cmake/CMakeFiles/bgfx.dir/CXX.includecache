@@ -850,11 +850,11 @@ new.h
 stddef.h
 ../bgfx.cmake/bx/include/tinystl/stddef.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx.cpp
 bx/platform.h
 -
 bgfx_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 bgfx/embedded_shader.h
 -
 bx/file.h
@@ -862,49 +862,49 @@ bx/file.h
 bx/mutex.h
 -
 topology.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/topology.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/topology.h
 version.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/version.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/version.h
 objc/message.h
 -
 vs_debugfont.bin.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vs_debugfont.bin.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/vs_debugfont.bin.h
 fs_debugfont.bin.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_debugfont.bin.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/fs_debugfont.bin.h
 vs_clear.bin.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vs_clear.bin.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/vs_clear.bin.h
 fs_clear0.bin.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear0.bin.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear0.bin.h
 fs_clear1.bin.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear1.bin.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear1.bin.h
 fs_clear2.bin.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear2.bin.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear2.bin.h
 fs_clear3.bin.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear3.bin.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear3.bin.h
 fs_clear4.bin.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear4.bin.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear4.bin.h
 fs_clear5.bin.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear5.bin.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear5.bin.h
 fs_clear6.bin.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear6.bin.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear6.bin.h
 fs_clear7.bin.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear7.bin.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear7.bin.h
 charset.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/charset.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/charset.h
 bgfx/c99/bgfx.h
 -
 bgfx.idl.inl
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx.idl.inl
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx.idl.inl
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx.idl.inl
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx.idl.inl
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 bx/platform.h
 -
 bgfx/bgfx.h
 -
 config.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
 inttypes.h
 -
 bx/allocator.h
@@ -948,9 +948,9 @@ bgfx/platform.h
 bimg/bimg.h
 -
 shader.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/shader.h
 vertexlayout.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
 tinystl/string.h
 -
 tinystl/unordered_map.h
@@ -974,35 +974,35 @@ android/native_window.h
 windows.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/charset.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/charset.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
 bx/bx.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.cpp
 bgfx_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 psapi.h
 -
 renderdoc/renderdoc_app.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/dxgi.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/dxgi.cpp
 bgfx_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 dxgi.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/dxgi.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/dxgi.h
 renderer_d3d.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d.h
 inspectable.h
 -
 windows.ui.xaml.media.dxinterop.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/dxgi.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/dxgi.h
 d3dcommon.h
 -
 dxgi1_6.h
@@ -1010,115 +1010,115 @@ dxgi1_6.h
 d3d11_x.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/emscripten.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/emscripten.h
 emscripten/emscripten.h
 -
 emscripten/html5.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear0.bin.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear0.bin.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear1.bin.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear1.bin.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear2.bin.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear2.bin.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear3.bin.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear3.bin.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear4.bin.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear4.bin.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear5.bin.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear5.bin.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear6.bin.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear6.bin.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_clear7.bin.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/fs_clear7.bin.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/fs_debugfont.bin.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/fs_debugfont.bin.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_eagl.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_eagl.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_egl.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_egl.cpp
 bgfx_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 renderer_gl.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_gl.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_gl.h
 X11/Xlib.h
 -
 bcm_host.h
 -
 glimports.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glimports.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glimports.h
 glimports.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glimports.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glimports.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_egl.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_egl.h
 EGL/egl.h
 -
 EGL/eglext.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_glx.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_glx.h
 X11/Xlib.h
 -
 GL/glx.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_html5.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_html5.cpp
 bgfx_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 renderer_gl.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_gl.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_gl.h
 emscripten.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/emscripten.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/emscripten.h
 glimports.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glimports.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glimports.h
 glimports.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glimports.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glimports.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_html5.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_html5.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_nsgl.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_nsgl.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_wgl.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_wgl.cpp
 bgfx_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 renderer_gl.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_gl.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_gl.h
 glimports.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glimports.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glimports.h
 glimports.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glimports.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glimports.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_wgl.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_wgl.h
 wgl/wglext.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glimports.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glimports.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/nvapi.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/nvapi.cpp
 bgfx_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 nvapi.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/nvapi.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/nvapi.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/nvapi.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/nvapi.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer.h
 bgfx_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d.h
 sal.h
 -
 dxerr.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d11.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d11.cpp
 bgfx_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 renderer_d3d11.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d11.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d11.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d11.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d11.h
 sal.h
 -
 d3d11_3.h
@@ -1128,29 +1128,29 @@ d3d11_3.h
 d3d11_x.h
 -
 renderer.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer.h
 renderer_d3d.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d.h
 shader_dxbc.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_dxbc.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/shader_dxbc.h
 debug_renderdoc.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
 nvapi.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/nvapi.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/nvapi.h
 dxgi.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/dxgi.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/dxgi.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d12.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d12.cpp
 bgfx_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 renderer_d3d12.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d12.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d12.h
 inspectable.h
 -
 windows.ui.xaml.media.dxinterop.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d12.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d12.h
 sal.h
 -
 d3d12.h
@@ -1162,53 +1162,53 @@ d3dx12_x.h
 d3dx12.h
 -
 renderer.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer.h
 renderer_d3d.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d.h
 shader_dxbc.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_dxbc.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/shader_dxbc.h
 debug_renderdoc.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
 nvapi.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/nvapi.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/nvapi.h
 dxgi.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/dxgi.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/dxgi.h
 pix3.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d9.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d9.cpp
 bgfx_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 renderer_d3d9.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d9.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d9.h
 bx/pixelformat.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d9.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d9.h
 sal.h
 -
 d3d9.h
 -
 renderer.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer.h
 renderer_d3d.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_d3d.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_d3d.h
 nvapi.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/nvapi.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/nvapi.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_gl.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_gl.cpp
 bgfx_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 renderer_gl.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_gl.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_gl.h
 bx/timer.h
 -
 bx/uint32_t.h
 -
 emscripten.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/emscripten.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/emscripten.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_gl.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_gl.h
 gl/glcorearb.h
 -
 GL/gl.h
@@ -1236,45 +1236,45 @@ GLES3/gl3.h
 GLES3/gl3ext.h
 -
 glcontext_egl.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_egl.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_egl.h
 glcontext_html5.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_html5.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_html5.h
 renderer.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer.h
 debug_renderdoc.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
 emscripten.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/emscripten.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/emscripten.h
 windows.h
 -
 glcontext_glx.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_glx.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_glx.h
 glcontext_nsgl.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_nsgl.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_nsgl.h
 glcontext_eagl.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_eagl.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_eagl.h
 glcontext_wgl.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glcontext_wgl.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glcontext_wgl.h
 glimports.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/glimports.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/glimports.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_gnm.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_gnm.cpp
 bgfx_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_noop.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_noop.cpp
 bgfx_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_nvn.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_nvn.cpp
 bgfx_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_vk.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_vk.cpp
 bgfx_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 renderer_vk.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_vk.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_vk.h
 Cocoa/Cocoa.h
 -
 Foundation/Foundation.h
@@ -1284,25 +1284,25 @@ QuartzCore/QuartzCore.h
 Metal/Metal.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_vk.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_vk.h
 vulkan-local/vulkan.h
 -
 renderer.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer.h
 debug_renderdoc.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_webgpu.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_webgpu.cpp
 bgfx_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 renderer_webgpu.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_webgpu.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_webgpu.h
 renderer.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer.h
 debug_renderdoc.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/debug_renderdoc.h
 emscripten.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/emscripten.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/emscripten.h
 dawn_native/D3D12Backend.h
 -
 dawn_native/VulkanBackend.h
@@ -1314,9 +1314,9 @@ dawn/dawn_wsi.h
 dawn/dawn_proc.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/renderer_webgpu.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/renderer_webgpu.h
 bgfx_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 dawn/webgpu_cpp.h
 -
 dawn/dawn_wsi.h
@@ -1324,51 +1324,51 @@ dawn/dawn_wsi.h
 webgpu/webgpu_cpp.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/shader.cpp
 bgfx_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 shader_dxbc.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_dxbc.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/shader_dxbc.h
 shader_dx9bc.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_dx9bc.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/shader_dx9bc.h
 shader_spirv.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_spirv.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/shader_spirv.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/shader.h
 bx/readerwriter.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_dx9bc.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/shader_dx9bc.cpp
 bgfx_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 shader_dx9bc.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_dx9bc.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/shader_dx9bc.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_dx9bc.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/shader_dx9bc.h
 bx/readerwriter.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_dxbc.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/shader_dxbc.cpp
 bgfx_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 shader_dxbc.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_dxbc.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/shader_dxbc.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_dxbc.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/shader_dxbc.h
 bx/readerwriter.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_spirv.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/shader_spirv.cpp
 bgfx_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/bgfx_p.h
 shader_spirv.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_spirv.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/shader_spirv.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/shader_spirv.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/shader_spirv.h
 bx/readerwriter.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/topology.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/topology.cpp
 bx/allocator.h
 -
 bx/debug.h
@@ -1380,17 +1380,17 @@ bx/sort.h
 bx/uint32_t.h
 -
 config.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/config.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/config.h
 topology.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/topology.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/topology.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/topology.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/topology.h
 bgfx/bgfx.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/version.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/version.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.cpp
 bx/debug.h
 -
 bx/hash.h
@@ -1404,15 +1404,15 @@ bx/string.h
 bx/uint32_t.h
 -
 vertexlayout.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/vertexlayout.h
 bgfx/bgfx.h
 -
 bx/readerwriter.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vs_clear.bin.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/vs_clear.bin.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/src/vs_debugfont.bin.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/src/vs_debugfont.bin.h
 

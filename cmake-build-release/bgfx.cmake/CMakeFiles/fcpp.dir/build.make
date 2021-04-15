@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E
+CMAKE_SOURCE_DIR = C:\Users\carol\Documents\D7049E
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+CMAKE_BINARY_DIR = C:\Users\carol\Documents\D7049E\cmake-build-release
 
 # Include any dependencies generated for this target.
 include bgfx.cmake\CMakeFiles\fcpp.dir\depend.make
@@ -62,153 +62,153 @@ include bgfx.cmake\CMakeFiles\fcpp.dir\flags.make
 
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp1.c.obj: bgfx.cmake\CMakeFiles\fcpp.dir\flags.make
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp1.c.obj: ..\bgfx.cmake\bgfx\3rdparty\fcpp\cpp1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object bgfx.cmake/CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp1.c.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp1.c.obj /FdCMakeFiles\fcpp.dir\fcpp.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object bgfx.cmake/CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp1.c.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp1.c.obj /FdCMakeFiles\fcpp.dir\fcpp.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp1.c
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp1.c.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp1.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp1.c
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp1.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp1.c
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp1.c.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp1.c.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp1.c
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp1.c.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp1.c
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp2.c.obj: bgfx.cmake\CMakeFiles\fcpp.dir\flags.make
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp2.c.obj: ..\bgfx.cmake\bgfx\3rdparty\fcpp\cpp2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object bgfx.cmake/CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp2.c.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp2.c.obj /FdCMakeFiles\fcpp.dir\fcpp.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object bgfx.cmake/CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp2.c.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp2.c.obj /FdCMakeFiles\fcpp.dir\fcpp.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp2.c
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp2.c.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp2.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp2.c
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp2.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp2.c
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp2.c.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp2.c.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp2.c
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp2.c.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp2.c
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp3.c.obj: bgfx.cmake\CMakeFiles\fcpp.dir\flags.make
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp3.c.obj: ..\bgfx.cmake\bgfx\3rdparty\fcpp\cpp3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object bgfx.cmake/CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp3.c.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp3.c.obj /FdCMakeFiles\fcpp.dir\fcpp.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object bgfx.cmake/CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp3.c.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp3.c.obj /FdCMakeFiles\fcpp.dir\fcpp.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp3.c
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp3.c.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp3.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp3.c
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp3.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp3.c
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp3.c.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp3.c.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp3.c
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp3.c.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp3.c
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp4.c.obj: bgfx.cmake\CMakeFiles\fcpp.dir\flags.make
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp4.c.obj: ..\bgfx.cmake\bgfx\3rdparty\fcpp\cpp4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object bgfx.cmake/CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp4.c.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp4.c.obj /FdCMakeFiles\fcpp.dir\fcpp.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object bgfx.cmake/CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp4.c.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp4.c.obj /FdCMakeFiles\fcpp.dir\fcpp.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp4.c
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp4.c.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp4.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp4.c
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp4.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp4.c
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp4.c.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp4.c.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp4.c
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp4.c.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp4.c
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp5.c.obj: bgfx.cmake\CMakeFiles\fcpp.dir\flags.make
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp5.c.obj: ..\bgfx.cmake\bgfx\3rdparty\fcpp\cpp5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object bgfx.cmake/CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp5.c.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp5.c.obj /FdCMakeFiles\fcpp.dir\fcpp.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object bgfx.cmake/CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp5.c.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp5.c.obj /FdCMakeFiles\fcpp.dir\fcpp.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp5.c
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp5.c.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp5.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp5.c
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp5.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp5.c
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp5.c.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp5.c.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp5.c
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp5.c.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp5.c
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp6.c.obj: bgfx.cmake\CMakeFiles\fcpp.dir\flags.make
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp6.c.obj: ..\bgfx.cmake\bgfx\3rdparty\fcpp\cpp6.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object bgfx.cmake/CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp6.c.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp6.c.obj /FdCMakeFiles\fcpp.dir\fcpp.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp6.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object bgfx.cmake/CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp6.c.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp6.c.obj /FdCMakeFiles\fcpp.dir\fcpp.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp6.c
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp6.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp6.c.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp6.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp6.c
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp6.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp6.c
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp6.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fcpp.dir/bgfx/3rdparty/fcpp/cpp6.c.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp6.c.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp6.c
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp6.c.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\fcpp\cpp6.c
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 # Object files for target fcpp
 fcpp_OBJECTS = \
@@ -230,13 +230,13 @@ bgfx.cmake\fcpp.lib: bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp5.c.ob
 bgfx.cmake\fcpp.lib: bgfx.cmake\CMakeFiles\fcpp.dir\bgfx\3rdparty\fcpp\cpp6.c.obj
 bgfx.cmake\fcpp.lib: bgfx.cmake\CMakeFiles\fcpp.dir\build.make
 bgfx.cmake\fcpp.lib: bgfx.cmake\CMakeFiles\fcpp.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C static library fcpp.lib"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C static library fcpp.lib"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
 	$(CMAKE_COMMAND) -P CMakeFiles\fcpp.dir\cmake_clean_target.cmake
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:fcpp.lib @CMakeFiles\fcpp.dir\objects1.rsp 
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:fcpp.lib @CMakeFiles\fcpp.dir\objects1.rsp 
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 # Rule to build all files generated by this target.
 bgfx.cmake\CMakeFiles\fcpp.dir\build: bgfx.cmake\fcpp.lib
@@ -244,12 +244,12 @@ bgfx.cmake\CMakeFiles\fcpp.dir\build: bgfx.cmake\fcpp.lib
 .PHONY : bgfx.cmake\CMakeFiles\fcpp.dir\build
 
 bgfx.cmake\CMakeFiles\fcpp.dir\clean:
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
 	$(CMAKE_COMMAND) -P CMakeFiles\fcpp.dir\cmake_clean.cmake
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 .PHONY : bgfx.cmake\CMakeFiles\fcpp.dir\clean
 
 bgfx.cmake\CMakeFiles\fcpp.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake\CMakeFiles\fcpp.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\carol\Documents\D7049E C:\Users\carol\Documents\D7049E\bgfx.cmake C:\Users\carol\Documents\D7049E\cmake-build-release C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake\CMakeFiles\fcpp.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : bgfx.cmake\CMakeFiles\fcpp.dir\depend
 

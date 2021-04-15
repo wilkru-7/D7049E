@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/pvrtc/BitScale.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/pvrtc.dir/bimg/3rdparty/pvrtc/BitScale.cpp.obj"
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/pvrtc/MortonTable.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/pvrtc.dir/bimg/3rdparty/pvrtc/MortonTable.cpp.obj"
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/pvrtc/PvrTcDecoder.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/pvrtc.dir/bimg/3rdparty/pvrtc/PvrTcDecoder.cpp.obj"
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/pvrtc/PvrTcEncoder.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/pvrtc.dir/bimg/3rdparty/pvrtc/PvrTcEncoder.cpp.obj"
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/pvrtc/PvrTcPacket.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/pvrtc.dir/bimg/3rdparty/pvrtc/PvrTcPacket.cpp.obj"
+  "C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/pvrtc/BitScale.cpp" "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/pvrtc.dir/bimg/3rdparty/pvrtc/BitScale.cpp.obj"
+  "C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/pvrtc/MortonTable.cpp" "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/pvrtc.dir/bimg/3rdparty/pvrtc/MortonTable.cpp.obj"
+  "C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/pvrtc/PvrTcDecoder.cpp" "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/pvrtc.dir/bimg/3rdparty/pvrtc/PvrTcDecoder.cpp.obj"
+  "C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/pvrtc/PvrTcEncoder.cpp" "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/pvrtc.dir/bimg/3rdparty/pvrtc/PvrTcEncoder.cpp.obj"
+  "C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/pvrtc/PvrTcPacket.cpp" "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/pvrtc.dir/bimg/3rdparty/pvrtc/PvrTcPacket.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

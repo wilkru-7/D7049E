@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E
+CMAKE_SOURCE_DIR = C:\Users\carol\Documents\D7049E
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+CMAKE_BINARY_DIR = C:\Users\carol\Documents\D7049E\cmake-build-release
 
 # Include any dependencies generated for this target.
 include bgfx.cmake\CMakeFiles\astc-codec.dir\depend.make
@@ -62,278 +62,278 @@ include bgfx.cmake\CMakeFiles\astc-codec.dir\flags.make
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\astc_file.cc.obj: bgfx.cmake\CMakeFiles\astc-codec.dir\flags.make
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\astc_file.cc.obj: ..\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\astc_file.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/astc_file.cc.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\astc_file.cc.obj /FdCMakeFiles\astc-codec.dir\astc-codec.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\astc_file.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/astc_file.cc.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\astc_file.cc.obj /FdCMakeFiles\astc-codec.dir\astc-codec.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\astc_file.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\astc_file.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/astc_file.cc.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\astc_file.cc.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\astc_file.cc
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\astc_file.cc.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\astc_file.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\astc_file.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/astc_file.cc.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\astc_file.cc.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\astc_file.cc
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\astc_file.cc.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\astc_file.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\codec.cc.obj: bgfx.cmake\CMakeFiles\astc-codec.dir\flags.make
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\codec.cc.obj: ..\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\codec.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/codec.cc.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\codec.cc.obj /FdCMakeFiles\astc-codec.dir\astc-codec.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\codec.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/codec.cc.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\codec.cc.obj /FdCMakeFiles\astc-codec.dir\astc-codec.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\codec.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\codec.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/codec.cc.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\codec.cc.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\codec.cc
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\codec.cc.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\codec.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\codec.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/codec.cc.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\codec.cc.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\codec.cc
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\codec.cc.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\codec.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\endpoint_codec.cc.obj: bgfx.cmake\CMakeFiles\astc-codec.dir\flags.make
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\endpoint_codec.cc.obj: ..\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\endpoint_codec.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/endpoint_codec.cc.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\endpoint_codec.cc.obj /FdCMakeFiles\astc-codec.dir\astc-codec.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\endpoint_codec.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/endpoint_codec.cc.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\endpoint_codec.cc.obj /FdCMakeFiles\astc-codec.dir\astc-codec.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\endpoint_codec.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\endpoint_codec.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/endpoint_codec.cc.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\endpoint_codec.cc.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\endpoint_codec.cc
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\endpoint_codec.cc.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\endpoint_codec.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\endpoint_codec.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/endpoint_codec.cc.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\endpoint_codec.cc.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\endpoint_codec.cc
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\endpoint_codec.cc.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\endpoint_codec.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\footprint.cc.obj: bgfx.cmake\CMakeFiles\astc-codec.dir\flags.make
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\footprint.cc.obj: ..\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\footprint.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/footprint.cc.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\footprint.cc.obj /FdCMakeFiles\astc-codec.dir\astc-codec.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\footprint.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/footprint.cc.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\footprint.cc.obj /FdCMakeFiles\astc-codec.dir\astc-codec.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\footprint.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\footprint.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/footprint.cc.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\footprint.cc.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\footprint.cc
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\footprint.cc.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\footprint.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\footprint.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/footprint.cc.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\footprint.cc.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\footprint.cc
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\footprint.cc.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\footprint.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\integer_sequence_codec.cc.obj: bgfx.cmake\CMakeFiles\astc-codec.dir\flags.make
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\integer_sequence_codec.cc.obj: ..\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\integer_sequence_codec.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/integer_sequence_codec.cc.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\integer_sequence_codec.cc.obj /FdCMakeFiles\astc-codec.dir\astc-codec.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\integer_sequence_codec.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/integer_sequence_codec.cc.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\integer_sequence_codec.cc.obj /FdCMakeFiles\astc-codec.dir\astc-codec.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\integer_sequence_codec.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\integer_sequence_codec.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/integer_sequence_codec.cc.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\integer_sequence_codec.cc.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\integer_sequence_codec.cc
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\integer_sequence_codec.cc.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\integer_sequence_codec.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\integer_sequence_codec.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/integer_sequence_codec.cc.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\integer_sequence_codec.cc.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\integer_sequence_codec.cc
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\integer_sequence_codec.cc.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\integer_sequence_codec.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\intermediate_astc_block.cc.obj: bgfx.cmake\CMakeFiles\astc-codec.dir\flags.make
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\intermediate_astc_block.cc.obj: ..\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\intermediate_astc_block.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/intermediate_astc_block.cc.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\intermediate_astc_block.cc.obj /FdCMakeFiles\astc-codec.dir\astc-codec.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\intermediate_astc_block.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/intermediate_astc_block.cc.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\intermediate_astc_block.cc.obj /FdCMakeFiles\astc-codec.dir\astc-codec.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\intermediate_astc_block.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\intermediate_astc_block.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/intermediate_astc_block.cc.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\intermediate_astc_block.cc.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\intermediate_astc_block.cc
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\intermediate_astc_block.cc.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\intermediate_astc_block.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\intermediate_astc_block.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/intermediate_astc_block.cc.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\intermediate_astc_block.cc.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\intermediate_astc_block.cc
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\intermediate_astc_block.cc.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\intermediate_astc_block.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\logical_astc_block.cc.obj: bgfx.cmake\CMakeFiles\astc-codec.dir\flags.make
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\logical_astc_block.cc.obj: ..\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\logical_astc_block.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/logical_astc_block.cc.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\logical_astc_block.cc.obj /FdCMakeFiles\astc-codec.dir\astc-codec.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\logical_astc_block.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/logical_astc_block.cc.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\logical_astc_block.cc.obj /FdCMakeFiles\astc-codec.dir\astc-codec.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\logical_astc_block.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\logical_astc_block.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/logical_astc_block.cc.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\logical_astc_block.cc.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\logical_astc_block.cc
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\logical_astc_block.cc.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\logical_astc_block.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\logical_astc_block.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/logical_astc_block.cc.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\logical_astc_block.cc.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\logical_astc_block.cc
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\logical_astc_block.cc.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\logical_astc_block.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\partition.cc.obj: bgfx.cmake\CMakeFiles\astc-codec.dir\flags.make
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\partition.cc.obj: ..\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\partition.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/partition.cc.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\partition.cc.obj /FdCMakeFiles\astc-codec.dir\astc-codec.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\partition.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/partition.cc.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\partition.cc.obj /FdCMakeFiles\astc-codec.dir\astc-codec.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\partition.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\partition.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/partition.cc.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\partition.cc.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\partition.cc
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\partition.cc.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\partition.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\partition.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/partition.cc.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\partition.cc.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\partition.cc
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\partition.cc.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\partition.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\physical_astc_block.cc.obj: bgfx.cmake\CMakeFiles\astc-codec.dir\flags.make
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\physical_astc_block.cc.obj: ..\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\physical_astc_block.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/physical_astc_block.cc.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\physical_astc_block.cc.obj /FdCMakeFiles\astc-codec.dir\astc-codec.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\physical_astc_block.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/physical_astc_block.cc.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\physical_astc_block.cc.obj /FdCMakeFiles\astc-codec.dir\astc-codec.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\physical_astc_block.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\physical_astc_block.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/physical_astc_block.cc.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\physical_astc_block.cc.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\physical_astc_block.cc
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\physical_astc_block.cc.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\physical_astc_block.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\physical_astc_block.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/physical_astc_block.cc.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\physical_astc_block.cc.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\physical_astc_block.cc
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\physical_astc_block.cc.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\physical_astc_block.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\quantization.cc.obj: bgfx.cmake\CMakeFiles\astc-codec.dir\flags.make
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\quantization.cc.obj: ..\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\quantization.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/quantization.cc.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\quantization.cc.obj /FdCMakeFiles\astc-codec.dir\astc-codec.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\quantization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/quantization.cc.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\quantization.cc.obj /FdCMakeFiles\astc-codec.dir\astc-codec.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\quantization.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\quantization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/quantization.cc.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\quantization.cc.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\quantization.cc
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\quantization.cc.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\quantization.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\quantization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/quantization.cc.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\quantization.cc.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\quantization.cc
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\quantization.cc.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\quantization.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\weight_infill.cc.obj: bgfx.cmake\CMakeFiles\astc-codec.dir\flags.make
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\weight_infill.cc.obj: ..\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\weight_infill.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/weight_infill.cc.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\weight_infill.cc.obj /FdCMakeFiles\astc-codec.dir\astc-codec.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\weight_infill.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/weight_infill.cc.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\weight_infill.cc.obj /FdCMakeFiles\astc-codec.dir\astc-codec.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\weight_infill.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\weight_infill.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/weight_infill.cc.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\weight_infill.cc.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\weight_infill.cc
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\weight_infill.cc.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\weight_infill.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\weight_infill.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/weight_infill.cc.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\weight_infill.cc.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\weight_infill.cc
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\weight_infill.cc.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\astc-codec\src\decoder\weight_infill.cc
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 # Object files for target astc-codec
 astc__codec_OBJECTS = \
@@ -365,13 +365,13 @@ bgfx.cmake\astc-codec.lib: bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\as
 bgfx.cmake\astc-codec.lib: bgfx.cmake\CMakeFiles\astc-codec.dir\bimg\3rdparty\astc-codec\src\decoder\weight_infill.cc.obj
 bgfx.cmake\astc-codec.lib: bgfx.cmake\CMakeFiles\astc-codec.dir\build.make
 bgfx.cmake\astc-codec.lib: bgfx.cmake\CMakeFiles\astc-codec.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library astc-codec.lib"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library astc-codec.lib"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
 	$(CMAKE_COMMAND) -P CMakeFiles\astc-codec.dir\cmake_clean_target.cmake
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:astc-codec.lib @CMakeFiles\astc-codec.dir\objects1.rsp 
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:astc-codec.lib @CMakeFiles\astc-codec.dir\objects1.rsp 
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 # Rule to build all files generated by this target.
 bgfx.cmake\CMakeFiles\astc-codec.dir\build: bgfx.cmake\astc-codec.lib
@@ -379,12 +379,12 @@ bgfx.cmake\CMakeFiles\astc-codec.dir\build: bgfx.cmake\astc-codec.lib
 .PHONY : bgfx.cmake\CMakeFiles\astc-codec.dir\build
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\clean:
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
 	$(CMAKE_COMMAND) -P CMakeFiles\astc-codec.dir\cmake_clean.cmake
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 .PHONY : bgfx.cmake\CMakeFiles\astc-codec.dir\clean
 
 bgfx.cmake\CMakeFiles\astc-codec.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake\CMakeFiles\astc-codec.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\carol\Documents\D7049E C:\Users\carol\Documents\D7049E\bgfx.cmake C:\Users\carol\Documents\D7049E\cmake-build-release C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake\CMakeFiles\astc-codec.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : bgfx.cmake\CMakeFiles\astc-codec.dir\depend
 

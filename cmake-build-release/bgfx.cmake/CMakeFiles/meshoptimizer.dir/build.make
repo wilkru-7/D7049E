@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E
+CMAKE_SOURCE_DIR = C:\Users\carol\Documents\D7049E
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+CMAKE_BINARY_DIR = C:\Users\carol\Documents\D7049E\cmake-build-release
 
 # Include any dependencies generated for this target.
 include bgfx.cmake\CMakeFiles\meshoptimizer.dir\depend.make
@@ -62,378 +62,378 @@ include bgfx.cmake\CMakeFiles\meshoptimizer.dir\flags.make
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\allocator.cpp.obj: bgfx.cmake\CMakeFiles\meshoptimizer.dir\flags.make
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\allocator.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\allocator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/allocator.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\allocator.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\allocator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/allocator.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\allocator.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\allocator.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\allocator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/allocator.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\allocator.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\allocator.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\allocator.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\allocator.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\allocator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/allocator.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\allocator.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\allocator.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\allocator.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\allocator.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\clusterizer.cpp.obj: bgfx.cmake\CMakeFiles\meshoptimizer.dir\flags.make
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\clusterizer.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\clusterizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/clusterizer.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\clusterizer.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\clusterizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/clusterizer.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\clusterizer.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\clusterizer.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\clusterizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/clusterizer.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\clusterizer.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\clusterizer.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\clusterizer.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\clusterizer.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\clusterizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/clusterizer.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\clusterizer.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\clusterizer.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\clusterizer.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\clusterizer.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\indexcodec.cpp.obj: bgfx.cmake\CMakeFiles\meshoptimizer.dir\flags.make
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\indexcodec.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\indexcodec.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/indexcodec.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\indexcodec.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\indexcodec.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/indexcodec.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\indexcodec.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\indexcodec.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\indexcodec.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/indexcodec.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\indexcodec.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\indexcodec.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\indexcodec.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\indexcodec.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\indexcodec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/indexcodec.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\indexcodec.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\indexcodec.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\indexcodec.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\indexcodec.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\indexgenerator.cpp.obj: bgfx.cmake\CMakeFiles\meshoptimizer.dir\flags.make
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\indexgenerator.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\indexgenerator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/indexgenerator.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\indexgenerator.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\indexgenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/indexgenerator.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\indexgenerator.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\indexgenerator.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\indexgenerator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/indexgenerator.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\indexgenerator.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\indexgenerator.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\indexgenerator.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\indexgenerator.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\indexgenerator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/indexgenerator.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\indexgenerator.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\indexgenerator.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\indexgenerator.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\indexgenerator.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\overdrawanalyzer.cpp.obj: bgfx.cmake\CMakeFiles\meshoptimizer.dir\flags.make
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\overdrawanalyzer.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\overdrawanalyzer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/overdrawanalyzer.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\overdrawanalyzer.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\overdrawanalyzer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/overdrawanalyzer.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\overdrawanalyzer.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\overdrawanalyzer.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\overdrawanalyzer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/overdrawanalyzer.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\overdrawanalyzer.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\overdrawanalyzer.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\overdrawanalyzer.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\overdrawanalyzer.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\overdrawanalyzer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/overdrawanalyzer.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\overdrawanalyzer.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\overdrawanalyzer.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\overdrawanalyzer.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\overdrawanalyzer.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\overdrawoptimizer.cpp.obj: bgfx.cmake\CMakeFiles\meshoptimizer.dir\flags.make
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\overdrawoptimizer.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\overdrawoptimizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/overdrawoptimizer.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\overdrawoptimizer.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\overdrawoptimizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/overdrawoptimizer.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\overdrawoptimizer.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\overdrawoptimizer.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\overdrawoptimizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/overdrawoptimizer.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\overdrawoptimizer.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\overdrawoptimizer.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\overdrawoptimizer.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\overdrawoptimizer.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\overdrawoptimizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/overdrawoptimizer.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\overdrawoptimizer.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\overdrawoptimizer.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\overdrawoptimizer.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\overdrawoptimizer.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\simplifier.cpp.obj: bgfx.cmake\CMakeFiles\meshoptimizer.dir\flags.make
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\simplifier.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\simplifier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/simplifier.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\simplifier.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\simplifier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/simplifier.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\simplifier.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\simplifier.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\simplifier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/simplifier.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\simplifier.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\simplifier.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\simplifier.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\simplifier.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\simplifier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/simplifier.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\simplifier.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\simplifier.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\simplifier.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\simplifier.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\spatialorder.cpp.obj: bgfx.cmake\CMakeFiles\meshoptimizer.dir\flags.make
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\spatialorder.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\spatialorder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/spatialorder.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\spatialorder.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\spatialorder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/spatialorder.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\spatialorder.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\spatialorder.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\spatialorder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/spatialorder.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\spatialorder.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\spatialorder.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\spatialorder.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\spatialorder.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\spatialorder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/spatialorder.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\spatialorder.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\spatialorder.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\spatialorder.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\spatialorder.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\stripifier.cpp.obj: bgfx.cmake\CMakeFiles\meshoptimizer.dir\flags.make
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\stripifier.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\stripifier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/stripifier.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\stripifier.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\stripifier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/stripifier.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\stripifier.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\stripifier.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\stripifier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/stripifier.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\stripifier.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\stripifier.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\stripifier.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\stripifier.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\stripifier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/stripifier.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\stripifier.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\stripifier.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\stripifier.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\stripifier.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vcacheanalyzer.cpp.obj: bgfx.cmake\CMakeFiles\meshoptimizer.dir\flags.make
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vcacheanalyzer.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vcacheanalyzer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vcacheanalyzer.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vcacheanalyzer.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vcacheanalyzer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vcacheanalyzer.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vcacheanalyzer.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vcacheanalyzer.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vcacheanalyzer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vcacheanalyzer.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vcacheanalyzer.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vcacheanalyzer.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vcacheanalyzer.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vcacheanalyzer.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vcacheanalyzer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vcacheanalyzer.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vcacheanalyzer.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vcacheanalyzer.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vcacheanalyzer.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vcacheanalyzer.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vcacheoptimizer.cpp.obj: bgfx.cmake\CMakeFiles\meshoptimizer.dir\flags.make
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vcacheoptimizer.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vcacheoptimizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vcacheoptimizer.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vcacheoptimizer.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vcacheoptimizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vcacheoptimizer.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vcacheoptimizer.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vcacheoptimizer.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vcacheoptimizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vcacheoptimizer.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vcacheoptimizer.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vcacheoptimizer.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vcacheoptimizer.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vcacheoptimizer.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vcacheoptimizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vcacheoptimizer.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vcacheoptimizer.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vcacheoptimizer.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vcacheoptimizer.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vcacheoptimizer.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vertexcodec.cpp.obj: bgfx.cmake\CMakeFiles\meshoptimizer.dir\flags.make
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vertexcodec.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vertexcodec.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vertexcodec.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vertexcodec.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vertexcodec.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vertexcodec.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vertexcodec.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vertexcodec.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vertexcodec.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vertexcodec.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vertexcodec.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vertexcodec.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vertexcodec.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vertexcodec.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vertexcodec.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vertexcodec.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vertexcodec.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vertexcodec.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vertexcodec.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vertexcodec.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vertexfilter.cpp.obj: bgfx.cmake\CMakeFiles\meshoptimizer.dir\flags.make
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vertexfilter.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vertexfilter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vertexfilter.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vertexfilter.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vertexfilter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vertexfilter.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vertexfilter.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vertexfilter.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vertexfilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vertexfilter.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vertexfilter.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vertexfilter.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vertexfilter.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vertexfilter.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vertexfilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vertexfilter.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vertexfilter.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vertexfilter.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vertexfilter.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vertexfilter.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vfetchanalyzer.cpp.obj: bgfx.cmake\CMakeFiles\meshoptimizer.dir\flags.make
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vfetchanalyzer.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vfetchanalyzer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vfetchanalyzer.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vfetchanalyzer.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vfetchanalyzer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vfetchanalyzer.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vfetchanalyzer.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vfetchanalyzer.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vfetchanalyzer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vfetchanalyzer.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vfetchanalyzer.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vfetchanalyzer.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vfetchanalyzer.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vfetchanalyzer.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vfetchanalyzer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vfetchanalyzer.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vfetchanalyzer.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vfetchanalyzer.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vfetchanalyzer.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vfetchanalyzer.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vfetchoptimizer.cpp.obj: bgfx.cmake\CMakeFiles\meshoptimizer.dir\flags.make
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vfetchoptimizer.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vfetchoptimizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vfetchoptimizer.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vfetchoptimizer.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vfetchoptimizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object bgfx.cmake/CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vfetchoptimizer.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vfetchoptimizer.cpp.obj /FdCMakeFiles\meshoptimizer.dir\meshoptimizer.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vfetchoptimizer.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vfetchoptimizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vfetchoptimizer.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vfetchoptimizer.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vfetchoptimizer.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vfetchoptimizer.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vfetchoptimizer.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vfetchoptimizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/meshoptimizer.dir/bgfx/3rdparty/meshoptimizer/src/vfetchoptimizer.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vfetchoptimizer.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vfetchoptimizer.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vfetchoptimizer.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vfetchoptimizer.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 # Object files for target meshoptimizer
 meshoptimizer_OBJECTS = \
@@ -473,13 +473,13 @@ bgfx.cmake\meshoptimizer.lib: bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdpa
 bgfx.cmake\meshoptimizer.lib: bgfx.cmake\CMakeFiles\meshoptimizer.dir\bgfx\3rdparty\meshoptimizer\src\vfetchoptimizer.cpp.obj
 bgfx.cmake\meshoptimizer.lib: bgfx.cmake\CMakeFiles\meshoptimizer.dir\build.make
 bgfx.cmake\meshoptimizer.lib: bgfx.cmake\CMakeFiles\meshoptimizer.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX static library meshoptimizer.lib"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX static library meshoptimizer.lib"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
 	$(CMAKE_COMMAND) -P CMakeFiles\meshoptimizer.dir\cmake_clean_target.cmake
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:meshoptimizer.lib @CMakeFiles\meshoptimizer.dir\objects1.rsp 
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:meshoptimizer.lib @CMakeFiles\meshoptimizer.dir\objects1.rsp 
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 
 # Rule to build all files generated by this target.
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\build: bgfx.cmake\meshoptimizer.lib
@@ -487,12 +487,12 @@ bgfx.cmake\CMakeFiles\meshoptimizer.dir\build: bgfx.cmake\meshoptimizer.lib
 .PHONY : bgfx.cmake\CMakeFiles\meshoptimizer.dir\build
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\clean:
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake
 	$(CMAKE_COMMAND) -P CMakeFiles\meshoptimizer.dir\cmake_clean.cmake
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release
+	cd C:\Users\carol\Documents\D7049E\cmake-build-release
 .PHONY : bgfx.cmake\CMakeFiles\meshoptimizer.dir\clean
 
 bgfx.cmake\CMakeFiles\meshoptimizer.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-release\bgfx.cmake\CMakeFiles\meshoptimizer.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\carol\Documents\D7049E C:\Users\carol\Documents\D7049E\bgfx.cmake C:\Users\carol\Documents\D7049E\cmake-build-release C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx.cmake\CMakeFiles\meshoptimizer.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : bgfx.cmake\CMakeFiles\meshoptimizer.dir\depend
 

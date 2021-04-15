@@ -416,7 +416,7 @@ inline/uint32_t.inl
 malloc.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/bimg_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/src/bimg_p.h
 bimg/bimg.h
 -
 bx/allocator.h
@@ -432,15 +432,15 @@ bx/error.h
 bx/simd_t.h
 -
 config.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/config.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/src/config.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/config.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/src/config.h
 bx/bx.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/image.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/src/image.cpp
 bimg_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/bimg_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/src/bimg_p.h
 bx/hash.h
 -
 astc-codec/astc-codec.h
@@ -448,17 +448,17 @@ astc-codec/astc-codec.h
 bx/debug.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/image_cubemap_filter.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/src/image_cubemap_filter.cpp
 bimg_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/bimg_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/src/bimg_p.h
 bimg/encode.h
 -
 bx/rng.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/image_decode.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/src/image_decode.cpp
 bimg_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/bimg_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/src/bimg_p.h
 compat/ctype.h
 -
 tinyexr/tinyexr.h
@@ -468,11 +468,11 @@ lodepng/lodepng.cpp
 stb/stb_image.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/image_encode.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/src/image_encode.cpp
 bimg/encode.h
 -
 bimg_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/bimg_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/src/bimg_p.h
 libsquish/squish.h
 -
 etc1/etc1.h
@@ -492,7 +492,7 @@ stb/stb_image_resize.h
 iqa.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/image_gnf.cpp
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/src/image_gnf.cpp
 bimg_p.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/src/bimg_p.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/src/bimg_p.h
 

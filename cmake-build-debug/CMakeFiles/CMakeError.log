@@ -1,14 +1,14 @@
 Determining if the include file pthread.h exists failed with the following output:
-Change Dir: C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/carol/Documents/D7049E/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):nmake /nologo cmTC_136c1\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_136c1.dir\build.make /nologo -L                  CMakeFiles\cmTC_136c1.dir\build
-Building C object CMakeFiles/cmTC_136c1.dir/CheckIncludeFile.c.obj
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\andre\AppData\Local\Temp\nmF9DC.tmp
+Run Build Command(s):nmake /nologo cmTC_6fecd\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_6fecd.dir\build.make /nologo -L                  CMakeFiles\cmTC_6fecd.dir\build
+Building C object CMakeFiles/cmTC_6fecd.dir/CheckIncludeFile.c.obj
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @C:\Users\carol\AppData\Local\Temp\nmF771.tmp
 CheckIncludeFile.c
-C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
-NMAKE : fatal error U1077: 'C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe' : return code '0x2'
+C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+NMAKE : fatal error U1077: 'C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe' : return code '0x2'
 Stop.
-NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"' : return code '0x2'
+NMAKE : fatal error U1077: '"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86\nmake.exe"' : return code '0x2'
 Stop.
 
 

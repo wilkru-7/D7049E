@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/tools/texturec/texturec.cpp" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/texturec.dir/bimg/tools/texturec/texturec.cpp.obj"
+  "C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/tools/texturec/texturec.cpp" "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/texturec.dir/bimg/tools/texturec/texturec.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
@@ -30,17 +30,17 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/bimg.dir/DependInfo.cmake"
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/astc-codec.dir/DependInfo.cmake"
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/astc.dir/DependInfo.cmake"
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/edtaa3.dir/DependInfo.cmake"
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/etc1.dir/DependInfo.cmake"
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/etc2.dir/DependInfo.cmake"
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/iqa.dir/DependInfo.cmake"
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/squish.dir/DependInfo.cmake"
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/nvtt.dir/DependInfo.cmake"
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/bx.dir/DependInfo.cmake"
-  "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/pvrtc.dir/DependInfo.cmake"
+  "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/bimg.dir/DependInfo.cmake"
+  "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/astc-codec.dir/DependInfo.cmake"
+  "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/astc.dir/DependInfo.cmake"
+  "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/edtaa3.dir/DependInfo.cmake"
+  "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/etc1.dir/DependInfo.cmake"
+  "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/etc2.dir/DependInfo.cmake"
+  "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/iqa.dir/DependInfo.cmake"
+  "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/squish.dir/DependInfo.cmake"
+  "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/nvtt.dir/DependInfo.cmake"
+  "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/bx.dir/DependInfo.cmake"
+  "C:/Users/carol/Documents/D7049E/cmake-build-release/bgfx.cmake/CMakeFiles/pvrtc.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

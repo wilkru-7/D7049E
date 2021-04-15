@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src
+# Install script for directory: C:/Users/carol/Documents/D7049E/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,6 +33,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/glfw/src/glfw3.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/carol/Documents/D7049E/cmake-build-debug/glfw/src/glfw3.lib")
 endif()
 
