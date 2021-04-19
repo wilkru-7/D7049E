@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/bgfx_test.dir/cube.cpp.obj"
   "CMakeFiles/bgfx_test.dir/loadShader.cpp.obj"
   "CMakeFiles/bgfx_test.dir/main.cpp.obj"
   "bgfx_test.exe"

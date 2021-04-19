@@ -1454,6 +1454,33 @@ glfw\fast:
 	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\glfw.dir\build.make /nologo -$(MAKEFLAGS) glfw\src\CMakeFiles\glfw.dir\build
 .PHONY : glfw\fast
 
+cube.obj: cube.cpp.obj
+
+.PHONY : cube.obj
+
+# target to build an object file
+cube.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\cube.cpp.obj
+.PHONY : cube.cpp.obj
+
+cube.i: cube.cpp.i
+
+.PHONY : cube.i
+
+# target to preprocess a source file
+cube.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\cube.cpp.i
+.PHONY : cube.cpp.i
+
+cube.s: cube.cpp.s
+
+.PHONY : cube.s
+
+# target to generate assembly for a file
+cube.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\cube.cpp.s
+.PHONY : cube.cpp.s
+
 loadShader.obj: loadShader.cpp.obj
 
 .PHONY : loadShader.obj
@@ -1620,6 +1647,9 @@ help:
 	@echo ... squish
 	@echo ... texturec
 	@echo ... texturev
+	@echo ... cube.obj
+	@echo ... cube.i
+	@echo ... cube.s
 	@echo ... loadShader.obj
 	@echo ... loadShader.i
 	@echo ... loadShader.s

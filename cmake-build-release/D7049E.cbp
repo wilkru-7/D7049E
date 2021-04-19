@@ -8933,6 +8933,12 @@
 		<Unit filename="C:/Users/carol/Documents/D7049E/cmake-build-release/glfw/src/glfw_config.h">
 			<Option target="glfw"/>
 		</Unit>
+		<Unit filename="C:/Users/carol/Documents/D7049E/cube.cpp">
+			<Option target="bgfx_test"/>
+		</Unit>
+		<Unit filename="C:/Users/carol/Documents/D7049E/cube.h">
+			<Option target="bgfx_test"/>
+		</Unit>
 		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/include/GLFW/glfw3.h">
 			<Option target="glfw"/>
 		</Unit>
