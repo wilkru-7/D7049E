@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/carol/Documents/D7049E/loadShader.cpp" "C:/Users/carol/Documents/D7049E/cmake-build-debug/CMakeFiles/bgfx_test.dir/loadShader.cpp.obj"
   "C:/Users/carol/Documents/D7049E/main.cpp" "C:/Users/carol/Documents/D7049E/cmake-build-debug/CMakeFiles/bgfx_test.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

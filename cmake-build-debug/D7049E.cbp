@@ -9009,6 +9009,12 @@
 		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/window.c">
 			<Option target="glfw"/>
 		</Unit>
+		<Unit filename="C:/Users/carol/Documents/D7049E/loadShader.cpp">
+			<Option target="bgfx_test"/>
+		</Unit>
+		<Unit filename="C:/Users/carol/Documents/D7049E/loadShader.h">
+			<Option target="bgfx_test"/>
+		</Unit>
 		<Unit filename="C:/Users/carol/Documents/D7049E/main.cpp">
 			<Option target="bgfx_test"/>
 		</Unit>

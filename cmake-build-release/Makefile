@@ -1454,6 +1454,33 @@ glfw\fast:
 	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\glfw.dir\build.make /nologo -$(MAKEFLAGS) glfw\src\CMakeFiles\glfw.dir\build
 .PHONY : glfw\fast
 
+loadShader.obj: loadShader.cpp.obj
+
+.PHONY : loadShader.obj
+
+# target to build an object file
+loadShader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\loadShader.cpp.obj
+.PHONY : loadShader.cpp.obj
+
+loadShader.i: loadShader.cpp.i
+
+.PHONY : loadShader.i
+
+# target to preprocess a source file
+loadShader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\loadShader.cpp.i
+.PHONY : loadShader.cpp.i
+
+loadShader.s: loadShader.cpp.s
+
+.PHONY : loadShader.s
+
+# target to generate assembly for a file
+loadShader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\loadShader.cpp.s
+.PHONY : loadShader.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -1593,6 +1620,9 @@ help:
 	@echo ... squish
 	@echo ... texturec
 	@echo ... texturev
+	@echo ... loadShader.obj
+	@echo ... loadShader.i
+	@echo ... loadShader.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

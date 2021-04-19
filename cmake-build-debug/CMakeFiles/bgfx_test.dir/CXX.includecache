@@ -202,6 +202,18 @@ EGL/egl.h
 GL/osmesa.h
 -
 
+C:/Users/carol/Documents/D7049E/loadShader.cpp
+loadShader.h
+C:/Users/carol/Documents/D7049E/loadShader.h
+iostream
+-
+bgfx/bgfx.h
+C:/Users/carol/Documents/D7049E/bgfx/bgfx.h
+
+C:/Users/carol/Documents/D7049E/loadShader.h
+bgfx/bgfx.h
+C:/Users/carol/Documents/D7049E/bgfx/bgfx.h
+
 C:/Users/carol/Documents/D7049E/main.cpp
 cstdio
 -
@@ -217,4 +229,6 @@ GLFW/glfw3.h
 C:/Users/carol/Documents/D7049E/glfw/glfw3.h
 GLFW/glfw3native.h
 C:/Users/carol/Documents/D7049E/glfw/glfw3native.h
+loadShader.h
+C:/Users/carol/Documents/D7049E/loadShader.h
 
