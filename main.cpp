@@ -1,4 +1,5 @@
 #include <cstdio>
+#include <bx/timer.h>
 #include "bgfx/bgfx.h"
 #include "bgfx/platform.h"
 #include "bx/math.h"
@@ -9,9 +10,9 @@
 #include "loadShader.h"
 #include "cube.cpp"
 
+
 #define WNDW_WIDTH 1600
 #define WNDW_HEIGHT 900
-
 using namespace std;
 
 int main(void)
@@ -41,28 +42,76 @@ int main(void)
     bgfx::VertexBufferHandle vbh = bgfx::createVertexBuffer(bgfx::makeRef(cubeVertices, sizeof(cubeVertices)), pcvDecl);
     bgfx::IndexBufferHandle ibh = bgfx::createIndexBuffer(bgfx::makeRef(cubeTriList, sizeof(cubeTriList)));
 
+    bgfx::VertexBufferHandle vbh1 = bgfx::createVertexBuffer(bgfx::makeRef(cubeVertices, sizeof(cubeVertices)), pcvDecl);
+    bgfx::IndexBufferHandle ibh1 = bgfx::createIndexBuffer(bgfx::makeRef(cubeTriList, sizeof(cubeTriList)));
+
     bgfx::ShaderHandle vsh = loadShader("vs_cubes.bin");
     bgfx::ShaderHandle fsh = loadShader("fs_cubes.bin");
     bgfx::ProgramHandle program = bgfx::createProgram(vsh, fsh, true);
 
+    int64_t timeOffset = bx::getHPCounter();
+
+    float time = (float)( (bx::getHPCounter()-timeOffset)/double(bx::getHPFrequency() ) );
+
     unsigned int counter = 0;
     while(!glfwWindowShouldClose(window)) {
         const bx::Vec3 at = {0.0f, 0.0f,  0.0f};
-        const bx::Vec3 eye = {0.0f, 0.0f, -5.0f};
+        const bx::Vec3 eye = {0.0f, 0.0f, -20.0f};
+
         float view[16];
         bx::mtxLookAt(view, eye, at);
         float proj[16];
         bx::mtxProj(proj, 60.0f, float(WNDW_WIDTH) / float(WNDW_HEIGHT), 0.1f, 100.0f, bgfx::getCaps()->homogeneousDepth);
         bgfx::setViewTransform(0, view, proj);
 
+        //float mtx[16];
+        //bx::mtxRotateXY(mtx, counter * 0.01f, counter * 0.01f);
+        //bgfx::setTransform(mtx);
+
+        //bgfx::setVertexBuffer(0, vbh);
+        //bgfx::setIndexBuffer(ibh);
+
+        for (uint32_t yy = 0; yy < 5; ++yy)
+        {
+            for (uint32_t xx = 0; xx < 5; ++xx)
+            {
+                float mtx[16];
+                bx::mtxRotateXY(mtx, counter * 0.01f, counter * 0.01f);
+                mtx[12] = -6.0f + float(xx)*3.0f;
+                mtx[13] = -6.0f + float(yy)*3.0f;
+                mtx[14] = 0.0f;
+
+                // Set model matrix for rendering.
+                bgfx::setTransform(mtx);
+
+                // Set vertex and index buffer.
+                bgfx::setVertexBuffer(0, vbh);
+                bgfx::setIndexBuffer(ibh);
+
+                // Submit primitive for rendering to view 0.
+                bgfx::submit(0, program);
+            }
+        }
+
         float mtx[16];
         bx::mtxRotateXY(mtx, counter * 0.01f, counter * 0.01f);
+        mtx[12] = -16.5f + 3.0f;
+        mtx[13] = -11.5f + 3.0f;
+        mtx[14] = 0.0f;
+
+        // Set model matrix for rendering.
         bgfx::setTransform(mtx);
 
-        bgfx::setVertexBuffer(0, vbh);
-        bgfx::setIndexBuffer(ibh);
+        // Set vertex and index buffer.
+        bgfx::setVertexBuffer(0, vbh1);
+        bgfx::setIndexBuffer(ibh1);
 
+        // Submit primitive for rendering to view 0.
         bgfx::submit(0, program);
+
+
+
+        //bgfx::submit(0, program);
         bgfx::frame();
         glfwSwapBuffers(window);
         glfwPollEvents();
