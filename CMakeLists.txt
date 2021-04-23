@@ -18,5 +18,7 @@ add_subdirectory(bgfx.cmake)
 add_subdirectory(glfw)
 
 target_link_libraries(bgfx_test bgfx example-common glfw)
+target_include_directories( bgfx_test PUBLIC bgfx.cmake/bgfx/include bgfx.cmake/bgfx/examples/common )
+set_target_properties(bgfx_test PROPERTIES LINK_FLAGS "/ENTRY:\"mainCRTStartup\"" )
 
 #target_link_libraries(bgfx_test glfw)
