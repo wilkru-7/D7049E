@@ -7,10 +7,10 @@ include(CTest)
 enable_testing()
 
 # add the executable
-add_executable(bgfx_test main.cpp loadShader.cpp loadShader.h cube.cpp cube.h)
+add_executable(bgfx_test stencil.cpp)
 
 set(CMAKE_CXX_STANDARD 14)
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES stencil.cpp)
 
 include(CPack)
 
