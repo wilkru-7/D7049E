@@ -831,8 +831,8 @@ public:
 		m_programColorBlack      = loadProgram("vs_stencil_color",            "fs_stencil_color_black"     );
 		m_programTexture         = loadProgram("vs_stencil_texture",          "fs_stencil_texture"         );
 
-		m_bunnyMesh.load("meshes/bunny.bin");
-		m_columnMesh.load("meshes/column.bin");
+		m_bunnyMesh.load("meshes/android.bin");
+		m_columnMesh.load("meshes/polytree.bin");
 		m_cubeMesh.load(s_cubeVertices, BX_COUNTOF(s_cubeVertices), PosNormalTexcoordVertex::ms_layout, s_cubeIndices, BX_COUNTOF(s_cubeIndices) );
 		m_hplaneMesh.load(s_hplaneVertices, BX_COUNTOF(s_hplaneVertices), PosNormalTexcoordVertex::ms_layout, s_planeIndices, BX_COUNTOF(s_planeIndices) );
 		m_vplaneMesh.load(s_vplaneVertices, BX_COUNTOF(s_vplaneVertices), PosNormalTexcoordVertex::ms_layout, s_planeIndices, BX_COUNTOF(s_planeIndices) );
@@ -874,10 +874,10 @@ public:
 		m_timeOffset = bx::getHPCounter();
 
 		m_scene = StencilReflectionScene;
-		m_numLights       = 4;
+		m_numLights       = 1;
 		m_reflectionValue = 0.8f;
-		m_updateLights    = true;
-		m_updateScene     = true;
+		m_updateLights    = false;
+		m_updateScene     = false;
 	}
 
 	virtual int shutdown() override
@@ -976,10 +976,11 @@ public:
 
 			// Update settings.
 			uint8_t numLights = (uint8_t)m_numLights;
-			s_uniforms.m_params.m_ambientPass  = 1.0f;
+			s_uniforms.m_params.m_ambientPass  = 10.0f;
 			s_uniforms.m_params.m_lightingPass = 1.0f;
 			s_uniforms.m_params.m_lightCount   = float(m_numLights);
 			s_uniforms.m_params.m_lightIndex   = 0.0f;
+            s_uniforms.m_color[2]              = m_reflectionValue;
 			s_uniforms.m_color[3]              = m_reflectionValue;
 
 			// Time.
@@ -1010,13 +1011,17 @@ public:
 
 			float lightPosRadius[MAX_NUM_LIGHTS][4];
 			const float radius = (m_scene == StencilReflectionScene) ? 15.0f : 25.0f;
-			for (uint8_t ii = 0; ii < numLights; ++ii)
+/*			for (uint8_t ii = 0; ii < numLights; ++ii)
 			{
 				lightPosRadius[ii][0] = bx::sin( (lightTimeAccumulator*1.1f + ii*0.03f + ii*bx::kPiHalf*1.07f ) )*20.0f;
 				lightPosRadius[ii][1] = 8.0f + (1.0f - bx::cos( (lightTimeAccumulator*1.5f + ii*0.29f + bx::kPiHalf*1.49f ) ) )*4.0f;
 				lightPosRadius[ii][2] = bx::cos( (lightTimeAccumulator*1.3f + ii*0.13f + ii*bx::kPiHalf*1.79f ) )*20.0f;
 				lightPosRadius[ii][3] = radius;
-			}
+			}*/
+            lightPosRadius[0][0] = 0.0f;
+            lightPosRadius[0][1] = 20.0f;
+            lightPosRadius[0][2] = -20.0f;
+            lightPosRadius[0][3] = radius;
 			bx::memCopy(s_uniforms.m_lightPosRadius, lightPosRadius, numLights * 4*sizeof(float) );
 
 			// Floor position.
@@ -1036,16 +1041,17 @@ public:
 			// Bunny position.
 			float bunnyMtx[16];
 			bx::mtxSRT(bunnyMtx
-				, 5.0f
-				, 5.0f
-				, 5.0f
-				, 0.0f
-				, 1.56f - sceneTimeAccumulator
-				, 0.0f
-				, 0.0f
+				, 2.0f
+				, 2.0f
 				, 2.0f
 				, 0.0f
+				, 0.5f - sceneTimeAccumulator
+				, 0.0f
+				, 0.0f
+				, 5.0f
+				, 0.0f
 				);
+
 
 			// Columns position.
 			const float dist = 14.0f;
@@ -1061,9 +1067,9 @@ public:
 			for (uint8_t ii = 0; ii < 4; ++ii)
 			{
 				bx::mtxSRT(columnMtx[ii]
-					, 1.0f
-					, 1.0f
-					, 1.0f
+					, 0.5f
+					, 0.5f
+					, 0.5f
 					, 0.0f
 					, 0.0f
 					, 0.0f
@@ -1071,7 +1077,17 @@ public:
 					, columnPositions[ii][1]
 					, columnPositions[ii][2]
 					);
+/*                columnMtx[ii][0] = 0.5f;
+                columnMtx[ii][5] = 0.5f;
+                columnMtx[ii][10] = 0.5f;*/
 			}
+            //Bunny scale
+/*            columnMtx[0][0] = 0.5f;
+            columnMtx[0][5] = 0.5f;
+            columnMtx[0][10] = 0.5f;
+            columnMtx[1][0] = 0.5f;
+            columnMtx[1][5] = 0.5f;
+            columnMtx[1][10] = 0.5f;*/
 
 			const uint8_t numCubes = 9;
 			float cubeMtx[numCubes][16];
@@ -1096,9 +1112,13 @@ public:
 			s_viewMask |= 1;
 
 			// Bunny and columns color.
-			s_uniforms.m_color[0] = 0.70f;
+/*			s_uniforms.m_color[0] = 0.70f;
 			s_uniforms.m_color[1] = 0.65f;
-			s_uniforms.m_color[2] = 0.60f;
+			s_uniforms.m_color[2] = 0.60f;*/
+
+            s_uniforms.m_color[0] = 0.0f;
+            s_uniforms.m_color[1] = 1.0f;
+            s_uniforms.m_color[2] = 0.0f;
 
 			switch (m_scene)
 			{
@@ -1193,7 +1213,7 @@ public:
 				{
 					// First pass - Draw entire scene. (ambient only).
 					s_uniforms.m_params.m_ambientPass = 1.0f;
-					s_uniforms.m_params.m_lightingPass = 0.0f;
+					s_uniforms.m_params.m_lightingPass = 1.0f;
 
 					// Bunny.
 					m_bunnyMesh.submit(RENDER_VIEWID_RANGE1_PASS_0

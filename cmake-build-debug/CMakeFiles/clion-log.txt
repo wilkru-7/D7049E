@@ -1,6 +1,6 @@
-"C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\carol\Documents\D7049E
+"C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E
 -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
 -- Using Win32 for window creation
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/carol/Documents/D7049E/cmake-build-debug
+-- Build files have been written to: C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug

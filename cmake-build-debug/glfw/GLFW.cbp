@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;CMake Files\bgfx.cmake\;CMake Files\bgfx.cmake\cmake\;CMake Files\bgfx.cmake\cmake\3rdparty\;CMake Files\bgfx.cmake\cmake\tools\;CMake Files\bgfx.cmake\cmake\util\;CMake Files\bgfx.cmake\generated\;CMake Files\glfw\;CMake Files\glfw\CMake\;CMake Files\glfw\src\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/carol/Documents/D7049E/cmake-build-debug/glfw"/>
+				<Option working_dir="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/glfw"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\carol\Documents\D7049E\cmake-build-debug\glfw\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\carol\Documents\D7049E\cmake-build-debug\glfw\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\carol\Documents\D7049E\cmake-build-debug\glfw\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\carol\Documents\D7049E\cmake-build-debug\glfw\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\glfw\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\glfw\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\glfw\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\glfw\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="uninstall">
-				<Option working_dir="C:/Users/carol/Documents/D7049E/cmake-build-debug/glfw"/>
+				<Option working_dir="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/glfw"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\carol\Documents\D7049E\cmake-build-debug\glfw\Makefile VERBOSE=1 uninstall"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\carol\Documents\D7049E\cmake-build-debug\glfw\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\carol\Documents\D7049E\cmake-build-debug\glfw\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\carol\Documents\D7049E\cmake-build-debug\glfw\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\glfw\Makefile VERBOSE=1 uninstall"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\glfw\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\glfw\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\glfw\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="glfw">
-				<Option output="C:/Users/carol/Documents/D7049E/cmake-build-debug/glfw/src/glfw3.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/carol/Documents/D7049E/cmake-build-debug/glfw/src"/>
+				<Option output="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/glfw/src/glfw3.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/glfw/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
@@ -37,11 +37,11 @@
 					<Add option="-D_GLFW_USE_CONFIG_H"/>
 					<Add option="-D_UNICODE"/>
 					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
-					<Add directory="C:/Users/carol/Documents/D7049E/glfw/include"/>
-					<Add directory="C:/Users/carol/Documents/D7049E/glfw/src"/>
-					<Add directory="C:/Users/carol/Documents/D7049E/cmake-build-debug/glfw/src"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include"/>
+					<Add directory="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/include"/>
+					<Add directory="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src"/>
+					<Add directory="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/glfw/src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
@@ -49,15 +49,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\carol\Documents\D7049E\cmake-build-debug\glfw\src\Makefile VERBOSE=1 glfw"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\carol\Documents\D7049E\cmake-build-debug\glfw\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\carol\Documents\D7049E\cmake-build-debug\glfw\src\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\carol\Documents\D7049E\cmake-build-debug\glfw\src\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\glfw\src\Makefile VERBOSE=1 glfw"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\glfw\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\glfw\src\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\glfw\src\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="glfw/fast">
-				<Option output="C:/Users/carol/Documents/D7049E/cmake-build-debug/glfw/src/glfw3.lib" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/carol/Documents/D7049E/cmake-build-debug/glfw/src"/>
+				<Option output="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/glfw/src/glfw3.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/glfw/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
@@ -65,11 +65,11 @@
 					<Add option="-D_GLFW_USE_CONFIG_H"/>
 					<Add option="-D_UNICODE"/>
 					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
-					<Add directory="C:/Users/carol/Documents/D7049E/glfw/include"/>
-					<Add directory="C:/Users/carol/Documents/D7049E/glfw/src"/>
-					<Add directory="C:/Users/carol/Documents/D7049E/cmake-build-debug/glfw/src"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include"/>
+					<Add directory="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/include"/>
+					<Add directory="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src"/>
+					<Add directory="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/glfw/src"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.28.29333\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
@@ -77,212 +77,212 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\carol\Documents\D7049E\cmake-build-debug\glfw\src\Makefile VERBOSE=1 glfw/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\carol\Documents\D7049E\cmake-build-debug\glfw\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\carol\Documents\D7049E\cmake-build-debug\glfw\src\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\carol\Documents\D7049E\cmake-build-debug\glfw\src\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\glfw\src\Makefile VERBOSE=1 glfw/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\glfw\src\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\glfw\src\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\glfw\src\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/carol/Documents/D7049E/cmake-build-debug/glfw/src/glfw_config.h">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/glfw/src/glfw_config.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/include/GLFW/glfw3.h">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/include/GLFW/glfw3.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/include/GLFW/glfw3native.h">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/include/GLFW/glfw3native.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/context.c">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/context.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/egl_context.c">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/egl_context.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/egl_context.h">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/egl_context.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/init.c">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/init.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/input.c">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/input.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/internal.h">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/internal.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/mappings.h">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/mappings.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/monitor.c">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/monitor.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/osmesa_context.c">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/osmesa_context.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/osmesa_context.h">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/osmesa_context.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/vulkan.c">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/vulkan.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/wgl_context.c">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/wgl_context.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/wgl_context.h">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/wgl_context.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/win32_init.c">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/win32_init.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/win32_joystick.c">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/win32_joystick.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/win32_joystick.h">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/win32_joystick.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/win32_monitor.c">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/win32_monitor.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/win32_platform.h">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/win32_platform.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/win32_thread.c">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/win32_thread.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/win32_time.c">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/win32_time.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/win32_window.c">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/win32_window.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/window.c">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/window.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/CMakeLists.txt">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/CMakeLists.txt">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\bgfx.cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/Config.cmake.in">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/Config.cmake.in">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/bgfx.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/bgfx.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/bimg.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/bimg.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/bx.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/bx.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/examples.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/examples.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/shared.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/shared.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/tools.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/tools.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/version.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/version.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/3rdparty/astc-codec.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/3rdparty/astc-codec.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\3rdparty\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/3rdparty/astc.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/3rdparty/astc.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\3rdparty\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/3rdparty/dear-imgui.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/3rdparty/dear-imgui.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\3rdparty\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/3rdparty/edtaa3.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/3rdparty/edtaa3.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\3rdparty\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/3rdparty/etc1.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/3rdparty/etc1.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\3rdparty\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/3rdparty/etc2.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/3rdparty/etc2.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\3rdparty\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/3rdparty/fcpp.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/3rdparty/fcpp.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\3rdparty\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/3rdparty/glsl-optimizer.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/3rdparty/glsl-optimizer.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\3rdparty\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/3rdparty/glslang.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/3rdparty/glslang.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\3rdparty\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/3rdparty/iqa.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/3rdparty/iqa.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\3rdparty\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/3rdparty/libsquish.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/3rdparty/libsquish.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\3rdparty\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/3rdparty/meshoptimizer.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/3rdparty/meshoptimizer.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\3rdparty\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/3rdparty/nvtt.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/3rdparty/nvtt.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\3rdparty\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/3rdparty/pvrtc.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/3rdparty/pvrtc.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\3rdparty\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/3rdparty/spirv-cross.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/3rdparty/spirv-cross.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\3rdparty\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/3rdparty/spirv-tools.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/3rdparty/spirv-tools.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\3rdparty\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/3rdparty/webgpu.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/3rdparty/webgpu.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\3rdparty\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/tools/geometryc.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/tools/geometryc.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\tools\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/tools/geometryv.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/tools/geometryv.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\tools\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/tools/shaderc.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/tools/shaderc.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\tools\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/tools/texturec.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/tools/texturec.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\tools\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/tools/texturev.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/tools/texturev.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\tools\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/cmake/util/ConfigureDebugging.cmake">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/cmake/util/ConfigureDebugging.cmake">
 			<Option virtualFolder="CMake Files\bgfx.cmake\cmake\util\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/generated/bounds.cpp.in">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/generated/bounds.cpp.in">
 			<Option virtualFolder="CMake Files\bgfx.cmake\generated\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/generated/shader_spirv.cpp.in">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/generated/shader_spirv.cpp.in">
 			<Option virtualFolder="CMake Files\bgfx.cmake\generated\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/generated/vertexlayout.cpp.in">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/generated/vertexlayout.cpp.in">
 			<Option virtualFolder="CMake Files\bgfx.cmake\generated\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/CMakeLists.txt">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\glfw\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/CMake/cmake_uninstall.cmake.in">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/CMake/cmake_uninstall.cmake.in">
 			<Option virtualFolder="CMake Files\glfw\CMake\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/CMake/glfw3.pc.in">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/CMake/glfw3.pc.in">
 			<Option virtualFolder="CMake Files\glfw\CMake\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/CMake/glfw3Config.cmake.in">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/CMake/glfw3Config.cmake.in">
 			<Option virtualFolder="CMake Files\glfw\CMake\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/CMakeLists.txt">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\glfw\src\"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/glfw_config.h.in">
+		<Unit filename="C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/glfw/src/glfw_config.h.in">
 			<Option virtualFolder="CMake Files\glfw\src\"/>
 		</Unit>
 	</Project>

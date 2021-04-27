@@ -10,7 +10,7 @@ bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/astc_f
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/footprint.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/physical_astc_block.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/types.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/astc_file.cc
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/astc_file.cc
 bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/codec.cc.obj
  ../bgfx.cmake/bimg/3rdparty/astc-codec/include/astc-codec/astc-codec.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/base/optional.h
@@ -24,7 +24,7 @@ bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/codec.
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/partition.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/physical_astc_block.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/types.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/codec.cc
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/codec.cc
 bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/endpoint_codec.cc.obj
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/base/optional.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/base/type_traits.h
@@ -33,21 +33,21 @@ bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/endpoi
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/physical_astc_block.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/quantization.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/types.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/endpoint_codec.cc
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/endpoint_codec.cc
 bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/footprint.cc.obj
  ../bgfx.cmake/bimg/3rdparty/astc-codec/include/astc-codec/astc-codec.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/base/optional.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/base/string_utils.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/base/type_traits.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/footprint.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/footprint.cc
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/footprint.cc
 bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/integer_sequence_codec.cc.obj
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/base/bit_stream.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/base/math_utils.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/base/uint128.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/base/utils.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/integer_sequence_codec.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/integer_sequence_codec.cc
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/integer_sequence_codec.cc
 bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/intermediate_astc_block.cc.obj
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/base/bit_stream.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/base/math_utils.h
@@ -58,7 +58,7 @@ bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/interm
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/intermediate_astc_block.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/physical_astc_block.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/types.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/intermediate_astc_block.cc
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/intermediate_astc_block.cc
 bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/logical_astc_block.cc.obj
  ../bgfx.cmake/bimg/3rdparty/astc-codec/include/astc-codec/astc-codec.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/base/bit_stream.h
@@ -75,7 +75,7 @@ bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/logica
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/quantization.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/types.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/weight_infill.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/logical_astc_block.cc
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/logical_astc_block.cc
 bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/partition.cc.obj
  ../bgfx.cmake/bimg/3rdparty/astc-codec/include/astc-codec/astc-codec.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/base/bottom_n.h
@@ -84,7 +84,7 @@ bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/partit
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/base/utils.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/footprint.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/partition.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/partition.cc
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/partition.cc
 bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/physical_astc_block.cc.obj
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/base/bit_stream.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/base/math_utils.h
@@ -94,12 +94,12 @@ bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/physic
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/integer_sequence_codec.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/physical_astc_block.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/types.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/physical_astc_block.cc
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/physical_astc_block.cc
 bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/quantization.cc.obj
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/base/math_utils.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/base/uint128.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/quantization.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/quantization.cc
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/quantization.cc
 bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/weight_infill.cc.obj
  ../bgfx.cmake/bimg/3rdparty/astc-codec/include/astc-codec/astc-codec.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/base/bit_stream.h
@@ -109,4 +109,4 @@ bgfx.cmake/CMakeFiles/astc-codec.dir/bimg/3rdparty/astc-codec/src/decoder/weight
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/footprint.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/integer_sequence_codec.h
  ../bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/weight_infill.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/weight_infill.cc
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/src/decoder/weight_infill.cc

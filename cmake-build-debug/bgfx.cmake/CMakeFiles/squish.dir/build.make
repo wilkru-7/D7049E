@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\carol\Documents\D7049E
+CMAKE_SOURCE_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\carol\Documents\D7049E\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include bgfx.cmake\CMakeFiles\squish.dir\depend.make
@@ -62,228 +62,228 @@ include bgfx.cmake\CMakeFiles\squish.dir\flags.make
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\alpha.cpp.obj: bgfx.cmake\CMakeFiles\squish.dir\flags.make
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\alpha.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\libsquish\alpha.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bgfx.cmake/CMakeFiles/squish.dir/bimg/3rdparty/libsquish/alpha.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\squish.dir\bimg\3rdparty\libsquish\alpha.cpp.obj /FdCMakeFiles\squish.dir\squish.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\alpha.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bgfx.cmake/CMakeFiles/squish.dir/bimg/3rdparty/libsquish/alpha.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\squish.dir\bimg\3rdparty\libsquish\alpha.cpp.obj /FdCMakeFiles\squish.dir\squish.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\alpha.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\alpha.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/squish.dir/bimg/3rdparty/libsquish/alpha.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\squish.dir\bimg\3rdparty\libsquish\alpha.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\alpha.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\squish.dir\bimg\3rdparty\libsquish\alpha.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\alpha.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\alpha.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/squish.dir/bimg/3rdparty/libsquish/alpha.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\squish.dir\bimg\3rdparty\libsquish\alpha.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\alpha.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\squish.dir\bimg\3rdparty\libsquish\alpha.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\alpha.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\clusterfit.cpp.obj: bgfx.cmake\CMakeFiles\squish.dir\flags.make
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\clusterfit.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\libsquish\clusterfit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bgfx.cmake/CMakeFiles/squish.dir/bimg/3rdparty/libsquish/clusterfit.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\squish.dir\bimg\3rdparty\libsquish\clusterfit.cpp.obj /FdCMakeFiles\squish.dir\squish.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\clusterfit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bgfx.cmake/CMakeFiles/squish.dir/bimg/3rdparty/libsquish/clusterfit.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\squish.dir\bimg\3rdparty\libsquish\clusterfit.cpp.obj /FdCMakeFiles\squish.dir\squish.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\clusterfit.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\clusterfit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/squish.dir/bimg/3rdparty/libsquish/clusterfit.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\squish.dir\bimg\3rdparty\libsquish\clusterfit.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\clusterfit.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\squish.dir\bimg\3rdparty\libsquish\clusterfit.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\clusterfit.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\clusterfit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/squish.dir/bimg/3rdparty/libsquish/clusterfit.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\squish.dir\bimg\3rdparty\libsquish\clusterfit.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\clusterfit.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\squish.dir\bimg\3rdparty\libsquish\clusterfit.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\clusterfit.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourblock.cpp.obj: bgfx.cmake\CMakeFiles\squish.dir\flags.make
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourblock.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\libsquish\colourblock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object bgfx.cmake/CMakeFiles/squish.dir/bimg/3rdparty/libsquish/colourblock.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourblock.cpp.obj /FdCMakeFiles\squish.dir\squish.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\colourblock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object bgfx.cmake/CMakeFiles/squish.dir/bimg/3rdparty/libsquish/colourblock.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourblock.cpp.obj /FdCMakeFiles\squish.dir\squish.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\colourblock.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourblock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/squish.dir/bimg/3rdparty/libsquish/colourblock.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourblock.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\colourblock.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourblock.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\colourblock.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourblock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/squish.dir/bimg/3rdparty/libsquish/colourblock.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourblock.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\colourblock.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourblock.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\colourblock.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourfit.cpp.obj: bgfx.cmake\CMakeFiles\squish.dir\flags.make
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourfit.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\libsquish\colourfit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object bgfx.cmake/CMakeFiles/squish.dir/bimg/3rdparty/libsquish/colourfit.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourfit.cpp.obj /FdCMakeFiles\squish.dir\squish.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\colourfit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object bgfx.cmake/CMakeFiles/squish.dir/bimg/3rdparty/libsquish/colourfit.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourfit.cpp.obj /FdCMakeFiles\squish.dir\squish.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\colourfit.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourfit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/squish.dir/bimg/3rdparty/libsquish/colourfit.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourfit.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\colourfit.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourfit.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\colourfit.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourfit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/squish.dir/bimg/3rdparty/libsquish/colourfit.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourfit.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\colourfit.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourfit.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\colourfit.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourset.cpp.obj: bgfx.cmake\CMakeFiles\squish.dir\flags.make
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourset.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\libsquish\colourset.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object bgfx.cmake/CMakeFiles/squish.dir/bimg/3rdparty/libsquish/colourset.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourset.cpp.obj /FdCMakeFiles\squish.dir\squish.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\colourset.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object bgfx.cmake/CMakeFiles/squish.dir/bimg/3rdparty/libsquish/colourset.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourset.cpp.obj /FdCMakeFiles\squish.dir\squish.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\colourset.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourset.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/squish.dir/bimg/3rdparty/libsquish/colourset.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourset.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\colourset.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourset.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\colourset.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourset.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/squish.dir/bimg/3rdparty/libsquish/colourset.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourset.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\colourset.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\squish.dir\bimg\3rdparty\libsquish\colourset.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\colourset.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\maths.cpp.obj: bgfx.cmake\CMakeFiles\squish.dir\flags.make
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\maths.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\libsquish\maths.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object bgfx.cmake/CMakeFiles/squish.dir/bimg/3rdparty/libsquish/maths.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\squish.dir\bimg\3rdparty\libsquish\maths.cpp.obj /FdCMakeFiles\squish.dir\squish.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\maths.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object bgfx.cmake/CMakeFiles/squish.dir/bimg/3rdparty/libsquish/maths.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\squish.dir\bimg\3rdparty\libsquish\maths.cpp.obj /FdCMakeFiles\squish.dir\squish.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\maths.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\maths.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/squish.dir/bimg/3rdparty/libsquish/maths.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\squish.dir\bimg\3rdparty\libsquish\maths.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\maths.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\squish.dir\bimg\3rdparty\libsquish\maths.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\maths.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\maths.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/squish.dir/bimg/3rdparty/libsquish/maths.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\squish.dir\bimg\3rdparty\libsquish\maths.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\maths.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\squish.dir\bimg\3rdparty\libsquish\maths.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\maths.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\rangefit.cpp.obj: bgfx.cmake\CMakeFiles\squish.dir\flags.make
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\rangefit.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\libsquish\rangefit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object bgfx.cmake/CMakeFiles/squish.dir/bimg/3rdparty/libsquish/rangefit.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\squish.dir\bimg\3rdparty\libsquish\rangefit.cpp.obj /FdCMakeFiles\squish.dir\squish.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\rangefit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object bgfx.cmake/CMakeFiles/squish.dir/bimg/3rdparty/libsquish/rangefit.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\squish.dir\bimg\3rdparty\libsquish\rangefit.cpp.obj /FdCMakeFiles\squish.dir\squish.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\rangefit.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\rangefit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/squish.dir/bimg/3rdparty/libsquish/rangefit.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\squish.dir\bimg\3rdparty\libsquish\rangefit.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\rangefit.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\squish.dir\bimg\3rdparty\libsquish\rangefit.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\rangefit.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\rangefit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/squish.dir/bimg/3rdparty/libsquish/rangefit.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\squish.dir\bimg\3rdparty\libsquish\rangefit.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\rangefit.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\squish.dir\bimg\3rdparty\libsquish\rangefit.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\rangefit.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\singlecolourfit.cpp.obj: bgfx.cmake\CMakeFiles\squish.dir\flags.make
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\singlecolourfit.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\libsquish\singlecolourfit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object bgfx.cmake/CMakeFiles/squish.dir/bimg/3rdparty/libsquish/singlecolourfit.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\squish.dir\bimg\3rdparty\libsquish\singlecolourfit.cpp.obj /FdCMakeFiles\squish.dir\squish.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\singlecolourfit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object bgfx.cmake/CMakeFiles/squish.dir/bimg/3rdparty/libsquish/singlecolourfit.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\squish.dir\bimg\3rdparty\libsquish\singlecolourfit.cpp.obj /FdCMakeFiles\squish.dir\squish.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\singlecolourfit.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\singlecolourfit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/squish.dir/bimg/3rdparty/libsquish/singlecolourfit.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\squish.dir\bimg\3rdparty\libsquish\singlecolourfit.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\singlecolourfit.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\squish.dir\bimg\3rdparty\libsquish\singlecolourfit.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\singlecolourfit.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\singlecolourfit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/squish.dir/bimg/3rdparty/libsquish/singlecolourfit.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\squish.dir\bimg\3rdparty\libsquish\singlecolourfit.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\singlecolourfit.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\squish.dir\bimg\3rdparty\libsquish\singlecolourfit.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\singlecolourfit.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\squish.cpp.obj: bgfx.cmake\CMakeFiles\squish.dir\flags.make
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\squish.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\libsquish\squish.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object bgfx.cmake/CMakeFiles/squish.dir/bimg/3rdparty/libsquish/squish.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\squish.dir\bimg\3rdparty\libsquish\squish.cpp.obj /FdCMakeFiles\squish.dir\squish.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\squish.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object bgfx.cmake/CMakeFiles/squish.dir/bimg/3rdparty/libsquish/squish.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\squish.dir\bimg\3rdparty\libsquish\squish.cpp.obj /FdCMakeFiles\squish.dir\squish.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\squish.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\squish.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/squish.dir/bimg/3rdparty/libsquish/squish.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\squish.dir\bimg\3rdparty\libsquish\squish.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\squish.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\squish.dir\bimg\3rdparty\libsquish\squish.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\squish.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\squish.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/squish.dir/bimg/3rdparty/libsquish/squish.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\squish.dir\bimg\3rdparty\libsquish\squish.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\squish.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\squish.dir\bimg\3rdparty\libsquish\squish.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\libsquish\squish.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 # Object files for target squish
 squish_OBJECTS = \
@@ -311,13 +311,13 @@ bgfx.cmake\squish.lib: bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\
 bgfx.cmake\squish.lib: bgfx.cmake\CMakeFiles\squish.dir\bimg\3rdparty\libsquish\squish.cpp.obj
 bgfx.cmake\squish.lib: bgfx.cmake\CMakeFiles\squish.dir\build.make
 bgfx.cmake\squish.lib: bgfx.cmake\CMakeFiles\squish.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library squish.lib"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library squish.lib"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
 	$(CMAKE_COMMAND) -P CMakeFiles\squish.dir\cmake_clean_target.cmake
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:squish.lib @CMakeFiles\squish.dir\objects1.rsp 
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:squish.lib @CMakeFiles\squish.dir\objects1.rsp 
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 # Rule to build all files generated by this target.
 bgfx.cmake\CMakeFiles\squish.dir\build: bgfx.cmake\squish.lib
@@ -325,12 +325,12 @@ bgfx.cmake\CMakeFiles\squish.dir\build: bgfx.cmake\squish.lib
 .PHONY : bgfx.cmake\CMakeFiles\squish.dir\build
 
 bgfx.cmake\CMakeFiles\squish.dir\clean:
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
 	$(CMAKE_COMMAND) -P CMakeFiles\squish.dir\cmake_clean.cmake
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 .PHONY : bgfx.cmake\CMakeFiles\squish.dir\clean
 
 bgfx.cmake\CMakeFiles\squish.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\carol\Documents\D7049E C:\Users\carol\Documents\D7049E\bgfx.cmake C:\Users\carol\Documents\D7049E\cmake-build-debug C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake\CMakeFiles\squish.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake\CMakeFiles\squish.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : bgfx.cmake\CMakeFiles\squish.dir\depend
 

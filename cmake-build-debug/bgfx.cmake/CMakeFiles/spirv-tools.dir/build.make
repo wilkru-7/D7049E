@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\carol\Documents\D7049E
+CMAKE_SOURCE_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\carol\Documents\D7049E\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include bgfx.cmake\CMakeFiles\spirv-tools.dir\depend.make
@@ -62,5028 +62,5028 @@ include bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\assembly_grammar.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\assembly_grammar.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\assembly_grammar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/assembly_grammar.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\assembly_grammar.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\assembly_grammar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/assembly_grammar.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\assembly_grammar.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\assembly_grammar.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\assembly_grammar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/assembly_grammar.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\assembly_grammar.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\assembly_grammar.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\assembly_grammar.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\assembly_grammar.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\assembly_grammar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/assembly_grammar.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\assembly_grammar.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\assembly_grammar.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\assembly_grammar.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\assembly_grammar.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\binary.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\binary.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\binary.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/binary.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\binary.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\binary.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/binary.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\binary.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\binary.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\binary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/binary.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\binary.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\binary.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\binary.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\binary.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\binary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/binary.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\binary.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\binary.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\binary.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\binary.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\diagnostic.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\diagnostic.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\diagnostic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/diagnostic.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\diagnostic.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\diagnostic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/diagnostic.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\diagnostic.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\diagnostic.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\diagnostic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/diagnostic.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\diagnostic.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\diagnostic.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\diagnostic.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\diagnostic.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\diagnostic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/diagnostic.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\diagnostic.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\diagnostic.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\diagnostic.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\diagnostic.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\disassemble.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\disassemble.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\disassemble.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/disassemble.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\disassemble.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\disassemble.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/disassemble.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\disassemble.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\disassemble.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\disassemble.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/disassemble.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\disassemble.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\disassemble.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\disassemble.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\disassemble.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\disassemble.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/disassemble.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\disassemble.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\disassemble.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\disassemble.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\disassemble.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\enum_string_mapping.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\enum_string_mapping.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\enum_string_mapping.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/enum_string_mapping.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\enum_string_mapping.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\enum_string_mapping.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/enum_string_mapping.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\enum_string_mapping.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\enum_string_mapping.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\enum_string_mapping.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/enum_string_mapping.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\enum_string_mapping.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\enum_string_mapping.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\enum_string_mapping.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\enum_string_mapping.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\enum_string_mapping.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/enum_string_mapping.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\enum_string_mapping.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\enum_string_mapping.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\enum_string_mapping.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\enum_string_mapping.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\ext_inst.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\ext_inst.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\ext_inst.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/ext_inst.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\ext_inst.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\ext_inst.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/ext_inst.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\ext_inst.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\ext_inst.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\ext_inst.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/ext_inst.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\ext_inst.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\ext_inst.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\ext_inst.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\ext_inst.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\ext_inst.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/ext_inst.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\ext_inst.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\ext_inst.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\ext_inst.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\ext_inst.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\extensions.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\extensions.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\extensions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/extensions.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\extensions.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\extensions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/extensions.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\extensions.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\extensions.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\extensions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/extensions.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\extensions.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\extensions.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\extensions.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\extensions.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\extensions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/extensions.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\extensions.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\extensions.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\extensions.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\extensions.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\libspirv.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\libspirv.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\libspirv.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/libspirv.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\libspirv.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\libspirv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/libspirv.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\libspirv.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\libspirv.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\libspirv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/libspirv.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\libspirv.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\libspirv.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\libspirv.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\libspirv.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\libspirv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/libspirv.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\libspirv.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\libspirv.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\libspirv.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\libspirv.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\name_mapper.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\name_mapper.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\name_mapper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/name_mapper.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\name_mapper.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\name_mapper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/name_mapper.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\name_mapper.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\name_mapper.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\name_mapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/name_mapper.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\name_mapper.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\name_mapper.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\name_mapper.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\name_mapper.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\name_mapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/name_mapper.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\name_mapper.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\name_mapper.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\name_mapper.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\name_mapper.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opcode.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opcode.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opcode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opcode.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opcode.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opcode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opcode.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opcode.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opcode.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opcode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opcode.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opcode.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opcode.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opcode.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opcode.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opcode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opcode.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opcode.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opcode.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opcode.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opcode.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\operand.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\operand.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\operand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/operand.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\operand.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\operand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/operand.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\operand.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\operand.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\operand.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/operand.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\operand.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\operand.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\operand.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\operand.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\operand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/operand.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\operand.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\operand.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\operand.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\operand.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\aggressive_dead_code_elim_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\aggressive_dead_code_elim_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\aggressive_dead_code_elim_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/aggressive_dead_code_elim_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\aggressive_dead_code_elim_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\aggressive_dead_code_elim_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/aggressive_dead_code_elim_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\aggressive_dead_code_elim_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\aggressive_dead_code_elim_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\aggressive_dead_code_elim_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/aggressive_dead_code_elim_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\aggressive_dead_code_elim_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\aggressive_dead_code_elim_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\aggressive_dead_code_elim_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\aggressive_dead_code_elim_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\aggressive_dead_code_elim_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/aggressive_dead_code_elim_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\aggressive_dead_code_elim_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\aggressive_dead_code_elim_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\aggressive_dead_code_elim_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\aggressive_dead_code_elim_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\amd_ext_to_khr.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\amd_ext_to_khr.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\amd_ext_to_khr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/amd_ext_to_khr.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\amd_ext_to_khr.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\amd_ext_to_khr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/amd_ext_to_khr.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\amd_ext_to_khr.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\amd_ext_to_khr.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\amd_ext_to_khr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/amd_ext_to_khr.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\amd_ext_to_khr.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\amd_ext_to_khr.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\amd_ext_to_khr.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\amd_ext_to_khr.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\amd_ext_to_khr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/amd_ext_to_khr.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\amd_ext_to_khr.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\amd_ext_to_khr.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\amd_ext_to_khr.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\amd_ext_to_khr.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\basic_block.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\basic_block.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\basic_block.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/basic_block.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\basic_block.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\basic_block.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/basic_block.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\basic_block.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\basic_block.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\basic_block.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/basic_block.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\basic_block.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\basic_block.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\basic_block.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\basic_block.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\basic_block.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/basic_block.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\basic_block.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\basic_block.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\basic_block.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\basic_block.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\block_merge_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\block_merge_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\block_merge_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/block_merge_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\block_merge_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\block_merge_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/block_merge_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\block_merge_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\block_merge_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\block_merge_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/block_merge_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\block_merge_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\block_merge_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\block_merge_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\block_merge_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\block_merge_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/block_merge_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\block_merge_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\block_merge_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\block_merge_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\block_merge_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\block_merge_util.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\block_merge_util.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\block_merge_util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/block_merge_util.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\block_merge_util.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\block_merge_util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/block_merge_util.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\block_merge_util.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\block_merge_util.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\block_merge_util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/block_merge_util.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\block_merge_util.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\block_merge_util.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\block_merge_util.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\block_merge_util.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\block_merge_util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/block_merge_util.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\block_merge_util.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\block_merge_util.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\block_merge_util.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\block_merge_util.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\build_module.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\build_module.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\build_module.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/build_module.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\build_module.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\build_module.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/build_module.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\build_module.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\build_module.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\build_module.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/build_module.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\build_module.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\build_module.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\build_module.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\build_module.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\build_module.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/build_module.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\build_module.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\build_module.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\build_module.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\build_module.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ccp_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ccp_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ccp_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/ccp_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ccp_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ccp_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/ccp_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ccp_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ccp_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ccp_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/ccp_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ccp_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ccp_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ccp_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ccp_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ccp_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/ccp_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ccp_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ccp_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ccp_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ccp_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\cfg.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\cfg.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\cfg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/cfg.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\cfg.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\cfg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/cfg.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\cfg.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\cfg.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\cfg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/cfg.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\cfg.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\cfg.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\cfg.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\cfg.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\cfg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/cfg.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\cfg.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\cfg.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\cfg.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\cfg.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\cfg_cleanup_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\cfg_cleanup_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\cfg_cleanup_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/cfg_cleanup_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\cfg_cleanup_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\cfg_cleanup_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/cfg_cleanup_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\cfg_cleanup_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\cfg_cleanup_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\cfg_cleanup_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/cfg_cleanup_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\cfg_cleanup_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\cfg_cleanup_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\cfg_cleanup_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\cfg_cleanup_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\cfg_cleanup_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/cfg_cleanup_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\cfg_cleanup_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\cfg_cleanup_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\cfg_cleanup_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\cfg_cleanup_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\code_sink.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\code_sink.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\code_sink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/code_sink.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\code_sink.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\code_sink.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/code_sink.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\code_sink.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\code_sink.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\code_sink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/code_sink.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\code_sink.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\code_sink.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\code_sink.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\code_sink.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\code_sink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/code_sink.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\code_sink.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\code_sink.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\code_sink.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\code_sink.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\combine_access_chains.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\combine_access_chains.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\combine_access_chains.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/combine_access_chains.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\combine_access_chains.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\combine_access_chains.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/combine_access_chains.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\combine_access_chains.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\combine_access_chains.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\combine_access_chains.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/combine_access_chains.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\combine_access_chains.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\combine_access_chains.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\combine_access_chains.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\combine_access_chains.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\combine_access_chains.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/combine_access_chains.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\combine_access_chains.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\combine_access_chains.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\combine_access_chains.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\combine_access_chains.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\compact_ids_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\compact_ids_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\compact_ids_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/compact_ids_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\compact_ids_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\compact_ids_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/compact_ids_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\compact_ids_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\compact_ids_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\compact_ids_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/compact_ids_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\compact_ids_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\compact_ids_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\compact_ids_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\compact_ids_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\compact_ids_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/compact_ids_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\compact_ids_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\compact_ids_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\compact_ids_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\compact_ids_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\composite.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\composite.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\composite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/composite.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\composite.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\composite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/composite.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\composite.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\composite.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\composite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/composite.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\composite.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\composite.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\composite.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\composite.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\composite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/composite.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\composite.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\composite.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\composite.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\composite.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\const_folding_rules.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\const_folding_rules.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\const_folding_rules.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/const_folding_rules.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\const_folding_rules.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\const_folding_rules.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/const_folding_rules.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\const_folding_rules.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\const_folding_rules.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\const_folding_rules.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/const_folding_rules.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\const_folding_rules.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\const_folding_rules.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\const_folding_rules.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\const_folding_rules.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\const_folding_rules.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/const_folding_rules.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\const_folding_rules.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\const_folding_rules.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\const_folding_rules.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\const_folding_rules.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\constants.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\constants.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\constants.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/constants.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\constants.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\constants.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/constants.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\constants.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\constants.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\constants.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/constants.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\constants.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\constants.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\constants.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\constants.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\constants.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/constants.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\constants.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\constants.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\constants.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\constants.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\convert_to_half_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\convert_to_half_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\convert_to_half_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/convert_to_half_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\convert_to_half_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\convert_to_half_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/convert_to_half_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\convert_to_half_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\convert_to_half_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\convert_to_half_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/convert_to_half_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\convert_to_half_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\convert_to_half_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\convert_to_half_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\convert_to_half_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\convert_to_half_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/convert_to_half_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\convert_to_half_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\convert_to_half_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\convert_to_half_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\convert_to_half_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\copy_prop_arrays.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\copy_prop_arrays.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\copy_prop_arrays.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/copy_prop_arrays.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\copy_prop_arrays.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\copy_prop_arrays.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/copy_prop_arrays.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\copy_prop_arrays.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\copy_prop_arrays.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\copy_prop_arrays.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/copy_prop_arrays.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\copy_prop_arrays.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\copy_prop_arrays.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\copy_prop_arrays.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\copy_prop_arrays.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\copy_prop_arrays.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/copy_prop_arrays.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\copy_prop_arrays.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\copy_prop_arrays.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\copy_prop_arrays.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\copy_prop_arrays.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_branch_elim_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_branch_elim_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dead_branch_elim_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/dead_branch_elim_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_branch_elim_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dead_branch_elim_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/dead_branch_elim_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_branch_elim_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dead_branch_elim_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_branch_elim_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/dead_branch_elim_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_branch_elim_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dead_branch_elim_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_branch_elim_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dead_branch_elim_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_branch_elim_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/dead_branch_elim_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_branch_elim_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dead_branch_elim_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_branch_elim_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dead_branch_elim_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_insert_elim_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_insert_elim_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dead_insert_elim_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/dead_insert_elim_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_insert_elim_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dead_insert_elim_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/dead_insert_elim_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_insert_elim_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dead_insert_elim_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_insert_elim_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/dead_insert_elim_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_insert_elim_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dead_insert_elim_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_insert_elim_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dead_insert_elim_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_insert_elim_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/dead_insert_elim_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_insert_elim_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dead_insert_elim_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_insert_elim_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dead_insert_elim_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_variable_elimination.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_variable_elimination.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dead_variable_elimination.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/dead_variable_elimination.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_variable_elimination.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dead_variable_elimination.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/dead_variable_elimination.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_variable_elimination.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dead_variable_elimination.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_variable_elimination.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/dead_variable_elimination.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_variable_elimination.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dead_variable_elimination.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_variable_elimination.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dead_variable_elimination.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_variable_elimination.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/dead_variable_elimination.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_variable_elimination.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dead_variable_elimination.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dead_variable_elimination.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dead_variable_elimination.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\debug_info_manager.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\debug_info_manager.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\debug_info_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/debug_info_manager.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\debug_info_manager.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\debug_info_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/debug_info_manager.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\debug_info_manager.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\debug_info_manager.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\debug_info_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/debug_info_manager.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\debug_info_manager.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\debug_info_manager.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\debug_info_manager.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\debug_info_manager.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\debug_info_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/debug_info_manager.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\debug_info_manager.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\debug_info_manager.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\debug_info_manager.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\debug_info_manager.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\decompose_initialized_variables_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\decompose_initialized_variables_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\decompose_initialized_variables_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/decompose_initialized_variables_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\decompose_initialized_variables_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\decompose_initialized_variables_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/decompose_initialized_variables_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\decompose_initialized_variables_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\decompose_initialized_variables_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\decompose_initialized_variables_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/decompose_initialized_variables_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\decompose_initialized_variables_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\decompose_initialized_variables_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\decompose_initialized_variables_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\decompose_initialized_variables_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\decompose_initialized_variables_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/decompose_initialized_variables_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\decompose_initialized_variables_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\decompose_initialized_variables_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\decompose_initialized_variables_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\decompose_initialized_variables_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\decoration_manager.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\decoration_manager.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\decoration_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/decoration_manager.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\decoration_manager.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\decoration_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/decoration_manager.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\decoration_manager.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\decoration_manager.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\decoration_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/decoration_manager.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\decoration_manager.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\decoration_manager.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\decoration_manager.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\decoration_manager.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\decoration_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/decoration_manager.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\decoration_manager.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\decoration_manager.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\decoration_manager.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\decoration_manager.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\def_use_manager.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\def_use_manager.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\def_use_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/def_use_manager.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\def_use_manager.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\def_use_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/def_use_manager.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\def_use_manager.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\def_use_manager.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\def_use_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/def_use_manager.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\def_use_manager.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\def_use_manager.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\def_use_manager.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\def_use_manager.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\def_use_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/def_use_manager.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\def_use_manager.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\def_use_manager.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\def_use_manager.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\def_use_manager.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\desc_sroa.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\desc_sroa.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\desc_sroa.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/desc_sroa.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\desc_sroa.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\desc_sroa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/desc_sroa.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\desc_sroa.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\desc_sroa.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\desc_sroa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/desc_sroa.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\desc_sroa.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\desc_sroa.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\desc_sroa.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\desc_sroa.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\desc_sroa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/desc_sroa.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\desc_sroa.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\desc_sroa.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\desc_sroa.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\desc_sroa.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dominator_analysis.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dominator_analysis.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dominator_analysis.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/dominator_analysis.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dominator_analysis.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dominator_analysis.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/dominator_analysis.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dominator_analysis.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dominator_analysis.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dominator_analysis.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/dominator_analysis.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dominator_analysis.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dominator_analysis.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dominator_analysis.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dominator_analysis.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dominator_analysis.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/dominator_analysis.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dominator_analysis.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dominator_analysis.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dominator_analysis.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dominator_analysis.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dominator_tree.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dominator_tree.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dominator_tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/dominator_tree.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dominator_tree.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dominator_tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/dominator_tree.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dominator_tree.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dominator_tree.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dominator_tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/dominator_tree.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dominator_tree.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dominator_tree.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dominator_tree.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dominator_tree.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dominator_tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/dominator_tree.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dominator_tree.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dominator_tree.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\dominator_tree.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\dominator_tree.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_constant_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_constant_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_constant_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_constant_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_constant_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_constant_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_constant_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_constant_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_constant_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_constant_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_constant_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_constant_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_constant_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_constant_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_constant_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_constant_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_constant_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_constant_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_constant_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_constant_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_constant_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_functions_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_functions_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_functions_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_functions_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_util.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_util.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_functions_util.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_util.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_functions_util.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_util.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_util.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_functions_util.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_util.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_util.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_util.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_util.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_functions_util.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_util.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_util.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_util.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_functions_util.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_members_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_members_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_members_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_members_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_members_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_members_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_members_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_members_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_members_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_members_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_members_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_members_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_members_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_members_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_members_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_members_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_members_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_members_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_members_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_members_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\eliminate_dead_members_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\feature_manager.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\feature_manager.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\feature_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/feature_manager.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\feature_manager.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\feature_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/feature_manager.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\feature_manager.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\feature_manager.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\feature_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/feature_manager.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\feature_manager.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\feature_manager.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\feature_manager.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\feature_manager.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\feature_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/feature_manager.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\feature_manager.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\feature_manager.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\feature_manager.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\feature_manager.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fix_storage_class.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fix_storage_class.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\fix_storage_class.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/fix_storage_class.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fix_storage_class.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\fix_storage_class.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/fix_storage_class.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fix_storage_class.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\fix_storage_class.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fix_storage_class.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/fix_storage_class.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fix_storage_class.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\fix_storage_class.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fix_storage_class.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\fix_storage_class.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fix_storage_class.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/fix_storage_class.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fix_storage_class.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\fix_storage_class.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fix_storage_class.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\fix_storage_class.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\flatten_decoration_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\flatten_decoration_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\flatten_decoration_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/flatten_decoration_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\flatten_decoration_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\flatten_decoration_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/flatten_decoration_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\flatten_decoration_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\flatten_decoration_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\flatten_decoration_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/flatten_decoration_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\flatten_decoration_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\flatten_decoration_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\flatten_decoration_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\flatten_decoration_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\flatten_decoration_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/flatten_decoration_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\flatten_decoration_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\flatten_decoration_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\flatten_decoration_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\flatten_decoration_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fold.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fold.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\fold.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/fold.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fold.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\fold.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/fold.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fold.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\fold.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fold.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/fold.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fold.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\fold.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fold.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\fold.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fold.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/fold.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fold.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\fold.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fold.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\fold.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fold_spec_constant_op_and_composite_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fold_spec_constant_op_and_composite_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\fold_spec_constant_op_and_composite_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/fold_spec_constant_op_and_composite_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fold_spec_constant_op_and_composite_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\fold_spec_constant_op_and_composite_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/fold_spec_constant_op_and_composite_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fold_spec_constant_op_and_composite_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\fold_spec_constant_op_and_composite_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fold_spec_constant_op_and_composite_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/fold_spec_constant_op_and_composite_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fold_spec_constant_op_and_composite_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\fold_spec_constant_op_and_composite_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fold_spec_constant_op_and_composite_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\fold_spec_constant_op_and_composite_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fold_spec_constant_op_and_composite_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/fold_spec_constant_op_and_composite_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fold_spec_constant_op_and_composite_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\fold_spec_constant_op_and_composite_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\fold_spec_constant_op_and_composite_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\fold_spec_constant_op_and_composite_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\folding_rules.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\folding_rules.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\folding_rules.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/folding_rules.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\folding_rules.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\folding_rules.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/folding_rules.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\folding_rules.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\folding_rules.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\folding_rules.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/folding_rules.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\folding_rules.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\folding_rules.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\folding_rules.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\folding_rules.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\folding_rules.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/folding_rules.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\folding_rules.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\folding_rules.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\folding_rules.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\folding_rules.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\freeze_spec_constant_value_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\freeze_spec_constant_value_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\freeze_spec_constant_value_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/freeze_spec_constant_value_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\freeze_spec_constant_value_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\freeze_spec_constant_value_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/freeze_spec_constant_value_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\freeze_spec_constant_value_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\freeze_spec_constant_value_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\freeze_spec_constant_value_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/freeze_spec_constant_value_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\freeze_spec_constant_value_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\freeze_spec_constant_value_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\freeze_spec_constant_value_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\freeze_spec_constant_value_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\freeze_spec_constant_value_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/freeze_spec_constant_value_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\freeze_spec_constant_value_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\freeze_spec_constant_value_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\freeze_spec_constant_value_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\freeze_spec_constant_value_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\function.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\function.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\function.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/function.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\function.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/function.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\function.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\function.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\function.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/function.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\function.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\function.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\function.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\function.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/function.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\function.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\function.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\function.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\function.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\generate_webgpu_initializers_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\generate_webgpu_initializers_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\generate_webgpu_initializers_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/generate_webgpu_initializers_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\generate_webgpu_initializers_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\generate_webgpu_initializers_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/generate_webgpu_initializers_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\generate_webgpu_initializers_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\generate_webgpu_initializers_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\generate_webgpu_initializers_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/generate_webgpu_initializers_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\generate_webgpu_initializers_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\generate_webgpu_initializers_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\generate_webgpu_initializers_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\generate_webgpu_initializers_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\generate_webgpu_initializers_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/generate_webgpu_initializers_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\generate_webgpu_initializers_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\generate_webgpu_initializers_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\generate_webgpu_initializers_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\generate_webgpu_initializers_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\graphics_robust_access_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\graphics_robust_access_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\graphics_robust_access_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/graphics_robust_access_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\graphics_robust_access_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\graphics_robust_access_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/graphics_robust_access_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\graphics_robust_access_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\graphics_robust_access_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\graphics_robust_access_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/graphics_robust_access_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\graphics_robust_access_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\graphics_robust_access_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\graphics_robust_access_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\graphics_robust_access_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\graphics_robust_access_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/graphics_robust_access_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\graphics_robust_access_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\graphics_robust_access_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\graphics_robust_access_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\graphics_robust_access_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\if_conversion.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\if_conversion.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\if_conversion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/if_conversion.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\if_conversion.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\if_conversion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/if_conversion.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\if_conversion.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\if_conversion.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\if_conversion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/if_conversion.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\if_conversion.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\if_conversion.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\if_conversion.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\if_conversion.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\if_conversion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/if_conversion.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\if_conversion.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\if_conversion.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\if_conversion.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\if_conversion.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_exhaustive_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_exhaustive_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inline_exhaustive_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inline_exhaustive_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_exhaustive_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inline_exhaustive_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inline_exhaustive_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_exhaustive_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inline_exhaustive_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_exhaustive_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inline_exhaustive_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_exhaustive_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inline_exhaustive_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_exhaustive_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inline_exhaustive_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_exhaustive_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inline_exhaustive_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_exhaustive_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inline_exhaustive_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_exhaustive_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inline_exhaustive_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_opaque_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_opaque_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inline_opaque_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inline_opaque_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_opaque_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inline_opaque_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inline_opaque_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_opaque_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inline_opaque_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_opaque_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inline_opaque_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_opaque_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inline_opaque_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_opaque_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inline_opaque_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_opaque_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inline_opaque_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_opaque_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inline_opaque_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_opaque_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inline_opaque_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inline_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inline_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inline_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inline_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inline_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inline_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inline_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inline_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inline_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inline_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inline_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inline_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_bindless_check_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_bindless_check_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inst_bindless_check_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inst_bindless_check_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_bindless_check_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inst_bindless_check_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inst_bindless_check_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_bindless_check_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inst_bindless_check_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_bindless_check_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inst_bindless_check_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_bindless_check_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inst_bindless_check_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_bindless_check_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inst_bindless_check_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_bindless_check_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inst_bindless_check_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_bindless_check_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inst_bindless_check_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_bindless_check_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inst_bindless_check_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_buff_addr_check_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_buff_addr_check_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inst_buff_addr_check_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inst_buff_addr_check_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_buff_addr_check_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inst_buff_addr_check_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inst_buff_addr_check_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_buff_addr_check_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inst_buff_addr_check_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_buff_addr_check_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inst_buff_addr_check_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_buff_addr_check_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inst_buff_addr_check_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_buff_addr_check_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inst_buff_addr_check_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_buff_addr_check_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inst_buff_addr_check_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_buff_addr_check_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inst_buff_addr_check_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_buff_addr_check_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inst_buff_addr_check_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_debug_printf_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_debug_printf_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inst_debug_printf_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inst_debug_printf_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_debug_printf_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inst_debug_printf_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inst_debug_printf_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_debug_printf_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inst_debug_printf_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_debug_printf_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inst_debug_printf_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_debug_printf_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inst_debug_printf_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_debug_printf_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inst_debug_printf_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_debug_printf_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/inst_debug_printf_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_debug_printf_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inst_debug_printf_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\inst_debug_printf_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\inst_debug_printf_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instruction.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instruction.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\instruction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/instruction.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instruction.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\instruction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/instruction.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instruction.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\instruction.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instruction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/instruction.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instruction.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\instruction.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instruction.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\instruction.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instruction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/instruction.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instruction.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\instruction.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instruction.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\instruction.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instruction_list.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instruction_list.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\instruction_list.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/instruction_list.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instruction_list.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\instruction_list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/instruction_list.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instruction_list.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\instruction_list.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instruction_list.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/instruction_list.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instruction_list.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\instruction_list.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instruction_list.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\instruction_list.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instruction_list.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/instruction_list.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instruction_list.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\instruction_list.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instruction_list.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\instruction_list.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instrument_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instrument_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\instrument_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/instrument_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instrument_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\instrument_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/instrument_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instrument_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\instrument_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instrument_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/instrument_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instrument_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\instrument_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instrument_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\instrument_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instrument_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/instrument_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instrument_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\instrument_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\instrument_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\instrument_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ir_context.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ir_context.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ir_context.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/ir_context.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ir_context.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ir_context.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/ir_context.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ir_context.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ir_context.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ir_context.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/ir_context.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ir_context.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ir_context.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ir_context.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ir_context.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ir_context.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/ir_context.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ir_context.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ir_context.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ir_context.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ir_context.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ir_loader.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ir_loader.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ir_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/ir_loader.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ir_loader.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ir_loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/ir_loader.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ir_loader.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ir_loader.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ir_loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/ir_loader.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ir_loader.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ir_loader.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ir_loader.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ir_loader.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ir_loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/ir_loader.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ir_loader.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ir_loader.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ir_loader.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ir_loader.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\legalize_vector_shuffle_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\legalize_vector_shuffle_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\legalize_vector_shuffle_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/legalize_vector_shuffle_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\legalize_vector_shuffle_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\legalize_vector_shuffle_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/legalize_vector_shuffle_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\legalize_vector_shuffle_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\legalize_vector_shuffle_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\legalize_vector_shuffle_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/legalize_vector_shuffle_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\legalize_vector_shuffle_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\legalize_vector_shuffle_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\legalize_vector_shuffle_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\legalize_vector_shuffle_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\legalize_vector_shuffle_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/legalize_vector_shuffle_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\legalize_vector_shuffle_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\legalize_vector_shuffle_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\legalize_vector_shuffle_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\legalize_vector_shuffle_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\licm_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\licm_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\licm_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/licm_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\licm_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\licm_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/licm_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\licm_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\licm_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\licm_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/licm_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\licm_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\licm_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\licm_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\licm_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\licm_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/licm_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\licm_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\licm_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\licm_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\licm_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_access_chain_convert_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_access_chain_convert_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_access_chain_convert_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/local_access_chain_convert_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_access_chain_convert_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_access_chain_convert_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/local_access_chain_convert_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_access_chain_convert_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_access_chain_convert_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_access_chain_convert_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/local_access_chain_convert_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_access_chain_convert_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_access_chain_convert_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_access_chain_convert_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_access_chain_convert_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_access_chain_convert_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/local_access_chain_convert_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_access_chain_convert_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_access_chain_convert_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_access_chain_convert_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_access_chain_convert_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_redundancy_elimination.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_redundancy_elimination.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_redundancy_elimination.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/local_redundancy_elimination.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_redundancy_elimination.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_redundancy_elimination.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/local_redundancy_elimination.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_redundancy_elimination.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_redundancy_elimination.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_redundancy_elimination.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/local_redundancy_elimination.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_redundancy_elimination.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_redundancy_elimination.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_redundancy_elimination.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_redundancy_elimination.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_redundancy_elimination.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/local_redundancy_elimination.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_redundancy_elimination.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_redundancy_elimination.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_redundancy_elimination.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_redundancy_elimination.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_single_block_elim_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_single_block_elim_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_single_block_elim_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/local_single_block_elim_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_single_block_elim_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_single_block_elim_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/local_single_block_elim_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_single_block_elim_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_single_block_elim_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_single_block_elim_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/local_single_block_elim_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_single_block_elim_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_single_block_elim_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_single_block_elim_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_single_block_elim_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_single_block_elim_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/local_single_block_elim_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_single_block_elim_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_single_block_elim_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_single_block_elim_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_single_block_elim_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_single_store_elim_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_single_store_elim_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_single_store_elim_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/local_single_store_elim_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_single_store_elim_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_single_store_elim_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/local_single_store_elim_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_single_store_elim_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_single_store_elim_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_single_store_elim_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/local_single_store_elim_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_single_store_elim_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_single_store_elim_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_single_store_elim_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_single_store_elim_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_single_store_elim_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/local_single_store_elim_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_single_store_elim_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_single_store_elim_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\local_single_store_elim_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\local_single_store_elim_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_dependence.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_dependence.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_dependence.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_dependence.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence_helpers.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence_helpers.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence_helpers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_dependence_helpers.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence_helpers.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence_helpers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_dependence_helpers.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence_helpers.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence_helpers.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence_helpers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_dependence_helpers.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence_helpers.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence_helpers.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence_helpers.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence_helpers.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence_helpers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_dependence_helpers.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence_helpers.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence_helpers.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence_helpers.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_dependence_helpers.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_descriptor.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_descriptor.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_descriptor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_descriptor.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_descriptor.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_descriptor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_descriptor.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_descriptor.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_descriptor.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_descriptor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_descriptor.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_descriptor.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_descriptor.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_descriptor.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_descriptor.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_descriptor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_descriptor.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_descriptor.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_descriptor.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_descriptor.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_descriptor.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fission.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fission.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_fission.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_fission.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fission.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_fission.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_fission.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fission.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_fission.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fission.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_fission.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fission.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_fission.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fission.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_fission.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fission.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_fission.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fission.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_fission.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fission.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_fission.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_fusion.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_fusion.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_fusion.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_fusion.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_fusion_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_fusion_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_fusion_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_fusion_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_fusion_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_peeling.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_peeling.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_peeling.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_peeling.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_peeling.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_peeling.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_peeling.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_peeling.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_peeling.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_peeling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_peeling.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_peeling.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_peeling.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_peeling.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_peeling.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_peeling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_peeling.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_peeling.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_peeling.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_peeling.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_peeling.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_unroller.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_unroller.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_unroller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_unroller.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_unroller.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_unroller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_unroller.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_unroller.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_unroller.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_unroller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_unroller.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_unroller.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_unroller.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_unroller.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_unroller.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_unroller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_unroller.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_unroller.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_unroller.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_unroller.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_unroller.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_unswitch_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_unswitch_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_unswitch_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_unswitch_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_unswitch_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_unswitch_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_unswitch_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_unswitch_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_unswitch_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_unswitch_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_unswitch_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_unswitch_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_unswitch_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_unswitch_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_unswitch_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_unswitch_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_unswitch_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_unswitch_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_unswitch_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_unswitch_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_unswitch_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_utils.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_utils.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_utils.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_utils.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_utils.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_utils.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_utils.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_utils.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_utils.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_utils.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_utils.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_utils.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/loop_utils.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_utils.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_utils.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\loop_utils.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\loop_utils.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\mem_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\mem_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\mem_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/mem_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\mem_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\mem_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/mem_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\mem_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\mem_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\mem_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/mem_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\mem_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\mem_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\mem_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\mem_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\mem_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/mem_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\mem_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\mem_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\mem_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\mem_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\merge_return_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\merge_return_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\merge_return_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/merge_return_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\merge_return_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\merge_return_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/merge_return_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\merge_return_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\merge_return_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\merge_return_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/merge_return_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\merge_return_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\merge_return_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\merge_return_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\merge_return_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\merge_return_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/merge_return_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\merge_return_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\merge_return_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\merge_return_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\merge_return_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\module.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\module.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\module.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/module.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\module.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\module.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/module.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\module.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\module.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\module.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/module.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\module.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\module.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\module.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\module.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\module.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/module.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\module.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\module.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\module.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\module.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\optimizer.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\optimizer.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\optimizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/optimizer.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\optimizer.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\optimizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/optimizer.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\optimizer.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\optimizer.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\optimizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/optimizer.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\optimizer.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\optimizer.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\optimizer.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\optimizer.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\optimizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/optimizer.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\optimizer.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\optimizer.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\optimizer.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\optimizer.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pass_manager.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pass_manager.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\pass_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/pass_manager.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pass_manager.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\pass_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/pass_manager.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pass_manager.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\pass_manager.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pass_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/pass_manager.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pass_manager.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\pass_manager.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pass_manager.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\pass_manager.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pass_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/pass_manager.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pass_manager.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\pass_manager.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pass_manager.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\pass_manager.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pch_source_opt.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pch_source_opt.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\pch_source_opt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/pch_source_opt.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pch_source_opt.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\pch_source_opt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/pch_source_opt.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pch_source_opt.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\pch_source_opt.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pch_source_opt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/pch_source_opt.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pch_source_opt.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\pch_source_opt.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pch_source_opt.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\pch_source_opt.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pch_source_opt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/pch_source_opt.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pch_source_opt.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\pch_source_opt.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\pch_source_opt.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\pch_source_opt.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\private_to_local_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\private_to_local_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\private_to_local_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/private_to_local_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\private_to_local_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\private_to_local_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/private_to_local_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\private_to_local_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\private_to_local_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\private_to_local_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/private_to_local_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\private_to_local_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\private_to_local_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\private_to_local_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\private_to_local_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\private_to_local_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/private_to_local_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\private_to_local_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\private_to_local_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\private_to_local_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\private_to_local_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\process_lines_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\process_lines_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\process_lines_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/process_lines_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\process_lines_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\process_lines_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/process_lines_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\process_lines_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\process_lines_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\process_lines_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/process_lines_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\process_lines_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\process_lines_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\process_lines_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\process_lines_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\process_lines_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/process_lines_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\process_lines_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\process_lines_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\process_lines_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\process_lines_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\propagator.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\propagator.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\propagator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/propagator.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\propagator.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\propagator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/propagator.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\propagator.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\propagator.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\propagator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/propagator.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\propagator.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\propagator.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\propagator.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\propagator.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\propagator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/propagator.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\propagator.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\propagator.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\propagator.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\propagator.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\reduce_load_size.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\reduce_load_size.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\reduce_load_size.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/reduce_load_size.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\reduce_load_size.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\reduce_load_size.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/reduce_load_size.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\reduce_load_size.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\reduce_load_size.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\reduce_load_size.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/reduce_load_size.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\reduce_load_size.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\reduce_load_size.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\reduce_load_size.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\reduce_load_size.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\reduce_load_size.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/reduce_load_size.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\reduce_load_size.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\reduce_load_size.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\reduce_load_size.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\reduce_load_size.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\redundancy_elimination.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\redundancy_elimination.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\redundancy_elimination.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/redundancy_elimination.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\redundancy_elimination.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\redundancy_elimination.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/redundancy_elimination.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\redundancy_elimination.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\redundancy_elimination.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\redundancy_elimination.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/redundancy_elimination.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\redundancy_elimination.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\redundancy_elimination.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\redundancy_elimination.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\redundancy_elimination.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\redundancy_elimination.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/redundancy_elimination.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\redundancy_elimination.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\redundancy_elimination.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\redundancy_elimination.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\redundancy_elimination.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\register_pressure.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\register_pressure.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\register_pressure.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/register_pressure.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\register_pressure.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\register_pressure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/register_pressure.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\register_pressure.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\register_pressure.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\register_pressure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/register_pressure.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\register_pressure.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\register_pressure.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\register_pressure.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\register_pressure.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\register_pressure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/register_pressure.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\register_pressure.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\register_pressure.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\register_pressure.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\register_pressure.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\relax_float_ops_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\relax_float_ops_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\relax_float_ops_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/relax_float_ops_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\relax_float_ops_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\relax_float_ops_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/relax_float_ops_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\relax_float_ops_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\relax_float_ops_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\relax_float_ops_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/relax_float_ops_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\relax_float_ops_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\relax_float_ops_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\relax_float_ops_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\relax_float_ops_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\relax_float_ops_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/relax_float_ops_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\relax_float_ops_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\relax_float_ops_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\relax_float_ops_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\relax_float_ops_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\remove_duplicates_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\remove_duplicates_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\remove_duplicates_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/remove_duplicates_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\remove_duplicates_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\remove_duplicates_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/remove_duplicates_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\remove_duplicates_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\remove_duplicates_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\remove_duplicates_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/remove_duplicates_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\remove_duplicates_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\remove_duplicates_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\remove_duplicates_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\remove_duplicates_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\remove_duplicates_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/remove_duplicates_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\remove_duplicates_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\remove_duplicates_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\remove_duplicates_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\remove_duplicates_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\replace_invalid_opc.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\replace_invalid_opc.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\replace_invalid_opc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/replace_invalid_opc.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\replace_invalid_opc.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\replace_invalid_opc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/replace_invalid_opc.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\replace_invalid_opc.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\replace_invalid_opc.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\replace_invalid_opc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/replace_invalid_opc.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\replace_invalid_opc.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\replace_invalid_opc.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\replace_invalid_opc.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\replace_invalid_opc.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\replace_invalid_opc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/replace_invalid_opc.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\replace_invalid_opc.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\replace_invalid_opc.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\replace_invalid_opc.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\replace_invalid_opc.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/scalar_analysis.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/scalar_analysis.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/scalar_analysis.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/scalar_analysis.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis_simplification.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis_simplification.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis_simplification.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/scalar_analysis_simplification.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis_simplification.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis_simplification.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/scalar_analysis_simplification.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis_simplification.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis_simplification.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis_simplification.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/scalar_analysis_simplification.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis_simplification.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis_simplification.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis_simplification.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis_simplification.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis_simplification.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/scalar_analysis_simplification.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis_simplification.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis_simplification.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis_simplification.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\scalar_analysis_simplification.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_replacement_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_replacement_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\scalar_replacement_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/scalar_replacement_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_replacement_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\scalar_replacement_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/scalar_replacement_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_replacement_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\scalar_replacement_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_replacement_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/scalar_replacement_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_replacement_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\scalar_replacement_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_replacement_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\scalar_replacement_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_replacement_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/scalar_replacement_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_replacement_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\scalar_replacement_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\scalar_replacement_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\scalar_replacement_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\set_spec_constant_default_value_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\set_spec_constant_default_value_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\set_spec_constant_default_value_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/set_spec_constant_default_value_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\set_spec_constant_default_value_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\set_spec_constant_default_value_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/set_spec_constant_default_value_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\set_spec_constant_default_value_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\set_spec_constant_default_value_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\set_spec_constant_default_value_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/set_spec_constant_default_value_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\set_spec_constant_default_value_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\set_spec_constant_default_value_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\set_spec_constant_default_value_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\set_spec_constant_default_value_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\set_spec_constant_default_value_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/set_spec_constant_default_value_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\set_spec_constant_default_value_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\set_spec_constant_default_value_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\set_spec_constant_default_value_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\set_spec_constant_default_value_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\simplification_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\simplification_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\simplification_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/simplification_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\simplification_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\simplification_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/simplification_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\simplification_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\simplification_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\simplification_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/simplification_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\simplification_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\simplification_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\simplification_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\simplification_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\simplification_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/simplification_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\simplification_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\simplification_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\simplification_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\simplification_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\split_invalid_unreachable_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\split_invalid_unreachable_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\split_invalid_unreachable_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/split_invalid_unreachable_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\split_invalid_unreachable_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\split_invalid_unreachable_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/split_invalid_unreachable_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\split_invalid_unreachable_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\split_invalid_unreachable_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\split_invalid_unreachable_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/split_invalid_unreachable_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\split_invalid_unreachable_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\split_invalid_unreachable_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\split_invalid_unreachable_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\split_invalid_unreachable_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\split_invalid_unreachable_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/split_invalid_unreachable_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\split_invalid_unreachable_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\split_invalid_unreachable_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\split_invalid_unreachable_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\split_invalid_unreachable_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ssa_rewrite_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ssa_rewrite_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ssa_rewrite_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/ssa_rewrite_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ssa_rewrite_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ssa_rewrite_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/ssa_rewrite_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ssa_rewrite_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ssa_rewrite_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ssa_rewrite_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/ssa_rewrite_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ssa_rewrite_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ssa_rewrite_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ssa_rewrite_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ssa_rewrite_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ssa_rewrite_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/ssa_rewrite_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ssa_rewrite_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ssa_rewrite_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\ssa_rewrite_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\ssa_rewrite_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strength_reduction_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strength_reduction_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strength_reduction_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/strength_reduction_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strength_reduction_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strength_reduction_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/strength_reduction_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strength_reduction_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strength_reduction_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strength_reduction_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/strength_reduction_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strength_reduction_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strength_reduction_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strength_reduction_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strength_reduction_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strength_reduction_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/strength_reduction_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strength_reduction_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strength_reduction_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strength_reduction_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strength_reduction_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_atomic_counter_memory_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_atomic_counter_memory_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strip_atomic_counter_memory_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/strip_atomic_counter_memory_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_atomic_counter_memory_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strip_atomic_counter_memory_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/strip_atomic_counter_memory_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_atomic_counter_memory_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strip_atomic_counter_memory_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_atomic_counter_memory_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/strip_atomic_counter_memory_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_atomic_counter_memory_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strip_atomic_counter_memory_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_atomic_counter_memory_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strip_atomic_counter_memory_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_atomic_counter_memory_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/strip_atomic_counter_memory_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_atomic_counter_memory_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strip_atomic_counter_memory_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_atomic_counter_memory_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strip_atomic_counter_memory_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_debug_info_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_debug_info_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strip_debug_info_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/strip_debug_info_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_debug_info_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strip_debug_info_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/strip_debug_info_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_debug_info_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strip_debug_info_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_debug_info_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/strip_debug_info_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_debug_info_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strip_debug_info_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_debug_info_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strip_debug_info_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_debug_info_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/strip_debug_info_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_debug_info_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strip_debug_info_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_debug_info_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strip_debug_info_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_reflect_info_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_reflect_info_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strip_reflect_info_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/strip_reflect_info_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_reflect_info_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strip_reflect_info_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/strip_reflect_info_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_reflect_info_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strip_reflect_info_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_reflect_info_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/strip_reflect_info_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_reflect_info_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strip_reflect_info_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_reflect_info_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strip_reflect_info_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_reflect_info_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/strip_reflect_info_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_reflect_info_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strip_reflect_info_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\strip_reflect_info_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\strip_reflect_info_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\struct_cfg_analysis.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\struct_cfg_analysis.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\struct_cfg_analysis.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/struct_cfg_analysis.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\struct_cfg_analysis.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\struct_cfg_analysis.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/struct_cfg_analysis.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\struct_cfg_analysis.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\struct_cfg_analysis.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\struct_cfg_analysis.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/struct_cfg_analysis.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\struct_cfg_analysis.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\struct_cfg_analysis.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\struct_cfg_analysis.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\struct_cfg_analysis.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\struct_cfg_analysis.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/struct_cfg_analysis.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\struct_cfg_analysis.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\struct_cfg_analysis.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\struct_cfg_analysis.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\struct_cfg_analysis.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\type_manager.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\type_manager.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\type_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/type_manager.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\type_manager.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\type_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/type_manager.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\type_manager.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\type_manager.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\type_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/type_manager.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\type_manager.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\type_manager.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\type_manager.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\type_manager.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\type_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/type_manager.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\type_manager.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\type_manager.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\type_manager.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\type_manager.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\types.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\types.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\types.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/types.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\types.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\types.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/types.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\types.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\types.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\types.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/types.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\types.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\types.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\types.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\types.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\types.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/types.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\types.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\types.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\types.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\types.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\unify_const_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\unify_const_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\unify_const_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/unify_const_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\unify_const_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\unify_const_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/unify_const_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\unify_const_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\unify_const_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\unify_const_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/unify_const_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\unify_const_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\unify_const_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\unify_const_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\unify_const_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\unify_const_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/unify_const_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\unify_const_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\unify_const_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\unify_const_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\unify_const_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\upgrade_memory_model.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\upgrade_memory_model.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\upgrade_memory_model.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/upgrade_memory_model.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\upgrade_memory_model.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\upgrade_memory_model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/upgrade_memory_model.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\upgrade_memory_model.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\upgrade_memory_model.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\upgrade_memory_model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/upgrade_memory_model.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\upgrade_memory_model.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\upgrade_memory_model.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\upgrade_memory_model.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\upgrade_memory_model.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\upgrade_memory_model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/upgrade_memory_model.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\upgrade_memory_model.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\upgrade_memory_model.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\upgrade_memory_model.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\upgrade_memory_model.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\value_number_table.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\value_number_table.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\value_number_table.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/value_number_table.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\value_number_table.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\value_number_table.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/value_number_table.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\value_number_table.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\value_number_table.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\value_number_table.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/value_number_table.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\value_number_table.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\value_number_table.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\value_number_table.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\value_number_table.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\value_number_table.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/value_number_table.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\value_number_table.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\value_number_table.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\value_number_table.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\value_number_table.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\vector_dce.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\vector_dce.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\vector_dce.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/vector_dce.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\vector_dce.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\vector_dce.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/vector_dce.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\vector_dce.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\vector_dce.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\vector_dce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/vector_dce.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\vector_dce.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\vector_dce.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\vector_dce.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\vector_dce.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\vector_dce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/vector_dce.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\vector_dce.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\vector_dce.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\vector_dce.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\vector_dce.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\workaround1209.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\workaround1209.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\workaround1209.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/workaround1209.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\workaround1209.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\workaround1209.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/workaround1209.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\workaround1209.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\workaround1209.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\workaround1209.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/workaround1209.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\workaround1209.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\workaround1209.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\workaround1209.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\workaround1209.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\workaround1209.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/workaround1209.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\workaround1209.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\workaround1209.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\workaround1209.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\workaround1209.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\wrap_opkill.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\wrap_opkill.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\wrap_opkill.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/wrap_opkill.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\wrap_opkill.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\wrap_opkill.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/wrap_opkill.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\wrap_opkill.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\wrap_opkill.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\wrap_opkill.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/wrap_opkill.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\wrap_opkill.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\wrap_opkill.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\wrap_opkill.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\wrap_opkill.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\wrap_opkill.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/opt/wrap_opkill.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\wrap_opkill.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\wrap_opkill.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\opt\wrap_opkill.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\opt\wrap_opkill.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\parsed_operand.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\parsed_operand.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\parsed_operand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/parsed_operand.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\parsed_operand.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\parsed_operand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/parsed_operand.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\parsed_operand.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\parsed_operand.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\parsed_operand.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/parsed_operand.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\parsed_operand.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\parsed_operand.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\parsed_operand.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\parsed_operand.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\parsed_operand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/parsed_operand.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\parsed_operand.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\parsed_operand.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\parsed_operand.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\parsed_operand.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\pch_source.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\pch_source.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\pch_source.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/pch_source.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\pch_source.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\pch_source.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/pch_source.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\pch_source.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\pch_source.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\pch_source.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/pch_source.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\pch_source.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\pch_source.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\pch_source.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\pch_source.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\pch_source.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/pch_source.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\pch_source.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\pch_source.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\pch_source.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\pch_source.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\print.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\print.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\print.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/print.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\print.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\print.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/print.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\print.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\print.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\print.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/print.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\print.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\print.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\print.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\print.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\print.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/print.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\print.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\print.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\print.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\print.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_reduction_opportunity.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_reduction_opportunity.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_reduction_opportunity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/change_operand_reduction_opportunity.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_reduction_opportunity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/change_operand_reduction_opportunity.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_reduction_opportunity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/change_operand_reduction_opportunity.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_reduction_opportunity.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_reduction_opportunity.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_reduction_opportunity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/change_operand_reduction_opportunity.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_reduction_opportunity.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_reduction_opportunity.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_to_undef_reduction_opportunity.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_to_undef_reduction_opportunity.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_to_undef_reduction_opportunity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/change_operand_to_undef_reduction_opportunity.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_to_undef_reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_to_undef_reduction_opportunity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/change_operand_to_undef_reduction_opportunity.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_to_undef_reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_to_undef_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_to_undef_reduction_opportunity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/change_operand_to_undef_reduction_opportunity.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_to_undef_reduction_opportunity.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_to_undef_reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_to_undef_reduction_opportunity.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_to_undef_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_to_undef_reduction_opportunity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/change_operand_to_undef_reduction_opportunity.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_to_undef_reduction_opportunity.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_to_undef_reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_to_undef_reduction_opportunity.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\change_operand_to_undef_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/merge_blocks_reduction_opportunity.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/merge_blocks_reduction_opportunity.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/merge_blocks_reduction_opportunity.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/merge_blocks_reduction_opportunity.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity_finder.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity_finder.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity_finder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/merge_blocks_reduction_opportunity_finder.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity_finder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/merge_blocks_reduction_opportunity_finder.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity_finder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/merge_blocks_reduction_opportunity_finder.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity_finder.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity_finder.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity_finder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/merge_blocks_reduction_opportunity_finder.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity_finder.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity_finder.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\merge_blocks_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_const_reduction_opportunity_finder.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_const_reduction_opportunity_finder.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_const_reduction_opportunity_finder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/operand_to_const_reduction_opportunity_finder.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_const_reduction_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_const_reduction_opportunity_finder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/operand_to_const_reduction_opportunity_finder.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_const_reduction_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_const_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_const_reduction_opportunity_finder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/operand_to_const_reduction_opportunity_finder.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_const_reduction_opportunity_finder.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_const_reduction_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_const_reduction_opportunity_finder.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_const_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_const_reduction_opportunity_finder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/operand_to_const_reduction_opportunity_finder.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_const_reduction_opportunity_finder.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_const_reduction_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_const_reduction_opportunity_finder.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_const_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_dominating_id_reduction_opportunity_finder.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_dominating_id_reduction_opportunity_finder.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_dominating_id_reduction_opportunity_finder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/operand_to_dominating_id_reduction_opportunity_finder.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_dominating_id_reduction_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_dominating_id_reduction_opportunity_finder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/operand_to_dominating_id_reduction_opportunity_finder.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_dominating_id_reduction_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_dominating_id_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_dominating_id_reduction_opportunity_finder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/operand_to_dominating_id_reduction_opportunity_finder.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_dominating_id_reduction_opportunity_finder.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_dominating_id_reduction_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_dominating_id_reduction_opportunity_finder.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_dominating_id_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_dominating_id_reduction_opportunity_finder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/operand_to_dominating_id_reduction_opportunity_finder.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_dominating_id_reduction_opportunity_finder.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_dominating_id_reduction_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_dominating_id_reduction_opportunity_finder.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_dominating_id_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_undef_reduction_opportunity_finder.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_undef_reduction_opportunity_finder.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_undef_reduction_opportunity_finder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/operand_to_undef_reduction_opportunity_finder.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_undef_reduction_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_undef_reduction_opportunity_finder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/operand_to_undef_reduction_opportunity_finder.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_undef_reduction_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_undef_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_undef_reduction_opportunity_finder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/operand_to_undef_reduction_opportunity_finder.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_undef_reduction_opportunity_finder.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_undef_reduction_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_undef_reduction_opportunity_finder.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_undef_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_undef_reduction_opportunity_finder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/operand_to_undef_reduction_opportunity_finder.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_undef_reduction_opportunity_finder.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_undef_reduction_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_undef_reduction_opportunity_finder.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\operand_to_undef_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\pch_source_reduce.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\pch_source_reduce.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\pch_source_reduce.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/pch_source_reduce.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\pch_source_reduce.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\pch_source_reduce.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/pch_source_reduce.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\pch_source_reduce.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\pch_source_reduce.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\pch_source_reduce.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/pch_source_reduce.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\pch_source_reduce.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\pch_source_reduce.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\pch_source_reduce.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\pch_source_reduce.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\pch_source_reduce.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/pch_source_reduce.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\pch_source_reduce.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\pch_source_reduce.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\pch_source_reduce.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\pch_source_reduce.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reducer.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reducer.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reducer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/reducer.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reducer.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reducer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/reducer.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reducer.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reducer.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reducer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/reducer.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reducer.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reducer.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reducer.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reducer.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reducer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/reducer.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reducer.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reducer.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reducer.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reducer.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_opportunity.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_opportunity.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reduction_opportunity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/reduction_opportunity.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reduction_opportunity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/reduction_opportunity.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_opportunity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/reduction_opportunity.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_opportunity.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_opportunity.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_opportunity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/reduction_opportunity.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_opportunity.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_opportunity.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_pass.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_pass.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reduction_pass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/reduction_pass.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reduction_pass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/reduction_pass.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_pass.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reduction_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_pass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/reduction_pass.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_pass.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reduction_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_pass.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reduction_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_pass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/reduction_pass.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_pass.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reduction_pass.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_pass.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reduction_pass.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_util.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_util.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reduction_util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/reduction_util.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_util.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reduction_util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/reduction_util.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_util.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reduction_util.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/reduction_util.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_util.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reduction_util.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_util.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reduction_util.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/reduction_util.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_util.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reduction_util.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\reduction_util.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\reduction_util.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_block_reduction_opportunity.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_block_reduction_opportunity.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_block_reduction_opportunity.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_block_reduction_opportunity.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity_finder.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity_finder.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity_finder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_block_reduction_opportunity_finder.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity_finder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_block_reduction_opportunity_finder.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity_finder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_block_reduction_opportunity_finder.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity_finder.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity_finder.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity_finder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_block_reduction_opportunity_finder.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity_finder.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity_finder.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_block_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_function_reduction_opportunity.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_function_reduction_opportunity.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_function_reduction_opportunity.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_function_reduction_opportunity.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity_finder.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity_finder.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity_finder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_function_reduction_opportunity_finder.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity_finder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_function_reduction_opportunity_finder.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity_finder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_function_reduction_opportunity_finder.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity_finder.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity_finder.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity_finder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_function_reduction_opportunity_finder.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity_finder.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity_finder.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_function_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_instruction_reduction_opportunity.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_instruction_reduction_opportunity.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_instruction_reduction_opportunity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_instruction_reduction_opportunity.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_instruction_reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_instruction_reduction_opportunity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_instruction_reduction_opportunity.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_instruction_reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_instruction_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_instruction_reduction_opportunity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_instruction_reduction_opportunity.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_instruction_reduction_opportunity.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_instruction_reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_instruction_reduction_opportunity.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_instruction_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_instruction_reduction_opportunity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_instruction_reduction_opportunity.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_instruction_reduction_opportunity.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_instruction_reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_instruction_reduction_opportunity.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_instruction_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_selection_reduction_opportunity.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_selection_reduction_opportunity.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_selection_reduction_opportunity.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_selection_reduction_opportunity.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity_finder.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity_finder.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity_finder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_selection_reduction_opportunity_finder.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity_finder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_selection_reduction_opportunity_finder.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity_finder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_selection_reduction_opportunity_finder.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity_finder.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity_finder.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity_finder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_selection_reduction_opportunity_finder.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity_finder.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity_finder.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_selection_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_struct_member_reduction_opportunity.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_struct_member_reduction_opportunity.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_struct_member_reduction_opportunity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_struct_member_reduction_opportunity.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_struct_member_reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_struct_member_reduction_opportunity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_struct_member_reduction_opportunity.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_struct_member_reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_struct_member_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_struct_member_reduction_opportunity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_struct_member_reduction_opportunity.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_struct_member_reduction_opportunity.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_struct_member_reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_struct_member_reduction_opportunity.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_struct_member_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_struct_member_reduction_opportunity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_struct_member_reduction_opportunity.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_struct_member_reduction_opportunity.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_struct_member_reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_struct_member_reduction_opportunity.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_struct_member_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_instruction_reduction_opportunity_finder.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_instruction_reduction_opportunity_finder.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_instruction_reduction_opportunity_finder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_unused_instruction_reduction_opportunity_finder.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_instruction_reduction_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_instruction_reduction_opportunity_finder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_unused_instruction_reduction_opportunity_finder.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_instruction_reduction_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_instruction_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_instruction_reduction_opportunity_finder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_unused_instruction_reduction_opportunity_finder.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_instruction_reduction_opportunity_finder.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_instruction_reduction_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_instruction_reduction_opportunity_finder.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_instruction_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_instruction_reduction_opportunity_finder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_unused_instruction_reduction_opportunity_finder.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_instruction_reduction_opportunity_finder.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_instruction_reduction_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_instruction_reduction_opportunity_finder.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_instruction_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_struct_member_reduction_opportunity_finder.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_struct_member_reduction_opportunity_finder.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_struct_member_reduction_opportunity_finder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_unused_struct_member_reduction_opportunity_finder.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_struct_member_reduction_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_struct_member_reduction_opportunity_finder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_unused_struct_member_reduction_opportunity_finder.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_struct_member_reduction_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_struct_member_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_struct_member_reduction_opportunity_finder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_unused_struct_member_reduction_opportunity_finder.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_struct_member_reduction_opportunity_finder.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_struct_member_reduction_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_struct_member_reduction_opportunity_finder.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_struct_member_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_struct_member_reduction_opportunity_finder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/remove_unused_struct_member_reduction_opportunity_finder.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_struct_member_reduction_opportunity_finder.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_struct_member_reduction_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_struct_member_reduction_opportunity_finder.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\remove_unused_struct_member_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_opportunity_finder.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_opportunity_finder.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_opportunity_finder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/simple_conditional_branch_to_branch_opportunity_finder.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_opportunity_finder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/simple_conditional_branch_to_branch_opportunity_finder.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_opportunity_finder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/simple_conditional_branch_to_branch_opportunity_finder.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_opportunity_finder.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_opportunity_finder.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_opportunity_finder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/simple_conditional_branch_to_branch_opportunity_finder.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_opportunity_finder.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_opportunity_finder.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_reduction_opportunity.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_reduction_opportunity.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_reduction_opportunity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/simple_conditional_branch_to_branch_reduction_opportunity.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_reduction_opportunity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/simple_conditional_branch_to_branch_reduction_opportunity.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_reduction_opportunity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/simple_conditional_branch_to_branch_reduction_opportunity.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_reduction_opportunity.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_reduction_opportunity.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_reduction_opportunity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/simple_conditional_branch_to_branch_reduction_opportunity.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_reduction_opportunity.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_reduction_opportunity.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\simple_conditional_branch_to_branch_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/structured_loop_to_selection_reduction_opportunity.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/structured_loop_to_selection_reduction_opportunity.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/structured_loop_to_selection_reduction_opportunity.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/structured_loop_to_selection_reduction_opportunity.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity_finder.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity_finder.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity_finder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/structured_loop_to_selection_reduction_opportunity_finder.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity_finder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/structured_loop_to_selection_reduction_opportunity_finder.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity_finder.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity_finder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/structured_loop_to_selection_reduction_opportunity_finder.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity_finder.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity_finder.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity_finder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/reduce/structured_loop_to_selection_reduction_opportunity_finder.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity_finder.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity_finder.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity_finder.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\reduce\structured_loop_to_selection_reduction_opportunity_finder.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\software_version.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\software_version.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\software_version.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/software_version.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\software_version.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\software_version.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/software_version.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\software_version.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\software_version.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\software_version.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/software_version.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\software_version.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\software_version.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\software_version.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\software_version.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\software_version.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/software_version.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\software_version.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\software_version.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\software_version.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\software_version.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_endian.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_endian.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_endian.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_endian.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_endian.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_endian.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_endian.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_endian.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_endian.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_endian.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_endian.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_endian.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_endian.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_endian.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_endian.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_endian.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_endian.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_endian.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_endian.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_endian.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_endian.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_fuzzer_options.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_fuzzer_options.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_fuzzer_options.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_fuzzer_options.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_fuzzer_options.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_fuzzer_options.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_fuzzer_options.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_fuzzer_options.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_fuzzer_options.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_fuzzer_options.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_fuzzer_options.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_fuzzer_options.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_fuzzer_options.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_fuzzer_options.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_fuzzer_options.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_fuzzer_options.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_fuzzer_options.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_fuzzer_options.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_fuzzer_options.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_fuzzer_options.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_fuzzer_options.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_optimizer_options.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_optimizer_options.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_optimizer_options.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_optimizer_options.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_optimizer_options.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_optimizer_options.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_optimizer_options.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_optimizer_options.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_optimizer_options.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_optimizer_options.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_optimizer_options.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_optimizer_options.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_optimizer_options.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_optimizer_options.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_optimizer_options.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_optimizer_options.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_optimizer_options.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_optimizer_options.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_optimizer_options.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_optimizer_options.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_optimizer_options.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_reducer_options.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_reducer_options.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_reducer_options.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_reducer_options.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_reducer_options.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_reducer_options.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_reducer_options.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_reducer_options.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_reducer_options.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_reducer_options.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_reducer_options.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_reducer_options.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_reducer_options.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_reducer_options.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_reducer_options.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_reducer_options.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_reducer_options.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_reducer_options.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_reducer_options.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_reducer_options.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_reducer_options.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_target_env.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_target_env.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_target_env.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_target_env.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_target_env.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_target_env.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_target_env.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_target_env.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_target_env.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_target_env.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_target_env.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_target_env.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_target_env.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_target_env.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_target_env.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_target_env.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_target_env.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_target_env.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_target_env.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_target_env.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_target_env.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_validator_options.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_validator_options.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_validator_options.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_validator_options.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_validator_options.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_validator_options.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_validator_options.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_validator_options.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_validator_options.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_validator_options.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_validator_options.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_validator_options.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_validator_options.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_validator_options.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_validator_options.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_validator_options.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/spirv_validator_options.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_validator_options.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_validator_options.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\spirv_validator_options.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\spirv_validator_options.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\table.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\table.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\table.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/table.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\table.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\table.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/table.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\table.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\table.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\table.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/table.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\table.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\table.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\table.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\table.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\table.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/table.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\table.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\table.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\table.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\table.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\text.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\text.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\text.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/text.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\text.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\text.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/text.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\text.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\text.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\text.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/text.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\text.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\text.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\text.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\text.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\text.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/text.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\text.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\text.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\text.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\text.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\text_handler.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\text_handler.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\text_handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/text_handler.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\text_handler.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\text_handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/text_handler.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\text_handler.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\text_handler.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\text_handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/text_handler.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\text_handler.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\text_handler.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\text_handler.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\text_handler.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\text_handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/text_handler.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\text_handler.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\text_handler.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\text_handler.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\text_handler.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\bit_vector.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\bit_vector.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\bit_vector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/util/bit_vector.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\bit_vector.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\bit_vector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/util/bit_vector.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\bit_vector.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\bit_vector.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\bit_vector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/util/bit_vector.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\bit_vector.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\bit_vector.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\bit_vector.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\bit_vector.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\bit_vector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/util/bit_vector.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\bit_vector.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\bit_vector.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\bit_vector.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\bit_vector.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\parse_number.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\parse_number.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\parse_number.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/util/parse_number.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\parse_number.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\parse_number.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/util/parse_number.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\parse_number.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\parse_number.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\parse_number.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/util/parse_number.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\parse_number.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\parse_number.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\parse_number.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\parse_number.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\parse_number.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/util/parse_number.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\parse_number.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\parse_number.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\parse_number.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\parse_number.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\string_utils.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\string_utils.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\string_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/util/string_utils.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\string_utils.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\string_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/util/string_utils.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\string_utils.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\string_utils.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\string_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/util/string_utils.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\string_utils.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\string_utils.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\string_utils.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\string_utils.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\string_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/util/string_utils.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\string_utils.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\string_utils.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\string_utils.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\string_utils.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\timer.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\timer.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/util/timer.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\timer.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/util/timer.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\timer.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\timer.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/util/timer.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\timer.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\timer.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\timer.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\timer.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/util/timer.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\timer.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\timer.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\util\timer.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\util\timer.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\basic_block.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\basic_block.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\basic_block.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/basic_block.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\basic_block.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\basic_block.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/basic_block.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\basic_block.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\basic_block.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\basic_block.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/basic_block.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\basic_block.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\basic_block.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\basic_block.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\basic_block.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\basic_block.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/basic_block.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\basic_block.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\basic_block.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\basic_block.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\basic_block.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\construct.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\construct.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\construct.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/construct.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\construct.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\construct.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/construct.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\construct.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\construct.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\construct.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/construct.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\construct.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\construct.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\construct.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\construct.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\construct.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/construct.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\construct.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\construct.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\construct.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\construct.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\function.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\function.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\function.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/function.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\function.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/function.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\function.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\function.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\function.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/function.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\function.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\function.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\function.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\function.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/function.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\function.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\function.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\function.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\function.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\instruction.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\instruction.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\instruction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/instruction.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\instruction.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\instruction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/instruction.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\instruction.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\instruction.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\instruction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/instruction.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\instruction.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\instruction.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\instruction.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\instruction.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\instruction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/instruction.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\instruction.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\instruction.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\instruction.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\instruction.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_adjacency.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_adjacency.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_adjacency.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_adjacency.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_adjacency.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_adjacency.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_adjacency.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_adjacency.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_adjacency.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_adjacency.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_adjacency.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_adjacency.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_adjacency.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_adjacency.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_adjacency.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_adjacency.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_adjacency.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_adjacency.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_adjacency.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_adjacency.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_adjacency.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_annotation.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_annotation.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_annotation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_annotation.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_annotation.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_annotation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_annotation.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_annotation.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_annotation.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_annotation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_annotation.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_annotation.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_annotation.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_annotation.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_annotation.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_annotation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_annotation.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_annotation.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_annotation.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_annotation.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_annotation.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_arithmetics.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_arithmetics.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_arithmetics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_arithmetics.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_arithmetics.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_arithmetics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_arithmetics.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_arithmetics.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_arithmetics.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_arithmetics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_arithmetics.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_arithmetics.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_arithmetics.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_arithmetics.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_arithmetics.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_arithmetics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_arithmetics.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_arithmetics.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_arithmetics.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_arithmetics.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_arithmetics.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_atomics.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_atomics.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_atomics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_atomics.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_atomics.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_atomics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_atomics.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_atomics.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_atomics.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_atomics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_atomics.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_atomics.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_atomics.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_atomics.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_atomics.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_atomics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_atomics.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_atomics.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_atomics.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_atomics.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_atomics.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_barriers.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_barriers.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_barriers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_barriers.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_barriers.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_barriers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_barriers.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_barriers.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_barriers.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_barriers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_barriers.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_barriers.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_barriers.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_barriers.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_barriers.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_barriers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_barriers.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_barriers.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_barriers.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_barriers.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_barriers.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_bitwise.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_bitwise.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_bitwise.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_bitwise.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_bitwise.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_bitwise.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_bitwise.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_bitwise.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_bitwise.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_bitwise.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_bitwise.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_bitwise.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_bitwise.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_bitwise.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_bitwise.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_bitwise.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_bitwise.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_bitwise.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_bitwise.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_bitwise.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_bitwise.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_builtins.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_builtins.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_builtins.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_builtins.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_builtins.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_builtins.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_builtins.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_builtins.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_builtins.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_builtins.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_builtins.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_builtins.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_builtins.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_builtins.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_builtins.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_builtins.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_builtins.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_builtins.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_builtins.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_builtins.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_builtins.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_capability.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_capability.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_capability.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_capability.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_capability.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_capability.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_capability.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_capability.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_capability.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_capability.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_capability.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_capability.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_capability.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_capability.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_capability.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_capability.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_capability.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_capability.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_capability.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_capability.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_capability.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_cfg.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_cfg.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_cfg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_cfg.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_cfg.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_cfg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_cfg.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_cfg.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_cfg.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_cfg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_cfg.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_cfg.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_cfg.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_cfg.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_cfg.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_cfg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_cfg.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_cfg.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_cfg.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_cfg.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_cfg.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_composites.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_composites.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_composites.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_composites.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_composites.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_composites.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_composites.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_composites.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_composites.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_composites.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_composites.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_composites.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_composites.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_composites.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_composites.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_composites.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_composites.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_composites.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_composites.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_composites.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_composites.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_constants.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_constants.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_constants.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_constants.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_constants.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_constants.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_constants.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_constants.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_constants.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_constants.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_constants.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_constants.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_constants.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_constants.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_constants.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_constants.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_constants.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_constants.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_constants.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_constants.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_constants.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_conversion.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_conversion.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_conversion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_conversion.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_conversion.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_conversion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_conversion.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_conversion.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_conversion.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_conversion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_conversion.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_conversion.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_conversion.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_conversion.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_conversion.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_conversion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_conversion.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_conversion.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_conversion.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_conversion.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_conversion.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_debug.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_debug.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_debug.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_debug.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_debug.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_debug.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_debug.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_debug.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_debug.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_debug.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_debug.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_debug.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_debug.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_debug.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_debug.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_debug.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_debug.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_debug.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_debug.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_debug.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_debug.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_decorations.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_decorations.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_decorations.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_decorations.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_decorations.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_decorations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_decorations.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_decorations.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_decorations.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_decorations.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_decorations.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_decorations.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_decorations.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_decorations.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_decorations.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_decorations.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_decorations.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_decorations.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_decorations.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_decorations.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_decorations.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_derivatives.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_derivatives.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_derivatives.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_derivatives.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_derivatives.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_derivatives.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_derivatives.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_derivatives.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_derivatives.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_derivatives.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_derivatives.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_derivatives.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_derivatives.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_derivatives.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_derivatives.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_derivatives.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_derivatives.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_derivatives.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_derivatives.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_derivatives.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_derivatives.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_execution_limitations.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_execution_limitations.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_execution_limitations.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_execution_limitations.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_execution_limitations.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_execution_limitations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_execution_limitations.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_execution_limitations.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_execution_limitations.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_execution_limitations.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_execution_limitations.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_execution_limitations.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_execution_limitations.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_execution_limitations.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_execution_limitations.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_execution_limitations.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_execution_limitations.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_execution_limitations.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_execution_limitations.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_execution_limitations.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_execution_limitations.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_extensions.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_extensions.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_extensions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_extensions.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_extensions.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_extensions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_extensions.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_extensions.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_extensions.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_extensions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_extensions.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_extensions.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_extensions.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_extensions.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_extensions.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_extensions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_extensions.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_extensions.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_extensions.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_extensions.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_extensions.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_function.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_function.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_function.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_function.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_function.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_function.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_function.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_function.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_function.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_function.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_function.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_function.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_function.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_function.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_function.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_function.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_function.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_function.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_function.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_id.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_id.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_id.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_id.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_id.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_id.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_id.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_id.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_id.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_id.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_id.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_id.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_id.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_id.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_id.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_id.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_id.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_id.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_id.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_id.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_id.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_image.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_image.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_image.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_image.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_image.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_image.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_image.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_image.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_image.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_image.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_image.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_image.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_image.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_image.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_image.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_image.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_image.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_instruction.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_instruction.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_instruction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_instruction.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_instruction.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_instruction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_instruction.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_instruction.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_instruction.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_instruction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_instruction.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_instruction.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_instruction.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_instruction.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_instruction.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_instruction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_instruction.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_instruction.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_instruction.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_instruction.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_instruction.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_interfaces.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_interfaces.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_interfaces.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_interfaces.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_interfaces.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_interfaces.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_interfaces.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_interfaces.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_interfaces.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_interfaces.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_interfaces.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_interfaces.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_interfaces.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_interfaces.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_interfaces.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_interfaces.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_interfaces.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_interfaces.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_interfaces.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_interfaces.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_interfaces.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_layout.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_layout.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_layout.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_layout.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_layout.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_layout.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_layout.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_layout.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_layout.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_layout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_layout.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_layout.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_layout.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_layout.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_layout.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_layout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_layout.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_layout.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_layout.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_layout.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_layout.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_literals.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_literals.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_literals.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_literals.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_literals.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_literals.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_literals.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_literals.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_literals.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_literals.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_literals.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_literals.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_literals.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_literals.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_literals.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_literals.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_literals.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_literals.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_literals.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_literals.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_literals.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_logicals.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_logicals.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_logicals.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_logicals.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_logicals.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_logicals.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_logicals.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_logicals.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_logicals.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_logicals.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_logicals.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_logicals.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_logicals.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_logicals.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_logicals.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_logicals.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_logicals.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_logicals.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_logicals.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_logicals.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_logicals.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_memory.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_memory.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_memory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_memory.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_memory.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_memory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_memory.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_memory.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_memory.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_memory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_memory.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_memory.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_memory.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_memory.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_memory.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_memory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_memory.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_memory.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_memory.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_memory.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_memory.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_memory_semantics.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_memory_semantics.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_memory_semantics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_memory_semantics.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_memory_semantics.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_memory_semantics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_memory_semantics.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_memory_semantics.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_memory_semantics.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_memory_semantics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_memory_semantics.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_memory_semantics.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_memory_semantics.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_memory_semantics.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_memory_semantics.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_memory_semantics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_memory_semantics.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_memory_semantics.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_memory_semantics.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_memory_semantics.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_memory_semantics.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_misc.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_misc.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_misc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_misc.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_misc.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_misc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_misc.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_misc.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_misc.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_misc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_misc.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_misc.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_misc.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_misc.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_misc.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_misc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_misc.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_misc.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_misc.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_misc.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_misc.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_mode_setting.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_mode_setting.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_mode_setting.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_mode_setting.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_mode_setting.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_mode_setting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_mode_setting.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_mode_setting.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_mode_setting.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_mode_setting.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_mode_setting.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_mode_setting.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_mode_setting.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_mode_setting.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_mode_setting.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_mode_setting.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_mode_setting.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_mode_setting.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_mode_setting.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_mode_setting.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_mode_setting.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_non_uniform.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_non_uniform.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_non_uniform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_non_uniform.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_non_uniform.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_non_uniform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_non_uniform.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_non_uniform.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_non_uniform.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_non_uniform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_non_uniform.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_non_uniform.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_non_uniform.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_non_uniform.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_non_uniform.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_non_uniform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_non_uniform.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_non_uniform.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_non_uniform.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_non_uniform.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_non_uniform.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_primitives.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_primitives.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_primitives.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_primitives.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_primitives.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_primitives.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_primitives.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_primitives.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_primitives.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_primitives.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_primitives.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_primitives.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_primitives.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_primitives.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_primitives.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_primitives.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_primitives.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_primitives.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_primitives.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_primitives.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_primitives.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_scopes.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_scopes.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_scopes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_scopes.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_scopes.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_scopes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_scopes.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_scopes.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_scopes.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_scopes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_scopes.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_scopes.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_scopes.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_scopes.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_scopes.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_scopes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_scopes.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_scopes.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_scopes.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_scopes.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_scopes.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_small_type_uses.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_small_type_uses.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_small_type_uses.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_small_type_uses.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_small_type_uses.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_small_type_uses.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_small_type_uses.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_small_type_uses.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_small_type_uses.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_small_type_uses.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_small_type_uses.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_small_type_uses.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_small_type_uses.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_small_type_uses.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_small_type_uses.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_small_type_uses.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_small_type_uses.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_small_type_uses.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_small_type_uses.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_small_type_uses.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_small_type_uses.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_type.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_type.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_type.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_type.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_type.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_type.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_type.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_type.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_type.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_type.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_type.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_type.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_type.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_type.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_type.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_type.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validate_type.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_type.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_type.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validate_type.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validate_type.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validation_state.cpp.obj: bgfx.cmake\CMakeFiles\spirv-tools.dir\flags.make
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validation_state.cpp.obj: ..\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validation_state.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validation_state.cpp.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validation_state.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validation_state.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building CXX object bgfx.cmake/CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validation_state.cpp.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validation_state.cpp.obj /FdCMakeFiles\spirv-tools.dir\spirv-tools.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validation_state.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validation_state.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validation_state.cpp.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validation_state.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validation_state.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validation_state.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validation_state.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validation_state.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spirv-tools.dir/bgfx/3rdparty/spirv-tools/source/val/validation_state.cpp.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validation_state.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validation_state.cpp
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validation_state.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\3rdparty\spirv-tools\source\val\validation_state.cpp
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 # Object files for target spirv-tools
 spirv__tools_OBJECTS = \
@@ -5495,13 +5495,13 @@ bgfx.cmake\spirv-tools.lib: bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\
 bgfx.cmake\spirv-tools.lib: bgfx.cmake\CMakeFiles\spirv-tools.dir\bgfx\3rdparty\spirv-tools\source\val\validation_state.cpp.obj
 bgfx.cmake\spirv-tools.lib: bgfx.cmake\CMakeFiles\spirv-tools.dir\build.make
 bgfx.cmake\spirv-tools.lib: bgfx.cmake\CMakeFiles\spirv-tools.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Linking CXX static library spirv-tools.lib"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Linking CXX static library spirv-tools.lib"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
 	$(CMAKE_COMMAND) -P CMakeFiles\spirv-tools.dir\cmake_clean_target.cmake
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:spirv-tools.lib @CMakeFiles\spirv-tools.dir\objects1.rsp 
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:spirv-tools.lib @CMakeFiles\spirv-tools.dir\objects1.rsp 
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 # Rule to build all files generated by this target.
 bgfx.cmake\CMakeFiles\spirv-tools.dir\build: bgfx.cmake\spirv-tools.lib
@@ -5509,12 +5509,12 @@ bgfx.cmake\CMakeFiles\spirv-tools.dir\build: bgfx.cmake\spirv-tools.lib
 .PHONY : bgfx.cmake\CMakeFiles\spirv-tools.dir\build
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\clean:
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
 	$(CMAKE_COMMAND) -P CMakeFiles\spirv-tools.dir\cmake_clean.cmake
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 .PHONY : bgfx.cmake\CMakeFiles\spirv-tools.dir\clean
 
 bgfx.cmake\CMakeFiles\spirv-tools.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\carol\Documents\D7049E C:\Users\carol\Documents\D7049E\bgfx.cmake C:\Users\carol\Documents\D7049E\cmake-build-debug C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake\CMakeFiles\spirv-tools.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake\CMakeFiles\spirv-tools.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : bgfx.cmake\CMakeFiles\spirv-tools.dir\depend
 

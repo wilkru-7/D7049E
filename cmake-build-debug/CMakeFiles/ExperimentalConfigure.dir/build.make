@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\carol\Documents\D7049E
+CMAKE_SOURCE_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\carol\Documents\D7049E\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 # Utility rule file for ExperimentalConfigure.
 
@@ -74,6 +74,6 @@ CMakeFiles\ExperimentalConfigure.dir\clean:
 .PHONY : CMakeFiles\ExperimentalConfigure.dir\clean
 
 CMakeFiles\ExperimentalConfigure.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\carol\Documents\D7049E C:\Users\carol\Documents\D7049E C:\Users\carol\Documents\D7049E\cmake-build-debug C:\Users\carol\Documents\D7049E\cmake-build-debug C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles\ExperimentalConfigure.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles\ExperimentalConfigure.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\ExperimentalConfigure.dir\depend
 

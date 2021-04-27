@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\carol\Documents\D7049E
+CMAKE_SOURCE_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\carol\Documents\D7049E\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include bgfx.cmake\CMakeFiles\iqa.dir\depend.make
@@ -62,178 +62,178 @@ include bgfx.cmake\CMakeFiles\iqa.dir\flags.make
 
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\convolve.c.obj: bgfx.cmake\CMakeFiles\iqa.dir\flags.make
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\convolve.c.obj: ..\bgfx.cmake\bimg\3rdparty\iqa\source\convolve.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object bgfx.cmake/CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/convolve.c.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\convolve.c.obj /FdCMakeFiles\iqa.dir\iqa.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\convolve.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object bgfx.cmake/CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/convolve.c.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\convolve.c.obj /FdCMakeFiles\iqa.dir\iqa.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\convolve.c
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\convolve.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/convolve.c.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\convolve.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\convolve.c
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\convolve.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\convolve.c
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\convolve.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/convolve.c.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\convolve.c.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\convolve.c
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\convolve.c.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\convolve.c
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\decimate.c.obj: bgfx.cmake\CMakeFiles\iqa.dir\flags.make
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\decimate.c.obj: ..\bgfx.cmake\bimg\3rdparty\iqa\source\decimate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object bgfx.cmake/CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/decimate.c.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\decimate.c.obj /FdCMakeFiles\iqa.dir\iqa.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\decimate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object bgfx.cmake/CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/decimate.c.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\decimate.c.obj /FdCMakeFiles\iqa.dir\iqa.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\decimate.c
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\decimate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/decimate.c.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\decimate.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\decimate.c
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\decimate.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\decimate.c
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\decimate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/decimate.c.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\decimate.c.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\decimate.c
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\decimate.c.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\decimate.c
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\math_utils.c.obj: bgfx.cmake\CMakeFiles\iqa.dir\flags.make
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\math_utils.c.obj: ..\bgfx.cmake\bimg\3rdparty\iqa\source\math_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object bgfx.cmake/CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/math_utils.c.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\math_utils.c.obj /FdCMakeFiles\iqa.dir\iqa.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\math_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object bgfx.cmake/CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/math_utils.c.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\math_utils.c.obj /FdCMakeFiles\iqa.dir\iqa.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\math_utils.c
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\math_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/math_utils.c.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\math_utils.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\math_utils.c
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\math_utils.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\math_utils.c
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\math_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/math_utils.c.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\math_utils.c.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\math_utils.c
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\math_utils.c.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\math_utils.c
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\ms_ssim.c.obj: bgfx.cmake\CMakeFiles\iqa.dir\flags.make
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\ms_ssim.c.obj: ..\bgfx.cmake\bimg\3rdparty\iqa\source\ms_ssim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object bgfx.cmake/CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/ms_ssim.c.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\ms_ssim.c.obj /FdCMakeFiles\iqa.dir\iqa.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\ms_ssim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object bgfx.cmake/CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/ms_ssim.c.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\ms_ssim.c.obj /FdCMakeFiles\iqa.dir\iqa.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\ms_ssim.c
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\ms_ssim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/ms_ssim.c.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\ms_ssim.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\ms_ssim.c
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\ms_ssim.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\ms_ssim.c
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\ms_ssim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/ms_ssim.c.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\ms_ssim.c.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\ms_ssim.c
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\ms_ssim.c.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\ms_ssim.c
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\mse.c.obj: bgfx.cmake\CMakeFiles\iqa.dir\flags.make
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\mse.c.obj: ..\bgfx.cmake\bimg\3rdparty\iqa\source\mse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object bgfx.cmake/CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/mse.c.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\mse.c.obj /FdCMakeFiles\iqa.dir\iqa.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\mse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object bgfx.cmake/CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/mse.c.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\mse.c.obj /FdCMakeFiles\iqa.dir\iqa.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\mse.c
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\mse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/mse.c.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\mse.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\mse.c
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\mse.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\mse.c
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\mse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/mse.c.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\mse.c.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\mse.c
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\mse.c.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\mse.c
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\psnr.c.obj: bgfx.cmake\CMakeFiles\iqa.dir\flags.make
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\psnr.c.obj: ..\bgfx.cmake\bimg\3rdparty\iqa\source\psnr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object bgfx.cmake/CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/psnr.c.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\psnr.c.obj /FdCMakeFiles\iqa.dir\iqa.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\psnr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object bgfx.cmake/CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/psnr.c.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\psnr.c.obj /FdCMakeFiles\iqa.dir\iqa.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\psnr.c
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\psnr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/psnr.c.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\psnr.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\psnr.c
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\psnr.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\psnr.c
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\psnr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/psnr.c.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\psnr.c.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\psnr.c
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\psnr.c.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\psnr.c
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\ssim.c.obj: bgfx.cmake\CMakeFiles\iqa.dir\flags.make
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\ssim.c.obj: ..\bgfx.cmake\bimg\3rdparty\iqa\source\ssim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object bgfx.cmake/CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/ssim.c.obj"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\ssim.c.obj /FdCMakeFiles\iqa.dir\iqa.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\ssim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object bgfx.cmake/CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/ssim.c.obj"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\ssim.c.obj /FdCMakeFiles\iqa.dir\iqa.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\ssim.c
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\ssim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/ssim.c.i"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\ssim.c.i @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\ssim.c
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\ssim.c.i @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\ssim.c
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\ssim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/iqa.dir/bimg/3rdparty/iqa/source/ssim.c.s"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\ssim.c.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\ssim.c
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) /FoNUL /FAs /FaCMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\ssim.c.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\iqa\source\ssim.c
 <<
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 # Object files for target iqa
 iqa_OBJECTS = \
@@ -257,13 +257,13 @@ bgfx.cmake\iqa.lib: bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\psnr.
 bgfx.cmake\iqa.lib: bgfx.cmake\CMakeFiles\iqa.dir\bimg\3rdparty\iqa\source\ssim.c.obj
 bgfx.cmake\iqa.lib: bgfx.cmake\CMakeFiles\iqa.dir\build.make
 bgfx.cmake\iqa.lib: bgfx.cmake\CMakeFiles\iqa.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library iqa.lib"
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C static library iqa.lib"
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
 	$(CMAKE_COMMAND) -P CMakeFiles\iqa.dir\cmake_clean_target.cmake
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:iqa.lib @CMakeFiles\iqa.dir\objects1.rsp 
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:iqa.lib @CMakeFiles\iqa.dir\objects1.rsp 
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 # Rule to build all files generated by this target.
 bgfx.cmake\CMakeFiles\iqa.dir\build: bgfx.cmake\iqa.lib
@@ -271,12 +271,12 @@ bgfx.cmake\CMakeFiles\iqa.dir\build: bgfx.cmake\iqa.lib
 .PHONY : bgfx.cmake\CMakeFiles\iqa.dir\build
 
 bgfx.cmake\CMakeFiles\iqa.dir\clean:
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
 	$(CMAKE_COMMAND) -P CMakeFiles\iqa.dir\cmake_clean.cmake
-	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 .PHONY : bgfx.cmake\CMakeFiles\iqa.dir\clean
 
 bgfx.cmake\CMakeFiles\iqa.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\carol\Documents\D7049E C:\Users\carol\Documents\D7049E\bgfx.cmake C:\Users\carol\Documents\D7049E\cmake-build-debug C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake\CMakeFiles\iqa.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake\CMakeFiles\iqa.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : bgfx.cmake\CMakeFiles\iqa.dir\depend
 

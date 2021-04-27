@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/carol/Documents/D7049E
-BuildDirectory: C:/Users/carol/Documents/D7049E/cmake-build-debug
+SourceDirectory: C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E
+BuildDirectory: C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: LAPTOP-DMJE5TSQ
+Site: DESKTOP-MBL2640
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Win32-nmake
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/JetBrains/CLion 2021.1/bin/cmake/win/bin/cmake.exe" "C:/Users/carol/Documents/D7049E"
+ConfigureCommand: "C:/Program Files/JetBrains/CLion 2021.1/bin/cmake/win/bin/cmake.exe" "C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E"
 MakeCommand: "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -62,8 +62,8 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe
-CompilerVersion: 19.28.29337.0
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.28.29333/bin/Hostx86/x86/cl.exe
+CompilerVersion: 19.28.29336.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
@@ -75,7 +75,7 @@ CudaSanitizerCommand:
 CudaSanitizerCommandOptions: 
 MemoryCheckType: 
 MemoryCheckSanitizerOptions: 
-MemoryCheckCommand: MEMORYCHECK_COMMAND-NOTFOUND
+MemoryCheckCommand: C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.2/bin/cuda-memcheck.exe
 MemoryCheckCommandOptions: 
 MemoryCheckSuppressionFile: 
 

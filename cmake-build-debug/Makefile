@@ -51,10 +51,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\carol\Documents\D7049E
+CMAKE_SOURCE_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\carol\Documents\D7049E\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = C:\Users\carol\Documents\D7049E\cmake-build-debug
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/carol/Documents/D7049E/cmake-build-debug/CPackSourceConfig.cmake
+	echo >nul && "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/cmake-build-debug/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -150,9 +150,9 @@ install\fast: preinstall\fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles C:\Users\carol\Documents\D7049E\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -1454,86 +1454,32 @@ glfw\fast:
 	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\glfw.dir\build.make /nologo -$(MAKEFLAGS) glfw\src\CMakeFiles\glfw.dir\build
 .PHONY : glfw\fast
 
-cube.obj: cube.cpp.obj
+stencil.obj: stencil.cpp.obj
 
-.PHONY : cube.obj
-
-# target to build an object file
-cube.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\cube.cpp.obj
-.PHONY : cube.cpp.obj
-
-cube.i: cube.cpp.i
-
-.PHONY : cube.i
-
-# target to preprocess a source file
-cube.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\cube.cpp.i
-.PHONY : cube.cpp.i
-
-cube.s: cube.cpp.s
-
-.PHONY : cube.s
-
-# target to generate assembly for a file
-cube.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\cube.cpp.s
-.PHONY : cube.cpp.s
-
-loadShader.obj: loadShader.cpp.obj
-
-.PHONY : loadShader.obj
+.PHONY : stencil.obj
 
 # target to build an object file
-loadShader.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\loadShader.cpp.obj
-.PHONY : loadShader.cpp.obj
+stencil.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\stencil.cpp.obj
+.PHONY : stencil.cpp.obj
 
-loadShader.i: loadShader.cpp.i
+stencil.i: stencil.cpp.i
 
-.PHONY : loadShader.i
-
-# target to preprocess a source file
-loadShader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\loadShader.cpp.i
-.PHONY : loadShader.cpp.i
-
-loadShader.s: loadShader.cpp.s
-
-.PHONY : loadShader.s
-
-# target to generate assembly for a file
-loadShader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\loadShader.cpp.s
-.PHONY : loadShader.cpp.s
-
-main.obj: main.cpp.obj
-
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-
-.PHONY : main.i
+.PHONY : stencil.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\main.cpp.i
-.PHONY : main.cpp.i
+stencil.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\stencil.cpp.i
+.PHONY : stencil.cpp.i
 
-main.s: main.cpp.s
+stencil.s: stencil.cpp.s
 
-.PHONY : main.s
+.PHONY : stencil.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\main.cpp.s
-.PHONY : main.cpp.s
+stencil.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\stencil.cpp.s
+.PHONY : stencil.cpp.s
 
 # Help Target
 help:
@@ -1647,15 +1593,9 @@ help:
 	@echo ... squish
 	@echo ... texturec
 	@echo ... texturev
-	@echo ... cube.obj
-	@echo ... cube.i
-	@echo ... cube.s
-	@echo ... loadShader.obj
-	@echo ... loadShader.i
-	@echo ... loadShader.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... stencil.obj
+	@echo ... stencil.i
+	@echo ... stencil.s
 .PHONY : help
 
 

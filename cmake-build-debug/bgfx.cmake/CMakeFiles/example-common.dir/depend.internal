@@ -50,12 +50,12 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/bgfx_utils.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/string.h
  ../bgfx.cmake/bx/include/tinystl/traits.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/bgfx_utils.cpp
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/bgfx_utils.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/bounds.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/common.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/bgfx_utils.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/bgfx_utils.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/bounds.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/common.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/bounds.cpp.obj
  ../bgfx.cmake/bx/include/bx/bx.h
  ../bgfx.cmake/bx/include/bx/config.h
@@ -78,8 +78,8 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/bounds.cpp.obj
  ../bgfx.cmake/bx/include/bx/simd_t.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/bounds.cpp
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/bounds.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/bounds.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/bounds.h
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/camera.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -109,12 +109,12 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/camera.cpp.obj
  ../bgfx.cmake/bx/include/bx/timer.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/camera.cpp
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/camera.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/cmd.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/input.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/camera.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/camera.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/cmd.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/input.h
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/cube_atlas.cpp.obj
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
  ../bgfx.cmake/bgfx/include/bgfx/defines.h
@@ -146,11 +146,11 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/cube_atlas.cpp.obj
  ../bgfx.cmake/bx/include/bx/timer.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/common.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/cube_atlas.cpp
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/cube_atlas.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/common.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/cube_atlas.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/cube_atlas.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/debugdraw/debugdraw.cpp.obj
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
  ../bgfx.cmake/bgfx/include/bgfx/defines.h
@@ -190,23 +190,23 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/debugdraw/debugdra
  ../bgfx.cmake/bx/include/tinystl/new.h
  ../bgfx.cmake/bx/include/tinystl/traits.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/bgfx_utils.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/bounds.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/debugdraw.cpp
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/debugdraw.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/fs_debugdraw_fill.bin.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/fs_debugdraw_fill_lit.bin.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/fs_debugdraw_fill_texture.bin.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/fs_debugdraw_lines.bin.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/fs_debugdraw_lines_stipple.bin.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/vs_debugdraw_fill.bin.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/vs_debugdraw_fill_lit.bin.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/vs_debugdraw_fill_lit_mesh.bin.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/vs_debugdraw_fill_mesh.bin.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/vs_debugdraw_fill_texture.bin.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/vs_debugdraw_lines.bin.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/vs_debugdraw_lines_stipple.bin.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/packrect.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/bgfx_utils.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/bounds.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/debugdraw.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/debugdraw.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/fs_debugdraw_fill.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/fs_debugdraw_fill_lit.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/fs_debugdraw_fill_texture.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/fs_debugdraw_lines.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/fs_debugdraw_lines_stipple.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/vs_debugdraw_fill.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/vs_debugdraw_fill_lit.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/vs_debugdraw_fill_lit_mesh.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/vs_debugdraw_fill_mesh.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/vs_debugdraw_fill_texture.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/vs_debugdraw_lines.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/debugdraw/vs_debugdraw_lines_stipple.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/packrect.h
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/entry/cmd.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -241,11 +241,11 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/entry/cmd.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/string.h
  ../bgfx.cmake/bx/include/tinystl/traits.h
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/cmd.cpp
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/cmd.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/cmd.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/cmd.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_p.h
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/entry/dialog.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -278,8 +278,8 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/entry/dialog.cpp.o
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/dialog.cpp
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/dialog.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/dialog.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/dialog.h
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/entry/entry.cpp.obj
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
  ../bgfx.cmake/bgfx/include/bgfx/defines.h
@@ -322,12 +322,12 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/entry/entry.cpp.ob
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/cmd.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.cpp
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_p.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/input.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/cmd.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/input.h
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/entry/entry_android.cpp.obj
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
  ../bgfx.cmake/bgfx/include/bgfx/defines.h
@@ -374,10 +374,10 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/entry/entry_androi
  ../bgfx.cmake/bx/include/bx/thread.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_android.cpp
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_android.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_p.h
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/entry/entry_glfw.cpp.obj
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
  ../bgfx.cmake/bgfx/include/bgfx/defines.h
@@ -413,10 +413,10 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/entry/entry_glfw.c
  ../bgfx.cmake/bx/include/tinystl/hash.h
  ../bgfx.cmake/bx/include/tinystl/stddef.h
  ../bgfx.cmake/bx/include/tinystl/string.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_glfw.cpp
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_glfw.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_p.h
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/entry/entry_html5.cpp.obj
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
  ../bgfx.cmake/bgfx/include/bgfx/defines.h
@@ -442,10 +442,10 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/entry/entry_html5.
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_html5.cpp
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_html5.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_p.h
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/entry/entry_noop.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -468,10 +468,10 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/entry/entry_noop.c
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_noop.cpp
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_noop.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_p.h
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/entry/entry_sdl.cpp.obj
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
  ../bgfx.cmake/bgfx/include/bgfx/defines.h
@@ -524,10 +524,10 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/entry/entry_sdl.cp
  ../bgfx.cmake/bx/include/tinystl/hash.h
  ../bgfx.cmake/bx/include/tinystl/stddef.h
  ../bgfx.cmake/bx/include/tinystl/string.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_p.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_sdl.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_sdl.cpp
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/entry/entry_windows.cpp.obj
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
  ../bgfx.cmake/bgfx/include/bgfx/defines.h
@@ -570,10 +570,10 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/entry/entry_window
  ../bgfx.cmake/bx/include/tinystl/string.h
  ../bgfx.cmake/bx/include/tinystl/traits.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_p.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_windows.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_windows.cpp
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/entry/entry_x11.cpp.obj
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
  ../bgfx.cmake/bgfx/include/bgfx/defines.h
@@ -607,10 +607,10 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/entry/entry_x11.cp
  ../bgfx.cmake/bx/include/bx/thread.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_p.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_x11.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_x11.cpp
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/entry/input.cpp.obj
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -644,12 +644,12 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/entry/input.cpp.ob
  ../bgfx.cmake/bx/include/tinystl/string.h
  ../bgfx.cmake/bx/include/tinystl/traits.h
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/cmd.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_p.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/input.cpp
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/input.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/cmd.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry_p.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/input.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/input.h
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/example-glue.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dear-imgui/imconfig.h
  ../bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui.h
@@ -695,12 +695,12 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/example-glue.cpp.o
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
  ../bgfx.cmake/bx/include/compat/msvc/inttypes.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/cmd.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/dialog.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/example-glue.cpp
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/imgui/imgui.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/cmd.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/dialog.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/example-glue.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/imgui/imgui.h
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/font/font_manager.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/sdf/sdf.h
  ../bgfx.cmake/bgfx/3rdparty/stb/stb_truetype.h
@@ -743,12 +743,12 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/font/font_manager.
  ../bgfx.cmake/bx/include/tinystl/new.h
  ../bgfx.cmake/bx/include/tinystl/traits.h
  ../bgfx.cmake/bx/include/tinystl/unordered_map.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/common.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/cube_atlas.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/font/font_manager.cpp
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/font/font_manager.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/common.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/cube_atlas.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/font/font_manager.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/font/font_manager.h
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/font/text_buffer_manager.cpp.obj
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
  ../bgfx.cmake/bgfx/include/bgfx/defines.h
@@ -783,20 +783,20 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/font/text_buffer_m
  ../bgfx.cmake/bx/include/bx/timer.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/common.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/cube_atlas.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/font/font_manager.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/font/fs_font_basic.bin.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/font/fs_font_distance_field.bin.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/font/fs_font_distance_field_subpixel.bin.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/font/text_buffer_manager.cpp
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/font/text_buffer_manager.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/font/utf8.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/font/vs_font_basic.bin.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/font/vs_font_distance_field.bin.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/font/vs_font_distance_field_subpixel.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/common.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/cube_atlas.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/font/font_manager.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/font/fs_font_basic.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/font/fs_font_distance_field.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/font/fs_font_distance_field_subpixel.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/font/text_buffer_manager.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/font/text_buffer_manager.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/font/utf8.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/font/vs_font_basic.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/font/vs_font_distance_field.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/font/vs_font_distance_field_subpixel.bin.h
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/font/text_metrics.cpp.obj
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
  ../bgfx.cmake/bgfx/include/bgfx/defines.h
@@ -814,13 +814,13 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/font/text_metrics.
  ../bgfx.cmake/bx/include/bx/string.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/font/font_manager.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/font/text_metrics.cpp
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/font/text_metrics.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/font/utf8.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/font/font_manager.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/font/text_metrics.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/font/text_metrics.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/font/utf8.h
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/font/utf8.cpp.obj
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/font/utf8.cpp
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/font/utf8.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/font/utf8.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/font/utf8.h
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/imgui/imgui.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/dear-imgui/imconfig.h
  ../bgfx.cmake/bgfx/3rdparty/dear-imgui/imgui.h
@@ -877,21 +877,21 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/imgui/imgui.cpp.ob
  ../bgfx.cmake/bx/include/tinystl/new.h
  ../bgfx.cmake/bx/include/tinystl/traits.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/bgfx_utils.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/bounds.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/entry/input.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/imgui/fs_imgui_image.bin.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/imgui/fs_ocornut_imgui.bin.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/imgui/icons_font_awesome.ttf.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/imgui/icons_kenney.ttf.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/imgui/imgui.cpp
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/imgui/imgui.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/imgui/roboto_regular.ttf.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/imgui/robotomono_regular.ttf.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/imgui/vs_imgui_image.bin.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/imgui/vs_ocornut_imgui.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/bgfx_utils.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/bounds.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/dbg.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/entry.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/entry/input.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/imgui/fs_imgui_image.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/imgui/fs_ocornut_imgui.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/imgui/icons_font_awesome.ttf.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/imgui/icons_kenney.ttf.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/imgui/imgui.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/imgui/imgui.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/imgui/roboto_regular.ttf.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/imgui/robotomono_regular.ttf.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/imgui/vs_imgui_image.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/imgui/vs_ocornut_imgui.bin.h
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/nanovg/nanovg.cpp.obj
  ../bgfx.cmake/bgfx/3rdparty/stb/stb_truetype.h
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
@@ -902,10 +902,10 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/nanovg/nanovg.cpp.
  ../bgfx.cmake/bx/include/bx/macros.h
  ../bgfx.cmake/bx/include/bx/platform.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/nanovg/fontstash.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/nanovg/nanovg.cpp
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/nanovg/nanovg.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/nanovg/nanovg_bgfx.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/nanovg/fontstash.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/nanovg/nanovg.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/nanovg/nanovg.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/nanovg/nanovg_bgfx.h
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/nanovg/nanovg_bgfx.cpp.obj
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
  ../bgfx.cmake/bgfx/include/bgfx/defines.h
@@ -920,11 +920,11 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/nanovg/nanovg_bgfx
  ../bgfx.cmake/bx/include/bx/platform.h
  ../bgfx.cmake/bx/include/bx/uint32_t.h
  ../bgfx.cmake/bx/include/compat/msvc/alloca.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/nanovg/fs_nanovg_fill.bin.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/nanovg/nanovg.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/nanovg/nanovg_bgfx.cpp
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/nanovg/nanovg_bgfx.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/nanovg/vs_nanovg_fill.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/nanovg/fs_nanovg_fill.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/nanovg/nanovg.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/nanovg/nanovg_bgfx.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/nanovg/nanovg_bgfx.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/nanovg/vs_nanovg_fill.bin.h
 bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/ps/particle_system.cpp.obj
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
  ../bgfx.cmake/bgfx/include/bgfx/defines.h
@@ -964,10 +964,10 @@ bgfx.cmake/CMakeFiles/example-common.dir/bgfx/examples/common/ps/particle_system
  ../bgfx.cmake/bx/include/tinystl/new.h
  ../bgfx.cmake/bx/include/tinystl/traits.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/bgfx_utils.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/bounds.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/packrect.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/ps/fs_particle.bin.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/ps/particle_system.cpp
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/ps/particle_system.h
- C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common/ps/vs_particle.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/bgfx_utils.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/bounds.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/packrect.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/ps/fs_particle.bin.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/ps/particle_system.cpp
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/ps/particle_system.h
+ C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bgfx/examples/common/ps/vs_particle.bin.h
