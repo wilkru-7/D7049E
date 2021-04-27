@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E
+CMAKE_SOURCE_DIR = C:\Users\carol\Documents\D7049E
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include bgfx.cmake\CMakeFiles\bgfx.dir\depend.make
@@ -62,553 +62,553 @@ include bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\bgfx.cpp.obj: bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\bgfx.cpp.obj: ..\bgfx.cmake\bgfx\src\bgfx.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/bgfx.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\bgfx.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\bgfx.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/bgfx.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\bgfx.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\bgfx.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\bgfx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx.dir/bgfx/src/bgfx.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\bgfx.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\bgfx.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\bgfx.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\bgfx.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\bgfx.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx.dir/bgfx/src/bgfx.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\bgfx.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\bgfx.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\bgfx.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\bgfx.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\debug_renderdoc.cpp.obj: bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\debug_renderdoc.cpp.obj: ..\bgfx.cmake\bgfx\src\debug_renderdoc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/debug_renderdoc.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\debug_renderdoc.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\debug_renderdoc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/debug_renderdoc.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\debug_renderdoc.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\debug_renderdoc.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\debug_renderdoc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx.dir/bgfx/src/debug_renderdoc.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\debug_renderdoc.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\debug_renderdoc.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\debug_renderdoc.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\debug_renderdoc.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\debug_renderdoc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx.dir/bgfx/src/debug_renderdoc.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\debug_renderdoc.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\debug_renderdoc.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\debug_renderdoc.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\debug_renderdoc.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\dxgi.cpp.obj: bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\dxgi.cpp.obj: ..\bgfx.cmake\bgfx\src\dxgi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/dxgi.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\dxgi.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\dxgi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/dxgi.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\dxgi.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\dxgi.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\dxgi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx.dir/bgfx/src/dxgi.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\dxgi.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\dxgi.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\dxgi.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\dxgi.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\dxgi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx.dir/bgfx/src/dxgi.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\dxgi.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\dxgi.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\dxgi.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\dxgi.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\glcontext_egl.cpp.obj: bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\glcontext_egl.cpp.obj: ..\bgfx.cmake\bgfx\src\glcontext_egl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/glcontext_egl.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\glcontext_egl.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\glcontext_egl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/glcontext_egl.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\glcontext_egl.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\glcontext_egl.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\glcontext_egl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx.dir/bgfx/src/glcontext_egl.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\glcontext_egl.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\glcontext_egl.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\glcontext_egl.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\glcontext_egl.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\glcontext_egl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx.dir/bgfx/src/glcontext_egl.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\glcontext_egl.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\glcontext_egl.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\glcontext_egl.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\glcontext_egl.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\glcontext_html5.cpp.obj: bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\glcontext_html5.cpp.obj: ..\bgfx.cmake\bgfx\src\glcontext_html5.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/glcontext_html5.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\glcontext_html5.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\glcontext_html5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/glcontext_html5.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\glcontext_html5.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\glcontext_html5.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\glcontext_html5.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx.dir/bgfx/src/glcontext_html5.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\glcontext_html5.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\glcontext_html5.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\glcontext_html5.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\glcontext_html5.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\glcontext_html5.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx.dir/bgfx/src/glcontext_html5.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\glcontext_html5.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\glcontext_html5.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\glcontext_html5.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\glcontext_html5.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\glcontext_wgl.cpp.obj: bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\glcontext_wgl.cpp.obj: ..\bgfx.cmake\bgfx\src\glcontext_wgl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/glcontext_wgl.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\glcontext_wgl.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\glcontext_wgl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/glcontext_wgl.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\glcontext_wgl.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\glcontext_wgl.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\glcontext_wgl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx.dir/bgfx/src/glcontext_wgl.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\glcontext_wgl.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\glcontext_wgl.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\glcontext_wgl.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\glcontext_wgl.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\glcontext_wgl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx.dir/bgfx/src/glcontext_wgl.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\glcontext_wgl.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\glcontext_wgl.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\glcontext_wgl.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\glcontext_wgl.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\nvapi.cpp.obj: bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\nvapi.cpp.obj: ..\bgfx.cmake\bgfx\src\nvapi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/nvapi.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\nvapi.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\nvapi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/nvapi.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\nvapi.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\nvapi.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\nvapi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx.dir/bgfx/src/nvapi.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\nvapi.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\nvapi.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\nvapi.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\nvapi.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\nvapi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx.dir/bgfx/src/nvapi.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\nvapi.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\nvapi.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\nvapi.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\nvapi.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_d3d11.cpp.obj: bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_d3d11.cpp.obj: ..\bgfx.cmake\bgfx\src\renderer_d3d11.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_d3d11.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\renderer_d3d11.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_d3d11.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_d3d11.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\renderer_d3d11.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_d3d11.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_d3d11.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx.dir/bgfx/src/renderer_d3d11.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\renderer_d3d11.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_d3d11.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\renderer_d3d11.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_d3d11.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_d3d11.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx.dir/bgfx/src/renderer_d3d11.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\renderer_d3d11.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_d3d11.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\renderer_d3d11.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_d3d11.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_d3d12.cpp.obj: bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_d3d12.cpp.obj: ..\bgfx.cmake\bgfx\src\renderer_d3d12.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_d3d12.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\renderer_d3d12.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_d3d12.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_d3d12.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\renderer_d3d12.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_d3d12.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_d3d12.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx.dir/bgfx/src/renderer_d3d12.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\renderer_d3d12.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_d3d12.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\renderer_d3d12.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_d3d12.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_d3d12.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx.dir/bgfx/src/renderer_d3d12.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\renderer_d3d12.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_d3d12.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\renderer_d3d12.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_d3d12.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_d3d9.cpp.obj: bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_d3d9.cpp.obj: ..\bgfx.cmake\bgfx\src\renderer_d3d9.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_d3d9.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\renderer_d3d9.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_d3d9.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_d3d9.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\renderer_d3d9.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_d3d9.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_d3d9.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx.dir/bgfx/src/renderer_d3d9.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\renderer_d3d9.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_d3d9.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\renderer_d3d9.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_d3d9.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_d3d9.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx.dir/bgfx/src/renderer_d3d9.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\renderer_d3d9.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_d3d9.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\renderer_d3d9.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_d3d9.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_gl.cpp.obj: bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_gl.cpp.obj: ..\bgfx.cmake\bgfx\src\renderer_gl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_gl.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\renderer_gl.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_gl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_gl.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\renderer_gl.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_gl.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_gl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx.dir/bgfx/src/renderer_gl.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\renderer_gl.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_gl.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\renderer_gl.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_gl.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_gl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx.dir/bgfx/src/renderer_gl.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\renderer_gl.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_gl.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\renderer_gl.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_gl.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_gnm.cpp.obj: bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_gnm.cpp.obj: ..\bgfx.cmake\bgfx\src\renderer_gnm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_gnm.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\renderer_gnm.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_gnm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_gnm.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\renderer_gnm.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_gnm.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_gnm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx.dir/bgfx/src/renderer_gnm.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\renderer_gnm.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_gnm.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\renderer_gnm.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_gnm.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_gnm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx.dir/bgfx/src/renderer_gnm.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\renderer_gnm.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_gnm.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\renderer_gnm.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_gnm.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_noop.cpp.obj: bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_noop.cpp.obj: ..\bgfx.cmake\bgfx\src\renderer_noop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_noop.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\renderer_noop.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_noop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_noop.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\renderer_noop.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_noop.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_noop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx.dir/bgfx/src/renderer_noop.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\renderer_noop.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_noop.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\renderer_noop.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_noop.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_noop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx.dir/bgfx/src/renderer_noop.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\renderer_noop.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_noop.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\renderer_noop.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_noop.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_nvn.cpp.obj: bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_nvn.cpp.obj: ..\bgfx.cmake\bgfx\src\renderer_nvn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_nvn.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\renderer_nvn.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_nvn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_nvn.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\renderer_nvn.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_nvn.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_nvn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx.dir/bgfx/src/renderer_nvn.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\renderer_nvn.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_nvn.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\renderer_nvn.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_nvn.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_nvn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx.dir/bgfx/src/renderer_nvn.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\renderer_nvn.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_nvn.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\renderer_nvn.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_nvn.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_vk.cpp.obj: bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_vk.cpp.obj: ..\bgfx.cmake\bgfx\src\renderer_vk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_vk.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\renderer_vk.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_vk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_vk.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\renderer_vk.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_vk.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_vk.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx.dir/bgfx/src/renderer_vk.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\renderer_vk.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_vk.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\renderer_vk.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_vk.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_vk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx.dir/bgfx/src/renderer_vk.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\renderer_vk.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_vk.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\renderer_vk.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_vk.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_webgpu.cpp.obj: bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_webgpu.cpp.obj: ..\bgfx.cmake\bgfx\src\renderer_webgpu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_webgpu.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\renderer_webgpu.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_webgpu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/renderer_webgpu.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\renderer_webgpu.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_webgpu.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_webgpu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx.dir/bgfx/src/renderer_webgpu.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\renderer_webgpu.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_webgpu.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\renderer_webgpu.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_webgpu.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\renderer_webgpu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx.dir/bgfx/src/renderer_webgpu.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\renderer_webgpu.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\renderer_webgpu.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\renderer_webgpu.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\renderer_webgpu.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\shader.cpp.obj: bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\shader.cpp.obj: ..\bgfx.cmake\bgfx\src\shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/shader.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\shader.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/shader.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\shader.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\shader.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx.dir/bgfx/src/shader.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\shader.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\shader.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\shader.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\shader.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx.dir/bgfx/src/shader.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\shader.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\shader.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\shader.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\shader.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\shader_dx9bc.cpp.obj: bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\shader_dx9bc.cpp.obj: ..\bgfx.cmake\bgfx\src\shader_dx9bc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/shader_dx9bc.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\shader_dx9bc.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\shader_dx9bc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/shader_dx9bc.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\shader_dx9bc.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\shader_dx9bc.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\shader_dx9bc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx.dir/bgfx/src/shader_dx9bc.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\shader_dx9bc.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\shader_dx9bc.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\shader_dx9bc.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\shader_dx9bc.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\shader_dx9bc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx.dir/bgfx/src/shader_dx9bc.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\shader_dx9bc.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\shader_dx9bc.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\shader_dx9bc.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\shader_dx9bc.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\shader_dxbc.cpp.obj: bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\shader_dxbc.cpp.obj: ..\bgfx.cmake\bgfx\src\shader_dxbc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/shader_dxbc.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\shader_dxbc.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\shader_dxbc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/shader_dxbc.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\shader_dxbc.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\shader_dxbc.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\shader_dxbc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx.dir/bgfx/src/shader_dxbc.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\shader_dxbc.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\shader_dxbc.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\shader_dxbc.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\shader_dxbc.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\shader_dxbc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx.dir/bgfx/src/shader_dxbc.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\shader_dxbc.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\shader_dxbc.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\shader_dxbc.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\shader_dxbc.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\shader_spirv.cpp.obj: bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\shader_spirv.cpp.obj: ..\bgfx.cmake\bgfx\src\shader_spirv.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/shader_spirv.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\shader_spirv.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\shader_spirv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/shader_spirv.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\shader_spirv.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\shader_spirv.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\shader_spirv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx.dir/bgfx/src/shader_spirv.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\shader_spirv.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\shader_spirv.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\shader_spirv.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\shader_spirv.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\shader_spirv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx.dir/bgfx/src/shader_spirv.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\shader_spirv.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\shader_spirv.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\shader_spirv.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\shader_spirv.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\topology.cpp.obj: bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\topology.cpp.obj: ..\bgfx.cmake\bgfx\src\topology.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/topology.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\topology.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\topology.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/topology.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\topology.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\topology.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\topology.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx.dir/bgfx/src/topology.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\topology.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\topology.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\topology.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\topology.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\topology.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx.dir/bgfx/src/topology.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\topology.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\topology.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\topology.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\topology.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\vertexlayout.cpp.obj: bgfx.cmake\CMakeFiles\bgfx.dir\flags.make
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\vertexlayout.cpp.obj: ..\bgfx.cmake\bgfx\src\vertexlayout.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/vertexlayout.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\vertexlayout.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\vertexlayout.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object bgfx.cmake/CMakeFiles/bgfx.dir/bgfx/src/vertexlayout.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx.dir\bgfx\src\vertexlayout.cpp.obj /FdCMakeFiles\bgfx.dir\bgfx.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\vertexlayout.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\vertexlayout.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx.dir/bgfx/src/vertexlayout.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\vertexlayout.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\vertexlayout.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx.dir\bgfx\src\vertexlayout.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\vertexlayout.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\vertexlayout.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx.dir/bgfx/src/vertexlayout.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\vertexlayout.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bgfx\src\vertexlayout.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx.dir\bgfx\src\vertexlayout.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bgfx\src\vertexlayout.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 # Object files for target bgfx
 bgfx_OBJECTS = \
@@ -662,13 +662,13 @@ bgfx.cmake\bgfx.lib: bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\topology.cpp.obj
 bgfx.cmake\bgfx.lib: bgfx.cmake\CMakeFiles\bgfx.dir\bgfx\src\vertexlayout.cpp.obj
 bgfx.cmake\bgfx.lib: bgfx.cmake\CMakeFiles\bgfx.dir\build.make
 bgfx.cmake\bgfx.lib: bgfx.cmake\CMakeFiles\bgfx.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX static library bgfx.lib"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX static library bgfx.lib"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
 	$(CMAKE_COMMAND) -P CMakeFiles\bgfx.dir\cmake_clean_target.cmake
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:bgfx.lib @CMakeFiles\bgfx.dir\objects1.rsp 
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:bgfx.lib @CMakeFiles\bgfx.dir\objects1.rsp 
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 # Rule to build all files generated by this target.
 bgfx.cmake\CMakeFiles\bgfx.dir\build: bgfx.cmake\bgfx.lib
@@ -676,12 +676,12 @@ bgfx.cmake\CMakeFiles\bgfx.dir\build: bgfx.cmake\bgfx.lib
 .PHONY : bgfx.cmake\CMakeFiles\bgfx.dir\build
 
 bgfx.cmake\CMakeFiles\bgfx.dir\clean:
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
 	$(CMAKE_COMMAND) -P CMakeFiles\bgfx.dir\cmake_clean.cmake
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 .PHONY : bgfx.cmake\CMakeFiles\bgfx.dir\clean
 
 bgfx.cmake\CMakeFiles\bgfx.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake\CMakeFiles\bgfx.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\carol\Documents\D7049E C:\Users\carol\Documents\D7049E\bgfx.cmake C:\Users\carol\Documents\D7049E\cmake-build-debug C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake\CMakeFiles\bgfx.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : bgfx.cmake\CMakeFiles\bgfx.dir\depend
 

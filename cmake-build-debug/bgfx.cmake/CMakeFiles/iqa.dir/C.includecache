@@ -32,31 +32,31 @@ math.h
 convolve.h
 ../bgfx.cmake/bimg/3rdparty/iqa/include/convolve.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/convolve.c
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/convolve.c
 convolve.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/convolve.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/convolve.h
 stdlib.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/decimate.c
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/decimate.c
 decimate.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/decimate.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/decimate.h
 stdlib.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/math_utils.c
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/math_utils.c
 math_utils.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/math_utils.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/math_utils.h
 math.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/ms_ssim.c
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/ms_ssim.c
 iqa.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/iqa.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/iqa.h
 ssim.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/ssim.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/ssim.h
 decimate.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/decimate.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/decimate.h
 math.h
 -
 stdlib.h
@@ -64,27 +64,27 @@ stdlib.h
 string.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/mse.c
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/mse.c
 iqa.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/iqa.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/iqa.h
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/psnr.c
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/psnr.c
 iqa.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/iqa.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/iqa.h
 math.h
 -
 
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/ssim.c
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/ssim.c
 iqa.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/iqa.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/iqa.h
 convolve.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/convolve.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/convolve.h
 decimate.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/decimate.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/decimate.h
 math_utils.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/math_utils.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/math_utils.h
 ssim.h
-C:/Users/andre/OneDrive/Skrivbord/GameEngine/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/ssim.h
+C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/iqa/source/ssim.h
 stdlib.h
 -
 math.h

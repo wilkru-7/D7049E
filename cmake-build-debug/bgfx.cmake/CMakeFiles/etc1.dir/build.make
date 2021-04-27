@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E
+CMAKE_SOURCE_DIR = C:\Users\carol\Documents\D7049E
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include bgfx.cmake\CMakeFiles\etc1.dir\depend.make
@@ -62,28 +62,28 @@ include bgfx.cmake\CMakeFiles\etc1.dir\flags.make
 
 bgfx.cmake\CMakeFiles\etc1.dir\bimg\3rdparty\etc1\etc1.cpp.obj: bgfx.cmake\CMakeFiles\etc1.dir\flags.make
 bgfx.cmake\CMakeFiles\etc1.dir\bimg\3rdparty\etc1\etc1.cpp.obj: ..\bgfx.cmake\bimg\3rdparty\etc1\etc1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bgfx.cmake/CMakeFiles/etc1.dir/bimg/3rdparty/etc1/etc1.cpp.obj"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\etc1.dir\bimg\3rdparty\etc1\etc1.cpp.obj /FdCMakeFiles\etc1.dir\etc1.pdb /FS -c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\etc1\etc1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bgfx.cmake/CMakeFiles/etc1.dir/bimg/3rdparty/etc1/etc1.cpp.obj"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\etc1.dir\bimg\3rdparty\etc1\etc1.cpp.obj /FdCMakeFiles\etc1.dir\etc1.pdb /FS -c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\etc1\etc1.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\etc1.dir\bimg\3rdparty\etc1\etc1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/etc1.dir/bimg/3rdparty/etc1/etc1.cpp.i"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\etc1.dir\bimg\3rdparty\etc1\etc1.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\etc1\etc1.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\etc1.dir\bimg\3rdparty\etc1\etc1.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\etc1\etc1.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 bgfx.cmake\CMakeFiles\etc1.dir\bimg\3rdparty\etc1\etc1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/etc1.dir/bimg/3rdparty/etc1/etc1.cpp.s"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\etc1.dir\bimg\3rdparty\etc1\etc1.cpp.s /c C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake\bimg\3rdparty\etc1\etc1.cpp
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\etc1.dir\bimg\3rdparty\etc1\etc1.cpp.s /c C:\Users\carol\Documents\D7049E\bgfx.cmake\bimg\3rdparty\etc1\etc1.cpp
 <<
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 # Object files for target etc1
 etc1_OBJECTS = \
@@ -95,13 +95,13 @@ etc1_EXTERNAL_OBJECTS =
 bgfx.cmake\etc1.lib: bgfx.cmake\CMakeFiles\etc1.dir\bimg\3rdparty\etc1\etc1.cpp.obj
 bgfx.cmake\etc1.lib: bgfx.cmake\CMakeFiles\etc1.dir\build.make
 bgfx.cmake\etc1.lib: bgfx.cmake\CMakeFiles\etc1.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library etc1.lib"
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library etc1.lib"
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
 	$(CMAKE_COMMAND) -P CMakeFiles\etc1.dir\cmake_clean_target.cmake
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
-	C:\PROGRA~2\MICROS~4\2019\BUILDT~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:etc1.lib @CMakeFiles\etc1.dir\objects1.rsp 
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:etc1.lib @CMakeFiles\etc1.dir\objects1.rsp 
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 
 # Rule to build all files generated by this target.
 bgfx.cmake\CMakeFiles\etc1.dir\build: bgfx.cmake\etc1.lib
@@ -109,12 +109,12 @@ bgfx.cmake\CMakeFiles\etc1.dir\build: bgfx.cmake\etc1.lib
 .PHONY : bgfx.cmake\CMakeFiles\etc1.dir\build
 
 bgfx.cmake\CMakeFiles\etc1.dir\clean:
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake
 	$(CMAKE_COMMAND) -P CMakeFiles\etc1.dir\cmake_clean.cmake
-	cd C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug
+	cd C:\Users\carol\Documents\D7049E\cmake-build-debug
 .PHONY : bgfx.cmake\CMakeFiles\etc1.dir\clean
 
 bgfx.cmake\CMakeFiles\etc1.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\bgfx.cmake C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake C:\Users\andre\OneDrive\Skrivbord\GameEngine\D7049E\cmake-build-debug\bgfx.cmake\CMakeFiles\etc1.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\carol\Documents\D7049E C:\Users\carol\Documents\D7049E\bgfx.cmake C:\Users\carol\Documents\D7049E\cmake-build-debug C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake C:\Users\carol\Documents\D7049E\cmake-build-debug\bgfx.cmake\CMakeFiles\etc1.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : bgfx.cmake\CMakeFiles\etc1.dir\depend
 

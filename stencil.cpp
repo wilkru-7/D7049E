@@ -936,39 +936,6 @@ public:
 				  ImVec2(m_viewState.m_width / 5.0f, m_viewState.m_height / 2.0f)
 				, ImGuiCond_FirstUseEver
 				);
-			ImGui::Begin("Settings"
-				, NULL
-				, 0
-				);
-
-			{
-				bool check = StencilReflectionScene == m_scene;
-				if (ImGui::Checkbox("Stencil Reflection Scene", &check) )
-				{
-					m_scene = StencilReflectionScene;
-					m_numLights = 4;
-				}
-			}
-
-			{
-				bool check = ProjectionShadowsScene == m_scene;
-				if (ImGui::Checkbox("Projection Shadows Scene", &check) )
-				{
-					m_scene = ProjectionShadowsScene;
-					m_numLights = 1;
-				}
-			}
-
-			ImGui::SliderInt("Lights", &m_numLights, 1, MAX_NUM_LIGHTS);
-			if (m_scene == StencilReflectionScene)
-			{
-				ImGui::SliderFloat("Reflection value", &m_reflectionValue, 0.0f, 1.0f);
-			}
-
-			ImGui::Checkbox("Update lights", &m_updateLights);
-			ImGui::Checkbox("Update scene",  &m_updateScene);
-
-			ImGui::End();
 
 			imguiEndFrame();
 

@@ -4,9 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/carol/Documents/D7049E/cube.cpp" "C:/Users/carol/Documents/D7049E/cmake-build-release/CMakeFiles/bgfx_test.dir/cube.cpp.obj"
-  "C:/Users/carol/Documents/D7049E/loadShader.cpp" "C:/Users/carol/Documents/D7049E/cmake-build-release/CMakeFiles/bgfx_test.dir/loadShader.cpp.obj"
-  "C:/Users/carol/Documents/D7049E/main.cpp" "C:/Users/carol/Documents/D7049E/cmake-build-release/CMakeFiles/bgfx_test.dir/main.cpp.obj"
+  "C:/Users/carol/Documents/D7049E/stencil.cpp" "C:/Users/carol/Documents/D7049E/cmake-build-release/CMakeFiles/bgfx_test.dir/stencil.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
@@ -20,6 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../bgfx.cmake/bgfx/include"
+  "../bgfx.cmake/bgfx/examples/common"
   "../bgfx.cmake/bx/include"
   "../bgfx.cmake/bx/3rdparty"
   "../bgfx.cmake/bx/include/compat/msvc"
@@ -29,7 +28,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../bgfx.cmake/bimg/3rdparty/astc-codec/include"
   "../bgfx.cmake/bimg/3rdparty/iqa/include"
   "../bgfx.cmake/bimg/3rdparty/nvtt"
-  "../bgfx.cmake/bgfx/examples/common"
   "../bgfx.cmake/bgfx/3rdparty"
   "../glfw/include"
   )

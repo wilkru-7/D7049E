@@ -58,6 +58,7 @@
 					<Add option="-D__STDC_FORMAT_MACROS"/>
 					<Add option="-D__STDC_CONSTANT_MACROS"/>
 					<Add directory="C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/include"/>
+					<Add directory="C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common"/>
 					<Add directory="C:/Users/carol/Documents/D7049E/bgfx.cmake/bx/include"/>
 					<Add directory="C:/Users/carol/Documents/D7049E/bgfx.cmake/bx/3rdparty"/>
 					<Add directory="C:/Users/carol/Documents/D7049E/bgfx.cmake/bx/include/compat/msvc"/>
@@ -67,7 +68,6 @@
 					<Add directory="C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/include"/>
 					<Add directory="C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/iqa/include"/>
 					<Add directory="C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/nvtt"/>
-					<Add directory="C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common"/>
 					<Add directory="C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/3rdparty"/>
 					<Add directory="C:/Users/carol/Documents/D7049E/glfw/include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\ATLMFC\include"/>
@@ -96,6 +96,7 @@
 					<Add option="-D__STDC_FORMAT_MACROS"/>
 					<Add option="-D__STDC_CONSTANT_MACROS"/>
 					<Add directory="C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/include"/>
+					<Add directory="C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common"/>
 					<Add directory="C:/Users/carol/Documents/D7049E/bgfx.cmake/bx/include"/>
 					<Add directory="C:/Users/carol/Documents/D7049E/bgfx.cmake/bx/3rdparty"/>
 					<Add directory="C:/Users/carol/Documents/D7049E/bgfx.cmake/bx/include/compat/msvc"/>
@@ -105,7 +106,6 @@
 					<Add directory="C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/astc-codec/include"/>
 					<Add directory="C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/iqa/include"/>
 					<Add directory="C:/Users/carol/Documents/D7049E/bgfx.cmake/bimg/3rdparty/nvtt"/>
-					<Add directory="C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/examples/common"/>
 					<Add directory="C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/3rdparty"/>
 					<Add directory="C:/Users/carol/Documents/D7049E/glfw/include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\ATLMFC\include"/>
@@ -8933,12 +8933,6 @@
 		<Unit filename="C:/Users/carol/Documents/D7049E/cmake-build-release/glfw/src/glfw_config.h">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/cube.cpp">
-			<Option target="bgfx_test"/>
-		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/cube.h">
-			<Option target="bgfx_test"/>
-		</Unit>
 		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/include/GLFW/glfw3.h">
 			<Option target="glfw"/>
 		</Unit>
@@ -9011,13 +9005,7 @@
 		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/window.c">
 			<Option target="glfw"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/loadShader.cpp">
-			<Option target="bgfx_test"/>
-		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/loadShader.h">
-			<Option target="bgfx_test"/>
-		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/main.cpp">
+		<Unit filename="C:/Users/carol/Documents/D7049E/stencil.cpp">
 			<Option target="bgfx_test"/>
 		</Unit>
 		<Unit filename="C:/Users/carol/Documents/D7049E/CMakeLists.txt">
