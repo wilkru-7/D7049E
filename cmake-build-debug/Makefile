@@ -1454,6 +1454,33 @@ glfw\fast:
 	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\glfw.dir\build.make /nologo -$(MAKEFLAGS) glfw\src\CMakeFiles\glfw.dir\build
 .PHONY : glfw\fast
 
+resources.obj: resources.cpp.obj
+
+.PHONY : resources.obj
+
+# target to build an object file
+resources.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\resources.cpp.obj
+.PHONY : resources.cpp.obj
+
+resources.i: resources.cpp.i
+
+.PHONY : resources.i
+
+# target to preprocess a source file
+resources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\resources.cpp.i
+.PHONY : resources.cpp.i
+
+resources.s: resources.cpp.s
+
+.PHONY : resources.s
+
+# target to generate assembly for a file
+resources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\resources.cpp.s
+.PHONY : resources.cpp.s
+
 stencil.obj: stencil.cpp.obj
 
 .PHONY : stencil.obj
@@ -1593,6 +1620,9 @@ help:
 	@echo ... squish
 	@echo ... texturec
 	@echo ... texturev
+	@echo ... resources.obj
+	@echo ... resources.i
+	@echo ... resources.s
 	@echo ... stencil.obj
 	@echo ... stencil.i
 	@echo ... stencil.s

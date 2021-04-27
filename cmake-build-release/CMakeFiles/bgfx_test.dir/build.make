@@ -79,14 +79,35 @@ CMakeFiles\bgfx_test.dir\stencil.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx_test.dir\stencil.cpp.s /c C:\Users\carol\Documents\D7049E\stencil.cpp
 <<
 
+CMakeFiles\bgfx_test.dir\resources.cpp.obj: CMakeFiles\bgfx_test.dir\flags.make
+CMakeFiles\bgfx_test.dir\resources.cpp.obj: ..\resources.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bgfx_test.dir/resources.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx_test.dir\resources.cpp.obj /FdCMakeFiles\bgfx_test.dir\ /FS -c C:\Users\carol\Documents\D7049E\resources.cpp
+<<
+
+CMakeFiles\bgfx_test.dir\resources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx_test.dir/resources.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx_test.dir\resources.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\resources.cpp
+<<
+
+CMakeFiles\bgfx_test.dir\resources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx_test.dir/resources.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx_test.dir\resources.cpp.s /c C:\Users\carol\Documents\D7049E\resources.cpp
+<<
+
 # Object files for target bgfx_test
 bgfx_test_OBJECTS = \
-"CMakeFiles\bgfx_test.dir\stencil.cpp.obj"
+"CMakeFiles\bgfx_test.dir\stencil.cpp.obj" \
+"CMakeFiles\bgfx_test.dir\resources.cpp.obj"
 
 # External object files for target bgfx_test
 bgfx_test_EXTERNAL_OBJECTS =
 
 bgfx_test.exe: CMakeFiles\bgfx_test.dir\stencil.cpp.obj
+bgfx_test.exe: CMakeFiles\bgfx_test.dir\resources.cpp.obj
 bgfx_test.exe: CMakeFiles\bgfx_test.dir\build.make
 bgfx_test.exe: bgfx.cmake\bgfx.lib
 bgfx_test.exe: bgfx.cmake\example-common.lib
@@ -106,7 +127,7 @@ bgfx_test.exe: bgfx.cmake\dear-imgui.lib
 bgfx_test.exe: bgfx.cmake\bx.lib
 bgfx_test.exe: bgfx.cmake\meshoptimizer.lib
 bgfx_test.exe: CMakeFiles\bgfx_test.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bgfx_test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable bgfx_test.exe"
 	"C:\Program Files\JetBrains\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\bgfx_test.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\bgfx_test.dir\objects1.rsp @<<
  /out:bgfx_test.exe /implib:bgfx_test.lib /pdb:C:\Users\carol\Documents\D7049E\cmake-build-release\bgfx_test.pdb /version:0.0 /machine:X86 /INCREMENTAL:NO /subsystem:console /ENTRY:"mainCRTStartup"  bgfx.cmake\bgfx.lib bgfx.cmake\example-common.lib glfw\src\glfw3.lib bgfx.cmake\bgfx.lib bgfx.cmake\bimg.lib bgfx.cmake\astc-codec.lib bgfx.cmake\astc.lib bgfx.cmake\edtaa3.lib bgfx.cmake\etc1.lib bgfx.cmake\etc2.lib bgfx.cmake\iqa.lib bgfx.cmake\squish.lib bgfx.cmake\nvtt.lib bgfx.cmake\pvrtc.lib bgfx.cmake\dear-imgui.lib bgfx.cmake\bx.lib psapi.lib bgfx.cmake\meshoptimizer.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

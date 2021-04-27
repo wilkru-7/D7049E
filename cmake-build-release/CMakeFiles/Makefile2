@@ -575,25 +575,25 @@ CMakeFiles\NightlyMemCheck.dir\clean:
 # Target rules for target CMakeFiles/bgfx_test.dir
 
 # All Build rule for target.
-CMakeFiles\bgfx_test.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 CMakeFiles\bgfx_test.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 CMakeFiles\bgfx_test.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-CMakeFiles\bgfx_test.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+CMakeFiles\bgfx_test.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 CMakeFiles\bgfx_test.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 CMakeFiles\bgfx_test.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-CMakeFiles\bgfx_test.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-CMakeFiles\bgfx_test.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-CMakeFiles\bgfx_test.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-CMakeFiles\bgfx_test.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 CMakeFiles\bgfx_test.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-CMakeFiles\bgfx_test.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+CMakeFiles\bgfx_test.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+CMakeFiles\bgfx_test.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 CMakeFiles\bgfx_test.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+CMakeFiles\bgfx_test.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+CMakeFiles\bgfx_test.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 CMakeFiles\bgfx_test.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
+CMakeFiles\bgfx_test.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+CMakeFiles\bgfx_test.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 CMakeFiles\bgfx_test.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 CMakeFiles\bgfx_test.dir\all: glfw\src\CMakeFiles\glfw.dir\all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num= "Built target bgfx_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=7 "Built target bgfx_test"
 .PHONY : CMakeFiles\bgfx_test.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1049,21 +1049,21 @@ CMakeFiles\ContinuousCoverage.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-19-oit.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-19-oit.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-19-oit.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-19-oit.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-19-oit.dir\build
@@ -1072,7 +1072,7 @@ bgfx.cmake\CMakeFiles\example-19-oit.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.d
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-19-oit.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 64
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-19-oit.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-19-oit.dir\rule
@@ -1091,21 +1091,21 @@ bgfx.cmake\CMakeFiles\example-19-oit.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-31-rsm.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-31-rsm.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-31-rsm.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-31-rsm.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-31-rsm.dir\build
@@ -1114,7 +1114,7 @@ bgfx.cmake\CMakeFiles\example-31-rsm.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.d
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-31-rsm.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 64
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-31-rsm.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-31-rsm.dir\rule
@@ -1160,21 +1160,21 @@ bgfx.cmake\CMakeFiles\edtaa3.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-27-terrain.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-27-terrain.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-27-terrain.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-27-terrain.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-27-terrain.dir\build
@@ -1183,7 +1183,7 @@ bgfx.cmake\CMakeFiles\example-27-terrain.dir\all: bgfx.cmake\CMakeFiles\dear-img
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-27-terrain.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 64
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-27-terrain.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-27-terrain.dir\rule
@@ -1283,21 +1283,21 @@ bgfx.cmake\CMakeFiles\glslang.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-03-raymarch.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-03-raymarch.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-03-raymarch.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-03-raymarch.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-03-raymarch.dir\build
@@ -1306,7 +1306,7 @@ bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all: bgfx.cmake\CMakeFiles\dear-im
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-03-raymarch.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 64
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-03-raymarch.dir\rule
@@ -1379,20 +1379,20 @@ bgfx.cmake\CMakeFiles\bx.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-20-nanovg.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
+bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-20-nanovg.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-20-nanovg.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-20-nanovg.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-20-nanovg.dir\build
@@ -1401,7 +1401,7 @@ bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all: bgfx.cmake\CMakeFiles\dear-imgu
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-20-nanovg.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-20-nanovg.dir\rule
@@ -1420,21 +1420,21 @@ bgfx.cmake\CMakeFiles\example-20-nanovg.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-01-cubes.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-01-cubes.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-01-cubes.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-01-cubes.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-01-cubes.dir\build
@@ -1443,7 +1443,7 @@ bgfx.cmake\CMakeFiles\example-01-cubes.dir\all: bgfx.cmake\CMakeFiles\dear-imgui
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-01-cubes.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 64
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-01-cubes.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-01-cubes.dir\rule
@@ -1462,17 +1462,17 @@ bgfx.cmake\CMakeFiles\example-01-cubes.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/bgfx.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\bgfx.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\bgfx.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\bgfx.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\bgfx.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\bgfx.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\bgfx.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
-bgfx.cmake\CMakeFiles\bgfx.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\bgfx.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\bgfx.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\bgfx.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\bgfx.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\bgfx.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\bgfx.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\bgfx.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\bgfx.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
+bgfx.cmake\CMakeFiles\bgfx.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\bgfx.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\bgfx.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\bgfx.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\bgfx.dir\build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=5,6 "Built target bgfx"
@@ -1480,7 +1480,7 @@ bgfx.cmake\CMakeFiles\bgfx.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\bgfx.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\bgfx.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\bgfx.dir\rule
@@ -1553,21 +1553,21 @@ bgfx.cmake\CMakeFiles\etc1.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-12-lod.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-12-lod.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-12-lod.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-12-lod.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-12-lod.dir\build
@@ -1576,7 +1576,7 @@ bgfx.cmake\CMakeFiles\example-12-lod.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.d
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-12-lod.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 64
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 63
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-12-lod.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-12-lod.dir\rule
@@ -1622,21 +1622,21 @@ bgfx.cmake\CMakeFiles\etc2.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-02-metaballs.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-02-metaballs.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-02-metaballs.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-02-metaballs.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-02-metaballs.dir\build
@@ -1645,7 +1645,7 @@ bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all: bgfx.cmake\CMakeFiles\dear-i
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-02-metaballs.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 64
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 63
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-02-metaballs.dir\rule
@@ -1718,11 +1718,11 @@ bgfx.cmake\CMakeFiles\spirv-cross.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/tools.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\tools.dir\all: bgfx.cmake\CMakeFiles\geometryc.dir\all
-bgfx.cmake\CMakeFiles\tools.dir\all: bgfx.cmake\CMakeFiles\texturec.dir\all
 bgfx.cmake\CMakeFiles\tools.dir\all: bgfx.cmake\CMakeFiles\geometryv.dir\all
-bgfx.cmake\CMakeFiles\tools.dir\all: bgfx.cmake\CMakeFiles\texturev.dir\all
+bgfx.cmake\CMakeFiles\tools.dir\all: bgfx.cmake\CMakeFiles\geometryc.dir\all
 bgfx.cmake\CMakeFiles\tools.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\tools.dir\all: bgfx.cmake\CMakeFiles\texturec.dir\all
+bgfx.cmake\CMakeFiles\tools.dir\all: bgfx.cmake\CMakeFiles\texturev.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\tools.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\tools.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\tools.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\tools.dir\build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num= "Built target tools"
@@ -1730,7 +1730,7 @@ bgfx.cmake\CMakeFiles\tools.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\tools.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 65
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\tools.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\tools.dir\rule
@@ -1803,19 +1803,19 @@ bgfx.cmake\CMakeFiles\nvtt.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-common.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-common.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-common.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-common.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-common.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-common.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-common.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-common.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-common.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-common.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-common.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-common.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-common.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-common.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-common.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-common.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-common.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-common.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
+bgfx.cmake\CMakeFiles\example-common.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-common.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-common.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-common.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-common.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-common.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-common.dir\build
@@ -1824,7 +1824,7 @@ bgfx.cmake\CMakeFiles\example-common.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.d
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-common.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-common.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-common.dir\rule
@@ -1843,17 +1843,17 @@ bgfx.cmake\CMakeFiles\example-common.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/texturec.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\texturec.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\texturec.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\texturec.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\texturec.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\texturec.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\texturec.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
-bgfx.cmake\CMakeFiles\texturec.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\texturec.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\texturec.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\texturec.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\texturec.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\texturec.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\texturec.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\texturec.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\texturec.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
+bgfx.cmake\CMakeFiles\texturec.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\texturec.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\texturec.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\texturec.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\texturec.dir\build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num= "Built target texturec"
@@ -1861,7 +1861,7 @@ bgfx.cmake\CMakeFiles\texturec.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\texturec.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\texturec.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\texturec.dir\rule
@@ -1907,24 +1907,24 @@ bgfx.cmake\CMakeFiles\pvrtc.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/bimg.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\bimg.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\bimg.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\bimg.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\bimg.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\bimg.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\bimg.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
-bgfx.cmake\CMakeFiles\bimg.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
 bgfx.cmake\CMakeFiles\bimg.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\bimg.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\bimg.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\bimg.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\bimg.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\bimg.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
+bgfx.cmake\CMakeFiles\bimg.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\bimg.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\bimg.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\bimg.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\bimg.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=7 "Built target bimg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num= "Built target bimg"
 .PHONY : bgfx.cmake\CMakeFiles\bimg.dir\all
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\bimg.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\bimg.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\bimg.dir\rule
@@ -1943,20 +1943,20 @@ bgfx.cmake\CMakeFiles\bimg.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-26-occlusion.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
+bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-26-occlusion.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-26-occlusion.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-26-occlusion.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-26-occlusion.dir\build
@@ -1965,7 +1965,7 @@ bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all: bgfx.cmake\CMakeFiles\dear-i
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-26-occlusion.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-26-occlusion.dir\rule
@@ -2012,43 +2012,43 @@ bgfx.cmake\CMakeFiles\meshoptimizer.dir\clean:
 
 # All Build rule for target.
 bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-19-oit.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-01-cubes.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all
 bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-31-rsm.dir\all
 bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-27-terrain.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-03-raymarch.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-20-nanovg.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-12-lod.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all
 bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-02-metaballs.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-06-bump.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-01-cubes.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-25-c99.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-10-font.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-30-picking.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-13-stencil.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-07-callback.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-18-ibl.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-26-occlusion.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all
 bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-24-nbody.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-09-hdr.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-12-lod.dir\all
 bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-05-instancing.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-04-mesh.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-08-update.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-06-bump.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-09-hdr.dir\all
 bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-22-windows.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-36-sky.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-32-particles.dir\all
 bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-34-mvs.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-39-assao.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-38-bloom.dir\all
-bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-33-pom.dir\all
 bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-05-instancing.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-08-update.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-13-stencil.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-30-picking.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-25-c99.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-24-nbody.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-04-mesh.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-10-font.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-32-particles.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-33-pom.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-18-ibl.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-07-callback.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-38-bloom.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-39-assao.dir\all
+bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-36-sky.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\examples.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\examples.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\examples.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\examples.dir\build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num= "Built target examples"
@@ -2056,7 +2056,7 @@ bgfx.cmake\CMakeFiles\examples.dir\all: bgfx.cmake\CMakeFiles\example-35-dynamic
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\examples.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 96
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 95
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\examples.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\examples.dir\rule
@@ -2103,20 +2103,20 @@ bgfx.cmake\CMakeFiles\geometryc.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/geometryv.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
+bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\geometryv.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\geometryv.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\geometryv.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\geometryv.dir\build
@@ -2125,7 +2125,7 @@ bgfx.cmake\CMakeFiles\geometryv.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\al
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\geometryv.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\geometryv.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\geometryv.dir\rule
@@ -2198,20 +2198,20 @@ bgfx.cmake\CMakeFiles\glcpp.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-11-fontsdf.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
+bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\build
@@ -2220,7 +2220,7 @@ bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all: bgfx.cmake\CMakeFiles\dear-img
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-11-fontsdf.dir\rule
@@ -2267,30 +2267,30 @@ bgfx.cmake\CMakeFiles\glsl-optimizer.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-06-bump.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-06-bump.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-06-bump.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-06-bump.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-06-bump.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-06-bump.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=14 "Built target example-06-bump"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num= "Built target example-06-bump"
 .PHONY : bgfx.cmake\CMakeFiles\example-06-bump.dir\all
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-06-bump.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 63
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-06-bump.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-06-bump.dir\rule
@@ -2309,21 +2309,21 @@ bgfx.cmake\CMakeFiles\example-06-bump.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-28-wireframe.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-28-wireframe.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-28-wireframe.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-28-wireframe.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-28-wireframe.dir\build
@@ -2332,7 +2332,7 @@ bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all: bgfx.cmake\CMakeFiles\dear-i
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-28-wireframe.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 64
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 63
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-28-wireframe.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-28-wireframe.dir\rule
@@ -2351,24 +2351,24 @@ bgfx.cmake\CMakeFiles\example-28-wireframe.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/shaderc.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\spirv-tools.dir\all
 bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
-bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\glslang.dir\all
-bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
 bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\mesa.dir\all
-bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
+bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
+bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\glslang.dir\all
 bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
-bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
 bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\glcpp.dir\all
-bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\fcpp.dir\all
-bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\glsl-optimizer.dir\all
-bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
 bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\spirv-cross.dir\all
-bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\fcpp.dir\all
+bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
+bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\glsl-optimizer.dir\all
+bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\shaderc.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\shaderc.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\shaderc.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\shaderc.dir\build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=74 "Built target shaderc"
@@ -2376,7 +2376,7 @@ bgfx.cmake\CMakeFiles\shaderc.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\shaderc.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 57
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 56
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\shaderc.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\shaderc.dir\rule
@@ -2395,20 +2395,20 @@ bgfx.cmake\CMakeFiles\shaderc.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-29-debugdraw.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
+bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\build
@@ -2417,7 +2417,7 @@ bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all: bgfx.cmake\CMakeFiles\dear-i
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\rule
@@ -2436,25 +2436,25 @@ bgfx.cmake\CMakeFiles\example-29-debugdraw.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-05-instancing.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-05-instancing.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-05-instancing.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-05-instancing.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-05-instancing.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-05-instancing.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num= "Built target example-05-instancing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=14 "Built target example-05-instancing"
 .PHONY : bgfx.cmake\CMakeFiles\example-05-instancing.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2478,20 +2478,20 @@ bgfx.cmake\CMakeFiles\example-05-instancing.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/texturev.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
+bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\texturev.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\texturev.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\texturev.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\texturev.dir\build
@@ -2500,7 +2500,7 @@ bgfx.cmake\CMakeFiles\texturev.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\texturev.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\texturev.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\texturev.dir\rule
@@ -2519,21 +2519,21 @@ bgfx.cmake\CMakeFiles\texturev.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-24-nbody.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-24-nbody.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-24-nbody.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-24-nbody.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-24-nbody.dir\build
@@ -2542,7 +2542,7 @@ bgfx.cmake\CMakeFiles\example-24-nbody.dir\all: bgfx.cmake\CMakeFiles\dear-imgui
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-24-nbody.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 64
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-24-nbody.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-24-nbody.dir\rule
@@ -2561,21 +2561,21 @@ bgfx.cmake\CMakeFiles\example-24-nbody.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-23-vectordisplay.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\build
@@ -2584,7 +2584,7 @@ bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all: bgfx.cmake\CMakeFiles\de
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 64
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-23-vectordisplay.dir\rule
@@ -2630,25 +2630,25 @@ bgfx.cmake\CMakeFiles\dear-imgui.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-07-callback.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-07-callback.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-07-callback.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-07-callback.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-07-callback.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-07-callback.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num= "Built target example-07-callback"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=15 "Built target example-07-callback"
 .PHONY : bgfx.cmake\CMakeFiles\example-07-callback.dir\all
 
 # Build rule for subdir invocation for target.
@@ -2672,20 +2672,20 @@ bgfx.cmake\CMakeFiles\example-07-callback.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-00-helloworld.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
+bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-00-helloworld.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-00-helloworld.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-00-helloworld.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-00-helloworld.dir\build
@@ -2694,7 +2694,7 @@ bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all: bgfx.cmake\CMakeFiles\dear-
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-00-helloworld.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-00-helloworld.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-00-helloworld.dir\rule
@@ -2713,21 +2713,21 @@ bgfx.cmake\CMakeFiles\example-00-helloworld.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-04-mesh.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-04-mesh.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-04-mesh.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-04-mesh.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-04-mesh.dir\build
@@ -2736,7 +2736,7 @@ bgfx.cmake\CMakeFiles\example-04-mesh.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-04-mesh.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 64
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 63
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-04-mesh.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-04-mesh.dir\rule
@@ -2755,30 +2755,30 @@ bgfx.cmake\CMakeFiles\example-04-mesh.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-08-update.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-08-update.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-08-update.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-08-update.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-08-update.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-08-update.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=15 "Built target example-08-update"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num= "Built target example-08-update"
 .PHONY : bgfx.cmake\CMakeFiles\example-08-update.dir\all
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-08-update.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 63
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-08-update.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-08-update.dir\rule
@@ -2797,21 +2797,21 @@ bgfx.cmake\CMakeFiles\example-08-update.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-09-hdr.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-09-hdr.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-09-hdr.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-09-hdr.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-09-hdr.dir\build
@@ -2820,7 +2820,7 @@ bgfx.cmake\CMakeFiles\example-09-hdr.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.d
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-09-hdr.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 66
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 65
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-09-hdr.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-09-hdr.dir\rule
@@ -2839,20 +2839,20 @@ bgfx.cmake\CMakeFiles\example-09-hdr.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-10-font.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
+bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-10-font.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-10-font.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-10-font.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-10-font.dir\build
@@ -2861,7 +2861,7 @@ bgfx.cmake\CMakeFiles\example-10-font.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-10-font.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-10-font.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-10-font.dir\rule
@@ -2880,21 +2880,21 @@ bgfx.cmake\CMakeFiles\example-10-font.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-13-stencil.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-13-stencil.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-13-stencil.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-13-stencil.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-13-stencil.dir\build
@@ -2903,7 +2903,7 @@ bgfx.cmake\CMakeFiles\example-13-stencil.dir\all: bgfx.cmake\CMakeFiles\dear-img
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-13-stencil.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 64
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-13-stencil.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-13-stencil.dir\rule
@@ -2922,20 +2922,20 @@ bgfx.cmake\CMakeFiles\example-13-stencil.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-25-c99.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
+bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-25-c99.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-25-c99.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-25-c99.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-25-c99.dir\build
@@ -2944,7 +2944,7 @@ bgfx.cmake\CMakeFiles\example-25-c99.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.d
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-25-c99.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-25-c99.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-25-c99.dir\rule
@@ -2963,21 +2963,21 @@ bgfx.cmake\CMakeFiles\example-25-c99.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-14-shadowvolumes.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\build
@@ -2986,7 +2986,7 @@ bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all: bgfx.cmake\CMakeFiles\de
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 67
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 66
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\rule
@@ -3005,21 +3005,21 @@ bgfx.cmake\CMakeFiles\example-14-shadowvolumes.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-15-shadowmaps-simple.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\build
@@ -3028,7 +3028,7 @@ bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all: bgfx.cmake\CMakeFile
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 64
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\rule
@@ -3047,21 +3047,21 @@ bgfx.cmake\CMakeFiles\example-15-shadowmaps-simple.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-16-shadowmaps.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\build
@@ -3070,7 +3070,7 @@ bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all: bgfx.cmake\CMakeFiles\dear-
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 70
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 69
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\rule
@@ -3089,21 +3089,21 @@ bgfx.cmake\CMakeFiles\example-16-shadowmaps.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-17-drawstress.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-17-drawstress.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-17-drawstress.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-17-drawstress.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-17-drawstress.dir\build
@@ -3112,7 +3112,7 @@ bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all: bgfx.cmake\CMakeFiles\dear-
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-17-drawstress.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 64
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-17-drawstress.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-17-drawstress.dir\rule
@@ -3131,21 +3131,21 @@ bgfx.cmake\CMakeFiles\example-17-drawstress.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-18-ibl.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-18-ibl.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-18-ibl.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-18-ibl.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-18-ibl.dir\build
@@ -3154,7 +3154,7 @@ bgfx.cmake\CMakeFiles\example-18-ibl.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.d
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-18-ibl.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 64
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-18-ibl.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-18-ibl.dir\rule
@@ -3173,20 +3173,20 @@ bgfx.cmake\CMakeFiles\example-18-ibl.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-22-windows.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
+bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-22-windows.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-22-windows.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-22-windows.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-22-windows.dir\build
@@ -3195,7 +3195,7 @@ bgfx.cmake\CMakeFiles\example-22-windows.dir\all: bgfx.cmake\CMakeFiles\dear-img
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-22-windows.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-22-windows.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-22-windows.dir\rule
@@ -3214,21 +3214,21 @@ bgfx.cmake\CMakeFiles\example-22-windows.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-30-picking.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-30-picking.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-30-picking.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-30-picking.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-30-picking.dir\build
@@ -3237,7 +3237,7 @@ bgfx.cmake\CMakeFiles\example-30-picking.dir\all: bgfx.cmake\CMakeFiles\dear-img
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-30-picking.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 64
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 63
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-30-picking.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-30-picking.dir\rule
@@ -3256,24 +3256,24 @@ bgfx.cmake\CMakeFiles\example-30-picking.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-32-particles.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-32-particles.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-32-particles.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-32-particles.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-32-particles.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-32-particles.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-32-particles.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-32-particles.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-32-particles.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-32-particles.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-32-particles.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-32-particles.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-32-particles.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-32-particles.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-32-particles.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-32-particles.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-32-particles.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-32-particles.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-32-particles.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-32-particles.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
+bgfx.cmake\CMakeFiles\example-32-particles.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-32-particles.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-32-particles.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-32-particles.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-32-particles.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-32-particles.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-32-particles.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num= "Built target example-32-particles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=38 "Built target example-32-particles"
 .PHONY : bgfx.cmake\CMakeFiles\example-32-particles.dir\all
 
 # Build rule for subdir invocation for target.
@@ -3297,30 +3297,30 @@ bgfx.cmake\CMakeFiles\example-32-particles.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-33-pom.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-33-pom.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-33-pom.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-33-pom.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-33-pom.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-33-pom.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=38 "Built target example-33-pom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num= "Built target example-33-pom"
 .PHONY : bgfx.cmake\CMakeFiles\example-33-pom.dir\all
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-33-pom.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 63
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-33-pom.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-33-pom.dir\rule
@@ -3339,20 +3339,20 @@ bgfx.cmake\CMakeFiles\example-33-pom.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-34-mvs.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
+bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-34-mvs.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-34-mvs.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-34-mvs.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-34-mvs.dir\build
@@ -3361,7 +3361,7 @@ bgfx.cmake\CMakeFiles\example-34-mvs.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.d
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-34-mvs.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-34-mvs.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-34-mvs.dir\rule
@@ -3380,20 +3380,20 @@ bgfx.cmake\CMakeFiles\example-34-mvs.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-35-dynamic.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
+bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-35-dynamic.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-35-dynamic.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-35-dynamic.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-35-dynamic.dir\build
@@ -3402,7 +3402,7 @@ bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all: bgfx.cmake\CMakeFiles\dear-img
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-35-dynamic.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-35-dynamic.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-35-dynamic.dir\rule
@@ -3421,21 +3421,21 @@ bgfx.cmake\CMakeFiles\example-35-dynamic.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-36-sky.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-36-sky.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-36-sky.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-36-sky.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-36-sky.dir\build
@@ -3444,7 +3444,7 @@ bgfx.cmake\CMakeFiles\example-36-sky.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.d
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-36-sky.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 64
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-36-sky.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-36-sky.dir\rule
@@ -3463,21 +3463,21 @@ bgfx.cmake\CMakeFiles\example-36-sky.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-38-bloom.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-38-bloom.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-38-bloom.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-38-bloom.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-38-bloom.dir\build
@@ -3486,7 +3486,7 @@ bgfx.cmake\CMakeFiles\example-38-bloom.dir\all: bgfx.cmake\CMakeFiles\dear-imgui
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-38-bloom.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 65
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 64
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-38-bloom.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-38-bloom.dir\rule
@@ -3505,21 +3505,21 @@ bgfx.cmake\CMakeFiles\example-38-bloom.dir\clean:
 # Target rules for target bgfx.cmake/CMakeFiles/example-39-assao.dir
 
 # All Build rule for target.
-bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\astc-codec.dir\all
 bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\bx.dir\all
-bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
+bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\edtaa3.dir\all
 bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\astc.dir\all
 bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\bgfx.dir\all
-bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
-bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
-bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
-bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
 bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\etc1.dir\all
-bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
+bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\example-common.dir\all
+bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\bimg.dir\all
 bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\squish.dir\all
+bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\iqa.dir\all
+bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\nvtt.dir\all
 bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\pvrtc.dir\all
 bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\shaderc.dir\all
+bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\meshoptimizer.dir\all
+bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\etc2.dir\all
 bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\dear-imgui.dir\all
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-39-assao.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-39-assao.dir\depend
 	$(MAKE) $(MAKESILENT) -f bgfx.cmake\CMakeFiles\example-39-assao.dir\build.make /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-39-assao.dir\build
@@ -3528,7 +3528,7 @@ bgfx.cmake\CMakeFiles\example-39-assao.dir\all: bgfx.cmake\CMakeFiles\dear-imgui
 
 # Build rule for subdir invocation for target.
 bgfx.cmake\CMakeFiles\example-39-assao.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 67
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 66
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) bgfx.cmake\CMakeFiles\example-39-assao.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles 0
 .PHONY : bgfx.cmake\CMakeFiles\example-39-assao.dir\rule

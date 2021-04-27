@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/bgfx_test.dir/resources.cpp.obj"
   "CMakeFiles/bgfx_test.dir/stencil.cpp.obj"
   "bgfx_test.exe"
   "bgfx_test.exe.manifest"

@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/carol/Documents/D7049E/resources.cpp" "C:/Users/carol/Documents/D7049E/cmake-build-release/CMakeFiles/bgfx_test.dir/resources.cpp.obj"
   "C:/Users/carol/Documents/D7049E/stencil.cpp" "C:/Users/carol/Documents/D7049E/cmake-build-release/CMakeFiles/bgfx_test.dir/stencil.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
