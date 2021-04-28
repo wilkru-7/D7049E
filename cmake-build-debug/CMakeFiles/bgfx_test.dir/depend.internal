@@ -24,6 +24,7 @@ CMakeFiles/bgfx_test.dir/app.cpp.obj
  ../bgfx.cmake/bgfx/examples/common/imgui/imgui.h
  ../bgfx.cmake/bgfx/include/bgfx/bgfx.h
  ../bgfx.cmake/bgfx/include/bgfx/defines.h
+ ../bgfx.cmake/bgfx/include/bgfx/platform.h
  ../bgfx.cmake/bimg/include/bimg/bimg.h
  ../bgfx.cmake/bx/include/bx/allocator.h
  ../bgfx.cmake/bx/include/bx/bx.h
@@ -64,9 +65,10 @@ CMakeFiles/bgfx_test.dir/app.cpp.obj
  ../bgfx.cmake/bx/include/tinystl/allocator.h
  ../bgfx.cmake/bx/include/tinystl/buffer.h
  ../bgfx.cmake/bx/include/tinystl/new.h
- ../bgfx.cmake/bx/include/tinystl/stddef.h
  ../bgfx.cmake/bx/include/tinystl/traits.h
  ../bgfx.cmake/bx/include/tinystl/vector.h
+ ../glfw/include/GLFW/glfw3.h
+ ../glfw/include/GLFW/glfw3native.h
  ../reactphysics3d/include/reactphysics3d/body/CollisionBody.h
  ../reactphysics3d/include/reactphysics3d/body/RigidBody.h
  ../reactphysics3d/include/reactphysics3d/collision/Collider.h

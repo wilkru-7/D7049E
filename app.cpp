@@ -10,6 +10,11 @@
 #include "common.h"
 #include "bgfx_utils.h"
 #include <bx/file.h>
+#include "bgfx/platform.h"
+
+#include "GLFW/glfw3.h"
+#define GLFW_EXPOSE_NATIVE_WIN32
+#include "GLFW/glfw3native.h"
 
 #include <reactphysics3d/reactphysics3d.h>
 
@@ -39,6 +44,13 @@ public:
 		m_debug = BGFX_DEBUG_NONE;
 		m_reset = BGFX_RESET_VSYNC;
 
+        glfwInit();
+        window = glfwCreateWindow(_width, _height, "Hello, bgfx!", NULL, NULL);
+
+        bgfx::PlatformData pd;
+        pd.nwh = glfwGetWin32Window(window);
+        bgfx::setPlatformData(pd);
+
 		bgfx::Init init;
 		init.type     = args.m_type;
 		init.vendorId = args.m_pciId;
@@ -51,7 +63,7 @@ public:
 		bgfx::setDebug(m_debug);
 
 		// Imgui.
-		imguiCreate();
+		//imguiCreate();
 
 		PosNormalTexcoordVertex::init();
 
@@ -129,6 +141,18 @@ public:
         tree = world->createRigidBody(treeTransform);
         treeCollider = tree->addCollider(capsuleShape, transform);
 
+        bx::mtxSRT(androidMtx
+                , 2.0f
+                , 2.0f
+                , 2.0f
+                , 0.0f
+                , 0.5f
+                , 0.0f
+                , 0.0f
+                , 5.0f
+                , 0.0f
+        );
+
     }
 
 	virtual int shutdown() override
@@ -155,12 +179,14 @@ public:
 		s_uniforms.destroy();
 
 		cameraDestroy();
-		imguiDestroy();
+		//imguiDestroy();
 
 		// Shutdown bgfx.
 		bgfx::shutdown();
 
         physicsCommon.destroyPhysicsWorld(world);
+
+        glfwDestroyWindow(window);
 
 		return 0;
 	}
@@ -170,7 +196,7 @@ public:
 		if (!entry::processEvents(m_viewState.m_width, m_viewState.m_height, m_debug, m_reset, &m_mouseState) )
 		{
 		    //Beginning of left menu window
-			imguiBeginFrame(m_mouseState.m_mx
+			/*imguiBeginFrame(m_mouseState.m_mx
 				,  m_mouseState.m_my
 				, (m_mouseState.m_buttons[entry::MouseButton::Left  ] ? IMGUI_MBUT_LEFT   : 0)
 				| (m_mouseState.m_buttons[entry::MouseButton::Right ] ? IMGUI_MBUT_RIGHT  : 0)
@@ -192,7 +218,7 @@ public:
 				);
 
             // End of left menu window
-			imguiEndFrame();
+			imguiEndFrame();*/
 
 			s_uniforms.submitConstUniforms();
 
@@ -261,8 +287,8 @@ public:
 				);
 
 			// android position.
-			float androidMtx[16];
-			bx::mtxSRT(androidMtx
+			//float androidMtx[16];
+			/*bx::mtxSRT(androidMtx
 				, 2.0f
 				, 2.0f
 				, 2.0f
@@ -272,7 +298,7 @@ public:
 				, 0.0f
 				, 5.0f
 				, 0.0f
-				);
+				);*/
 
 
 			// Trees position.
@@ -302,7 +328,7 @@ public:
 				/*std::cout << treePositions[ii][0] << std::endl;
                 std::cout << treePositions[ii][1] << std::endl;
                 std::cout << treePositions[ii][2] << std::endl;*/
-				
+
 /*                treeMtx[ii][0] = 0.5f;
                 treeMtx[ii][5] = 0.5f;
                 treeMtx[ii][10] = 0.5f;*/
@@ -480,9 +506,14 @@ public:
 			// process submitted rendering primitives.
 			bgfx::frame();
 
+            glfwSwapBuffers(window);
+            glfwPollEvents();
+
 			//reset clear values on used views
 			clearViewMask(s_clearMask, BGFX_CLEAR_NONE, m_clearValues);
 			s_clearMask = 0;
+
+			checkKeyboardInput();
 
 			return true;
 		}
@@ -502,6 +533,20 @@ public:
         s_uniforms.m_color[2] = 0.0f;
 	}
 
+    void checkKeyboardInput() {
+        if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) {
+            androidMtx[14] = androidMtx[14] + 0.5f;
+        } else if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
+            androidMtx[12] = androidMtx[12] - 0.5f;
+
+        } else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS) {
+            androidMtx[14] = androidMtx[14] - 0.5f;
+
+        } else if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
+            androidMtx[12] = androidMtx[12] + 0.5f;
+        }
+    }
+
     reactphysics3d::PhysicsCommon physicsCommon;
     reactphysics3d::PhysicsWorld* world;
     reactphysics3d::CapsuleShape* capsuleShape;
@@ -511,6 +556,7 @@ public:
     reactphysics3d::Collider* androidCollider;
     reactphysics3d::Collider* treeCollider;
 
+    GLFWwindow* window;
 
 	ViewState m_viewState;
 	entry::MouseState m_mouseState;
@@ -530,6 +576,8 @@ public:
 	Mesh m_cubeMesh;
 	Mesh m_hplaneMesh;
 	Mesh m_vplaneMesh;
+
+    float androidMtx[16];
 
 	bgfx::TextureHandle m_figureTex;
 	bgfx::TextureHandle m_flareTex;

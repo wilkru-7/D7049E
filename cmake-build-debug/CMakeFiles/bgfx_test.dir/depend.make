@@ -23,6 +23,7 @@ CMakeFiles\bgfx_test.dir\app.cpp.obj: ..\bgfx.cmake\bgfx\examples\common\entry\e
 CMakeFiles\bgfx_test.dir\app.cpp.obj: ..\bgfx.cmake\bgfx\examples\common\imgui\imgui.h
 CMakeFiles\bgfx_test.dir\app.cpp.obj: ..\bgfx.cmake\bgfx\include\bgfx\bgfx.h
 CMakeFiles\bgfx_test.dir\app.cpp.obj: ..\bgfx.cmake\bgfx\include\bgfx\defines.h
+CMakeFiles\bgfx_test.dir\app.cpp.obj: ..\bgfx.cmake\bgfx\include\bgfx\platform.h
 CMakeFiles\bgfx_test.dir\app.cpp.obj: ..\bgfx.cmake\bimg\include\bimg\bimg.h
 CMakeFiles\bgfx_test.dir\app.cpp.obj: ..\bgfx.cmake\bx\include\bx\allocator.h
 CMakeFiles\bgfx_test.dir\app.cpp.obj: ..\bgfx.cmake\bx\include\bx\bx.h
@@ -63,9 +64,10 @@ CMakeFiles\bgfx_test.dir\app.cpp.obj: ..\bgfx.cmake\bx\include\compat\msvc\intty
 CMakeFiles\bgfx_test.dir\app.cpp.obj: ..\bgfx.cmake\bx\include\tinystl\allocator.h
 CMakeFiles\bgfx_test.dir\app.cpp.obj: ..\bgfx.cmake\bx\include\tinystl\buffer.h
 CMakeFiles\bgfx_test.dir\app.cpp.obj: ..\bgfx.cmake\bx\include\tinystl\new.h
-CMakeFiles\bgfx_test.dir\app.cpp.obj: ..\bgfx.cmake\bx\include\tinystl\stddef.h
 CMakeFiles\bgfx_test.dir\app.cpp.obj: ..\bgfx.cmake\bx\include\tinystl\traits.h
 CMakeFiles\bgfx_test.dir\app.cpp.obj: ..\bgfx.cmake\bx\include\tinystl\vector.h
+CMakeFiles\bgfx_test.dir\app.cpp.obj: ..\glfw\include\GLFW\glfw3.h
+CMakeFiles\bgfx_test.dir\app.cpp.obj: ..\glfw\include\GLFW\glfw3native.h
 CMakeFiles\bgfx_test.dir\app.cpp.obj: ..\reactphysics3d\include\reactphysics3d\body\CollisionBody.h
 CMakeFiles\bgfx_test.dir\app.cpp.obj: ..\reactphysics3d\include\reactphysics3d\body\RigidBody.h
 CMakeFiles\bgfx_test.dir\app.cpp.obj: ..\reactphysics3d\include\reactphysics3d\collision\Collider.h
