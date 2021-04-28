@@ -11,6 +11,8 @@
 #include "bgfx_utils.h"
 #include <bx/file.h>
 
+#include <reactphysics3d/reactphysics3d.h>
+
 #include "camera.h"
 #include "imgui/imgui.h"
 #include "resources.cpp"
@@ -110,7 +112,24 @@ public:
 		m_reflectionValue = 0.8f;
 		m_updateLights    = false;
 		m_updateScene     = false;
-	}
+
+        // physics setup https://www.reactphysics3d.com/usermanual.html#x1-4500011
+        world = physicsCommon.createPhysicsWorld();
+        capsuleShape = physicsCommon.createCapsuleShape(1.0, 2.0);
+        orientation = reactphysics3d::Quaternion::identity();
+        reactphysics3d::Transform transform = reactphysics3d::Transform::identity();
+
+        reactphysics3d::Vector3 androidPosition(0.0,5.0,0.0);
+        reactphysics3d::Transform androidTransform(androidPosition, orientation);
+        android = world->createRigidBody(androidTransform);
+        androidCollider = android->addCollider(capsuleShape, transform);
+
+        reactphysics3d::Vector3 treePosition(14.0,0.0,14.0);
+        reactphysics3d::Transform treeTransform(treePosition, orientation);
+        tree = world->createRigidBody(treeTransform);
+        treeCollider = tree->addCollider(capsuleShape, transform);
+
+    }
 
 	virtual int shutdown() override
 	{
@@ -140,6 +159,8 @@ public:
 
 		// Shutdown bgfx.
 		bgfx::shutdown();
+
+        physicsCommon.destroyPhysicsWorld(world);
 
 		return 0;
 	}
@@ -278,6 +299,10 @@ public:
 					, treePositions[ii][1]
 					, treePositions[ii][2]
 					);
+				/*std::cout << treePositions[ii][0] << std::endl;
+                std::cout << treePositions[ii][1] << std::endl;
+                std::cout << treePositions[ii][2] << std::endl;*/
+				
 /*                treeMtx[ii][0] = 0.5f;
                 treeMtx[ii][5] = 0.5f;
                 treeMtx[ii][10] = 0.5f;*/
@@ -476,6 +501,16 @@ public:
         s_uniforms.m_color[1] = 1.0f;
         s_uniforms.m_color[2] = 0.0f;
 	}
+
+    reactphysics3d::PhysicsCommon physicsCommon;
+    reactphysics3d::PhysicsWorld* world;
+    reactphysics3d::CapsuleShape* capsuleShape;
+    reactphysics3d::RigidBody* android;
+    reactphysics3d::RigidBody* tree;
+    reactphysics3d::Quaternion orientation;
+    reactphysics3d::Collider* androidCollider;
+    reactphysics3d::Collider* treeCollider;
+
 
 	ViewState m_viewState;
 	entry::MouseState m_mouseState;

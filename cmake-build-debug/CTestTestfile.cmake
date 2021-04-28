@@ -6,3 +6,4 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("bgfx.cmake")
 subdirs("glfw")
+subdirs("reactphysics3d")

@@ -16,8 +16,9 @@ include(CPack)
 
 add_subdirectory(bgfx.cmake)
 add_subdirectory(glfw)
+add_subdirectory(reactphysics3d)
 
-target_link_libraries(bgfx_test bgfx example-common glfw )
+target_link_libraries(bgfx_test bgfx example-common glfw reactphysics3d)
 target_include_directories( bgfx_test PUBLIC bgfx.cmake/bgfx/include bgfx.cmake/bgfx/examples/common )
 set_target_properties(bgfx_test PROPERTIES LINK_FLAGS "/ENTRY:\"mainCRTStartup\"" )
 

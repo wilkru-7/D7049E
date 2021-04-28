@@ -424,6 +424,29 @@ MEMORYCHECK_SUPPRESSIONS_FILE:FILEPATH=
 //Path to a program.
 P4COMMAND:FILEPATH=P4COMMAND-NOTFOUND
 
+//Select this if you need to build for code coverage calculation
+RP3D_CODE_COVERAGE_ENABLED:BOOL=OFF
+
+//Select this if you want to build the testbed application with
+// demos
+RP3D_COMPILE_TESTBED:BOOL=OFF
+
+//Select this if you want to build the unit tests
+RP3D_COMPILE_TESTS:BOOL=OFF
+
+//Select this if you want to compile using double precision floating
+// values
+RP3D_DOUBLE_PRECISION_ENABLED:BOOL=OFF
+
+//Select this if you want to compile for performanace profiling
+RP3D_PROFILING_ENABLED:BOOL=OFF
+
+//Value Computed by CMake
+ReactPhysics3D_BINARY_DIR:STATIC=C:/Users/carol/Documents/D7049E/cmake-build-release/reactphysics3d
+
+//Value Computed by CMake
+ReactPhysics3D_SOURCE_DIR:STATIC=C:/Users/carol/Documents/D7049E/reactphysics3d
+
 //Name of the computer/site where compile is being run
 SITE:STRING=LAPTOP-DMJE5TSQ
 
@@ -604,7 +627,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_RC_COMPILER

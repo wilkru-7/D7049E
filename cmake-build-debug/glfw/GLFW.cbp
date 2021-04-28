@@ -5,7 +5,7 @@
 		<Option title="GLFW"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="msvc8"/>
-		<Option virtualFolders="CMake Files\;CMake Files\bgfx.cmake\;CMake Files\bgfx.cmake\cmake\;CMake Files\bgfx.cmake\cmake\3rdparty\;CMake Files\bgfx.cmake\cmake\tools\;CMake Files\bgfx.cmake\cmake\util\;CMake Files\bgfx.cmake\generated\;CMake Files\glfw\;CMake Files\glfw\CMake\;CMake Files\glfw\src\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\bgfx.cmake\;CMake Files\bgfx.cmake\cmake\;CMake Files\bgfx.cmake\cmake\3rdparty\;CMake Files\bgfx.cmake\cmake\tools\;CMake Files\bgfx.cmake\cmake\util\;CMake Files\bgfx.cmake\generated\;CMake Files\glfw\;CMake Files\glfw\CMake\;CMake Files\glfw\src\;CMake Files\reactphysics3d\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/carol/Documents/D7049E/cmake-build-debug/glfw"/>
@@ -284,6 +284,9 @@
 		</Unit>
 		<Unit filename="C:/Users/carol/Documents/D7049E/glfw/src/glfw_config.h.in">
 			<Option virtualFolder="CMake Files\glfw\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/carol/Documents/D7049E/reactphysics3d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\reactphysics3d\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

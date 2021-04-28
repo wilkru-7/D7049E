@@ -36,6 +36,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/Users/carol/Documents/D7049E/cmake-build-debug/bgfx.cmake/cmake_install.cmake")
   include("C:/Users/carol/Documents/D7049E/cmake-build-debug/glfw/cmake_install.cmake")
+  include("C:/Users/carol/Documents/D7049E/cmake-build-debug/reactphysics3d/cmake_install.cmake")
 
 endif()
 

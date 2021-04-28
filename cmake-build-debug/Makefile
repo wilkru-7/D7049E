@@ -1454,6 +1454,19 @@ glfw\fast:
 	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\glfw.dir\build.make /nologo -$(MAKEFLAGS) glfw\src\CMakeFiles\glfw.dir\build
 .PHONY : glfw\fast
 
+#=============================================================================
+# Target rules for targets named reactphysics3d
+
+# Build rule for target.
+reactphysics3d: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) reactphysics3d
+.PHONY : reactphysics3d
+
+# fast build rule for target.
+reactphysics3d\fast:
+	$(MAKE) $(MAKESILENT) -f reactphysics3d\CMakeFiles\reactphysics3d.dir\build.make /nologo -$(MAKEFLAGS) reactphysics3d\CMakeFiles\reactphysics3d.dir\build
+.PHONY : reactphysics3d\fast
+
 app.obj: app.cpp.obj
 
 .PHONY : app.obj
@@ -1614,6 +1627,7 @@ help:
 	@echo ... meshoptimizer
 	@echo ... nvtt
 	@echo ... pvrtc
+	@echo ... reactphysics3d
 	@echo ... shaderc
 	@echo ... spirv-cross
 	@echo ... spirv-tools

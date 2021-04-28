@@ -31,6 +31,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../bgfx.cmake/bimg/3rdparty/nvtt"
   "../bgfx.cmake/bgfx/3rdparty"
   "../glfw/include"
+  "../reactphysics3d/include"
   )
 
 # Targets to which this target links.
@@ -38,6 +39,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "C:/Users/carol/Documents/D7049E/cmake-build-debug/bgfx.cmake/CMakeFiles/bgfx.dir/DependInfo.cmake"
   "C:/Users/carol/Documents/D7049E/cmake-build-debug/bgfx.cmake/CMakeFiles/example-common.dir/DependInfo.cmake"
   "C:/Users/carol/Documents/D7049E/cmake-build-debug/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "C:/Users/carol/Documents/D7049E/cmake-build-debug/reactphysics3d/CMakeFiles/reactphysics3d.dir/DependInfo.cmake"
   "C:/Users/carol/Documents/D7049E/cmake-build-debug/bgfx.cmake/CMakeFiles/bimg.dir/DependInfo.cmake"
   "C:/Users/carol/Documents/D7049E/cmake-build-debug/bgfx.cmake/CMakeFiles/astc-codec.dir/DependInfo.cmake"
   "C:/Users/carol/Documents/D7049E/cmake-build-debug/bgfx.cmake/CMakeFiles/astc.dir/DependInfo.cmake"

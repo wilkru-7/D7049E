@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "NMake Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "C:/Program Files/JetBrains/CLion 2021.1/bin/cmake/win/share/cmake-3.19/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
   "C:/Program Files/JetBrains/CLion 2021.1/bin/cmake/win/share/cmake-3.19/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "C:/Program Files/JetBrains/CLion 2021.1/bin/cmake/win/share/cmake-3.19/Modules/BasicConfigVersion-SameMinorVersion.cmake.in"
   "C:/Program Files/JetBrains/CLion 2021.1/bin/cmake/win/share/cmake-3.19/Modules/CMakeCInformation.cmake"
@@ -96,6 +97,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../glfw/CMakeLists.txt"
   "../glfw/src/CMakeLists.txt"
   "../glfw/src/glfw_config.h.in"
+  "../reactphysics3d/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -123,6 +125,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "glfw/CMakeFiles/CMakeDirectoryInformation.cmake"
   "glfw/src/glfw_config.h"
   "glfw/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "reactphysics3d/ReactPhysics3DConfigVersion.cmake"
+  "reactphysics3d/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -225,4 +229,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "bgfx.cmake/CMakeFiles/example-39-assao.dir/DependInfo.cmake"
   "glfw/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "reactphysics3d/CMakeFiles/reactphysics3d.dir/DependInfo.cmake"
   )

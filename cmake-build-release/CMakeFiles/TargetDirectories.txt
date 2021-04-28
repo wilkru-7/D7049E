@@ -128,3 +128,12 @@ C:/Users/carol/Documents/D7049E/cmake-build-release/glfw/src/CMakeFiles/install/
 C:/Users/carol/Documents/D7049E/cmake-build-release/glfw/src/CMakeFiles/install.dir
 C:/Users/carol/Documents/D7049E/cmake-build-release/glfw/src/CMakeFiles/edit_cache.dir
 C:/Users/carol/Documents/D7049E/cmake-build-release/glfw/src/CMakeFiles/list_install_components.dir
+C:/Users/carol/Documents/D7049E/cmake-build-release/reactphysics3d/CMakeFiles/reactphysics3d.dir
+C:/Users/carol/Documents/D7049E/cmake-build-release/reactphysics3d/CMakeFiles/package.dir
+C:/Users/carol/Documents/D7049E/cmake-build-release/reactphysics3d/CMakeFiles/package_source.dir
+C:/Users/carol/Documents/D7049E/cmake-build-release/reactphysics3d/CMakeFiles/rebuild_cache.dir
+C:/Users/carol/Documents/D7049E/cmake-build-release/reactphysics3d/CMakeFiles/test.dir
+C:/Users/carol/Documents/D7049E/cmake-build-release/reactphysics3d/CMakeFiles/install/local.dir
+C:/Users/carol/Documents/D7049E/cmake-build-release/reactphysics3d/CMakeFiles/install.dir
+C:/Users/carol/Documents/D7049E/cmake-build-release/reactphysics3d/CMakeFiles/edit_cache.dir
+C:/Users/carol/Documents/D7049E/cmake-build-release/reactphysics3d/CMakeFiles/list_install_components.dir
