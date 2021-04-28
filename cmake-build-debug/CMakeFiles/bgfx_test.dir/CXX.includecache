@@ -388,23 +388,7 @@ new.h
 stddef.h
 ../bgfx.cmake/bx/include/tinystl/stddef.h
 
-C:/Users/carol/Documents/D7049E/resources.cpp
-string
--
-vector
--
-common.h
-C:/Users/carol/Documents/D7049E/common.h
-bgfx_utils.h
-C:/Users/carol/Documents/D7049E/bgfx_utils.h
-bx/file.h
--
-camera.h
-C:/Users/carol/Documents/D7049E/camera.h
-imgui/imgui.h
-C:/Users/carol/Documents/D7049E/imgui/imgui.h
-
-C:/Users/carol/Documents/D7049E/stencil.cpp
+C:/Users/carol/Documents/D7049E/app.cpp
 string
 -
 vector
@@ -421,4 +405,16 @@ imgui/imgui.h
 C:/Users/carol/Documents/D7049E/imgui/imgui.h
 resources.cpp
 C:/Users/carol/Documents/D7049E/resources.cpp
+
+C:/Users/carol/Documents/D7049E/resources.cpp
+string
+-
+vector
+-
+common.h
+C:/Users/carol/Documents/D7049E/common.h
+bgfx_utils.h
+C:/Users/carol/Documents/D7049E/bgfx_utils.h
+bx/file.h
+-
 

@@ -1454,6 +1454,33 @@ glfw\fast:
 	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\glfw.dir\build.make /nologo -$(MAKEFLAGS) glfw\src\CMakeFiles\glfw.dir\build
 .PHONY : glfw\fast
 
+app.obj: app.cpp.obj
+
+.PHONY : app.obj
+
+# target to build an object file
+app.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\app.cpp.obj
+.PHONY : app.cpp.obj
+
+app.i: app.cpp.i
+
+.PHONY : app.i
+
+# target to preprocess a source file
+app.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\app.cpp.i
+.PHONY : app.cpp.i
+
+app.s: app.cpp.s
+
+.PHONY : app.s
+
+# target to generate assembly for a file
+app.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\app.cpp.s
+.PHONY : app.cpp.s
+
 resources.obj: resources.cpp.obj
 
 .PHONY : resources.obj
@@ -1480,33 +1507,6 @@ resources.s: resources.cpp.s
 resources.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\resources.cpp.s
 .PHONY : resources.cpp.s
-
-stencil.obj: stencil.cpp.obj
-
-.PHONY : stencil.obj
-
-# target to build an object file
-stencil.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\stencil.cpp.obj
-.PHONY : stencil.cpp.obj
-
-stencil.i: stencil.cpp.i
-
-.PHONY : stencil.i
-
-# target to preprocess a source file
-stencil.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\stencil.cpp.i
-.PHONY : stencil.cpp.i
-
-stencil.s: stencil.cpp.s
-
-.PHONY : stencil.s
-
-# target to generate assembly for a file
-stencil.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\stencil.cpp.s
-.PHONY : stencil.cpp.s
 
 # Help Target
 help:
@@ -1620,12 +1620,12 @@ help:
 	@echo ... squish
 	@echo ... texturec
 	@echo ... texturev
+	@echo ... app.obj
+	@echo ... app.i
+	@echo ... app.s
 	@echo ... resources.obj
 	@echo ... resources.i
 	@echo ... resources.s
-	@echo ... stencil.obj
-	@echo ... stencil.i
-	@echo ... stencil.s
 .PHONY : help
 
 

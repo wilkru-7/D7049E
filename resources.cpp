@@ -5,9 +5,6 @@
 #include "bgfx_utils.h"
 #include <bx/file.h>
 
-#include "camera.h"
-#include "imgui/imgui.h"
-
 
 namespace bgfx
 {

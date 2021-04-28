@@ -4862,6 +4862,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/carol/Documents/D7049E/app.cpp">
+			<Option target="bgfx_test"/>
+		</Unit>
 		<Unit filename="C:/Users/carol/Documents/D7049E/bgfx.cmake/bgfx/3rdparty/dear-imgui/imconfig.h">
 			<Option target="dear-imgui"/>
 		</Unit>
@@ -9010,9 +9013,6 @@
 			<Option target="glfw"/>
 		</Unit>
 		<Unit filename="C:/Users/carol/Documents/D7049E/resources.cpp">
-			<Option target="bgfx_test"/>
-		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/stencil.cpp">
 			<Option target="bgfx_test"/>
 		</Unit>
 		<Unit filename="C:/Users/carol/Documents/D7049E/CMakeLists.txt">
