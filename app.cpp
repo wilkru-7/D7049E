@@ -126,21 +126,25 @@ public:
 		m_updateScene     = false;
 
         // physics setup https://www.reactphysics3d.com/usermanual.html#x1-4500011
+
         world = physicsCommon.createPhysicsWorld();
-        capsuleShape = physicsCommon.createCapsuleShape(1.0, 2.0);
+        world->setIsDebugRenderingEnabled(TRUE);
+        capsuleShape = physicsCommon.createCapsuleShape(3.0, 5.0);
         orientation = reactphysics3d::Quaternion::identity();
         transform = reactphysics3d::Transform::identity();
 
         reactphysics3d::Vector3 androidPosition(0.0,5.0,0.0);
         reactphysics3d::Transform androidTransform(androidPosition, orientation);
         android = world->createRigidBody(androidTransform);
+        android->setType(reactphysics3d::BodyType::STATIC);
         androidCollider = android->addCollider(capsuleShape, transform);
 
         androidCollider->setCollisionCategoryBits(0x0001);
 
-        reactphysics3d::Vector3 treePosition(14.0,0.0,14.0);
+        reactphysics3d::Vector3 treePosition(14.0,0.0,-14.0);
         reactphysics3d::Transform treeTransform(treePosition, orientation);
         tree = world->createRigidBody(treeTransform);
+        tree->setType(reactphysics3d::BodyType::STATIC);
         treeCollider = tree->addCollider(capsuleShape, transform);
 
         treeCollider->setCollisionCategoryBits(0x0001);
@@ -199,6 +203,7 @@ public:
 
 	virtual bool update() override
 	{
+
 		if (!entry::processEvents(m_viewState.m_width, m_viewState.m_height, m_debug, m_reset, &m_mouseState) )
 		{
 		    //Beginning of left menu window
@@ -542,115 +547,98 @@ public:
 	}
 
     void checkKeyboardInput() {
+        const reactphysics3d::Transform& transform = android->getTransform();
+        const reactphysics3d::Vector3& position = transform.getPosition();
 	    //move left forward
         if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
-            bx::mtxSRT(androidMtx
-                    , 2.0f
-                    , 2.0f
-                    , 2.0f
-                    , 0.0f
-                    , 0.75f
-                    , 0.0f
-                    , androidMtx[12] - 0.35f
-                    , 5.0f
-                    , androidMtx[14] + 0.35f
-            );
+            reactphysics3d::Vector3 androidPosition(androidMtx[12]-0.35,androidMtx[13],androidMtx[14]+0.35);
+            reactphysics3d::Transform androidTransform(androidPosition, orientation);
+            android->setTransform(androidTransform);
+
+            if(world->testOverlap(android, tree)) {
+                resetTransform();
+            }
         //move right forward
         } else if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
-            bx::mtxSRT(androidMtx
-                    , 2.0f
-                    , 2.0f
-                    , 2.0f
-                    , 0.0f
-                    , 2.25f
-                    , 0.0f
-                    , androidMtx[12] + 0.35f
-                    , 5.0f
-                    , androidMtx[14] + 0.35f
-            );
+            reactphysics3d::Vector3 androidPosition(androidMtx[12]+0.35,androidMtx[13],androidMtx[14]+0.35);
+            reactphysics3d::Transform androidTransform(androidPosition, orientation);
+            android->setTransform(androidTransform);
+
+            if(world->testOverlap(android, tree)) {
+                resetTransform();
+            }
         //move left backward
         } else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
-            bx::mtxSRT(androidMtx
-                    , 2.0f
-                    , 2.0f
-                    , 2.0f
-                    , 0.0f
-                    , 2.25f
-                    , 0.0f
-                    , androidMtx[12] - 0.35f
-                    , 5.0f
-                    , androidMtx[14] - 0.35f
-            );
+            reactphysics3d::Vector3 androidPosition(androidMtx[12]-0.35,androidMtx[13],androidMtx[14]-0.35);
+            reactphysics3d::Transform androidTransform(androidPosition, orientation);
+            android->setTransform(androidTransform);
+
+            if(world->testOverlap(android, tree)) {
+                resetTransform();
+            }
         //move right backward
         } else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
-            bx::mtxSRT(androidMtx
-                    , 2.0f
-                    , 2.0f
-                    , 2.0f
-                    , 0.0f
-                    , 0.75f
-                    , 0.0f
-                    , androidMtx[12] + 0.35f
-                    , 5.0f
-                    , androidMtx[14] - 0.35f
-            );
+            reactphysics3d::Vector3 androidPosition(androidMtx[12]+0.35,androidMtx[13],androidMtx[14]-0.35);
+            reactphysics3d::Transform androidTransform(androidPosition, orientation);
+            android->setTransform(androidTransform);
+
+            if(world->testOverlap(android, tree)) {
+                resetTransform();
+            }
         //move left
         } else if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
-            bx::mtxSRT(androidMtx
-                    , 2.0f
-                    , 2.0f
-                    , 2.0f
-                    , 0.0f
-                    , 1.5f
-                    , 0.0f
-                    , androidMtx[12] - 0.5f
-                    , 5.0f
-                    , androidMtx[14]
-            );
+            reactphysics3d::Vector3 androidPosition(androidMtx[12]-0.5,androidMtx[13],androidMtx[14]);
+            reactphysics3d::Transform androidTransform(androidPosition, orientation);
+            android->setTransform(androidTransform);
+
+            if(world->testOverlap(android, tree)) {
+                resetTransform();
+            }
         //move backward
         } else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS) {
-            bx::mtxSRT(androidMtx
-                    , 2.0f
-                    , 2.0f
-                    , 2.0f
-                    , 0.0f
-                    , 0.0f
-                    , 0.0f
-                    , androidMtx[12]
-                    , 5.0f
-                    , androidMtx[14] - 0.5f
-            );
+            reactphysics3d::Vector3 androidPosition(androidMtx[12],androidMtx[13],androidMtx[14]-0.5f);
+            reactphysics3d::Transform androidTransform(androidPosition, orientation);
+            android->setTransform(androidTransform);
+
+            if(world->testOverlap(android, tree)) {
+                resetTransform();
+            }
         //move right
         } else if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
-            bx::mtxSRT(androidMtx
-                    , 2.0f
-                    , 2.0f
-                    , 2.0f
-                    , 0.0f
-                    , 1.5f
-                    , 0.0f
-                    , androidMtx[12] + 0.5f
-                    , 5.0f
-                    , androidMtx[14]
-            );
+
+            reactphysics3d::Vector3 androidPosition(androidMtx[12]+0.5,androidMtx[13],androidMtx[14]);
+            reactphysics3d::Transform androidTransform(androidPosition, orientation);
+            android->setTransform(androidTransform);
+
+            if(world->testOverlap(android, tree)) {
+                resetTransform();
+            }
         // move forward
         } else if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) {
-            bx::mtxSRT(androidMtx
-                    , 2.0f
-                    , 2.0f
-                    , 2.0f
-                    , 0.0f
-                    , 0.0f
-                    , 0.0f
-                    , androidMtx[12]
-                    , 5.0f
-                    , androidMtx[14] + 0.5f
-            );
+            reactphysics3d::Vector3 androidPosition(androidMtx[12],androidMtx[13],androidMtx[14]+0.5f);
+            reactphysics3d::Transform androidTransform(androidPosition, orientation);
+            android->setTransform(androidTransform);
+            if(world->testOverlap(android, tree)) {
+                resetTransform();
+            }
         }
+
+        const reactphysics3d::Transform& transform2 = android->getTransform();
+        const reactphysics3d::Vector3& position2 = transform.getPosition();
+        androidMtx[12] = position2.x;
+        androidMtx[13] = position2.y;
+        androidMtx[14] = position2.z;
+        /*std::cout << "Body Position: (" << position2.x << ", " <<
+                  position2.y << ", " << position2.z << ")" << std::endl;
+        std::cout << "Collision" << world->testOverlap(android, tree) << std::endl;*/
+
+    }
+
+    void resetTransform(){
         reactphysics3d::Vector3 androidPosition(androidMtx[12],androidMtx[13],androidMtx[14]);
         reactphysics3d::Transform androidTransform(androidPosition, orientation);
-        //updateAndroidTransform somehow
-    }
+        android->setTransform(androidTransform);
+	}
 
     reactphysics3d::PhysicsCommon physicsCommon;
     reactphysics3d::PhysicsWorld* world;
