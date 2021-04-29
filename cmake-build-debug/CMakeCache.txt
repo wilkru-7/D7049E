@@ -447,6 +447,15 @@ ReactPhysics3D_BINARY_DIR:STATIC=C:/Users/carol/Documents/D7049E/cmake-build-deb
 //Value Computed by CMake
 ReactPhysics3D_SOURCE_DIR:STATIC=C:/Users/carol/Documents/D7049E/reactphysics3d
 
+//Path to a library.
+SDL2MAIN_LIBRARY:FILEPATH=SDL2MAIN_LIBRARY-NOTFOUND
+
+//Path to a file.
+SDL2_INCLUDE_DIR:PATH=SDL2_INCLUDE_DIR-NOTFOUND
+
+//Path to a library.
+SDL2_LIBRARY_TEMP:FILEPATH=SDL2_LIBRARY_TEMP-NOTFOUND
+
 //Name of the computer/site where compile is being run
 SITE:STRING=LAPTOP-DMJE5TSQ
 
@@ -456,8 +465,44 @@ SLURM_SBATCH_COMMAND:FILEPATH=SLURM_SBATCH_COMMAND-NOTFOUND
 //Path to the SLURM srun executable
 SLURM_SRUN_COMMAND:FILEPATH=SLURM_SRUN_COMMAND-NOTFOUND
 
+//Set to ON for building CoreAudio backend
+SOLOUD_BACKEND_COREAUDIO:BOOL=OFF
+
+//Set to ON for building NULL backend
+SOLOUD_BACKEND_NULL:BOOL=ON
+
+//Set to ON for building OpenSLES backend
+SOLOUD_BACKEND_OPENSLES:BOOL=OFF
+
+//Set to ON for building SDL2 backend
+SOLOUD_BACKEND_SDL2:BOOL=ON
+
+//Set to ON for building WASAPI backend
+SOLOUD_BACKEND_WASAPI:BOOL=OFF
+
+//Set to ON for building WINMM backend
+SOLOUD_BACKEND_WINMM:BOOL=OFF
+
+//Set to ON for building XAudio2 backend
+SOLOUD_BACKEND_XAUDIO2:BOOL=OFF
+
+//Set to ON for building demos
+SOLOUD_BUILD_DEMOS:BOOL=OFF
+
+//Set to ON to build dynamic SoLoud
+SOLOUD_DYNAMIC:BOOL=OFF
+
+//Set to ON to build static SoLoud
+SOLOUD_STATIC:BOOL=ON
+
 //Path to a program.
 SVNCOMMAND:FILEPATH=SVNCOMMAND-NOTFOUND
+
+//Value Computed by CMake
+SoLoud_BINARY_DIR:STATIC=C:/Users/carol/Documents/D7049E/cmake-build-debug/soloud/contrib
+
+//Value Computed by CMake
+SoLoud_SOURCE_DIR:STATIC=C:/Users/carol/Documents/D7049E/soloud/contrib
 
 //Use MSVC runtime library DLL
 USE_MSVC_RUNTIME_LIBRARY_DLL:BOOL=ON
