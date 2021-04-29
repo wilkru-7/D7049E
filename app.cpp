@@ -45,7 +45,7 @@ public:
 		m_reset = BGFX_RESET_VSYNC;
 
         glfwInit();
-        window = glfwCreateWindow(_width, _height, "Hello, bgfx!", NULL, NULL);
+        window = glfwCreateWindow(_width, _height, "A cool game", NULL, NULL);
 
         bgfx::PlatformData pd;
         pd.nwh = glfwGetWin32Window(window);
@@ -129,17 +129,21 @@ public:
         world = physicsCommon.createPhysicsWorld();
         capsuleShape = physicsCommon.createCapsuleShape(1.0, 2.0);
         orientation = reactphysics3d::Quaternion::identity();
-        reactphysics3d::Transform transform = reactphysics3d::Transform::identity();
+        transform = reactphysics3d::Transform::identity();
 
         reactphysics3d::Vector3 androidPosition(0.0,5.0,0.0);
         reactphysics3d::Transform androidTransform(androidPosition, orientation);
         android = world->createRigidBody(androidTransform);
         androidCollider = android->addCollider(capsuleShape, transform);
 
+        androidCollider->setCollisionCategoryBits(0x0001);
+
         reactphysics3d::Vector3 treePosition(14.0,0.0,14.0);
         reactphysics3d::Transform treeTransform(treePosition, orientation);
         tree = world->createRigidBody(treeTransform);
         treeCollider = tree->addCollider(capsuleShape, transform);
+
+        treeCollider->setCollisionCategoryBits(0x0001);
 
         bx::mtxSRT(androidMtx
                 , 2.0f
@@ -184,6 +188,8 @@ public:
 		// Shutdown bgfx.
 		bgfx::shutdown();
 
+        world->destroyRigidBody(tree);
+        world->destroyRigidBody(android);
         physicsCommon.destroyPhysicsWorld(world);
 
         glfwDestroyWindow(window);
@@ -502,6 +508,10 @@ public:
 			setViewTransformMask(s_viewMask, m_viewState.m_view, m_viewState.m_proj);
 			s_viewMask = 0;
 
+            checkKeyboardInput();
+            //checkForCollision() to be implemented
+            world->update(1.0f / 60.0f);
+
 			// Advance to next frame. Rendering thread will be kicked to
 			// process submitted rendering primitives.
 			bgfx::frame();
@@ -512,8 +522,6 @@ public:
 			//reset clear values on used views
 			clearViewMask(s_clearMask, BGFX_CLEAR_NONE, m_clearValues);
 			s_clearMask = 0;
-
-			checkKeyboardInput();
 
 			return true;
 		}
@@ -535,20 +543,65 @@ public:
 
     void checkKeyboardInput() {
         if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) {
-            androidMtx[14] = androidMtx[14] + 0.5f;
+            bx::mtxSRT(androidMtx
+                    , 2.0f
+                    , 2.0f
+                    , 2.0f
+                    , 0.0f
+                    , 0.0f
+                    , 0.0f
+                    , androidMtx[12]
+                    , 5.0f
+                    , androidMtx[14] + 0.5f
+            );
+
         } else if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
-            androidMtx[12] = androidMtx[12] - 0.5f;
+            bx::mtxSRT(androidMtx
+                    , 2.0f
+                    , 2.0f
+                    , 2.0f
+                    , 0.0f
+                    , 1.5f
+                    , 0.0f
+                    , androidMtx[12] - 0.5f
+                    , 5.0f
+                    , androidMtx[14]
+            );
 
         } else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS) {
-            androidMtx[14] = androidMtx[14] - 0.5f;
+            bx::mtxSRT(androidMtx
+                    , 2.0f
+                    , 2.0f
+                    , 2.0f
+                    , 0.0f
+                    , 0.0f
+                    , 0.0f
+                    , androidMtx[12]
+                    , 5.0f
+                    , androidMtx[14] - 0.5f
+            );
 
         } else if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
-            androidMtx[12] = androidMtx[12] + 0.5f;
+            bx::mtxSRT(androidMtx
+                    , 2.0f
+                    , 2.0f
+                    , 2.0f
+                    , 0.0f
+                    , 1.5f
+                    , 0.0f
+                    , androidMtx[12] + 0.5f
+                    , 5.0f
+                    , androidMtx[14]
+            );
         }
+        reactphysics3d::Vector3 androidPosition(androidMtx[12],androidMtx[13],androidMtx[14]);
+        reactphysics3d::Transform androidTransform(androidPosition, orientation);
+        //updateAndroidTransform somehow
     }
 
     reactphysics3d::PhysicsCommon physicsCommon;
     reactphysics3d::PhysicsWorld* world;
+    reactphysics3d::Transform transform;
     reactphysics3d::CapsuleShape* capsuleShape;
     reactphysics3d::RigidBody* android;
     reactphysics3d::RigidBody* tree;
