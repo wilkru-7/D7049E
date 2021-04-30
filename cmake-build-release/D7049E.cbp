@@ -4906,6 +4906,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/carol/Documents/D7049E/android.cpp">
+			<Option target="bgfx_test"/>
+		</Unit>
+		<Unit filename="C:/Users/carol/Documents/D7049E/android.h">
+			<Option target="bgfx_test"/>
+		</Unit>
 		<Unit filename="C:/Users/carol/Documents/D7049E/app.cpp">
 			<Option target="bgfx_test"/>
 		</Unit>
@@ -9641,7 +9647,7 @@
 		<Unit filename="C:/Users/carol/Documents/D7049E/reactphysics3d/src/utils/Profiler.cpp">
 			<Option target="reactphysics3d"/>
 		</Unit>
-		<Unit filename="C:/Users/carol/Documents/D7049E/resources.cpp">
+		<Unit filename="C:/Users/carol/Documents/D7049E/resources.h">
 			<Option target="bgfx_test"/>
 		</Unit>
 		<Unit filename="C:/Users/carol/Documents/D7049E/CMakeLists.txt">

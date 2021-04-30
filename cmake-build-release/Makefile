@@ -1467,6 +1467,33 @@ reactphysics3d\fast:
 	$(MAKE) $(MAKESILENT) -f reactphysics3d\CMakeFiles\reactphysics3d.dir\build.make /nologo -$(MAKEFLAGS) reactphysics3d\CMakeFiles\reactphysics3d.dir\build
 .PHONY : reactphysics3d\fast
 
+android.obj: android.cpp.obj
+
+.PHONY : android.obj
+
+# target to build an object file
+android.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\android.cpp.obj
+.PHONY : android.cpp.obj
+
+android.i: android.cpp.i
+
+.PHONY : android.i
+
+# target to preprocess a source file
+android.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\android.cpp.i
+.PHONY : android.cpp.i
+
+android.s: android.cpp.s
+
+.PHONY : android.s
+
+# target to generate assembly for a file
+android.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\android.cpp.s
+.PHONY : android.cpp.s
+
 app.obj: app.cpp.obj
 
 .PHONY : app.obj
@@ -1493,33 +1520,6 @@ app.s: app.cpp.s
 app.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\app.cpp.s
 .PHONY : app.cpp.s
-
-resources.obj: resources.cpp.obj
-
-.PHONY : resources.obj
-
-# target to build an object file
-resources.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\resources.cpp.obj
-.PHONY : resources.cpp.obj
-
-resources.i: resources.cpp.i
-
-.PHONY : resources.i
-
-# target to preprocess a source file
-resources.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\resources.cpp.i
-.PHONY : resources.cpp.i
-
-resources.s: resources.cpp.s
-
-.PHONY : resources.s
-
-# target to generate assembly for a file
-resources.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\bgfx_test.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\bgfx_test.dir\resources.cpp.s
-.PHONY : resources.cpp.s
 
 # Help Target
 help:
@@ -1634,12 +1634,12 @@ help:
 	@echo ... squish
 	@echo ... texturec
 	@echo ... texturev
+	@echo ... android.obj
+	@echo ... android.i
+	@echo ... android.s
 	@echo ... app.obj
 	@echo ... app.i
 	@echo ... app.s
-	@echo ... resources.obj
-	@echo ... resources.i
-	@echo ... resources.s
 .PHONY : help
 
 

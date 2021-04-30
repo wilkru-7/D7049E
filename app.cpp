@@ -20,7 +20,8 @@
 
 #include "camera.h"
 #include "imgui/imgui.h"
-#include "resources.cpp"
+#include "resources.h"
+#include "android.cpp"
 
 
 namespace
@@ -161,12 +162,16 @@ public:
                 , 0.0f
         );
 
+        androidObj.Android::init();
+
     }
 
 	virtual int shutdown() override
 	{
 		// Cleanup.
-		m_androidMesh.unload();
+		androidObj.Android::shutdown();
+
+		//m_androidMesh.unload();
 		m_treeMesh.unload();
 		m_cubeMesh.unload();
 		m_hplaneMesh.unload();
@@ -411,14 +416,16 @@ public:
 
             setColorBlue();
 
+            androidObj.Android::reflectSubmit(m_programColorLighting);
+
             // Reflect and submit android.
-            float mtxReflectedAndroid[16];
+            /*float mtxReflectedAndroid[16];
             bx::mtxMul(mtxReflectedAndroid, androidMtx, reflectMtx);
             m_androidMesh.submit(RENDER_VIEWID_RANGE1_PASS_1
                     , mtxReflectedAndroid
                     , m_programColorLighting
                     , s_renderStates[RenderState::StencilReflection_DrawReflected]
-            );
+            );*/
 
             setColorGreen();
 
@@ -450,12 +457,14 @@ public:
 
             setColorBlue();
 
+            androidObj.Android::drawSubmit(m_programColorLighting);
+
             // android.
-            m_androidMesh.submit(RENDER_VIEWID_RANGE1_PASS_3
+            /*m_androidMesh.submit(RENDER_VIEWID_RANGE1_PASS_3
                     , androidMtx
                     , m_programColorLighting
                     , s_renderStates[RenderState::StencilReflection_DrawScene]
-            );
+            );*/
 
             setColorGreen();
 
@@ -560,7 +569,9 @@ public:
                 resetTransform();
             }
 
-            bx::mtxSRT(androidMtx
+            androidObj.Android::updateMtx(-0.35,0.35,0.75);
+
+            /*bx::mtxSRT(androidMtx
                     , 2.0f
                     , 2.0f
                     , 2.0f
@@ -570,7 +581,7 @@ public:
                     , androidMtx[12] - 0.35f
                     , 5.0f
                     , androidMtx[14] + 0.35f
-            );
+            );*/
 
         //move right forward
         } else if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
@@ -582,7 +593,9 @@ public:
                 resetTransform();
             }
 
-            bx::mtxSRT(androidMtx
+            androidObj.Android::updateMtx(0.35,0.35,2.25);
+
+            /*bx::mtxSRT(androidMtx
                     , 2.0f
                     , 2.0f
                     , 2.0f
@@ -592,7 +605,7 @@ public:
                     , androidMtx[12] + 0.35f
                     , 5.0f
                     , androidMtx[14] + 0.35f
-            );
+            );*/
 
         //move left backward
         } else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
@@ -604,7 +617,9 @@ public:
                 resetTransform();
             }
 
-            bx::mtxSRT(androidMtx
+            androidObj.Android::updateMtx(-0.35,-0.35,2.25);
+
+            /*bx::mtxSRT(androidMtx
                     , 2.0f
                     , 2.0f
                     , 2.0f
@@ -614,7 +629,7 @@ public:
                     , androidMtx[12] - 0.35f
                     , 5.0f
                     , androidMtx[14] - 0.35f
-            );
+            );*/
 
         //move right backward
         } else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
@@ -626,7 +641,9 @@ public:
                 resetTransform();
             }
 
-            bx::mtxSRT(androidMtx
+            androidObj.Android::updateMtx(0.35,-0.35,0.75);
+
+            /*bx::mtxSRT(androidMtx
                     , 2.0f
                     , 2.0f
                     , 2.0f
@@ -636,7 +653,7 @@ public:
                     , androidMtx[12] + 0.35f
                     , 5.0f
                     , androidMtx[14] - 0.35f
-            );
+            );*/
 
         //move left
         } else if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
@@ -648,7 +665,9 @@ public:
                 resetTransform();
             }
 
-            bx::mtxSRT(androidMtx
+            androidObj.Android::updateMtx(-0.5,0,1.5);
+
+            /*bx::mtxSRT(androidMtx
                     , 2.0f
                     , 2.0f
                     , 2.0f
@@ -658,7 +677,7 @@ public:
                     , androidMtx[12] - 0.5f
                     , 5.0f
                     , androidMtx[14]
-            );
+            );*/
 
         //move backward
         } else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS) {
@@ -670,7 +689,9 @@ public:
                 resetTransform();
             }
 
-            bx::mtxSRT(androidMtx
+            androidObj.Android::updateMtx(0,-0.5,0.0);
+
+            /*bx::mtxSRT(androidMtx
                     , 2.0f
                     , 2.0f
                     , 2.0f
@@ -680,7 +701,7 @@ public:
                     , androidMtx[12]
                     , 5.0f
                     , androidMtx[14] - 0.5f
-            );
+            );*/
 
         //move right
         } else if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
@@ -692,7 +713,9 @@ public:
                 resetTransform();
             }
 
-            bx::mtxSRT(androidMtx
+            androidObj.Android::updateMtx(0.5,0,1.5);
+
+            /*bx::mtxSRT(androidMtx
                     , 2.0f
                     , 2.0f
                     , 2.0f
@@ -702,7 +725,7 @@ public:
                     , androidMtx[12] + 0.5f
                     , 5.0f
                     , androidMtx[14]
-            );
+            );*/
 
         // move forward
         } else if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) {
@@ -714,7 +737,9 @@ public:
                 resetTransform();
             }
 
-            bx::mtxSRT(androidMtx
+            androidObj.Android::updateMtx(0,0.5,0.0);
+
+            /*bx::mtxSRT(androidMtx
                     , 2.0f
                     , 2.0f
                     , 2.0f
@@ -724,7 +749,7 @@ public:
                     , androidMtx[12]
                     , 5.0f
                     , androidMtx[14] + 0.5f
-            );
+            );*/
 
         }
 
@@ -754,6 +779,8 @@ public:
     reactphysics3d::Quaternion orientation;
     reactphysics3d::Collider* androidCollider;
     reactphysics3d::Collider* treeCollider;
+
+    Android androidObj;
 
     GLFWwindow* window;
 

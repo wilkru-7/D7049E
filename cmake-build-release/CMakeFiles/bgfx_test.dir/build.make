@@ -79,35 +79,35 @@ CMakeFiles\bgfx_test.dir\app.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx_test.dir\app.cpp.s /c C:\Users\carol\Documents\D7049E\app.cpp
 <<
 
-CMakeFiles\bgfx_test.dir\resources.cpp.obj: CMakeFiles\bgfx_test.dir\flags.make
-CMakeFiles\bgfx_test.dir\resources.cpp.obj: ..\resources.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bgfx_test.dir/resources.cpp.obj"
+CMakeFiles\bgfx_test.dir\android.cpp.obj: CMakeFiles\bgfx_test.dir\flags.make
+CMakeFiles\bgfx_test.dir\android.cpp.obj: ..\android.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\carol\Documents\D7049E\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bgfx_test.dir/android.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx_test.dir\resources.cpp.obj /FdCMakeFiles\bgfx_test.dir\ /FS -c C:\Users\carol\Documents\D7049E\resources.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\bgfx_test.dir\android.cpp.obj /FdCMakeFiles\bgfx_test.dir\ /FS -c C:\Users\carol\Documents\D7049E\android.cpp
 <<
 
-CMakeFiles\bgfx_test.dir\resources.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx_test.dir/resources.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx_test.dir\resources.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\resources.cpp
+CMakeFiles\bgfx_test.dir\android.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bgfx_test.dir/android.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe > CMakeFiles\bgfx_test.dir\android.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\carol\Documents\D7049E\android.cpp
 <<
 
-CMakeFiles\bgfx_test.dir\resources.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx_test.dir/resources.cpp.s"
+CMakeFiles\bgfx_test.dir\android.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bgfx_test.dir/android.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx_test.dir\resources.cpp.s /c C:\Users\carol\Documents\D7049E\resources.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\bgfx_test.dir\android.cpp.s /c C:\Users\carol\Documents\D7049E\android.cpp
 <<
 
 # Object files for target bgfx_test
 bgfx_test_OBJECTS = \
 "CMakeFiles\bgfx_test.dir\app.cpp.obj" \
-"CMakeFiles\bgfx_test.dir\resources.cpp.obj"
+"CMakeFiles\bgfx_test.dir\android.cpp.obj"
 
 # External object files for target bgfx_test
 bgfx_test_EXTERNAL_OBJECTS =
 
 bgfx_test.exe: CMakeFiles\bgfx_test.dir\app.cpp.obj
-bgfx_test.exe: CMakeFiles\bgfx_test.dir\resources.cpp.obj
+bgfx_test.exe: CMakeFiles\bgfx_test.dir\android.cpp.obj
 bgfx_test.exe: CMakeFiles\bgfx_test.dir\build.make
 bgfx_test.exe: bgfx.cmake\bgfx.lib
 bgfx_test.exe: bgfx.cmake\example-common.lib
