@@ -17,9 +17,10 @@ include(CPack)
 add_subdirectory(bgfx.cmake)
 add_subdirectory(glfw)
 add_subdirectory(reactphysics3d)
+add_subdirectory(soloud/contrib)
 
-target_link_libraries(bgfx_test bgfx example-common glfw reactphysics3d)
-target_include_directories( bgfx_test PUBLIC bgfx.cmake/bgfx/include bgfx.cmake/bgfx/examples/common )
+target_link_libraries(bgfx_test bgfx example-common glfw reactphysics3d soloud)
+target_include_directories( bgfx_test PUBLIC bgfx.cmake/bgfx/include bgfx.cmake/bgfx/examples/common soloud/include)
 set_target_properties(bgfx_test PROPERTIES LINK_FLAGS "/ENTRY:\"mainCRTStartup\"" )
 
 #target_link_libraries(bgfx_test glfw)

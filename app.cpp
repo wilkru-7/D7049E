@@ -18,6 +18,9 @@
 
 #include <reactphysics3d/reactphysics3d.h>
 
+#include "soloud.h"
+#include "soloud_wav.h"
+
 #include "camera.h"
 #include "imgui/imgui.h"
 #include "resources.h"
@@ -37,6 +40,12 @@ public:
 
 	virtual void init(int32_t _argc, const char* const* _argv, uint32_t _width, uint32_t _height) override
 	{
+        // Initialize SoLoud (automatic back-end selection)
+        soloud.init();
+
+        sample.load("../../../../mozart.wav"); // Load a wave file
+        soloud.play(sample);        // Play it
+
 		Args args(_argc, _argv);
 
 		m_viewState   = ViewState(_width, _height);
@@ -770,6 +779,9 @@ public:
         android->setTransform(androidTransform);
 	}
 
+    SoLoud::Soloud soloud; // Engine core
+    SoLoud::Wav sample;    // One sample
+
     reactphysics3d::PhysicsCommon physicsCommon;
     reactphysics3d::PhysicsWorld* world;
     reactphysics3d::Transform transform;
@@ -834,4 +846,3 @@ ENTRY_IMPLEMENT_MAIN(
 	, "A very cool game."
 	, "https://github.com/wilkru-7/D7049E"
 	);
-
