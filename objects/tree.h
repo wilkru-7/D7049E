@@ -18,7 +18,7 @@ namespace {
 
         void Tree::reflectSubmit(bgfx::ProgramHandle programColorLighting);
 
-        void Tree::draw(bgfx::ProgramHandle programColorLighting);
+        void Tree::drawSubmit(bgfx::ProgramHandle programColorLighting);
 
         Mesh treeMesh;
         float treePosition[3];

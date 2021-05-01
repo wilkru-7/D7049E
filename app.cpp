@@ -271,13 +271,13 @@ public:
             setColorGreen();
 
             // draw trees
-            treeObj1.Tree::draw(m_programColorLighting);
-            treeObj2.Tree::draw(m_programColorLighting);
-            treeObj3.Tree::draw(m_programColorLighting);
-            treeObj4.Tree::draw(m_programColorLighting);
+            treeObj1.Tree::drawSubmit(m_programColorLighting);
+            treeObj2.Tree::drawSubmit(m_programColorLighting);
+            treeObj3.Tree::drawSubmit(m_programColorLighting);
+            treeObj4.Tree::drawSubmit(m_programColorLighting);
 
 			//lights
-			lightObj.Light::draw(m_viewState, m_programColorTexture, m_flareTex);
+			lightObj.Light::drawSubmit(m_viewState, m_programColorTexture, m_flareTex);
 
 			// Draw floor bottom.
 			floorObj.Floor::drawBottomSubmit(m_programTexture, m_figureTex);

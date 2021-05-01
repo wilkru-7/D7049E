@@ -20,7 +20,7 @@ namespace {
 
         void Light::setLight();
 
-        void Light::draw(ViewState viewState, bgfx::ProgramHandle programColorTexture, bgfx::TextureHandle flareTex);
+        void Light::drawSubmit(ViewState viewState, bgfx::ProgramHandle programColorTexture, bgfx::TextureHandle flareTex);
 
         float lightRgbInnerR[MAX_NUM_LIGHTS][4];
         float lightPosRadius[MAX_NUM_LIGHTS][4];

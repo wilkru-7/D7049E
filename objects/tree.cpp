@@ -42,7 +42,7 @@ void Tree::reflectSubmit(bgfx::ProgramHandle programColorLighting) {
     );
 }
 
-void Tree::draw(bgfx::ProgramHandle programColorLighting) {
+void Tree::drawSubmit(bgfx::ProgramHandle programColorLighting) {
     treeMesh.submit(RENDER_VIEWID_RANGE1_PASS_3
             , treeMtx
             , programColorLighting

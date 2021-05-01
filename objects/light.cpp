@@ -60,7 +60,7 @@ void Light::setLight() {
     bx::memCopy(s_uniforms.m_lightPosRadius, lightPosRadius, 4*sizeof(float) );
 }
 
-void Light::draw(ViewState viewState, bgfx::ProgramHandle programColorTexture, bgfx::TextureHandle flareTex) {
+void Light::drawSubmit(ViewState viewState, bgfx::ProgramHandle programColorTexture, bgfx::TextureHandle flareTex) {
     const float lightScale[3] = { 1.5f, 1.5f, 1.5f };
     float lightMtx[16];
 
