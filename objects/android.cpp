@@ -4,9 +4,7 @@
 
 #include "common.h"
 #include "bgfx_utils.h"
-#include <bx/file.h>
 #include "android.h"
-#include "resources.h"
 
 void Android::init() {
     bx::mtxSRT(androidMtx
@@ -62,6 +60,12 @@ void Android::updateMtx(float x, float z, float rot) {
             , 5.0f
             , androidMtx[14] + z
     );
+}
+
+void Android::updatePhysicsMtx(float x, float y, float z) {
+    androidMtx[12] = x;
+    androidMtx[13] = y;
+    androidMtx[14] = z;
 }
 
 float * Android::getMtx() {

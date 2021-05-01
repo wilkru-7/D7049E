@@ -7,7 +7,7 @@ include(CTest)
 enable_testing()
 
 # add the executable
-add_executable(bgfx_test app.cpp resources.h android.cpp android.h)
+add_executable(bgfx_test app.cpp resources.h objects/android.cpp objects/android.h objects/floor.cpp objects/floor.h objects/light.cpp objects/light.h objects/tree.cpp objects/tree.h)
 
 set(CMAKE_CXX_STANDARD 14)
 set(SOURCE_FILES app.cpp)

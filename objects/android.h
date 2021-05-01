@@ -7,20 +7,22 @@
 
 #endif //D7049E_ANDROID_H
 
-#include "resources.h"
+#include "../resources.h"
 
 namespace {
     class Android {
     public:
-        void init();
+        void Android::init();
 
-        void shutdown();
+        void Android::shutdown();
 
         void Android::reflectSubmit(bgfx::ProgramHandle programColorLighting);
 
         void Android::drawSubmit(bgfx::ProgramHandle programColorLighting);
 
         void Android::updateMtx(float x, float z, float rot);
+
+        void Android::updatePhysicsMtx(float x, float y, float z);
 
         float * Android::getMtx();
 
