@@ -194,7 +194,7 @@ namespace
 
                 // First pass - Draw plane.
 
-                floorObj.Floor::drawSubmit();
+                //floorObj.Floor::drawSubmit();
 
                 // Second pass - Draw reflected objects.
 
@@ -239,6 +239,8 @@ namespace
                 treeObj2.Tree::drawSubmit();
                 treeObj3.Tree::drawSubmit();
                 treeObj4.Tree::drawSubmit();
+
+                floorObj.Floor::drawSubmit();
 
                 //lights
                 lightObj.Light::drawSubmit(m_viewState);
@@ -292,7 +294,7 @@ namespace
 
             //move left forward
             if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
-                reactphysics3d::Vector3 androidPosition(androidObj.Android::getMtx()[12]-0.35,androidObj.Android::getMtx()[13],androidObj.Android::getMtx()[14]+0.35);
+                reactphysics3d::Vector3 androidPosition(position.x-0.35,position.y,position.z+0.35);
                 reactphysics3d::Transform androidTransform(androidPosition, orientation);
                 android->setTransform(androidTransform);
 
@@ -304,7 +306,7 @@ namespace
 
                 //move right forward
             } else if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
-                reactphysics3d::Vector3 androidPosition(androidObj.Android::getMtx()[12]+0.35,androidObj.Android::getMtx()[13],androidObj.Android::getMtx()[14]+0.35);
+                reactphysics3d::Vector3 androidPosition(position.x+0.35,position.y,position.z+0.35);
                 reactphysics3d::Transform androidTransform(androidPosition, orientation);
                 android->setTransform(androidTransform);
 
@@ -316,7 +318,7 @@ namespace
 
                 //move left backward
             } else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
-                reactphysics3d::Vector3 androidPosition(androidObj.Android::getMtx()[12]-0.35,androidObj.Android::getMtx()[13],androidObj.Android::getMtx()[14]-0.35);
+                reactphysics3d::Vector3 androidPosition(position.x-0.35,position.y,position.z-0.35);
                 reactphysics3d::Transform androidTransform(androidPosition, orientation);
                 android->setTransform(androidTransform);
 
@@ -328,7 +330,7 @@ namespace
 
                 //move right backward
             } else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
-                reactphysics3d::Vector3 androidPosition(androidObj.Android::getMtx()[12]+0.35,androidObj.Android::getMtx()[13],androidObj.Android::getMtx()[14]-0.35);
+                reactphysics3d::Vector3 androidPosition(position.x+0.35,position.y,position.z-0.35);
                 reactphysics3d::Transform androidTransform(androidPosition, orientation);
                 android->setTransform(androidTransform);
 
@@ -340,7 +342,7 @@ namespace
 
                 //move left
             } else if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
-                reactphysics3d::Vector3 androidPosition(androidObj.Android::getMtx()[12]-0.5,androidObj.Android::getMtx()[13],androidObj.Android::getMtx()[14]);
+                reactphysics3d::Vector3 androidPosition(position.x-0.5,position.y,position.z);
                 reactphysics3d::Transform androidTransform(androidPosition, orientation);
                 android->setTransform(androidTransform);
 
@@ -352,7 +354,7 @@ namespace
 
                 //move backward
             } else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS) {
-                reactphysics3d::Vector3 androidPosition(androidObj.Android::getMtx()[12],androidObj.Android::getMtx()[13],androidObj.Android::getMtx()[14]-0.5f);
+                reactphysics3d::Vector3 androidPosition(position.x,position.y,position.z-0.5);
                 reactphysics3d::Transform androidTransform(androidPosition, orientation);
                 android->setTransform(androidTransform);
 
@@ -364,7 +366,7 @@ namespace
 
                 //move right
             } else if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
-                reactphysics3d::Vector3 androidPosition(androidObj.Android::getMtx()[12]+0.5,androidObj.Android::getMtx()[13],androidObj.Android::getMtx()[14]);
+                reactphysics3d::Vector3 androidPosition(position.x+0.5,position.y,position.z);
                 reactphysics3d::Transform androidTransform(androidPosition, orientation);
                 android->setTransform(androidTransform);
 
@@ -376,7 +378,7 @@ namespace
 
                 // move forward
             } else if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) {
-                reactphysics3d::Vector3 androidPosition(androidObj.Android::getMtx()[12],androidObj.Android::getMtx()[13],androidObj.Android::getMtx()[14]+0.5f);
+                reactphysics3d::Vector3 androidPosition(position.x,position.y,position.z+0.5);
                 reactphysics3d::Transform androidTransform(androidPosition, orientation);
                 android->setTransform(androidTransform);
 
@@ -388,9 +390,7 @@ namespace
 
             }
 
-            const reactphysics3d::Transform& transform2 = android->getTransform();
-            const reactphysics3d::Vector3& position2 = transform.getPosition();
-            androidObj.Android::updateMtx(position2.x, position2.y, position2.z);
+            androidObj.Android::updateMtx(position.x, position.y, position.z);
             /*std::cout << "Body Position: (" << position2.x << ", " <<
                       position2.y << ", " << position2.z << ")" << std::endl;
             std::cout << "Collision" << world->testOverlap(android, tree) << std::endl;*/
