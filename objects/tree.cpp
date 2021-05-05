@@ -6,10 +6,9 @@
 
 
 void Tree::init(float pos[3]) {
+
     treeMesh.load("meshes/polytree.bin");
-    treePosition[0] = pos[0];
-    treePosition[1] = pos[1];
-    treePosition[2] = pos[2];
+    programColorLighting   = loadProgram("vs_stencil_color_lighting",   "fs_stencil_color_lighting"  );
 
     bx::mtxSRT(treeMtx
             , 0.5f
@@ -18,9 +17,9 @@ void Tree::init(float pos[3]) {
             , 0.0f
             , 0.0f
             , 0.0f
-            , treePosition[0]
-            , treePosition[1]
-            , treePosition[2]
+            , pos[0]
+            , pos[1]
+            , pos[2]
     );
 }
 
@@ -28,7 +27,7 @@ void Tree::shutdown() {
     treeMesh.unload();
 }
 
-void Tree::reflectSubmit(bgfx::ProgramHandle programColorLighting) {
+void Tree::reflectSubmit() {
     float reflectMtx[16];
     mtxReflected(reflectMtx, { 0.0f, 0.01f, 0.0f }, { 0.0f, 1.0f, 0.0f });
 
@@ -42,7 +41,7 @@ void Tree::reflectSubmit(bgfx::ProgramHandle programColorLighting) {
     );
 }
 
-void Tree::drawSubmit(bgfx::ProgramHandle programColorLighting) {
+void Tree::drawSubmit() {
     treeMesh.submit(RENDER_VIEWID_RANGE1_PASS_3
             , treeMtx
             , programColorLighting

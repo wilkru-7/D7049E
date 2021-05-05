@@ -30,20 +30,14 @@ void Light::init() {
 
     vplaneMesh.load(s_vplaneVertices, BX_COUNTOF(s_vplaneVertices), PosNormalTexcoordVertex::ms_layout, s_planeIndices, BX_COUNTOF(s_planeIndices) );
 
-    lightPosRadius[0][0] = 0.0f;
-    lightPosRadius[0][1] = 20.0f;
-    lightPosRadius[0][2] = -20.0f;
-    lightPosRadius[0][3] = 20.0f;
-
-}
-
-void Light::update() {
-    const float radius = 20.0f;
+    programColorTexture    = loadProgram("vs_stencil_color_texture",    "fs_stencil_color_texture"   );
+    flareTex      = loadTexture("textures/flare.dds");
 
     lightPosRadius[0][0] = 0.0f;
     lightPosRadius[0][1] = 20.0f;
     lightPosRadius[0][2] = -20.0f;
     lightPosRadius[0][3] = 20.0f;
+
 }
 
 void Light::reflect() {
@@ -60,7 +54,7 @@ void Light::setLight() {
     bx::memCopy(s_uniforms.m_lightPosRadius, lightPosRadius, 4*sizeof(float) );
 }
 
-void Light::drawSubmit(ViewState viewState, bgfx::ProgramHandle programColorTexture, bgfx::TextureHandle flareTex) {
+void Light::drawSubmit(ViewState viewState) {
     const float lightScale[3] = { 1.5f, 1.5f, 1.5f };
     float lightMtx[16];
 

@@ -16,12 +16,13 @@ namespace {
 
         void Tree::shutdown();
 
-        void Tree::reflectSubmit(bgfx::ProgramHandle programColorLighting);
+        void Tree::reflectSubmit();
 
-        void Tree::drawSubmit(bgfx::ProgramHandle programColorLighting);
+        void Tree::drawSubmit();
 
         Mesh treeMesh;
         float treePosition[3];
         float treeMtx[16];
+        bgfx::ProgramHandle programColorLighting;
     };
 }

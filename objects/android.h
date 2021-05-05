@@ -8,6 +8,7 @@
 #endif //D7049E_ANDROID_H
 
 #include "../resources.h"
+#include <reactphysics3d/reactphysics3d.h>
 
 namespace {
     class Android {
@@ -16,18 +17,19 @@ namespace {
 
         void Android::shutdown();
 
-        void Android::reflectSubmit(bgfx::ProgramHandle programColorLighting);
+        void Android::reflectSubmit();
 
-        void Android::drawSubmit(bgfx::ProgramHandle programColorLighting);
+        void Android::drawSubmit();
 
-        void Android::updateMtx(float x, float z, float rot);
+        void Android::updateRot(float rot);
 
-        void Android::updatePhysicsMtx(float x, float y, float z);
+        void Android::updateMtx(float x, float y, float z);
 
         float * Android::getMtx();
 
         Mesh androidMesh;
         float androidMtx[16];
+        bgfx::ProgramHandle programColorLighting;
     };
 }
 

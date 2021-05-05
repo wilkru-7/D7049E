@@ -64,7 +64,7 @@ namespace {
                     {  1.0f, -1.0f, 0.0f, encodeNormalRgba8(0.0f, 0.0f, -1.0f), 0.0f, 0.0f },
             };
 
-    static const PosNormalTexcoordVertex s_cubeVertices[] =
+    /*static const PosNormalTexcoordVertex s_cubeVertices[] =
             {
                     { -1.0f,  1.0f,  1.0f, encodeNormalRgba8( 0.0f,  1.0f,  0.0f), 1.0f, 1.0f },
                     {  1.0f,  1.0f,  1.0f, encodeNormalRgba8( 0.0f,  1.0f,  0.0f), 0.0f, 1.0f },
@@ -90,9 +90,9 @@ namespace {
                     { -1.0f,  1.0f,  1.0f, encodeNormalRgba8(-1.0f,  0.0f,  0.0f), 0.0f, 1.0f },
                     { -1.0f, -1.0f, -1.0f, encodeNormalRgba8(-1.0f,  0.0f,  0.0f), 1.0f, 0.0f },
                     { -1.0f, -1.0f,  1.0f, encodeNormalRgba8(-1.0f,  0.0f,  0.0f), 0.0f, 0.0f },
-            };
+            };*/
 
-    static const uint16_t s_cubeIndices[] =
+    /*static const uint16_t s_cubeIndices[] =
             {
                     0,  1,  2,
                     1,  3,  2,
@@ -108,7 +108,7 @@ namespace {
                     17, 19, 18,
                     20, 22, 21,
                     21, 22, 23,
-            };
+            };*/
 
     static const uint16_t s_planeIndices[] =
             {
@@ -185,7 +185,7 @@ namespace {
         _result[15] =  1.0f;
     }
 
-    void mtxShadow(float* _result, const float* _ground, const float* _light)
+    /*void mtxShadow(float* _result, const float* _ground, const float* _light)
     {
         const float dot =
                 _ground[0] * _light[0]
@@ -213,7 +213,7 @@ namespace {
         _result[13] = 0.0f - _light[1] * _ground[3];
         _result[14] = 0.0f - _light[2] * _ground[3];
         _result[15] =  dot - _light[3] * _ground[3];
-    }
+    }*/
 
     void mtxBillboard(float* _result, const float* _view, const float* _pos, const float* _scale)
     {
@@ -240,8 +240,8 @@ namespace {
         {
             m_params.m_ambientPass   = 1.0f;
             m_params.m_lightingPass  = 1.0f;
-            m_params.m_lightCount    = 4.0f;
-            m_params.m_lightIndex    = 4.0f;
+            m_params.m_lightCount    = 1.0f;
+            m_params.m_lightIndex    = 0.0f;
 
             m_ambient[0] = 0.02f;
             m_ambient[1] = 0.02f;
@@ -558,7 +558,7 @@ namespace {
         s_clearMask |= _viewMask;
     }
 
-    struct Aabb
+    /*struct Aabb
     {
         float m_min[3];
         float m_max[3];
@@ -573,7 +573,7 @@ namespace {
     {
         float m_center[3];
         float m_radius;
-    };
+    };*/
 
     struct Primitive
     {

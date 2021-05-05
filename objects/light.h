@@ -20,11 +20,13 @@ namespace {
 
         void Light::setLight();
 
-        void Light::drawSubmit(ViewState viewState, bgfx::ProgramHandle programColorTexture, bgfx::TextureHandle flareTex);
+        void Light::drawSubmit(ViewState viewState);
 
         float lightRgbInnerR[MAX_NUM_LIGHTS][4];
         float lightPosRadius[MAX_NUM_LIGHTS][4];
         Mesh vplaneMesh;
+        bgfx::ProgramHandle programColorTexture;
+        bgfx::TextureHandle flareTex;
 
     };
 }

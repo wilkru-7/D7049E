@@ -18,16 +18,18 @@ namespace {
 
         void Floor::reflectSubmit(bgfx::ProgramHandle programColorLighting);
 
-        void Floor::drawSubmit(bgfx::ProgramHandle programColorBlack);
+        void Floor::drawSubmit();
 
-        void Floor::blendSubmit(bgfx::ProgramHandle programTextureLighting, bgfx::TextureHandle fieldstoneTex);
+        void Floor::blendSubmit();
 
-        void Floor::drawBottomSubmit(bgfx::ProgramHandle programTexture, bgfx::TextureHandle figureTex);
+        //void Floor::drawBottomSubmit(bgfx::ProgramHandle programTexture, bgfx::TextureHandle figureTex);
 
         float floorMtx[16];
-        float floorBottomMtx[16];
-        Mesh vplaneMesh;
+        //float floorBottomMtx[16];
         Mesh hplaneMesh;
+        bgfx::ProgramHandle programTextureLighting;
+        bgfx::TextureHandle fieldstoneTex;
+        bgfx::ProgramHandle programColorBlack;
 
     };
 }
