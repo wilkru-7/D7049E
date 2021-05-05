@@ -115,7 +115,7 @@ namespace
 
             treeCollider->setCollisionCategoryBits(0x0001);
 
-            float pos = {0.0f, 5.0f, 0.0f};
+            float pos[3] = {0.0f, 5.0f, 0.0f};
             // init all the objects
             androidObj.Android::init(pos);
             floorObj.Floor::init();
