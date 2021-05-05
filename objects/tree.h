@@ -8,9 +8,10 @@
 #endif //D7049E_TREE_H
 
 #include "../resources.h"
+#include "object.h"
 
 namespace {
-    class Tree {
+    class Tree: public Object {
     public:
         void Tree::init(float treePosition[3]);
 

@@ -6,7 +6,7 @@
 #include "bgfx_utils.h"
 #include "android.h"
 
-void Android::init() {
+void Android::init(float position[3]) {
     bx::mtxSRT(androidMtx
             , 2.0f
             , 2.0f

@@ -9,11 +9,12 @@
 
 #include "../resources.h"
 #include <reactphysics3d/reactphysics3d.h>
+#include "object.h"
 
 namespace {
-    class Android {
+    class Android: public Object {
     public:
-        void Android::init();
+        void Android::init(float position[3]);
 
         void Android::shutdown();
 
@@ -29,6 +30,7 @@ namespace {
 
         Mesh androidMesh;
         float androidMtx[16];
+        float position[3];
         bgfx::ProgramHandle programColorLighting;
     };
 }
