@@ -20,6 +20,7 @@
 
 #include "soloud.h"
 #include "soloud_wav.h"
+#include <list>
 
 #include "camera.h"
 #include "resources.h"
@@ -130,17 +131,24 @@ namespace
             float pos4[3] = {-14.0f, 0.0f, -14.0f};
             treeObj4.Tree::init(pos4);
 
+            objects.push_back(&androidObj);
+            objects.push_back(&treeObj1);
+            objects.push_back(&treeObj2);
+            objects.push_back(&treeObj3);
+            objects.push_back(&treeObj4);
+
         }
 
         virtual int shutdown() override
         {
             // Cleanup.
-            androidObj.Android::shutdown();
+            for_each(objects.begin(), objects.end(),std::mem_fun(&Object::shutdown));
+            /*androidObj.Android::shutdown();
             floorObj.Floor::shutdown();
             treeObj1.Tree::shutdown();
             treeObj2.Tree::shutdown();
             treeObj3.Tree::shutdown();
-            treeObj4.Tree::shutdown();
+            treeObj4.Tree::shutdown();*/
 
             bgfx::destroy(s_texColor);
 
@@ -205,18 +213,21 @@ namespace
                 // reflect the light
                 lightObj.Light::reflect();
 
-                setColorBlue();
+                //setColorBlue();
 
+                //objects.front()->reflectSubmit();
                 // reflect and submit android
-                androidObj.Android::reflectSubmit();
+                //androidObj.Android::reflectSubmit();
 
                 setColorGreen();
 
+                for_each(objects.begin(), objects.end(),std::mem_fun(&Object::reflectSubmit));
+
                 // Reflect and submit trees.
-                treeObj1.Tree::reflectSubmit();
+                /*treeObj1.Tree::reflectSubmit();
                 treeObj2.Tree::reflectSubmit();
                 treeObj3.Tree::reflectSubmit();
-                treeObj4.Tree::reflectSubmit();
+                treeObj4.Tree::reflectSubmit();*/
 
                 // Set lights back.
                 lightObj.Light::setLight();
@@ -228,18 +239,20 @@ namespace
 
                 // Fourth pass - Draw everything else but the plane.
 
-                setColorBlue();
+                //setColorBlue();
 
                 // draw android
-                androidObj.Android::drawSubmit();
+                //androidObj.Android::drawSubmit();
 
                 setColorGreen();
 
+                for_each(objects.begin(), objects.end(),std::mem_fun(&Object::drawSubmit));
+
                 // draw trees
-                treeObj1.Tree::drawSubmit();
+                /*treeObj1.Tree::drawSubmit();
                 treeObj2.Tree::drawSubmit();
                 treeObj3.Tree::drawSubmit();
-                treeObj4.Tree::drawSubmit();
+                treeObj4.Tree::drawSubmit();*/
 
                 floorObj.Floor::drawSubmit();
 
@@ -424,6 +437,7 @@ namespace
         Tree treeObj2;
         Tree treeObj3;
         Tree treeObj4;
+        std::list<Object*> objects;
 
         GLFWwindow* window;
 
