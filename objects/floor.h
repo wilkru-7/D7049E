@@ -8,19 +8,18 @@
 #endif //D7049E_FLOOR_H
 
 #include "../resources.h"
+#include "object.h"
 
 namespace {
-    class Floor {
+    class Floor : public Object{
     public:
-        void Floor::init();
+        void Floor::init(float position[3], float color[4]);
 
         void Floor::shutdown();
 
-        void Floor::reflectSubmit(bgfx::ProgramHandle programColorLighting);
+        void Floor::reflectSubmit();
 
         void Floor::drawSubmit();
-
-        void Floor::blendSubmit();
 
         //void Floor::drawBottomSubmit(bgfx::ProgramHandle programTexture, bgfx::TextureHandle figureTex);
 
@@ -30,6 +29,8 @@ namespace {
         bgfx::ProgramHandle programTextureLighting;
         bgfx::TextureHandle fieldstoneTex;
         bgfx::ProgramHandle programColorBlack;
+        float color[4];
+        float position[3];
 
     };
 }

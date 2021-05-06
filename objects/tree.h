@@ -13,7 +13,7 @@
 namespace {
     class Tree: public Object {
     public:
-        void Tree::init(float treePosition[3]);
+        void Tree::init(float treePosition[3], float color[4]);
 
         void Tree::shutdown();
 
@@ -25,5 +25,6 @@ namespace {
         float treePosition[3];
         float treeMtx[16];
         bgfx::ProgramHandle programColorLighting;
+        float color[4];
     };
 }

@@ -6,11 +6,12 @@
 #include "bgfx_utils.h"
 #include "light.h"
 
-void Light::init() {
+void Light::init(float position[3], float color[4]) {
 
     const float rgbInnerR[][4] =
             {
-                    { 1.0f, 0.7f, 0.2f, 0.0f }, //yellow
+                    {color[0], color[1], color[2], color[3] },
+                    //{ 1.0f, 0.7f, 0.2f, 0.0f }, //yellow
                     /*{ 0.7f, 0.2f, 1.0f, 0.0f }, //purple
                     { 0.2f, 1.0f, 0.7f, 0.0f }, //cyan
                     { 1.0f, 0.4f, 0.2f, 0.0f }, //orange
@@ -40,7 +41,13 @@ void Light::init() {
 
 }
 
-void Light::reflect() {
+void Light::shutdown() {
+    vplaneMesh.unload();
+    bgfx::destroy(programColorTexture);
+    bgfx::destroy(flareTex);
+}
+
+void Light::reflectSubmit() {
     float reflectMtx[16];
     mtxReflected(reflectMtx, { 0.0f, 0.01f, 0.0f }, { 0.0f, 1.0f, 0.0f });
 
@@ -48,13 +55,20 @@ void Light::reflect() {
     bx::store(&s_uniforms.m_lightPosRadius[0], reflected);
     s_uniforms.m_lightPosRadius[0][3] = lightPosRadius[0][3];
 
+    setLight();
+
 }
 
 void Light::setLight() {
     bx::memCopy(s_uniforms.m_lightPosRadius, lightPosRadius, 4*sizeof(float) );
 }
 
-void Light::drawSubmit(ViewState viewState) {
+void Light::setViewState(ViewState VS) {
+    viewState = VS;
+}
+
+
+void Light::drawSubmit() {
     const float lightScale[3] = { 1.5f, 1.5f, 1.5f };
     float lightMtx[16];
 
@@ -68,5 +82,6 @@ void Light::drawSubmit(ViewState viewState) {
             , programColorTexture
             , s_renderStates[RenderState::Custom_BlendLightTexture]
             , flareTex
+            , s_uniforms.m_color
     );
 }

@@ -79,8 +79,6 @@ namespace
 
             s_uniforms.init();
 
-            s_texColor = bgfx::createUniform("s_texColor", bgfx::UniformType::Sampler);
-
             // Set view and projection matrices.
             const float aspect = float(m_viewState.m_width)/float(m_viewState.m_height);
             const bgfx::Caps* caps = bgfx::getCaps();
@@ -116,26 +114,36 @@ namespace
 
             treeCollider->setCollisionCategoryBits(0x0001);
 
-            float pos[3] = {0.0f, 5.0f, 0.0f};
+            float green[4]=  {0.0f,1.0f,0.0f,1.0f};
+            float blue[4] = {0.0f,0.0f,1.0f,1.0f};
+            float black[4] = {0.0f,0.0f,0.0f,1.0f};
+            float yellow[4] = { 1.0f, 0.7f, 0.2f, 0.0f };
+
             // init all the objects
-            androidObj.Android::init(pos);
-            floorObj.Floor::init();
-            lightObj.Light::init();
+            float pos[3] = {0.0f, 5.0f, 0.0f};
+            androidObj.Android::init(pos, blue);
+
+            float pos0[3] = {0.0f, 0.0f, 0.0f};
+            floorObj.Floor::init(pos0, black);
+            lightObj.Light::init(pos0, yellow);
 
             float pos1[3] = {14.0f, 0.0f, 14.0f};
-            treeObj1.Tree::init(pos1);
+            treeObj1.Tree::init(pos1, green);
             float pos2[3] = {-14.0f, 0.0f, 14.0f};
-            treeObj2.Tree::init(pos2);
+            treeObj2.Tree::init(pos2, green);
             float pos3[3] = {14.0f, 0.0f, -14.0f};
-            treeObj3.Tree::init(pos3);
+            treeObj3.Tree::init(pos3, green);
             float pos4[3] = {-14.0f, 0.0f, -14.0f};
-            treeObj4.Tree::init(pos4);
+            treeObj4.Tree::init(pos4, green);
 
+            objects.push_back(&lightObj);
             objects.push_back(&androidObj);
             objects.push_back(&treeObj1);
             objects.push_back(&treeObj2);
             objects.push_back(&treeObj3);
             objects.push_back(&treeObj4);
+            //objects.push_back(&lightObj);
+            objects.push_back(&floorObj);
 
         }
 
@@ -143,14 +151,6 @@ namespace
         {
             // Cleanup.
             for_each(objects.begin(), objects.end(),std::mem_fun(&Object::shutdown));
-            /*androidObj.Android::shutdown();
-            floorObj.Floor::shutdown();
-            treeObj1.Tree::shutdown();
-            treeObj2.Tree::shutdown();
-            treeObj3.Tree::shutdown();
-            treeObj4.Tree::shutdown();*/
-
-            bgfx::destroy(s_texColor);
 
             s_uniforms.destroy();
 
@@ -201,66 +201,14 @@ namespace
                 bgfx::touch(0);
                 s_viewMask |= 1;
 
-                // First pass - Draw plane.
-
-                //floorObj.Floor::drawSubmit();
-
-                // Second pass - Draw reflected objects.
-
-                // Clear depth from previous pass.
                 clearView(RENDER_VIEWID_RANGE1_PASS_1, BGFX_CLEAR_DEPTH, m_clearValues);
-
-                // reflect the light
-                lightObj.Light::reflect();
-
-                //setColorBlue();
-
-                //objects.front()->reflectSubmit();
-                // reflect and submit android
-                //androidObj.Android::reflectSubmit();
-
-                setColorGreen();
 
                 for_each(objects.begin(), objects.end(),std::mem_fun(&Object::reflectSubmit));
 
-                // Reflect and submit trees.
-                /*treeObj1.Tree::reflectSubmit();
-                treeObj2.Tree::reflectSubmit();
-                treeObj3.Tree::reflectSubmit();
-                treeObj4.Tree::reflectSubmit();*/
-
-                // Set lights back.
-                lightObj.Light::setLight();
-
-                // Third pass - Blend plane.
-
-                // Floor - blend texture
-                floorObj.Floor::blendSubmit();
-
-                // Fourth pass - Draw everything else but the plane.
-
-                //setColorBlue();
-
-                // draw android
-                //androidObj.Android::drawSubmit();
-
-                setColorGreen();
+                lightObj.setViewState(m_viewState);
 
                 for_each(objects.begin(), objects.end(),std::mem_fun(&Object::drawSubmit));
 
-                // draw trees
-                /*treeObj1.Tree::drawSubmit();
-                treeObj2.Tree::drawSubmit();
-                treeObj3.Tree::drawSubmit();
-                treeObj4.Tree::drawSubmit();*/
-
-                floorObj.Floor::drawSubmit();
-
-                //lights
-                lightObj.Light::drawSubmit(m_viewState);
-
-                // Draw floor bottom.
-                //floorObj.Floor::drawBottomSubmit(m_programTexture, m_figureTex);
 
                 // End of rendering phase
                 // ------------------------------------------------------------------------------------------------------------------//
@@ -288,18 +236,6 @@ namespace
             }
 
             return false;
-        }
-
-        void setColorBlue() {
-            s_uniforms.m_color[0] = 0.0f;
-            s_uniforms.m_color[1] = 0.0f;
-            s_uniforms.m_color[2] = 1.0f;
-        }
-
-        void setColorGreen() {
-            s_uniforms.m_color[0] = 0.0f;
-            s_uniforms.m_color[1] = 1.0f;
-            s_uniforms.m_color[2] = 0.0f;
         }
 
         void checkKeyboardInput() {
