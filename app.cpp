@@ -94,16 +94,20 @@ namespace
             m_timeOffset = bx::getHPCounter();
 
             // physics setup https://www.reactphysics3d.com/usermanual.html#x1-4500011
-            world = physicsCommon.createPhysicsWorld();
+            settings.defaultVelocitySolverNbIterations = 20;
+            settings.isSleepingEnabled = false;
+            settings.gravity = reactphysics3d::Vector3(0, rp3d::decimal(-9.81), 0);
+            world = physicsCommon.createPhysicsWorld(settings);
             world->setIsDebugRenderingEnabled(TRUE);
             capsuleShape = physicsCommon.createCapsuleShape(3.0, 5.0);
             orientation = reactphysics3d::Quaternion::identity();
             transform = reactphysics3d::Transform::identity();
 
-            reactphysics3d::Vector3 androidPosition(0.0,5.0,0.0);
+            reactphysics3d::Vector3 androidPosition(0.0,20.0,0.0);
             reactphysics3d::Transform androidTransform(androidPosition, orientation);
             android = world->createRigidBody(androidTransform);
-            android->setType(reactphysics3d::BodyType::STATIC);
+            android->setType(reactphysics3d::BodyType::KINEMATIC);
+            android->enableGravity(true);
             androidCollider = android->addCollider(capsuleShape, transform);
 
             androidCollider->setCollisionCategoryBits(0x0001);
@@ -123,7 +127,7 @@ namespace
 
             // init all the objects
             float pos[3] = {0.0f, 5.0f, 0.0f};
-            androidObj.Android::init(pos, blue);
+            androidObj.Android::init(pos, blue, android);
 
             float pos0[3] = {0.0f, 0.0f, 0.0f};
             floorObj.Floor::init(pos0, black);
@@ -198,6 +202,8 @@ namespace
                 // Set lights back.
                 lightObj.Light::setLight();
 
+                world->update(1.0f / 60.0f);
+
                 // Rendering phase
                 // ------------------------------------------------------------------------------------------------------------------//
 
@@ -224,7 +230,7 @@ namespace
                 s_viewMask = 0;
 
                 keyboardEvent.checkKeyboardInput(window);
-                world->update(1.0f / 60.0f);
+                /*world->update(1.0f / 60.0f);*/
 
                 // Advance to next frame. Rendering thread will be kicked to
                 // process submitted rendering primitives.
@@ -369,6 +375,7 @@ namespace
         SoLoud::Soloud soloud; // Engine core
         SoLoud::Wav sample;    // One sample
 
+        reactphysics3d::PhysicsWorld::WorldSettings settings;
         reactphysics3d::PhysicsCommon physicsCommon;
         reactphysics3d::PhysicsWorld* world;
         reactphysics3d::Transform transform;
