@@ -25,6 +25,7 @@ namespace {
         //void Floor::drawBottomSubmit(bgfx::ProgramHandle programTexture, bgfx::TextureHandle figureTex);
         reactphysics3d::RigidBody* floorPhysics;
         float floorMtx[16];
+        float scalingMatrix[16];
         //float floorBottomMtx[16];
         Mesh hplaneMesh;
         bgfx::ProgramHandle programTextureLighting;

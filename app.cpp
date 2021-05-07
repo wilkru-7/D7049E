@@ -100,7 +100,8 @@ namespace
             world = physicsCommon.createPhysicsWorld(settings);
             world->setIsDebugRenderingEnabled(TRUE);
             capsuleShape = physicsCommon.createCapsuleShape(3.0, 5.0);
-            boxShape = physicsCommon.createBoxShape(rp3d::Vector3(200.0, 1.0, 200.0));
+            reactphysics3d::BoxShape* treeBox = physicsCommon.createBoxShape(rp3d::Vector3(2.0, 10.0, 2.0));
+            boxShape = physicsCommon.createBoxShape(rp3d::Vector3(20.0, 0.01, 20.0));
             /*orientation = reactphysics3d::Quaternion::identity();
             transform = reactphysics3d::Transform::identity();*/
 
@@ -116,10 +117,10 @@ namespace
 
             androidCollider->setCollisionCategoryBits(0x0001);*/
 
-            tree1 = createObj(reactphysics3d::Vector3(14.0,0.0,14.0), capsuleShape, reactphysics3d::BodyType::STATIC);
-            tree2 = createObj(reactphysics3d::Vector3(-14.0,0.0,14.0), capsuleShape, reactphysics3d::BodyType::STATIC);
-            tree3 = createObj(reactphysics3d::Vector3(14.0,0.0,-14.0), capsuleShape, reactphysics3d::BodyType::STATIC);
-            tree4 = createObj(reactphysics3d::Vector3(-14.0,0.0,-14.0), capsuleShape, reactphysics3d::BodyType::STATIC);
+            tree1 = createObj(reactphysics3d::Vector3(14.0,0.0,14.0), treeBox, reactphysics3d::BodyType::STATIC);
+            tree2 = createObj(reactphysics3d::Vector3(-14.0,0.0,14.0), treeBox, reactphysics3d::BodyType::STATIC);
+            tree3 = createObj(reactphysics3d::Vector3(14.0,0.0,-14.0), treeBox, reactphysics3d::BodyType::STATIC);
+            tree4 = createObj(reactphysics3d::Vector3(-14.0,0.0,-14.0), treeBox, reactphysics3d::BodyType::STATIC);
 
             reactphysics3d::Vector3 floorPosition(0.0,0.0,0.0);
             floor = createObj(floorPosition, boxShape, reactphysics3d::BodyType::STATIC);

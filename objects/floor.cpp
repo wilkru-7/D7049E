@@ -7,29 +7,18 @@
 
 void Floor::init(float position[3], float col[4], reactphysics3d::RigidBody* body) {
     floorPhysics = body;
-    /*bx::mtxSRT(floorMtx
+    floorPhysics->getCollider(0)->getCollisionShape();
+    bx::mtxSRT(floorMtx
             , 20.0f  //scaleX
-            , 20.0f  //scaleY
+            , 1.0f  //scaleY
             , 20.0f  //scaleZ
             , 0.0f   //rotX
             , 0.0f   //rotY
             , 0.0f   //rotZ
-            , position[0]  //translateX
-            , position[1]   //translateY
-            , position[2]   //translateZ
-    );*/
-
-    /*bx::mtxSRT(floorBottomMtx
-            , 20.0f  //scaleX
-            , 20.0f  //scaleY
-            , 20.0f  //scaleZ
-            , 0.0f   //rotX
-            , 0.0f   //rotY
-            , 0.0f   //rotZ
-            , 0.0f   //translateX
-            , -0.1f  //translateY
-            , 0.0f   //translateZ
-    );*/
+            , floorPhysics->getTransform().getPosition().x  //translateX
+            , floorPhysics->getTransform().getPosition().y   //translateY
+            , floorPhysics->getTransform().getPosition().z   //translateZ
+    );
 
     color[0] = col[0];
     color[1] = col[1];
@@ -48,8 +37,16 @@ void Floor::shutdown() {
 }
 
 void Floor::drawSubmit() {
-    reactphysics3d::Transform transform = floorPhysics->getTransform();
-    transform.getOpenGLMatrix(floorMtx);
+    /*reactphysics3d::Transform transform = floorPhysics->getTransform();
+    transform.getOpenGLMatrix(floorMtx);*/
+    //floorMtx = bgfx::mul(floorMtx, scalingMatrix);
+
+    /*scalingMatrix[12] = floorPhysics->getTransform().getPosition().x;
+    scalingMatrix[13] = floorPhysics->getTransform().getPosition().y;
+    scalingMatrix[14] = floorPhysics->getTransform().getPosition().z;*/
+    /*bx::mtxMul(floorMtx, scalingMatrix, floorMtx);
+    std::cout << floorMtx << std::endl;*/
+
     hplaneMesh.submit(RENDER_VIEWID_RANGE1_PASS_0
             , floorMtx
             , programColorBlack
