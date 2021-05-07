@@ -5,8 +5,9 @@
 #include "floor.h"
 
 
-void Floor::init(float position[3], float col[4]) {
-    bx::mtxSRT(floorMtx
+void Floor::init(float position[3], float col[4], reactphysics3d::RigidBody* body) {
+    floorPhysics = body;
+    /*bx::mtxSRT(floorMtx
             , 20.0f  //scaleX
             , 20.0f  //scaleY
             , 20.0f  //scaleZ
@@ -16,7 +17,7 @@ void Floor::init(float position[3], float col[4]) {
             , position[0]  //translateX
             , position[1]   //translateY
             , position[2]   //translateZ
-    );
+    );*/
 
     /*bx::mtxSRT(floorBottomMtx
             , 20.0f  //scaleX
@@ -47,6 +48,8 @@ void Floor::shutdown() {
 }
 
 void Floor::drawSubmit() {
+    reactphysics3d::Transform transform = floorPhysics->getTransform();
+    transform.getOpenGLMatrix(floorMtx);
     hplaneMesh.submit(RENDER_VIEWID_RANGE1_PASS_0
             , floorMtx
             , programColorBlack

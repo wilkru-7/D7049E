@@ -9,11 +9,12 @@
 
 #include "../resources.h"
 #include "object.h"
+#include "reactphysics3d/reactphysics3d.h"
 
 namespace {
     class Floor : public Object{
     public:
-        void Floor::init(float position[3], float color[4]);
+        void Floor::init(float position[3], float color[4], reactphysics3d::RigidBody* body);
 
         void Floor::shutdown();
 
@@ -22,7 +23,7 @@ namespace {
         void Floor::drawSubmit();
 
         //void Floor::drawBottomSubmit(bgfx::ProgramHandle programTexture, bgfx::TextureHandle figureTex);
-
+        reactphysics3d::RigidBody* floorPhysics;
         float floorMtx[16];
         //float floorBottomMtx[16];
         Mesh hplaneMesh;

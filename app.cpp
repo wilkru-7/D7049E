@@ -100,13 +100,14 @@ namespace
             world = physicsCommon.createPhysicsWorld(settings);
             world->setIsDebugRenderingEnabled(TRUE);
             capsuleShape = physicsCommon.createCapsuleShape(3.0, 5.0);
+            boxShape = physicsCommon.createBoxShape(rp3d::Vector3(200.0, 1.0, 200.0));
             orientation = reactphysics3d::Quaternion::identity();
             transform = reactphysics3d::Transform::identity();
 
             reactphysics3d::Vector3 androidPosition(0.0,20.0,0.0);
             reactphysics3d::Transform androidTransform(androidPosition, orientation);
             android = world->createRigidBody(androidTransform);
-            android->setType(reactphysics3d::BodyType::KINEMATIC);
+            android->setType(reactphysics3d::BodyType::DYNAMIC);
             android->enableGravity(true);
             androidCollider = android->addCollider(capsuleShape, transform);
 
@@ -118,7 +119,13 @@ namespace
             tree->setType(reactphysics3d::BodyType::STATIC);
             treeCollider = tree->addCollider(capsuleShape, transform);
 
-            treeCollider->setCollisionCategoryBits(0x0001);
+            reactphysics3d::Vector3 floorPosition(0.0,0.0,0.0);
+            reactphysics3d::Transform floorTransform(floorPosition, orientation);
+            floor = world->createRigidBody(floorTransform);
+            floor->setType(reactphysics3d::BodyType::STATIC);
+            floorCollider = tree->addCollider(boxShape, transform);
+
+            floorCollider->setCollisionCategoryBits(0x0001);
 
             float green[4]=  {0.0f,1.0f,0.0f,1.0f};
             float blue[4] = {0.0f,0.0f,1.0f,1.0f};
@@ -130,7 +137,7 @@ namespace
             androidObj.Android::init(pos, blue, android);
 
             float pos0[3] = {0.0f, 0.0f, 0.0f};
-            floorObj.Floor::init(pos0, black);
+            floorObj.Floor::init(pos0, black, floor);
             lightObj.Light::init(pos0, yellow);
 
             float pos1[3] = {14.0f, 0.0f, 14.0f};
@@ -380,11 +387,14 @@ namespace
         reactphysics3d::PhysicsWorld* world;
         reactphysics3d::Transform transform;
         reactphysics3d::CapsuleShape* capsuleShape;
+        reactphysics3d::BoxShape* boxShape;
         reactphysics3d::RigidBody* android;
         reactphysics3d::RigidBody* tree;
+        reactphysics3d::RigidBody* floor;
         reactphysics3d::Quaternion orientation;
         reactphysics3d::Collider* androidCollider;
         reactphysics3d::Collider* treeCollider;
+        reactphysics3d::Collider* floorCollider;
 
         Android androidObj;
         Floor floorObj;
