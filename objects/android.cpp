@@ -6,7 +6,7 @@
 #include "bgfx_utils.h"
 #include "android.h"
 
-void Android::init(float position[3]) {
+void Android::init(float position[3], float col[4]) {
     bx::mtxSRT(androidMtx
             , 2.0f
             , 2.0f
@@ -19,6 +19,11 @@ void Android::init(float position[3]) {
             , 0.0f
     );
 
+    color[0] = col[0];
+    color[1] = col[1];
+    color[2] = col[2];
+    color[3] = col[3];
+
     androidMesh.load("meshes/android.bin");
     programColorLighting   = loadProgram("vs_stencil_color_lighting",   "fs_stencil_color_lighting"  );
 
@@ -26,6 +31,7 @@ void Android::init(float position[3]) {
 
 void Android::shutdown() {
     androidMesh.unload();
+    bgfx::destroy(programColorLighting);
 }
 
 void Android::reflectSubmit() {
@@ -38,14 +44,18 @@ void Android::reflectSubmit() {
             , mtxReflectedAndroid
             , programColorLighting
             , s_renderStates[RenderState::StencilReflection_DrawReflected]
+            , color
     );
 }
 
 void Android::drawSubmit() {
+
+    //float blue[4] = {0.0f,0.0f,1.0f,1.0f};
     androidMesh.submit(RENDER_VIEWID_RANGE1_PASS_3
             , androidMtx
             , programColorLighting
             , s_renderStates[RenderState::StencilReflection_DrawScene]
+            , color
     );
 }
 

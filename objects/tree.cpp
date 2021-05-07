@@ -5,7 +5,7 @@
 #include "tree.h"
 
 
-void Tree::init(float pos[3]) {
+void Tree::init(float pos[3], float col[4]) {
 
     treeMesh.load("meshes/polytree.bin");
     programColorLighting   = loadProgram("vs_stencil_color_lighting",   "fs_stencil_color_lighting"  );
@@ -21,6 +21,11 @@ void Tree::init(float pos[3]) {
             , pos[1]
             , pos[2]
     );
+
+    color[0] = col[0];
+    color[1] = col[1];
+    color[2] = col[2];
+    color[3] = col[3];
 }
 
 void Tree::shutdown() {
@@ -38,6 +43,7 @@ void Tree::reflectSubmit() {
             , mtxReflectedTree
             , programColorLighting
             , s_renderStates[RenderState::StencilReflection_DrawReflected]
+            , color
     );
 }
 
@@ -46,5 +52,6 @@ void Tree::drawSubmit() {
             , treeMtx
             , programColorLighting
             , s_renderStates[RenderState::StencilReflection_DrawScene]
+            , color
     );
 }

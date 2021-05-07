@@ -8,25 +8,33 @@
 #endif //D7049E_LIGHT_H
 
 #include "../resources.h"
+#include "object.h"
 
 namespace {
-    class Light {
+    class Light : public Object {
     public:
-        void Light::init();
+        void Light::init(float position[3], float color[4]);
 
         void Light::update();
 
-        void Light::reflect();
+        void shutdown();
+
+        void Light::reflectSubmit();
+
+        void Light::drawSubmit();
+
+        void Light::setViewState(ViewState viewState);
 
         void Light::setLight();
-
-        void Light::drawSubmit(ViewState viewState);
 
         float lightRgbInnerR[MAX_NUM_LIGHTS][4];
         float lightPosRadius[MAX_NUM_LIGHTS][4];
         Mesh vplaneMesh;
         bgfx::ProgramHandle programColorTexture;
         bgfx::TextureHandle flareTex;
+        ViewState viewState;
+        float color[4];
+        float position[3];
 
     };
 }

@@ -14,7 +14,7 @@
 namespace {
     class Android: public Object {
     public:
-        void Android::init(float position[3]);
+        void Android::init(float position[3], float color[4]);
 
         void Android::shutdown();
 
@@ -32,6 +32,7 @@ namespace {
         float androidMtx[16];
         float position[3];
         bgfx::ProgramHandle programColorLighting;
+        float color[4];
     };
 }
 

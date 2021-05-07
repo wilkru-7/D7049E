@@ -6,7 +6,7 @@
 
 class Object {
 public:
-    virtual void init(float position[3]) = 0;
+    virtual void init(float position[3], float color[4]) = 0;
     virtual void shutdown() = 0;
     virtual void reflectSubmit() = 0;
     virtual void drawSubmit() = 0;

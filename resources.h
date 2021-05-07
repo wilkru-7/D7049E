@@ -4,6 +4,7 @@
 #include "common.h"
 #include "bgfx_utils.h"
 #include <bx/file.h>
+#include <iostream>
 
 #pragma once
 
@@ -736,17 +737,27 @@ namespace {
             m_groups.clear();
         }
 
-        void submit(bgfx::ViewId _id, float* _mtx, bgfx::ProgramHandle _program, const RenderState& _renderState)
+        void submit(bgfx::ViewId _id, float* _mtx, bgfx::ProgramHandle _program, const RenderState& _renderState, float* color)
         {
+            s_uniforms.m_color[0] = color[0];
+            s_uniforms.m_color[1] = color[1];
+            s_uniforms.m_color[2] = color[2];
+            s_uniforms.m_color[3] = color[3];
+
             bgfx::TextureHandle texture = BGFX_INVALID_HANDLE;
-            submit(_id, _mtx, _program, _renderState, texture);
+            submit(_id, _mtx, _program, _renderState, texture, color);
         }
 
-        void submit(bgfx::ViewId _id, float* _mtx, bgfx::ProgramHandle _program, const RenderState& _renderState, bgfx::TextureHandle _texture)
+        void submit(bgfx::ViewId _id, float* _mtx, bgfx::ProgramHandle _program, const RenderState& _renderState, bgfx::TextureHandle _texture, float* color)
         {
             for (GroupArray::const_iterator it = m_groups.begin(), itEnd = m_groups.end(); it != itEnd; ++it)
             {
                 const Group& group = *it;
+
+                s_uniforms.m_color[0] = color[0];
+                s_uniforms.m_color[1] = color[1];
+                s_uniforms.m_color[2] = color[2];
+                s_uniforms.m_color[3] = color[3];
 
                 // Set uniforms
                 s_uniforms.submitPerDrawUniforms();
