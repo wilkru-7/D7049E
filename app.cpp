@@ -101,38 +101,35 @@ namespace
             world->setIsDebugRenderingEnabled(TRUE);
             capsuleShape = physicsCommon.createCapsuleShape(3.0, 5.0);
             boxShape = physicsCommon.createBoxShape(rp3d::Vector3(200.0, 1.0, 200.0));
-            orientation = reactphysics3d::Quaternion::identity();
-            transform = reactphysics3d::Transform::identity();
+            /*orientation = reactphysics3d::Quaternion::identity();
+            transform = reactphysics3d::Transform::identity();*/
 
             reactphysics3d::Vector3 androidPosition(0.0,20.0,0.0);
-            reactphysics3d::Transform androidTransform(androidPosition, orientation);
+            android = createObj(androidPosition, capsuleShape, reactphysics3d::BodyType::DYNAMIC);
+            android->enableGravity(true);
+
+            /*reactphysics3d::Transform androidTransform(androidPosition, orientation);
             android = world->createRigidBody(androidTransform);
             android->setType(reactphysics3d::BodyType::DYNAMIC);
             android->enableGravity(true);
             androidCollider = android->addCollider(capsuleShape, transform);
 
-            androidCollider->setCollisionCategoryBits(0x0001);
+            androidCollider->setCollisionCategoryBits(0x0001);*/
 
-            reactphysics3d::Vector3 treePosition1(14.0,0.0,14.0);
-            reactphysics3d::Vector3 treePosition2(-14.0,0.0,14.0);
-            reactphysics3d::Vector3 treePosition3(14.0,0.0,-14.0);
-            reactphysics3d::Vector3 treePosition4(-14.0,0.0,-14.0);
-            tree1 = createTree(treePosition1);
-            tree2 = createTree(treePosition2);
-            tree3 = createTree(treePosition3);
-            tree4 = createTree(treePosition4);
-            /*reactphysics3d::Transform treeTransform(treePosition, orientation);
-            tree = world->createRigidBody(treeTransform);
-            tree->setType(reactphysics3d::BodyType::STATIC);
-            treeCollider = tree->addCollider(capsuleShape, transform);*/
+            tree1 = createObj(reactphysics3d::Vector3(14.0,0.0,14.0), capsuleShape, reactphysics3d::BodyType::STATIC);
+            tree2 = createObj(reactphysics3d::Vector3(-14.0,0.0,14.0), capsuleShape, reactphysics3d::BodyType::STATIC);
+            tree3 = createObj(reactphysics3d::Vector3(14.0,0.0,-14.0), capsuleShape, reactphysics3d::BodyType::STATIC);
+            tree4 = createObj(reactphysics3d::Vector3(-14.0,0.0,-14.0), capsuleShape, reactphysics3d::BodyType::STATIC);
 
             reactphysics3d::Vector3 floorPosition(0.0,0.0,0.0);
-            reactphysics3d::Transform floorTransform(floorPosition, orientation);
+            floor = createObj(floorPosition, boxShape, reactphysics3d::BodyType::STATIC);
+
+            /*reactphysics3d::Transform floorTransform(floorPosition, orientation);
             floor = world->createRigidBody(floorTransform);
             floor->setType(reactphysics3d::BodyType::STATIC);
             floorCollider = floor->addCollider(boxShape, transform);
 
-            floorCollider->setCollisionCategoryBits(0x0001);
+            floorCollider->setCollisionCategoryBits(0x0001);*/
 
             float green[4]=  {0.0f,1.0f,0.0f,1.0f};
             float blue[4] = {0.0f,0.0f,1.0f,1.0f};
@@ -140,7 +137,6 @@ namespace
             float yellow[4] = { 1.0f, 0.7f, 0.2f, 0.0f };
 
             // init all the objects
-            float pos[3] = {0.0f, 5.0f, 0.0f};
             androidObj.Android::init(blue, android);
 
             float pos0[3] = {0.0f, 0.0f, 0.0f};
@@ -158,20 +154,21 @@ namespace
             objects.push_back(&treeObj2);
             objects.push_back(&treeObj3);
             objects.push_back(&treeObj4);
-            //objects.push_back(&lightObj);
             objects.push_back(&floorObj);
 
-
             keyboardEvent.registerObserver(&androidObj);
-
         }
 
-        reactphysics3d::RigidBody* createTree(reactphysics3d::Vector3 pos) {
-            reactphysics3d::Transform treeTransform(pos, orientation);
-            reactphysics3d::RigidBody* tree = world->createRigidBody(treeTransform);
-            tree->setType(reactphysics3d::BodyType::STATIC);
-            treeCollider = tree->addCollider(capsuleShape, transform);
-            return tree;
+        reactphysics3d::RigidBody* createObj(reactphysics3d::Vector3 pos, reactphysics3d::CollisionShape* shape, reactphysics3d::BodyType type) {
+            reactphysics3d::Quaternion orientation = reactphysics3d::Quaternion::identity();
+            reactphysics3d::Transform transform = reactphysics3d::Transform::identity();
+            reactphysics3d::Transform tf(pos, orientation);
+            reactphysics3d::RigidBody* obj = world->createRigidBody(tf);
+
+            obj->setType(type);
+            obj->addCollider(shape, transform);
+
+            return obj;
         }
 
         virtual int shutdown() override {
