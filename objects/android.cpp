@@ -80,9 +80,9 @@ void Android::updateMtx(float x, float y, float z) {
 }
 
 void Android::update(float newPos[3]) {
-    androidMtx[12] = newPos[0];
-    androidMtx[13] = newPos[1];
-    androidMtx[14] = newPos[2];
+    androidMtx[12] = androidMtx[12] + newPos[0];
+    androidMtx[13] = androidMtx[13] + newPos[1];
+    androidMtx[14] = androidMtx[14] + newPos[2];
 }
 
 float * Android::getMtx() {

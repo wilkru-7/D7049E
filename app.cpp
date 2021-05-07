@@ -223,7 +223,7 @@ namespace
                 setViewTransformMask(s_viewMask, m_viewState.m_view, m_viewState.m_proj);
                 s_viewMask = 0;
 
-                checkKeyboardInput();
+                keyboardEvent.checkKeyboardInput(window);
                 world->update(1.0f / 60.0f);
 
                 // Advance to next frame. Rendering thread will be kicked to
@@ -243,7 +243,7 @@ namespace
             return false;
         }
 
-        void checkKeyboardInput() {
+        /*void checkKeyboardInput() {
             const reactphysics3d::Transform& transform = android->getTransform();
             const reactphysics3d::Vector3& position = transform.getPosition();
 
@@ -268,7 +268,7 @@ namespace
                 androidObj.Android::updateRot(0.75);*/
 
                 //move right forward
-            } else if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
+            /*} else if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
                 reactphysics3d::Vector3 androidPosition(position.x+0.35,position.y,position.z+0.35);
                 reactphysics3d::Transform androidTransform(androidPosition, orientation);
                 android->setTransform(androidTransform);
@@ -358,7 +358,7 @@ namespace
                       position2.y << ", " << position2.z << ")" << std::endl;
             std::cout << "Collision" << world->testOverlap(android, tree) << std::endl;*/
 
-        }
+        //}
 
         void resetTransform(){
             reactphysics3d::Vector3 androidPosition(androidObj.Android::getMtx()[12],androidObj.Android::getMtx()[13],androidObj.Android::getMtx()[14]);
