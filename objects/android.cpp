@@ -6,22 +6,8 @@
 #include "bgfx_utils.h"
 #include "android.h"
 
-void Android::init(float position[3], float col[4], reactphysics3d::RigidBody* body) {
+void Android::init(float col[4], reactphysics3d::RigidBody* body) {
     androidPhysics = body;
-
-    /*bx::mtxSRT(androidMtx
-            , 2.0f
-            , 2.0f
-            , 2.0f
-            , 0.0f
-            , 0.5f
-            , 0.0f
-            , 0.0f
-            , 5.0f
-            , 0.0f
-    );*/
-
-
 
     color[0] = col[0];
     color[1] = col[1];
@@ -29,8 +15,7 @@ void Android::init(float position[3], float col[4], reactphysics3d::RigidBody* b
     color[3] = col[3];
 
     androidMesh.load("meshes/android.bin");
-    programColorLighting   = loadProgram("vs_stencil_color_lighting",   "fs_stencil_color_lighting"  );
-
+    programColorLighting = loadProgram("vs_stencil_color_lighting", "fs_stencil_color_lighting");
 }
 
 void Android::shutdown() {
@@ -55,7 +40,7 @@ void Android::reflectSubmit() {
 void Android::drawSubmit() {
     reactphysics3d::Transform transform = androidPhysics->getTransform();
     transform.getOpenGLMatrix(androidMtx);
-    //float blue[4] = {0.0f,0.0f,1.0f,1.0f};
+
     androidMesh.submit(RENDER_VIEWID_RANGE1_PASS_3
             , androidMtx
             , programColorLighting
@@ -78,22 +63,9 @@ void Android::updateRot(float rot) {
     );
 }
 
-void Android::updateMtx(float x, float y, float z) {
-    androidMtx[12] = x;
-    androidMtx[13] = y;
-    androidMtx[14] = z;
-}
-
 void Android::update(float newPos[3]) {
-/*    androidMtx[12] = androidMtx[12] + newPos[0];
-    androidMtx[13] = androidMtx[13] + newPos[1];
-    androidMtx[14] = androidMtx[14] + newPos[2];*/
     rp3d::Transform currTransform = androidPhysics->getTransform();
     reactphysics3d::Vector3 currPos = currTransform.getPosition();
     currTransform.setPosition(reactphysics3d::Vector3(currPos.x + newPos[0], currPos.y + newPos[1], currPos.z + newPos[2]));
     androidPhysics->setTransform(currTransform);
-}
-
-float * Android::getMtx() {
-    return androidMtx;
 }

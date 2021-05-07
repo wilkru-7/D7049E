@@ -4,23 +4,11 @@
 
 #include "tree.h"
 
-
-void Tree::init(float pos[3], float col[4]) {
+void Tree::init(float col[4], reactphysics3d::RigidBody* body) {
+    treePhysics = body;
 
     treeMesh.load("meshes/polytree.bin");
     programColorLighting   = loadProgram("vs_stencil_color_lighting",   "fs_stencil_color_lighting"  );
-
-    bx::mtxSRT(treeMtx
-            , 0.5f
-            , 0.5f
-            , 0.5f
-            , 0.0f
-            , 0.0f
-            , 0.0f
-            , pos[0]
-            , pos[1]
-            , pos[2]
-    );
 
     color[0] = col[0];
     color[1] = col[1];
@@ -48,6 +36,9 @@ void Tree::reflectSubmit() {
 }
 
 void Tree::drawSubmit() {
+    reactphysics3d::Transform transform = treePhysics->getTransform();
+    transform.getOpenGLMatrix(treeMtx);
+
     treeMesh.submit(RENDER_VIEWID_RANGE1_PASS_3
             , treeMtx
             , programColorLighting

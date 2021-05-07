@@ -8,12 +8,13 @@
 #endif //D7049E_TREE_H
 
 #include "../resources.h"
+#include <reactphysics3d/reactphysics3d.h>
 #include "object.h"
 
 namespace {
     class Tree: public Object {
     public:
-        void Tree::init(float treePosition[3], float color[4]);
+        void Tree::init(float color[4], reactphysics3d::RigidBody* body);
 
         void Tree::shutdown();
 
@@ -22,9 +23,9 @@ namespace {
         void Tree::drawSubmit();
 
         Mesh treeMesh;
-        float treePosition[3];
         float treeMtx[16];
         bgfx::ProgramHandle programColorLighting;
+        reactphysics3d::RigidBody* treePhysics;
         float color[4];
     };
 }

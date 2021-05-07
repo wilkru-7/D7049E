@@ -15,7 +15,7 @@
 namespace {
     class Android: public Object, public Observer {
     public:
-        void Android::init(float position[3], float color[4],  reactphysics3d::RigidBody* body);
+        void Android::init(float color[4],  reactphysics3d::RigidBody* body);
 
         void Android::shutdown();
 
@@ -25,11 +25,8 @@ namespace {
 
         void Android::updateRot(float rot);
 
-        void Android::updateMtx(float x, float y, float z);
-
-        float * Android::getMtx();
-
         void Android::update(float position[3]);
+
         reactphysics3d::RigidBody* androidPhysics;
         Mesh androidMesh;
         float androidMtx[16];
