@@ -29,6 +29,8 @@
 #include "objects/light.cpp"
 #include "objects/tree.cpp"
 
+#include "events/keyboardEvent.cpp"
+
 
 namespace
 {
@@ -145,6 +147,9 @@ namespace
             //objects.push_back(&lightObj);
             objects.push_back(&floorObj);
 
+
+            keyboardEvent.registerObserver(&androidObj);
+
         }
 
         virtual int shutdown() override
@@ -244,7 +249,15 @@ namespace
 
             //move left forward
             if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
-                reactphysics3d::Vector3 androidPosition(position.x-0.35,position.y,position.z+0.35);
+                std::cout << "before" << std::endl;
+                std::cout << androidObj.Android::getMtx()[12] << std::endl;
+
+                float newPos[3] = {position.x-0.35f,position.y,position.z+0.35f};
+                keyboardEvent.notifyObservers(newPos);
+
+                std::cout << "after" << std::endl;
+                std::cout << androidObj.Android::getMtx()[12] << std::endl;
+                /*reactphysics3d::Vector3 androidPosition(position.x-0.35,position.y,position.z+0.35);
                 reactphysics3d::Transform androidTransform(androidPosition, orientation);
                 android->setTransform(androidTransform);
 
@@ -252,7 +265,7 @@ namespace
                     resetTransform();
                 }
 
-                androidObj.Android::updateRot(0.75);
+                androidObj.Android::updateRot(0.75);*/
 
                 //move right forward
             } else if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
@@ -374,6 +387,8 @@ namespace
         Tree treeObj3;
         Tree treeObj4;
         std::list<Object*> objects;
+
+        KeyboardEvent keyboardEvent;
 
         GLFWwindow* window;
 

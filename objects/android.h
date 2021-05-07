@@ -10,9 +10,10 @@
 #include "../resources.h"
 #include <reactphysics3d/reactphysics3d.h>
 #include "object.h"
+#include "../observer/observer.h"
 
 namespace {
-    class Android: public Object {
+    class Android: public Object, public Observer {
     public:
         void Android::init(float position[3], float color[4]);
 
@@ -27,6 +28,8 @@ namespace {
         void Android::updateMtx(float x, float y, float z);
 
         float * Android::getMtx();
+
+        void Android::update(float position[3]);
 
         Mesh androidMesh;
         float androidMtx[16];
