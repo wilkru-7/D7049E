@@ -19,7 +19,7 @@ namespace {
         reactphysics3d::PhysicsCommon physicsCommon;
         reactphysics3d::PhysicsWorld* world;
         reactphysics3d::Transform transform;
-        reactphysics3d::CapsuleShape* capsuleShape;
+        reactphysics3d::BoxShape* androidBox;
         reactphysics3d::BoxShape* floorBox;
         reactphysics3d::BoxShape* treeBox;
         reactphysics3d::RigidBody* android;

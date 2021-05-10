@@ -14,13 +14,13 @@ void PhysicsWorld::init() {
     world = physicsCommon.createPhysicsWorld(settings);
     world->setIsDebugRenderingEnabled(true);
 
-    capsuleShape = physicsCommon.createCapsuleShape(3.0, 5.0);
+    androidBox = physicsCommon.createBoxShape(rp3d::Vector3(3.0, 5.0, 2.0));
     treeBox = physicsCommon.createBoxShape(rp3d::Vector3(2.0, 10.0, 2.0));
     floorBox = physicsCommon.createBoxShape(rp3d::Vector3(20.0, 0.01, 20.0));
     /*orientation = reactphysics3d::Quaternion::identity();
     transform = reactphysics3d::Transform::identity();*/
 
-    android = createPhysicsObj(reactphysics3d::Vector3(0.0,20.0,0.0), capsuleShape, reactphysics3d::BodyType::DYNAMIC);
+    android = createPhysicsObj(reactphysics3d::Vector3(0.0,20.0,0.0), androidBox, reactphysics3d::BodyType::DYNAMIC);
     android->enableGravity(true);
 
     tree1 = createPhysicsObj(reactphysics3d::Vector3(14.0,0.0,14.0), treeBox, reactphysics3d::BodyType::STATIC);
@@ -38,8 +38,10 @@ reactphysics3d::RigidBody* PhysicsWorld::createPhysicsObj(reactphysics3d::Vector
     reactphysics3d::RigidBody* obj = world->createRigidBody(tf);
 
     obj->setType(type);
-    obj->addCollider(shape, transform);
+    reactphysics3d::Collider* collider = obj->addCollider(shape, transform);
 
+    reactphysics3d::Material& material = collider->getMaterial();
+    material.setBounciness(0.0);
     return obj;
 }
 
