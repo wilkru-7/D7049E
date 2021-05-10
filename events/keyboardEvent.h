@@ -5,7 +5,6 @@
 #ifndef D7049E_KEYBOARDEVENT_H
 #define D7049E_KEYBOARDEVENT_H
 
-
 #include "event.h"
 
 #include "GLFW/glfw3.h"
@@ -15,20 +14,10 @@
 namespace {
     class KeyboardEvent: public Event {
     public:
-        int KeyboardEvent::id();
+        int id() override {return 0;}
 
-        void KeyboardEvent::registerObserver(Observer *observer) override;
-
-        void KeyboardEvent::removeObserver(Observer *observer) override;
-
-        void KeyboardEvent::notifyObservers(int id) override;
-
-        void KeyboardEvent::checkKeyboardInput(GLFWwindow* window);
-
-        std::vector<Observer *> observers;
-
+        void checkKeyboardInput(GLFWwindow* window);
     };
 }
-
 
 #endif //D7049E_KEYBOARDEVENT_H

@@ -12,11 +12,25 @@ namespace {
     public:
         virtual int id() = 0;
 
-        void registerObserver(Observer *observer) = 0;
+        void registerObserver(Observer *observer) {
+            observers.push_back(observer);
+        };
 
-        void removeObserver(Observer *observer) = 0;
+        void removeObserver(Observer *observer) {
+            auto iterator = std::find(observers.begin(), observers.end(), observer);
 
-        void notifyObservers(int id) = 0;
+            if (iterator != observers.end()) { // observer found
+                observers.erase(iterator); // remove the observer
+            }
+        };
+
+        void notifyObservers(int id) {
+            for (Observer *observer : observers) { // notify all observers
+                observer->update(id);
+            }
+        };
+
+        std::vector<Observer *> observers;
     };
 
 }

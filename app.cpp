@@ -32,6 +32,7 @@
 #include "events/keyboardEvent.cpp"
 #include "sound/soundManager.cpp"
 #include "physics/physicsWorld.cpp"
+#include "events/collisionEvent.cpp"
 
 
 namespace
@@ -115,10 +116,14 @@ namespace
             objects.push_back(&treeObj4);
             objects.push_back(&floorObj);
 
-            keyboardEvent.registerObserver(&androidObj);
-
             soundManager.SoundManager::init();
+
+            keyboardEvent.registerObserver(&androidObj);
             keyboardEvent.registerObserver(&soundManager);
+
+            collisionEvent.registerObserver(&androidObj);
+            collisionEvent.registerObserver(&soundManager);
+            physicsWorld.world->setEventListener(&collisionEvent);
         }
 
         virtual int shutdown() override {
@@ -227,6 +232,7 @@ namespace
         Tree treeObj4;
         std::list<Object*> objects;
 
+        CollisionEvent collisionEvent;
         KeyboardEvent keyboardEvent;
         SoundManager soundManager;
 

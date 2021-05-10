@@ -4,22 +4,6 @@
 
 #include "keyboardEvent.h"
 
-int KeyboardEvent::id() {
-    return 0;
-}
-
-void KeyboardEvent::registerObserver(Observer *observer) {
-    observers.push_back(observer);
-}
-
-void KeyboardEvent::removeObserver(Observer *observer) {
-    auto iterator = std::find(observers.begin(), observers.end(), observer);
-
-    if (iterator != observers.end()) { // observer found
-        observers.erase(iterator); // remove the observer
-    }
-}
-
 void KeyboardEvent::checkKeyboardInput(GLFWwindow* window) {
     //move left forward
     if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
@@ -46,12 +30,6 @@ void KeyboardEvent::checkKeyboardInput(GLFWwindow* window) {
     } else if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) {
         notifyObservers(8);
     } else {
-        notifyObservers(0);
-    }
-}
-
-void KeyboardEvent::notifyObservers(int id) {
-    for (Observer *observer : observers) { // notify all observers
-        observer->update(id);
+        notifyObservers(id());
     }
 }
