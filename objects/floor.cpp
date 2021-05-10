@@ -5,7 +5,7 @@
 #include "floor.h"
 
 
-void Floor::init(float position[3], float col[4], reactphysics3d::RigidBody* body) {
+void Floor::init(float col[4], reactphysics3d::RigidBody* body) {
     floorPhysics = body;
     floorPhysics->getCollider(0)->getCollisionShape();
     bx::mtxSRT(floorMtx

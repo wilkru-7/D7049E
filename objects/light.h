@@ -13,7 +13,7 @@
 namespace {
     class Light : public Object {
     public:
-        void Light::init(float position[3], float color[4]);
+        void Light::init(float color[4]);
 
         void Light::update();
 

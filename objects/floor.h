@@ -14,7 +14,7 @@
 namespace {
     class Floor : public Object{
     public:
-        void Floor::init(float position[3], float color[4], reactphysics3d::RigidBody* body);
+        void Floor::init(float color[4], reactphysics3d::RigidBody* body);
 
         void Floor::shutdown();
 
