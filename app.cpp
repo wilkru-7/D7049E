@@ -30,7 +30,8 @@
 #include "objects/tree.cpp"
 
 #include "events/keyboardEvent.cpp"
-#include "sound/soundManager.h"
+#include "sound/soundManager.cpp"
+#include "physics/physicsWorld.cpp"
 
 
 namespace
@@ -88,27 +89,7 @@ namespace
 
             m_timeOffset = bx::getHPCounter();
 
-            // physics setup https://www.reactphysics3d.com/usermanual.html#x1-4500011
-            settings.defaultVelocitySolverNbIterations = 20;
-            settings.isSleepingEnabled = false;
-            settings.gravity = reactphysics3d::Vector3(0, rp3d::decimal(-9.81), 0);
-            world = physicsCommon.createPhysicsWorld(settings);
-            world->setIsDebugRenderingEnabled(TRUE);
-            capsuleShape = physicsCommon.createCapsuleShape(3.0, 5.0);
-            reactphysics3d::BoxShape* treeBox = physicsCommon.createBoxShape(rp3d::Vector3(2.0, 10.0, 2.0));
-            boxShape = physicsCommon.createBoxShape(rp3d::Vector3(20.0, 0.01, 20.0));
-            /*orientation = reactphysics3d::Quaternion::identity();
-            transform = reactphysics3d::Transform::identity();*/
-
-            android = createPhysicsObj(reactphysics3d::Vector3(0.0,20.0,0.0), capsuleShape, reactphysics3d::BodyType::DYNAMIC);
-            android->enableGravity(true);
-
-            tree1 = createPhysicsObj(reactphysics3d::Vector3(14.0,0.0,14.0), treeBox, reactphysics3d::BodyType::STATIC);
-            tree2 = createPhysicsObj(reactphysics3d::Vector3(-14.0,0.0,14.0), treeBox, reactphysics3d::BodyType::STATIC);
-            tree3 = createPhysicsObj(reactphysics3d::Vector3(14.0,0.0,-14.0), treeBox, reactphysics3d::BodyType::STATIC);
-            tree4 = createPhysicsObj(reactphysics3d::Vector3(-14.0,0.0,-14.0), treeBox, reactphysics3d::BodyType::STATIC);
-
-            floor = createPhysicsObj(reactphysics3d::Vector3(0.0,0.0,0.0), boxShape, reactphysics3d::BodyType::STATIC);
+            physicsWorld.init();
 
             float green[4]=  {0.0f,1.0f,0.0f,1.0f};
             float blue[4] = {0.0f,0.0f,1.0f,1.0f};
@@ -116,15 +97,15 @@ namespace
             float yellow[4] = { 1.0f, 0.7f, 0.2f, 0.0f };
 
             // init all the objects
-            androidObj.Android::init(blue, android);
+            androidObj.Android::init(blue, physicsWorld.android);
 
-            floorObj.Floor::init(black, floor);
+            floorObj.Floor::init(black, physicsWorld.floor);
             lightObj.Light::init(yellow);
 
-            treeObj1.Tree::init(green, tree1);
-            treeObj2.Tree::init(green, tree2);
-            treeObj3.Tree::init(green, tree3);
-            treeObj4.Tree::init(green, tree4);
+            treeObj1.Tree::init(green, physicsWorld.tree1);
+            treeObj2.Tree::init(green, physicsWorld.tree2);
+            treeObj3.Tree::init(green, physicsWorld.tree3);
+            treeObj4.Tree::init(green, physicsWorld.tree4);
 
             objects.push_back(&lightObj);
             objects.push_back(&androidObj);
@@ -140,18 +121,6 @@ namespace
             keyboardEvent.registerObserver(&soundManager);
         }
 
-        reactphysics3d::RigidBody* createPhysicsObj(reactphysics3d::Vector3 pos, reactphysics3d::CollisionShape* shape, reactphysics3d::BodyType type) {
-            reactphysics3d::Quaternion orientation = reactphysics3d::Quaternion::identity();
-            reactphysics3d::Transform transform = reactphysics3d::Transform::identity();
-            reactphysics3d::Transform tf(pos, orientation);
-            reactphysics3d::RigidBody* obj = world->createRigidBody(tf);
-
-            obj->setType(type);
-            obj->addCollider(shape, transform);
-
-            return obj;
-        }
-
         virtual int shutdown() override {
             // Cleanup.
             for_each(objects.begin(), objects.end(),std::mem_fun(&Object::shutdown));
@@ -163,13 +132,7 @@ namespace
             // Shutdown bgfx.
             bgfx::shutdown();
 
-            world->destroyRigidBody(tree1);
-            world->destroyRigidBody(tree2);
-            world->destroyRigidBody(tree3);
-            world->destroyRigidBody(tree4);
-            world->destroyRigidBody(floor);
-            world->destroyRigidBody(android);
-            physicsCommon.destroyPhysicsWorld(world);
+            physicsWorld.shutdown();
 
             glfwDestroyWindow(window);
 
@@ -201,7 +164,9 @@ namespace
                 // Set lights back.
                 lightObj.Light::setLight();
 
-                world->update(1.0f / 60.0f);
+                physicsWorld.update();
+
+                //world->update(1.0f / 60.0f);
 
                 // Rendering phase
                 // ------------------------------------------------------------------------------------------------------------------//
@@ -248,149 +213,10 @@ namespace
             return false;
         }
 
-        /*void checkKeyboardInput() {
-            const reactphysics3d::Transform& transform = android->getTransform();
-            const reactphysics3d::Vector3& position = transform.getPosition();
-
-            //move left forward
-            if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
-                std::cout << "before" << std::endl;
-                std::cout << androidObj.Android::getMtx()[12] << std::endl;
-
-                float newPos[3] = {position.x-0.35f,position.y,position.z+0.35f};
-                keyboardEvent.notifyObservers(newPos);
-
-                std::cout << "after" << std::endl;
-                std::cout << androidObj.Android::getMtx()[12] << std::endl;
-                /*reactphysics3d::Vector3 androidPosition(position.x-0.35,position.y,position.z+0.35);
-                reactphysics3d::Transform androidTransform(androidPosition, orientation);
-                android->setTransform(androidTransform);
-
-                if(world->testOverlap(android, tree)) {
-                    resetTransform();
-                }
-
-                androidObj.Android::updateRot(0.75);*/
-
-                //move right forward
-            /*} else if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
-                reactphysics3d::Vector3 androidPosition(position.x+0.35,position.y,position.z+0.35);
-                reactphysics3d::Transform androidTransform(androidPosition, orientation);
-                android->setTransform(androidTransform);
-
-                if(world->testOverlap(android, tree)) {
-                    resetTransform();
-                }
-
-                androidObj.Android::updateRot(2.25);
-
-                //move left backward
-            } else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
-                reactphysics3d::Vector3 androidPosition(position.x-0.35,position.y,position.z-0.35);
-                reactphysics3d::Transform androidTransform(androidPosition, orientation);
-                android->setTransform(androidTransform);
-
-                if(world->testOverlap(android, tree)) {
-                    resetTransform();
-                }
-
-                androidObj.Android::updateRot(2.25);
-
-                //move right backward
-            } else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
-                reactphysics3d::Vector3 androidPosition(position.x+0.35,position.y,position.z-0.35);
-                reactphysics3d::Transform androidTransform(androidPosition, orientation);
-                android->setTransform(androidTransform);
-
-                if(world->testOverlap(android, tree)) {
-                    resetTransform();
-                }
-
-                androidObj.Android::updateRot(0.75);
-
-                //move left
-            } else if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
-                reactphysics3d::Vector3 androidPosition(position.x-0.5,position.y,position.z);
-                reactphysics3d::Transform androidTransform(androidPosition, orientation);
-                android->setTransform(androidTransform);
-
-                if(world->testOverlap(android, tree)) {
-                    resetTransform();
-                }
-
-                androidObj.Android::updateRot(1.5);
-
-                //move backward
-            } else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS) {
-                reactphysics3d::Vector3 androidPosition(position.x,position.y,position.z-0.5);
-                reactphysics3d::Transform androidTransform(androidPosition, orientation);
-                android->setTransform(androidTransform);
-
-                if(world->testOverlap(android, tree)) {
-                    resetTransform();
-                }
-
-                androidObj.Android::updateRot(0.0);
-
-                //move right
-            } else if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
-                reactphysics3d::Vector3 androidPosition(position.x+0.5,position.y,position.z);
-                reactphysics3d::Transform androidTransform(androidPosition, orientation);
-                android->setTransform(androidTransform);
-
-                if(world->testOverlap(android, tree)) {
-                    resetTransform();
-                }
-
-                androidObj.Android::updateRot(1.5);
-
-                // move forward
-            } else if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) {
-                reactphysics3d::Vector3 androidPosition(position.x,position.y,position.z+0.5);
-                reactphysics3d::Transform androidTransform(androidPosition, orientation);
-                android->setTransform(androidTransform);
-
-                if(world->testOverlap(android, tree)) {
-                    resetTransform();
-                }
-
-                androidObj.Android::updateRot(0.0);
-
-            }
-
-            androidObj.Android::updateMtx(position.x, position.y, position.z);
-            /*std::cout << "Body Position: (" << position2.x << ", " <<
-                      position2.y << ", " << position2.z << ")" << std::endl;
-            std::cout << "Collision" << world->testOverlap(android, tree) << std::endl;*/
-
-        //}
-
-        /*void resetTransform(){
-            reactphysics3d::Vector3 androidPosition(androidObj.Android::getMtx()[12],androidObj.Android::getMtx()[13],androidObj.Android::getMtx()[14]);
-            reactphysics3d::Transform androidTransform(androidPosition, orientation);
-            android->setTransform(androidTransform);
-        }*/
-
         SoLoud::Soloud soloud; // Engine core
         SoLoud::Wav sample;    // One sample
 
-        reactphysics3d::PhysicsWorld::WorldSettings settings;
-        reactphysics3d::PhysicsCommon physicsCommon;
-        reactphysics3d::PhysicsWorld* world;
-        reactphysics3d::Transform transform;
-        reactphysics3d::CapsuleShape* capsuleShape;
-        reactphysics3d::BoxShape* boxShape;
-        reactphysics3d::RigidBody* android;
-        //reactphysics3d::RigidBody* tree;
-        reactphysics3d::RigidBody* tree1;
-        reactphysics3d::RigidBody* tree2;
-        reactphysics3d::RigidBody* tree3;
-        reactphysics3d::RigidBody* tree4;
-        reactphysics3d::RigidBody* floor;
-        reactphysics3d::Quaternion orientation;
-        reactphysics3d::Collider* androidCollider;
-        reactphysics3d::Collider* treeCollider;
-        reactphysics3d::Collider* floorCollider;
+        PhysicsWorld physicsWorld;
 
         Android androidObj;
         Floor floorObj;
