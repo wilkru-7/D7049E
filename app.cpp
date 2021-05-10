@@ -30,6 +30,7 @@
 #include "objects/tree.cpp"
 
 #include "events/keyboardEvent.cpp"
+#include "sound/soundManager.h"
 
 
 namespace
@@ -45,12 +46,6 @@ namespace
 
         virtual void init(int32_t _argc, const char* const* _argv, uint32_t _width, uint32_t _height) override
         {
-            // Initialize SoLoud (automatic back-end selection)
-            soloud.init();
-
-            sample.load("../../../../mozart.wav"); // Load a wave file
-            soloud.play(sample);        // Play it
-
             Args args(_argc, _argv);
 
             m_viewState   = ViewState(_width, _height);
@@ -140,6 +135,9 @@ namespace
             objects.push_back(&floorObj);
 
             keyboardEvent.registerObserver(&androidObj);
+
+            soundManager.SoundManager::init();
+            keyboardEvent.registerObserver(&soundManager);
         }
 
         reactphysics3d::RigidBody* createPhysicsObj(reactphysics3d::Vector3 pos, reactphysics3d::CollisionShape* shape, reactphysics3d::BodyType type) {
@@ -404,6 +402,7 @@ namespace
         std::list<Object*> objects;
 
         KeyboardEvent keyboardEvent;
+        SoundManager soundManager;
 
         GLFWwindow* window;
 

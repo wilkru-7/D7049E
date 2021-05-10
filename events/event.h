@@ -16,7 +16,7 @@ namespace {
 
         void removeObserver(Observer *observer) = 0;
 
-        void notifyObservers(float position[3]) = 0;
+        void notifyObservers(int id) = 0;
     };
 
 }

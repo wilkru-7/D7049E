@@ -4,6 +4,10 @@
 
 #include "keyboardEvent.h"
 
+int KeyboardEvent::id() {
+    return 0;
+}
+
 void KeyboardEvent::registerObserver(Observer *observer) {
     observers.push_back(observer);
 }
@@ -16,55 +20,36 @@ void KeyboardEvent::removeObserver(Observer *observer) {
     }
 }
 
-
 void KeyboardEvent::checkKeyboardInput(GLFWwindow* window) {
     //move left forward
     if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
-
-        float newPos[3] = {-0.35f,0.0f,0.35f};
-        notifyObservers(newPos);
-
-        //move right forward
+        notifyObservers(1);
+    //move right forward
     } else if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
-        float newPos[3] = {0.35f,0.0f,0.35f};
-        notifyObservers(newPos);
-
+        notifyObservers(2);
         //move left backward
     } else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
-        float newPos[3] = {-0.35f,0.0f,-0.35f};
-        notifyObservers(newPos);
-
+        notifyObservers(3);
         //move right backward
     } else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
-        float newPos[3] = {0.35f,0.0f,-0.35f};
-        notifyObservers(newPos);
-
+        notifyObservers(4);
         //move left
     } else if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
-        float newPos[3] = {-0.5f,0.0f,0.0f};
-        notifyObservers(newPos);
-
+        notifyObservers(5);
         //move backward
     } else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS) {
-        float newPos[3] = {0.0f,0.0f,-0.5f};
-        notifyObservers(newPos);
-
+        notifyObservers(6);
         //move right
     } else if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
-        float newPos[3] = {0.5f,0.0f,0.0f};
-        notifyObservers(newPos);
-
+        notifyObservers(7);
         // move forward
     } else if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) {
-        float newPos[3] = {0.0f,0.0f,0.5f};
-        notifyObservers(newPos);
-
+        notifyObservers(8);
     }
-
 }
 
-void KeyboardEvent::notifyObservers(float position[3]) {
+void KeyboardEvent::notifyObservers(int id) {
     for (Observer *observer : observers) { // notify all observers
-        observer->update(position);
+        observer->update(id);
     }
 }

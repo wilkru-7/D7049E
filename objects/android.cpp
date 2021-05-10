@@ -63,7 +63,46 @@ void Android::updateRot(float rot) {
     );
 }
 
-void Android::update(float newPos[3]) {
+void Android::update(int id) {
+    float newPos[3];
+    switch(id) {
+        case 1: newPos[0] = -0.35f;
+                newPos[1] = 0.0f;
+                newPos[2] = 0.35f;
+                break;
+        case 2: newPos[0] = 0.35f;
+                newPos[1] = 0.0f;
+                newPos[2] = 0.35f;
+                break;
+        case 3: newPos[0] = -0.35f;
+                newPos[1] = 0.0f;
+                newPos[2] = -0.35f;
+                break;
+        case 4: newPos[0] = 0.35f;
+                newPos[1] = 0.0f;
+                newPos[2] = -0.35f;
+                break;
+        case 5: newPos[0] = -0.5f;
+                newPos[1] = 0.0f;
+                newPos[2] = 0.0f;
+                break;
+        case 6: newPos[0] = 0.0f;
+                newPos[1] = 0.0f;
+                newPos[2] = -0.5f;
+                break;
+        case 7: newPos[0] = 0.5f;
+                newPos[1] = 0.0f;
+                newPos[2] = 0.0f;
+                break;
+        case 8: newPos[0] = 0.0f;
+                newPos[1] = 0.0f;
+                newPos[2] = 0.5f;
+                break;
+        default:newPos[0] = 0.0f;
+                newPos[1] = 0.0f;
+                newPos[2] = 0.0f;
+                break;
+    }
     rp3d::Transform currTransform = androidPhysics->getTransform();
     reactphysics3d::Vector3 currPos = currTransform.getPosition();
     currTransform.setPosition(reactphysics3d::Vector3(currPos.x + newPos[0], currPos.y + newPos[1], currPos.z + newPos[2]));

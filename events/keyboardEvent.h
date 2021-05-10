@@ -15,13 +15,13 @@
 namespace {
     class KeyboardEvent: public Event {
     public:
-        int KeyboardEvent::id() {return 1;}
+        int KeyboardEvent::id();
 
         void KeyboardEvent::registerObserver(Observer *observer) override;
 
         void KeyboardEvent::removeObserver(Observer *observer) override;
 
-        void KeyboardEvent::notifyObservers(float position[3]) override;
+        void KeyboardEvent::notifyObservers(int id) override;
 
         void KeyboardEvent::checkKeyboardInput(GLFWwindow* window);
 

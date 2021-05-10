@@ -13,7 +13,7 @@ namespace {
 
     public:
 
-        virtual void update(float position[3]) = 0;
+        virtual void update(int id) = 0;
 
     };
 }

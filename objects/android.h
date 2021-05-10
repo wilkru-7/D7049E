@@ -25,7 +25,7 @@ namespace {
 
         void Android::updateRot(float rot);
 
-        void Android::update(float position[3]);
+        void Android::update(int id);
 
         reactphysics3d::RigidBody* androidPhysics;
         Mesh androidMesh;

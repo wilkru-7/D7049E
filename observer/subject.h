@@ -17,7 +17,7 @@ namespace {
 
         virtual void removeObserver(Observer *observer) = 0;
 
-        virtual void notifyObservers(float position[3]) = 0;
+        virtual void notifyObservers(int id) = 0;
 
     };
 }
