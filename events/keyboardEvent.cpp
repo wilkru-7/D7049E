@@ -45,6 +45,8 @@ void KeyboardEvent::checkKeyboardInput(GLFWwindow* window) {
         // move forward
     } else if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) {
         notifyObservers(8);
+    } else {
+        notifyObservers(0);
     }
 }
 
