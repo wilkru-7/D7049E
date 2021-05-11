@@ -5,8 +5,7 @@
 #include "collisionEvent.h"
 
 void CollisionEvent::onContact(const CollisionCallback::CallbackData& callbackData) {
-    if(callbackData.getContactPair(0).getEventType() == CollisionCallback::ContactPair::EventType::ContactStart) {
-        std::cout << "Event:" << std::endl;
+    if(callbackData.getNbContactPairs() > 1 && callbackData.getContactPair(1).getEventType() == CollisionCallback::ContactPair::EventType::ContactStart) {
         notifyObservers(id());
     }
 }

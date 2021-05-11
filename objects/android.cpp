@@ -98,6 +98,10 @@ void Android::update(int id) {
                 newPos[1] = 0.0f;
                 newPos[2] = 0.5f;
                 break;
+        /*case 9: newPos[0] = 0.0f;
+                newPos[1] = 0.0f;
+                newPos[2] = 0.5f;
+                break;*/
         default:newPos[0] = 0.0f;
                 newPos[1] = 0.0f;
                 newPos[2] = 0.0f;

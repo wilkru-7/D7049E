@@ -20,7 +20,7 @@ void PhysicsWorld::init() {
     /*orientation = reactphysics3d::Quaternion::identity();
     transform = reactphysics3d::Transform::identity();*/
 
-    android = createPhysicsObj(reactphysics3d::Vector3(0.0,20.0,0.0), androidBox, reactphysics3d::BodyType::DYNAMIC);
+    android = createPhysicsObj(reactphysics3d::Vector3(0.0,0.0,0.0), androidBox, reactphysics3d::BodyType::DYNAMIC);
     android->enableGravity(true);
 
     tree1 = createPhysicsObj(reactphysics3d::Vector3(14.0,0.0,14.0), treeBox, reactphysics3d::BodyType::STATIC);
