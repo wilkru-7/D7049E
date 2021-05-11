@@ -14,6 +14,18 @@ void Tree::init(float col[4], reactphysics3d::RigidBody* body) {
     color[1] = col[1];
     color[2] = col[2];
     color[3] = col[3];
+
+    bx::mtxSRT(treeMtx
+            , 0.6f  //scaleX
+            , 0.6f  //scaleY
+            , 0.6f  //scaleZ
+            , 0.0f   //rotX
+            , 0.0f   //rotY
+            , 0.0f   //rotZ
+            , treePhysics->getTransform().getPosition().x  //translateX
+            , treePhysics->getTransform().getPosition().y   //translateY
+            , treePhysics->getTransform().getPosition().z   //translateZ
+    );
 }
 
 void Tree::shutdown() {
@@ -36,9 +48,8 @@ void Tree::reflectSubmit() {
 }
 
 void Tree::drawSubmit() {
-    reactphysics3d::Transform transform = treePhysics->getTransform();
-    transform.getOpenGLMatrix(treeMtx);
-
+    /*reactphysics3d::Transform transform = treePhysics->getTransform();
+    transform.getOpenGLMatrix(treeMtx);*/
     treeMesh.submit(RENDER_VIEWID_RANGE1_PASS_3
             , treeMtx
             , programColorLighting
