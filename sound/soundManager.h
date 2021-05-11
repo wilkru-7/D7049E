@@ -13,7 +13,9 @@ public:
     void SoundManager::update(int id);
 
     SoLoud::Soloud soloud; // Engine core
-    SoLoud::Wav sample;    // One sample
+    SoLoud::Wav walkingSound;
+    SoLoud::Wav collisionSound;
+    SoLoud::Wav backgroundMusic;
 };
 
 #endif //D7049E_SOUNDMANAGER_H
