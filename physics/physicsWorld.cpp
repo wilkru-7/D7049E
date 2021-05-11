@@ -14,6 +14,9 @@ void PhysicsWorld::init() {
     world = physicsCommon.createPhysicsWorld(settings);
     world->setIsDebugRenderingEnabled(true);
 
+    reactphysics3d::DebugRenderer& debugRenderer = world->getDebugRenderer();
+    debugRenderer.setIsDebugItemDisplayed(rp3d::DebugRenderer::DebugItem::CONTACT_POINT, true);
+
     androidBox = physicsCommon.createBoxShape(rp3d::Vector3(3.0, 5.0, 2.0));
     treeBox = physicsCommon.createBoxShape(rp3d::Vector3(2.0, 10.0, 2.0));
     floorBox = physicsCommon.createBoxShape(rp3d::Vector3(20.0, 0.01, 20.0));
