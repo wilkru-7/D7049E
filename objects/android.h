@@ -31,6 +31,7 @@ namespace {
         Mesh androidMesh;
         float androidMtx[16];
         float position[3];
+        float velocity;
         bgfx::ProgramHandle programColorLighting;
         float color[4];
     };

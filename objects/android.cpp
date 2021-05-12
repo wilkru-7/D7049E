@@ -14,6 +14,7 @@ void Android::init(float col[4], reactphysics3d::RigidBody* body) {
     color[2] = col[2];
     color[3] = col[3];
 
+    velocity = 0.25f;
     androidMesh.load("meshes/android.bin");
     programColorLighting = loadProgram("vs_stencil_color_lighting", "fs_stencil_color_lighting");
 }
@@ -66,41 +67,41 @@ void Android::updateRot(float rot) {
 void Android::update(int id) {
     float newPos[3];
     switch(id) {
-        case 1: newPos[0] = -0.35f;
+        case 1: newPos[0] = -velocity;
                 newPos[1] = 0.0f;
-                newPos[2] = 0.35f;
+                newPos[2] = velocity;
                 break;
-        case 2: newPos[0] = 0.35f;
+        case 2: newPos[0] = velocity;
                 newPos[1] = 0.0f;
-                newPos[2] = 0.35f;
+                newPos[2] = velocity;
                 break;
-        case 3: newPos[0] = -0.35f;
+        case 3: newPos[0] = -velocity;
                 newPos[1] = 0.0f;
-                newPos[2] = -0.35f;
+                newPos[2] = -velocity;
                 break;
-        case 4: newPos[0] = 0.35f;
+        case 4: newPos[0] = velocity;
                 newPos[1] = 0.0f;
-                newPos[2] = -0.35f;
+                newPos[2] = -velocity;
                 break;
-        case 5: newPos[0] = -0.5f;
+        case 5: newPos[0] = -velocity + 0.1f;
                 newPos[1] = 0.0f;
                 newPos[2] = 0.0f;
                 break;
         case 6: newPos[0] = 0.0f;
                 newPos[1] = 0.0f;
-                newPos[2] = -0.5f;
+                newPos[2] = -velocity + 0.1f;
                 break;
-        case 7: newPos[0] = 0.5f;
+        case 7: newPos[0] = velocity + 0.1f;
                 newPos[1] = 0.0f;
                 newPos[2] = 0.0f;
                 break;
         case 8: newPos[0] = 0.0f;
                 newPos[1] = 0.0f;
-                newPos[2] = 0.5f;
+                newPos[2] = velocity + 0.1f;
                 break;
         /*case 9: newPos[0] = 0.0f;
                 newPos[1] = 0.0f;
-                newPos[2] = 0.5f;
+                newPos[2] = velocity + 0.2f;
                 break;*/
         default:newPos[0] = 0.0f;
                 newPos[1] = 0.0f;
