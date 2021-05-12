@@ -5,10 +5,11 @@
 #ifndef D7049E_EVENT_H
 #define D7049E_EVENT_H
 
-#include "../observer/subject.h"
-
+//#include "../observer/subject.h"
+#include <vector>
+#include "../observer/observer.h"
 namespace {
-    class Event : public Subject {
+    class Event  {
     public:
         virtual int id() = 0;
 
