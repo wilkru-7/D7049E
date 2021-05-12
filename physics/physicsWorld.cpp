@@ -17,13 +17,13 @@ void PhysicsWorld::init() {
     reactphysics3d::DebugRenderer& debugRenderer = world->getDebugRenderer();
     debugRenderer.setIsDebugItemDisplayed(rp3d::DebugRenderer::DebugItem::CONTACT_POINT, true);
 
-    androidBox = physicsCommon.createBoxShape(rp3d::Vector3(3.0, 5.0, 2.0));
+    androidBox = physicsCommon.createBoxShape(rp3d::Vector3(3.0, 1.8, 2.0));
     treeBox = physicsCommon.createBoxShape(rp3d::Vector3(2.0, 10.0, 2.0));
     floorBox = physicsCommon.createBoxShape(rp3d::Vector3(20.0, 0.01, 20.0));
     /*orientation = reactphysics3d::Quaternion::identity();
     transform = reactphysics3d::Transform::identity();*/
 
-    android = createPhysicsObj(reactphysics3d::Vector3(0.0,0.0,0.0), androidBox, reactphysics3d::BodyType::DYNAMIC);
+    android = createPhysicsObj(reactphysics3d::Vector3(0.0,1.8,0.0), androidBox, reactphysics3d::BodyType::DYNAMIC);
     android->enableGravity(true);
 
     tree1 = createPhysicsObj(reactphysics3d::Vector3(14.0,0.0,14.0), treeBox, reactphysics3d::BodyType::STATIC);
