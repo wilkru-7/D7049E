@@ -65,63 +65,46 @@ void Android::updateRot(float rot) {
 }
 
 void Android::update(int id) {
-    float newPos[3];
-    switch(id) {
-        case 11: newPos[0] = -velocity;
-                newPos[1] = 0.0f;
-                newPos[2] = velocity;
-                break;
-        case 12: newPos[0] = velocity;
-                newPos[1] = 0.0f;
-                newPos[2] = velocity;
-                break;
-        case 13: newPos[0] = -velocity;
-                newPos[1] = 0.0f;
-                newPos[2] = -velocity;
-                break;
-        case 14: newPos[0] = velocity;
-                newPos[1] = 0.0f;
-                newPos[2] = -velocity;
-                break;
-        case 15: newPos[0] = -velocity -0.1f;
-                newPos[1] = 0.0f;
-                newPos[2] = 0.0f;
-                break;
-        case 16: newPos[0] = 0.0f;
-                newPos[1] = 0.0f;
-                newPos[2] = -velocity - 0.1f;
-                break;
-        case 17: newPos[0] = velocity + 0.1f;
-                newPos[1] = 0.0f;
-                newPos[2] = 0.0f;
-                break;
-        case 18: newPos[0] = 0.0f;
-                newPos[1] = 0.0f;
-                newPos[2] = velocity + 0.1f;
-                break;
-        /*case 2: newPos[0] = 0.0f;
-                newPos[1] = 0.0f;
-                newPos[2] = velocity + 0.2f;
-                break;*/
-        case 19:{
-            const rp3d::Transform& currTransform2 = androidPhysics->getTransform();
-            const reactphysics3d::Vector3& currPos2 = currTransform2.getPosition();
-            std::cout << "Y is: " << currPos2.y << std::endl;
-            if (currPos2.y < 2.0f){
-                androidPhysics->applyForceToCenterOfMass(rp3d::Vector3(0.0,100.0,0.0));
-            }
-            newPos[0] = 0.0f;
-            newPos[1] = 0.0f;
-            newPos[2] = 0.0f;
-            break;
-        }
-        default:newPos[0] = 0.0f;
-                newPos[1] = 0.0f;
-                newPos[2] = 0.0f;
-                break;
-    }
     rp3d::Transform currTransform = androidPhysics->getTransform();
     reactphysics3d::Vector3 currPos = currTransform.getPosition();
-    currTransform.setPosition(reactphysics3d::Vector3(currPos.x + newPos[0], currPos.y + newPos[1], currPos.z + newPos[2]));
+    switch(id) {
+        case 11: setTransform(reactphysics3d::Vector3(-velocity, 0.0, velocity));
+                break;
+        case 12: setTransform(reactphysics3d::Vector3(velocity, 0.0, velocity));
+                break;
+        case 13: setTransform(reactphysics3d::Vector3(-velocity, 0.0, -velocity));
+                break;
+        case 14: setTransform(reactphysics3d::Vector3(velocity, 0.0, -velocity));
+                break;
+        case 15: setTransform(reactphysics3d::Vector3(-velocity - 0.1, 0.0, 0.0));
+                break;
+        case 16: setTransform(reactphysics3d::Vector3(0.0, 0.0, -velocity - 0.1));
+                break;
+        case 17: setTransform(reactphysics3d::Vector3(velocity + 0.1, 0.0, 0.0));
+                break;
+        case 18: setTransform(reactphysics3d::Vector3(0.0, 0.0, velocity + 0.1));
+                break;
+        case 19:{
+            if (currPos.y < 2.0f){
+                androidPhysics->applyForceToCenterOfMass(rp3d::Vector3(0.0,100.0,0.0));
+            }
+            break;
+        }
+        case 22: {
+            if(currPos.y < 1.8) {
+                currTransform.setPosition(reactphysics3d::Vector3(0.0, 5.0, 0.0));
+                androidPhysics->setTransform(currTransform);
+            }
+            break;
+        }
+        default: setTransform(reactphysics3d::Vector3(0.0, 0.0, 0.0));
+                break;
+    }
+}
+
+void Android::setTransform(reactphysics3d::Vector3 newPos) {
+    rp3d::Transform currTransform = androidPhysics->getTransform();
+    reactphysics3d::Vector3 currPos = currTransform.getPosition();
+    currTransform.setPosition(reactphysics3d::Vector3(currPos.x + newPos.x, currPos.y + newPos.y, currPos.z + newPos.z));
     androidPhysics->setTransform(currTransform);
 }

@@ -27,6 +27,8 @@ namespace {
 
         void Android::update(int id);
 
+        void Android::setTransform(reactphysics3d::Vector3 newPos);
+
         reactphysics3d::RigidBody* androidPhysics;
         Mesh androidMesh;
         float androidMtx[16];
