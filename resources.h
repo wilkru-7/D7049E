@@ -65,7 +65,7 @@ namespace {
                     {  1.0f, -1.0f, 0.0f, encodeNormalRgba8(0.0f, 0.0f, -1.0f), 0.0f, 0.0f },
             };
 
-    /*static const PosNormalTexcoordVertex s_cubeVertices[] =
+    static const PosNormalTexcoordVertex s_cubeVertices[] =
             {
                     { -1.0f,  1.0f,  1.0f, encodeNormalRgba8( 0.0f,  1.0f,  0.0f), 1.0f, 1.0f },
                     {  1.0f,  1.0f,  1.0f, encodeNormalRgba8( 0.0f,  1.0f,  0.0f), 0.0f, 1.0f },
@@ -91,9 +91,9 @@ namespace {
                     { -1.0f,  1.0f,  1.0f, encodeNormalRgba8(-1.0f,  0.0f,  0.0f), 0.0f, 1.0f },
                     { -1.0f, -1.0f, -1.0f, encodeNormalRgba8(-1.0f,  0.0f,  0.0f), 1.0f, 0.0f },
                     { -1.0f, -1.0f,  1.0f, encodeNormalRgba8(-1.0f,  0.0f,  0.0f), 0.0f, 0.0f },
-            };*/
+            };
 
-    /*static const uint16_t s_cubeIndices[] =
+    static const uint16_t s_cubeIndices[] =
             {
                     0,  1,  2,
                     1,  3,  2,
@@ -109,7 +109,7 @@ namespace {
                     17, 19, 18,
                     20, 22, 21,
                     21, 22, 23,
-            };*/
+            };
 
     static const uint16_t s_planeIndices[] =
             {

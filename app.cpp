@@ -28,6 +28,7 @@
 #include "objects/floor.cpp"
 #include "objects/light.cpp"
 #include "objects/tree.cpp"
+#include "objects/cube.cpp"
 
 #include "events/keyboardEvent.cpp"
 #include "sound/soundManager.cpp"
@@ -100,6 +101,8 @@ namespace
             // init all the objects
             androidObj.Android::init(blue, physicsWorld.android);
 
+            cubeObj.Cube::init(yellow, physicsWorld.cube);
+
             floorObj.Floor::init(black, physicsWorld.floor);
             lightObj.Light::init(yellow);
 
@@ -115,6 +118,7 @@ namespace
             objects.push_back(&treeObj3);
             objects.push_back(&treeObj4);
             objects.push_back(&floorObj);
+            objects.push_back(&cubeObj);
 
             soundManager.SoundManager::init();
 
@@ -230,6 +234,7 @@ namespace
         Tree treeObj2;
         Tree treeObj3;
         Tree treeObj4;
+        Cube cubeObj;
         std::list<Object*> objects;
 
         CollisionEvent collisionEvent;

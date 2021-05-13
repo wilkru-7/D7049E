@@ -22,6 +22,7 @@ namespace {
         reactphysics3d::BoxShape* androidBox;
         reactphysics3d::BoxShape* floorBox;
         reactphysics3d::BoxShape* treeBox;
+        reactphysics3d::BoxShape* cubeBox;
         reactphysics3d::RigidBody* android;
         //reactphysics3d::RigidBody* tree;
         reactphysics3d::RigidBody* tree1;
@@ -29,6 +30,7 @@ namespace {
         reactphysics3d::RigidBody* tree3;
         reactphysics3d::RigidBody* tree4;
         reactphysics3d::RigidBody* floor;
+        reactphysics3d::RigidBody* cube;
         reactphysics3d::Quaternion orientation;
         reactphysics3d::Collider* androidCollider;
         reactphysics3d::Collider* treeCollider;
