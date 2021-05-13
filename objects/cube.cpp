@@ -4,7 +4,7 @@
 
 #include "cube.h"
 
-void Cube::init(float col[4], reactphysics3d::RigidBody* body) {
+Cube::Cube(float col[4], reactphysics3d::RigidBody* body) {
     cubePhysics = body;
 
     color[0] = col[0];
@@ -58,6 +58,5 @@ void Cube::drawSubmit() {
 }
 
 void Cube::update(int id) {
-    std::cout << "Update cube" << std::endl;
-    cubePhysics->applyForceToCenterOfMass(rp3d::Vector3(0.0,100.0,0.0));
+    //cubePhysics->applyForceToCenterOfMass(rp3d::Vector3(0.0,100.0,0.0));
 }

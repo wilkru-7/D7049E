@@ -14,7 +14,7 @@
 namespace {
     class Tree: public Object {
     public:
-        void Tree::init(float color[4], reactphysics3d::RigidBody* body);
+        Tree(float color[4], reactphysics3d::RigidBody* body);
 
         void Tree::shutdown();
 

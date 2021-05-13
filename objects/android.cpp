@@ -6,7 +6,7 @@
 #include "bgfx_utils.h"
 #include "android.h"
 
-void Android::init(float col[4], reactphysics3d::RigidBody* body) {
+Android::Android(float col[4], reactphysics3d::RigidBody* body) {
     androidPhysics = body;
 
     color[0] = col[0];

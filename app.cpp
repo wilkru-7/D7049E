@@ -91,43 +91,36 @@ namespace
 
             m_timeOffset = bx::getHPCounter();
 
-            physicsWorld.init();
+            physicsWorld.init(false, 4);
 
             float green[4]=  {0.0f,1.0f,0.0f,1.0f};
             float blue[4] = {0.0f,0.0f,1.0f,1.0f};
             float black[4] = {0.0f,0.0f,0.0f,1.0f};
-            float yellow[4] = { 1.0f, 0.7f, 0.2f, 0.0f };
+            float yellow[4] = {1.0f, 0.7f, 0.2f, 0.0f};
 
             // init all the objects
-            androidObj.Android::init(blue, physicsWorld.android);
+            androidObj = new Android(blue, physicsWorld.android);
+            cubeObj = new Cube(yellow, physicsWorld.cube);
+            floorObj = new Floor(black, physicsWorld.floor);
+            lightObj = new Light(yellow);
 
-            cubeObj.Cube::init(yellow, physicsWorld.cube);
+            for(int i = 0; i < physicsWorld.trees.size(); ++i) {
+                objects.push_back(new Tree(green, physicsWorld.trees.at(i)));
+            }
 
-            floorObj.Floor::init(black, physicsWorld.floor);
-            lightObj.Light::init(yellow);
-
-            treeObj1.Tree::init(green, physicsWorld.tree1);
-            treeObj2.Tree::init(green, physicsWorld.tree2);
-            treeObj3.Tree::init(green, physicsWorld.tree3);
-            treeObj4.Tree::init(green, physicsWorld.tree4);
-
-            objects.push_back(&lightObj);
-            objects.push_back(&androidObj);
-            objects.push_back(&treeObj1);
-            objects.push_back(&treeObj2);
-            objects.push_back(&treeObj3);
-            objects.push_back(&treeObj4);
-            objects.push_back(&floorObj);
-            objects.push_back(&cubeObj);
+            objects.push_back(lightObj);
+            objects.push_back(androidObj);
+            objects.push_back(floorObj);
+            objects.push_back(cubeObj);
 
             soundManager.SoundManager::init();
 
-            keyboardEvent.registerObserver(&androidObj);
-            keyboardEvent.registerObserver(&cubeObj);
+            keyboardEvent.registerObserver(androidObj);
+            keyboardEvent.registerObserver(cubeObj);
             keyboardEvent.registerObserver(&soundManager);
 
-            collisionEvent.registerObserver(&androidObj);
-            collisionEvent.registerObserver(&cubeObj);
+            collisionEvent.registerObserver(androidObj);
+            collisionEvent.registerObserver(cubeObj);
             collisionEvent.registerObserver(&soundManager);
             physicsWorld.world->setEventListener(&collisionEvent);
         }
@@ -173,7 +166,7 @@ namespace
                 cameraGetViewMtx(m_viewState.m_view);
 
                 // Set lights back.
-                lightObj.Light::setLight();
+                lightObj->setLight();
 
                 physicsWorld.update();
 
@@ -191,7 +184,7 @@ namespace
 
                 for_each(objects.begin(), objects.end(),std::mem_fun(&Object::reflectSubmit));
 
-                lightObj.setViewState(m_viewState);
+                lightObj->setViewState(m_viewState);
 
                 for_each(objects.begin(), objects.end(),std::mem_fun(&Object::drawSubmit));
 
@@ -229,14 +222,10 @@ namespace
 
         PhysicsWorld physicsWorld;
 
-        Android androidObj;
-        Floor floorObj;
-        Light lightObj;
-        Tree treeObj1;
-        Tree treeObj2;
-        Tree treeObj3;
-        Tree treeObj4;
-        Cube cubeObj;
+        Android* androidObj;
+        Floor* floorObj;
+        Light* lightObj;
+        Cube* cubeObj;
         std::list<Object*> objects;
 
         CollisionEvent collisionEvent;

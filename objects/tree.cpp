@@ -4,7 +4,7 @@
 
 #include "tree.h"
 
-void Tree::init(float col[4], reactphysics3d::RigidBody* body) {
+Tree::Tree(float col[4], reactphysics3d::RigidBody* body) {
     treePhysics = body;
 
     treeMesh.load("meshes/polytree.bin");

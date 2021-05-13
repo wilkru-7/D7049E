@@ -13,7 +13,7 @@
 namespace {
     class Cube : public Object, public Observer {
     public:
-        void Cube::init(float color[4], reactphysics3d::RigidBody* body);
+        Cube(float color[4], reactphysics3d::RigidBody* body);
 
         void Cube::shutdown();
 

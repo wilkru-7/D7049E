@@ -15,7 +15,7 @@
 namespace {
     class Android: public Object, public Observer {
     public:
-        void Android::init(float color[4],  reactphysics3d::RigidBody* body);
+        Android(float color[4],  reactphysics3d::RigidBody* body);
 
         void Android::shutdown();
 

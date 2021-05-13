@@ -6,7 +6,7 @@
 #include "bgfx_utils.h"
 #include "light.h"
 
-void Light::init(float color[4]) {
+Light::Light(float color[4]) {
 
     const float rgbInnerR[][4] =
             {

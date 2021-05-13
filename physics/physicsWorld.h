@@ -6,11 +6,12 @@
 #define D7049E_PHYSICSWORLD_H
 
 #include <reactphysics3d/reactphysics3d.h>
+#include <vector>
 
 namespace {
     class PhysicsWorld {
     public:
-        void PhysicsWorld::init();
+        void PhysicsWorld::init(bool treesAtRandomPos, int numTrees);
         reactphysics3d::RigidBody* PhysicsWorld::createPhysicsObj(reactphysics3d::Vector3 pos, reactphysics3d::CollisionShape* shape, reactphysics3d::BodyType type);
         void PhysicsWorld::shutdown();
         void PhysicsWorld::update();
@@ -35,6 +36,8 @@ namespace {
         reactphysics3d::Collider* androidCollider;
         reactphysics3d::Collider* treeCollider;
         reactphysics3d::Collider* floorCollider;
+
+        std::vector<reactphysics3d::RigidBody*> trees;
 
     };
 }
