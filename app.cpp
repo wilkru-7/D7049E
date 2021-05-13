@@ -123,9 +123,11 @@ namespace
             soundManager.SoundManager::init();
 
             keyboardEvent.registerObserver(&androidObj);
+            keyboardEvent.registerObserver(&cubeObj);
             keyboardEvent.registerObserver(&soundManager);
 
             collisionEvent.registerObserver(&androidObj);
+            collisionEvent.registerObserver(&cubeObj);
             collisionEvent.registerObserver(&soundManager);
             physicsWorld.world->setEventListener(&collisionEvent);
         }

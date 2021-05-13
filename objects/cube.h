@@ -8,9 +8,10 @@
 #include "../resources.h"
 #include <reactphysics3d/reactphysics3d.h>
 #include "object.h"
+#include "../observer/observer.h"
 
 namespace {
-    class Cube : public Object{
+    class Cube : public Object, public Observer {
     public:
         void Cube::init(float color[4], reactphysics3d::RigidBody* body);
 
@@ -19,6 +20,8 @@ namespace {
         void Cube::reflectSubmit();
 
         void Cube::drawSubmit();
+
+        void Cube::update(int id);
 
         reactphysics3d::RigidBody* cubePhysics;
         Mesh cubeMesh;

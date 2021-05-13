@@ -47,10 +47,17 @@ void Cube::reflectSubmit() {
 }
 
 void Cube::drawSubmit() {
+    reactphysics3d::Transform transform = cubePhysics->getTransform();
+    transform.getOpenGLMatrix(cubeMtx);
     cubeMesh.submit(RENDER_VIEWID_RANGE1_PASS_3
             , cubeMtx
             , programColorLighting
             , s_renderStates[RenderState::StencilReflection_DrawScene]
             , color
     );
+}
+
+void Cube::update(int id) {
+    std::cout << "Update cube" << std::endl;
+    cubePhysics->applyForceToCenterOfMass(rp3d::Vector3(0.0,100.0,0.0));
 }
