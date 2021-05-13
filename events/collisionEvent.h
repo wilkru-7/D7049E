@@ -10,7 +10,7 @@
 namespace {
     class CollisionEvent : public Event, public reactphysics3d::EventListener {
     public:
-        int id() override {return 9;}
+        int id() override {return 2;}
 
         void onContact(const CollisionCallback::CallbackData &callbackData) override;
     };

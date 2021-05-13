@@ -59,5 +59,5 @@ void PhysicsWorld::shutdown() {
 }
 
 void PhysicsWorld::update() {
-    world->update(1.0f / 60.0f);
+    world->update(1.0/60.0);
 }

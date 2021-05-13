@@ -14,7 +14,7 @@
 namespace {
     class KeyboardEvent: public Event {
     public:
-        int id() override {return 0;}
+        int id() override {return 1;}
 
         void checkKeyboardInput(GLFWwindow* window);
     };

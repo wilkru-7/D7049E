@@ -67,42 +67,54 @@ void Android::updateRot(float rot) {
 void Android::update(int id) {
     float newPos[3];
     switch(id) {
-        case 1: newPos[0] = -velocity;
+        case 11: newPos[0] = -velocity;
                 newPos[1] = 0.0f;
                 newPos[2] = velocity;
                 break;
-        case 2: newPos[0] = velocity;
+        case 12: newPos[0] = velocity;
                 newPos[1] = 0.0f;
                 newPos[2] = velocity;
                 break;
-        case 3: newPos[0] = -velocity;
+        case 13: newPos[0] = -velocity;
                 newPos[1] = 0.0f;
                 newPos[2] = -velocity;
                 break;
-        case 4: newPos[0] = velocity;
+        case 14: newPos[0] = velocity;
                 newPos[1] = 0.0f;
                 newPos[2] = -velocity;
                 break;
-        case 5: newPos[0] = -velocity + 0.1f;
+        case 15: newPos[0] = -velocity -0.1f;
                 newPos[1] = 0.0f;
                 newPos[2] = 0.0f;
                 break;
-        case 6: newPos[0] = 0.0f;
+        case 16: newPos[0] = 0.0f;
                 newPos[1] = 0.0f;
-                newPos[2] = -velocity + 0.1f;
+                newPos[2] = -velocity - 0.1f;
                 break;
-        case 7: newPos[0] = velocity + 0.1f;
+        case 17: newPos[0] = velocity + 0.1f;
                 newPos[1] = 0.0f;
                 newPos[2] = 0.0f;
                 break;
-        case 8: newPos[0] = 0.0f;
+        case 18: newPos[0] = 0.0f;
                 newPos[1] = 0.0f;
                 newPos[2] = velocity + 0.1f;
                 break;
-        /*case 9: newPos[0] = 0.0f;
+        /*case 2: newPos[0] = 0.0f;
                 newPos[1] = 0.0f;
                 newPos[2] = velocity + 0.2f;
                 break;*/
+        case 19:{
+            const rp3d::Transform& currTransform2 = androidPhysics->getTransform();
+            const reactphysics3d::Vector3& currPos2 = currTransform2.getPosition();
+            std::cout << "Y is: " << currPos2.y << std::endl;
+            if (currPos2.y < 2.0f){
+                androidPhysics->applyForceToCenterOfMass(rp3d::Vector3(0.0,100.0,0.0));
+            }
+            newPos[0] = 0.0f;
+            newPos[1] = 0.0f;
+            newPos[2] = 0.0f;
+            break;
+        }
         default:newPos[0] = 0.0f;
                 newPos[1] = 0.0f;
                 newPos[2] = 0.0f;

@@ -18,20 +18,20 @@ void SoundManager::init() {
 
 void SoundManager::update(int id){
     switch(id) {
-        case 0: soloud.stop(h);
+        case 1: soloud.stop(h);
                 break;
-        case 1:
-        case 2:
-        case 3:
-        case 4:
-        case 5:
-        case 6:
-        case 7:
-        case 8: if (soloud.countAudioSource(walkingSound) == 0) {
+        case 11:
+        case 12:
+        case 13:
+        case 14:
+        case 15:
+        case 16:
+        case 17:
+        case 18: if (soloud.countAudioSource(walkingSound) == 0) {
                     h = soloud.playClocked(1, walkingSound);
                 }
                 break;
-        case 9:
+        case 2:
                 h2 = soloud.play(collisionSound);
                 break;
         default:

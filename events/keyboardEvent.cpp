@@ -7,29 +7,31 @@
 void KeyboardEvent::checkKeyboardInput(GLFWwindow* window) {
     //move left forward
     if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
-        notifyObservers(1);
+        notifyObservers(11);
     //move right forward
     } else if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
-        notifyObservers(2);
+        notifyObservers(12);
         //move left backward
     } else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
-        notifyObservers(3);
+        notifyObservers(13);
         //move right backward
     } else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
-        notifyObservers(4);
+        notifyObservers(14);
         //move left
     } else if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
-        notifyObservers(5);
+        notifyObservers(15);
         //move backward
     } else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS) {
-        notifyObservers(6);
+        notifyObservers(16);
         //move right
     } else if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) {
-        notifyObservers(7);
+        notifyObservers(17);
         // move forward
     } else if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) {
-        notifyObservers(8);
-    } else {
+        notifyObservers(18);
+    } else if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS) {
+        notifyObservers(19);
+    }else {
         notifyObservers(id());
     }
 }
