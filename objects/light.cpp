@@ -6,39 +6,24 @@
 #include "bgfx_utils.h"
 #include "light.h"
 
-Light::Light(float color[4]) {
+Light::Light(float col[4]) {
 
-    const float rgbInnerR[][4] =
-            {
-                    {color[0], color[1], color[2], color[3] },
-                    //{ 1.0f, 0.7f, 0.2f, 0.0f }, //yellow
-                    /*{ 0.7f, 0.2f, 1.0f, 0.0f }, //purple
-                    { 0.2f, 1.0f, 0.7f, 0.0f }, //cyan
-                    { 1.0f, 0.4f, 0.2f, 0.0f }, //orange
-                    { 0.7f, 0.7f, 0.7f, 0.0f }, //white*/
-            };
+    color[0] = col[0];
+    color[1] = col[1];
+    color[2] = col[2];
+    color[3] = col[3];
 
-    for (uint8_t ii = 0, jj = 0; ii < MAX_NUM_LIGHTS; ++ii, ++jj)
-    {
-        const uint8_t index = jj%BX_COUNTOF(rgbInnerR);
-        lightRgbInnerR[ii][0] = rgbInnerR[index][0];
-        lightRgbInnerR[ii][1] = rgbInnerR[index][1];
-        lightRgbInnerR[ii][2] = rgbInnerR[index][2];
-        lightRgbInnerR[ii][3] = rgbInnerR[index][3];
-    }
+    position[0] = 0.0f;
+    position[1] = 20.0f;
+    position[2] = -20.0f;
+    position[3] = 20.0f;
 
-    bx::memCopy(s_uniforms.m_lightRgbInnerR, lightRgbInnerR, MAX_NUM_LIGHTS * 4*sizeof(float) );
+    bx::memCopy(s_uniforms.m_lightRgbInnerR, color, MAX_NUM_LIGHTS * 4*sizeof(float) );
 
     vplaneMesh.load(s_vplaneVertices, BX_COUNTOF(s_vplaneVertices), PosNormalTexcoordVertex::ms_layout, s_planeIndices, BX_COUNTOF(s_planeIndices) );
 
     programColorTexture    = loadProgram("vs_stencil_color_texture",    "fs_stencil_color_texture"   );
     flareTex      = loadTexture("textures/flare.dds");
-
-    lightPosRadius[0][0] = 0.0f;
-    lightPosRadius[0][1] = 20.0f;
-    lightPosRadius[0][2] = -20.0f;
-    lightPosRadius[0][3] = 20.0f;
-
 }
 
 void Light::shutdown() {
@@ -51,16 +36,15 @@ void Light::reflectSubmit() {
     float reflectMtx[16];
     mtxReflected(reflectMtx, { 0.0f, 0.01f, 0.0f }, { 0.0f, 1.0f, 0.0f });
 
-    bx::Vec3 reflected = bx::mul(bx::load<bx::Vec3>(lightPosRadius[0]), reflectMtx);
+    bx::Vec3 reflected = bx::mul(bx::load<bx::Vec3>(position), reflectMtx);
     bx::store(&s_uniforms.m_lightPosRadius[0], reflected);
-    s_uniforms.m_lightPosRadius[0][3] = lightPosRadius[0][3];
+    s_uniforms.m_lightPosRadius[0][3] = position[3];
 
     setLight();
-
 }
 
 void Light::setLight() {
-    bx::memCopy(s_uniforms.m_lightPosRadius, lightPosRadius, 4*sizeof(float) );
+    bx::memCopy(s_uniforms.m_lightPosRadius, position, 4*sizeof(float) );
 }
 
 void Light::setViewState(ViewState VS) {
@@ -72,16 +56,12 @@ void Light::drawSubmit() {
     const float lightScale[3] = { 1.5f, 1.5f, 1.5f };
     float lightMtx[16];
 
-    s_uniforms.m_color[0] = lightRgbInnerR[0][0];
-    s_uniforms.m_color[1] = lightRgbInnerR[0][1];
-    s_uniforms.m_color[2] = lightRgbInnerR[0][2];
-
-    mtxBillboard(lightMtx, viewState.m_view, lightPosRadius[0], lightScale);
+    mtxBillboard(lightMtx, viewState.m_view, position, lightScale);
     vplaneMesh.submit(RENDER_VIEWID_RANGE1_PASS_7
             , lightMtx
             , programColorTexture
             , s_renderStates[RenderState::Custom_BlendLightTexture]
             , flareTex
-            , s_uniforms.m_color
+            , color
     );
 }
