@@ -29,6 +29,7 @@
 #include "objects/light.cpp"
 #include "objects/tree.cpp"
 #include "objects/cube.cpp"
+#include "objects/inventory.cpp"
 
 #include "events/keyboardEvent.cpp"
 #include "sound/soundManager.cpp"
@@ -59,6 +60,7 @@ namespace
 
             glfwInit();
             window = glfwCreateWindow(_width, _height, "A cool game", NULL, NULL);
+            glfwSetKeyCallback(window, key_callback);
 
             bgfx::PlatformData pd;
             pd.nwh = glfwGetWin32Window(window);
@@ -111,19 +113,24 @@ namespace
             objects.push_back(lightObj);
             objects.push_back(androidObj);
             objects.push_back(floorObj);
-            objects.push_back(cubeObj);
+            //objects.push_back(cubeObj);
+            Inventory* inventory = new Inventory(&objects);
+            inventory->addToInventory(cubeObj);
 
             soundManager.SoundManager::init();
 
             keyboardEvent.registerObserver(androidObj);
-            keyboardEvent.registerObserver(cubeObj);
+            //keyboardEvent.registerObserver(cubeObj);
+            keyboardEvent.registerObserver(inventory);
             keyboardEvent.registerObserver(&soundManager);
 
             collisionEvent.registerObserver(androidObj);
-            collisionEvent.registerObserver(cubeObj);
+            //collisionEvent.registerObserver(cubeObj);
             collisionEvent.registerObserver(&soundManager);
             physicsWorld.world->setEventListener(&collisionEvent);
         }
+
+
 
         virtual int shutdown() override {
             // Cleanup.
@@ -197,7 +204,7 @@ namespace
                 setViewTransformMask(s_viewMask, m_viewState.m_view, m_viewState.m_proj);
                 s_viewMask = 0;
 
-                keyboardEvent.checkKeyboardInput(window);
+                //keyboardEvent.checkKeyboardInput(window);
                 /*world->update(1.0f / 60.0f);*/
 
                 // Advance to next frame. Rendering thread will be kicked to
