@@ -27,8 +27,6 @@ namespace {
 
         void Light::setLight();
 
-        float lightRgbInnerR[MAX_NUM_LIGHTS][4];
-        float lightPosRadius[MAX_NUM_LIGHTS][4];
         Mesh vplaneMesh;
         bgfx::ProgramHandle programColorTexture;
         bgfx::TextureHandle flareTex;
