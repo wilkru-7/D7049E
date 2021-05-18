@@ -25,7 +25,7 @@ namespace {
         Mesh treeMesh;
         float treeMtx[16];
         bgfx::ProgramHandle programColorLighting;
-        reactphysics3d::RigidBody* treePhysics;
+        //reactphysics3d::RigidBody* treePhysics;
         float color[4];
     };
 }

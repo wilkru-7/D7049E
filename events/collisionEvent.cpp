@@ -14,3 +14,4 @@ void CollisionEvent::onContact(const CollisionCallback::CallbackData& callbackDa
         notifyObservers(22);
     }
 }
+

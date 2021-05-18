@@ -5,7 +5,8 @@
 #include "tree.h"
 
 Tree::Tree(float col[4], reactphysics3d::RigidBody* body) {
-    treePhysics = body;
+    physicsBody = body;
+    isPickabel = false;
 
     treeMesh.load("meshes/polytree.bin");
     programColorLighting   = loadProgram("vs_stencil_color_lighting",   "fs_stencil_color_lighting"  );
@@ -22,9 +23,9 @@ Tree::Tree(float col[4], reactphysics3d::RigidBody* body) {
             , 0.0f   //rotX
             , 0.0f   //rotY
             , 0.0f   //rotZ
-            , treePhysics->getTransform().getPosition().x  //translateX
-            , treePhysics->getTransform().getPosition().y   //translateY
-            , treePhysics->getTransform().getPosition().z   //translateZ
+            , physicsBody->getTransform().getPosition().x  //translateX
+            , physicsBody->getTransform().getPosition().y   //translateY
+            , physicsBody->getTransform().getPosition().z   //translateZ
     );
 }
 
@@ -48,7 +49,7 @@ void Tree::reflectSubmit() {
 }
 
 void Tree::drawSubmit() {
-    /*reactphysics3d::Transform transform = treePhysics->getTransform();
+    /*reactphysics3d::Transform transform = physicsBody->getTransform();
     transform.getOpenGLMatrix(treeMtx);*/
     treeMesh.submit(RENDER_VIEWID_RANGE1_PASS_3
             , treeMtx

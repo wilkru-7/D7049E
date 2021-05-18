@@ -17,6 +17,9 @@ namespace {
         int id() override {return 1;}
 
         void checkKeyboardInput(GLFWwindow* window);
+
+        void key_callback(int key, int action);
+
     };
 }
 

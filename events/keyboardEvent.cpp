@@ -3,7 +3,7 @@
 //
 
 #include "keyboardEvent.h"
-
+#include <iostream>
 void KeyboardEvent::checkKeyboardInput(GLFWwindow* window) {
     //move left forward
     if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS && glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
@@ -33,5 +33,13 @@ void KeyboardEvent::checkKeyboardInput(GLFWwindow* window) {
         notifyObservers(19);
     }else {
         notifyObservers(id());
+    }
+}
+void KeyboardEvent::key_callback(int key, int action)
+{
+    if (key == GLFW_KEY_E && action == GLFW_PRESS){
+        notifyObservers(110);
+    }else if (key == GLFW_KEY_1 && action == GLFW_PRESS){
+        notifyObservers(111);
     }
 }

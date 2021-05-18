@@ -5,7 +5,8 @@
 #include "cube.h"
 
 Cube::Cube(float col[4], reactphysics3d::RigidBody* body) {
-    cubePhysics = body;
+    physicsBody = body;
+    isPickabel = true;
 
     color[0] = col[0];
     color[1] = col[1];
@@ -22,9 +23,9 @@ Cube::Cube(float col[4], reactphysics3d::RigidBody* body) {
             , 0.0f
             , 0.0f
             , 0.0f
-            , cubePhysics->getTransform().getPosition().x  //translateX
-            , cubePhysics->getTransform().getPosition().y   //translateY
-            , cubePhysics->getTransform().getPosition().z   //translateZ
+            , physicsBody->getTransform().getPosition().x  //translateX
+            , physicsBody->getTransform().getPosition().y   //translateY
+            , physicsBody->getTransform().getPosition().z   //translateZ
     );
 }
 
@@ -47,7 +48,7 @@ void Cube::reflectSubmit() {
 }
 
 void Cube::drawSubmit() {
-    reactphysics3d::Transform transform = cubePhysics->getTransform();
+    reactphysics3d::Transform transform = physicsBody->getTransform();
     transform.getOpenGLMatrix(cubeMtx);
     cubeMesh.submit(RENDER_VIEWID_RANGE1_PASS_3
             , cubeMtx

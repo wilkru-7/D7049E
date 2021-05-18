@@ -39,7 +39,16 @@
 
 namespace
 {
+    KeyboardEvent keyboardEvent;
+    void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods)
+    {
+        /*if (key == GLFW_KEY_E && action == GLFW_PRESS){
+            std::cout << "EEEEEEEEEE" << std::endl;
+            notifyObservers(111);
+        }*/
+        keyboardEvent.key_callback(key, action);
 
+    }
     class Game : public entry::AppI
     {
     public:
@@ -60,7 +69,7 @@ namespace
 
             glfwInit();
             window = glfwCreateWindow(_width, _height, "A cool game", NULL, NULL);
-            //glfwSetKeyCallback(window, key_callback);
+            glfwSetKeyCallback(window, key_callback);
 
             bgfx::PlatformData pd;
             pd.nwh = glfwGetWin32Window(window);
@@ -106,6 +115,8 @@ namespace
             floorObj = new Floor(black, physicsWorld.floor);
             lightObj = new Light(yellow);
 
+            physicsWorld.cube->setIsAllowedToSleep(true);
+
             for(int i = 0; i < physicsWorld.trees.size(); ++i) {
                 objects.push_back(new Tree(green, physicsWorld.trees.at(i)));
             }
@@ -114,18 +125,18 @@ namespace
             objects.push_back(androidObj);
             objects.push_back(floorObj);
             objects.push_back(cubeObj);
-            //Inventory* inventory = new Inventory(&objects);
+            Inventory* inventory = new Inventory(&objects);
             //inventory->addToInventory(cubeObj);
 
             soundManager.SoundManager::init();
 
             keyboardEvent.registerObserver(androidObj);
-            keyboardEvent.registerObserver(cubeObj);
-            //keyboardEvent.registerObserver(inventory);
+            //keyboardEvent.registerObserver(cubeObj);
+            keyboardEvent.registerObserver(inventory);
             keyboardEvent.registerObserver(&soundManager);
 
             collisionEvent.registerObserver(androidObj);
-            collisionEvent.registerObserver(cubeObj);
+            //collisionEvent.registerObserver(cubeObj);
             collisionEvent.registerObserver(&soundManager);
             physicsWorld.world->setEventListener(&collisionEvent);
         }
@@ -236,7 +247,7 @@ namespace
         std::list<Object*> objects;
 
         CollisionEvent collisionEvent;
-        KeyboardEvent keyboardEvent;
+        //KeyboardEvent keyboardEvent;
         SoundManager soundManager;
 
         GLFWwindow* window;

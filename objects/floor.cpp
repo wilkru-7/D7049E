@@ -6,8 +6,10 @@
 
 
 Floor::Floor(float col[4], reactphysics3d::RigidBody* body) {
-    floorPhysics = body;
-    floorPhysics->getCollider(0)->getCollisionShape();
+    physicsBody = body;
+    isPickabel = false;
+
+    physicsBody->getCollider(0)->getCollisionShape();
     bx::mtxSRT(floorMtx
             , 20.0f  //scaleX
             , 1.0f  //scaleY
@@ -15,9 +17,9 @@ Floor::Floor(float col[4], reactphysics3d::RigidBody* body) {
             , 0.0f   //rotX
             , 0.0f   //rotY
             , 0.0f   //rotZ
-            , floorPhysics->getTransform().getPosition().x  //translateX
-            , floorPhysics->getTransform().getPosition().y   //translateY
-            , floorPhysics->getTransform().getPosition().z   //translateZ
+            , physicsBody->getTransform().getPosition().x  //translateX
+            , physicsBody->getTransform().getPosition().y   //translateY
+            , physicsBody->getTransform().getPosition().z   //translateZ
     );
 
     color[0] = col[0];
@@ -37,13 +39,13 @@ void Floor::shutdown() {
 }
 
 void Floor::drawSubmit() {
-    /*reactphysics3d::Transform transform = floorPhysics->getTransform();
+    /*reactphysics3d::Transform transform = physicsBody->getTransform();
     transform.getOpenGLMatrix(floorMtx);*/
     //floorMtx = bgfx::mul(floorMtx, scalingMatrix);
 
-    /*scalingMatrix[12] = floorPhysics->getTransform().getPosition().x;
-    scalingMatrix[13] = floorPhysics->getTransform().getPosition().y;
-    scalingMatrix[14] = floorPhysics->getTransform().getPosition().z;*/
+    /*scalingMatrix[12] = physicsBody->getTransform().getPosition().x;
+    scalingMatrix[13] = physicsBody->getTransform().getPosition().y;
+    scalingMatrix[14] = physicsBody->getTransform().getPosition().z;*/
     /*bx::mtxMul(floorMtx, scalingMatrix, floorMtx);
     std::cout << floorMtx << std::endl;*/
 

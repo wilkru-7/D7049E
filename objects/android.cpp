@@ -7,7 +7,8 @@
 #include "android.h"
 
 Android::Android(float col[4], reactphysics3d::RigidBody* body) {
-    androidPhysics = body;
+    physicsBody = body;
+    isPickabel = false;
 
     color[0] = col[0];
     color[1] = col[1];
@@ -39,7 +40,7 @@ void Android::reflectSubmit() {
 }
 
 void Android::drawSubmit() {
-    reactphysics3d::Transform transform = androidPhysics->getTransform();
+    reactphysics3d::Transform transform = physicsBody->getTransform();
     transform.getOpenGLMatrix(androidMtx);
 
     androidMesh.submit(RENDER_VIEWID_RANGE1_PASS_3
@@ -65,7 +66,7 @@ void Android::updateRot(float rot) {
 }
 
 void Android::update(int id) {
-    rp3d::Transform currTransform = androidPhysics->getTransform();
+    rp3d::Transform currTransform = physicsBody->getTransform();
     reactphysics3d::Vector3 currPos = currTransform.getPosition();
     switch(id) {
         case 11: setTransform(reactphysics3d::Vector3(-velocity, 0.0, velocity));
@@ -86,14 +87,14 @@ void Android::update(int id) {
                 break;
         case 19:{
             if (currPos.y < 2.0f){
-                androidPhysics->applyForceToCenterOfMass(rp3d::Vector3(0.0,100.0,0.0));
+                physicsBody->applyForceToCenterOfMass(rp3d::Vector3(0.0,1000.0,0.0));
             }
             break;
         }
         case 22: {
             if(currPos.y < 1.8) {
                 currTransform.setPosition(reactphysics3d::Vector3(0.0, 5.0, 0.0));
-                androidPhysics->setTransform(currTransform);
+                physicsBody->setTransform(currTransform);
             }
             break;
         }
@@ -103,8 +104,8 @@ void Android::update(int id) {
 }
 
 void Android::setTransform(reactphysics3d::Vector3 newPos) {
-    rp3d::Transform currTransform = androidPhysics->getTransform();
+    rp3d::Transform currTransform = physicsBody->getTransform();
     reactphysics3d::Vector3 currPos = currTransform.getPosition();
     currTransform.setPosition(reactphysics3d::Vector3(currPos.x + newPos.x, currPos.y + newPos.y, currPos.z + newPos.z));
-    androidPhysics->setTransform(currTransform);
+    physicsBody->setTransform(currTransform);
 }

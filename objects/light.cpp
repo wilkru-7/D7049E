@@ -7,6 +7,7 @@
 #include "light.h"
 
 Light::Light(float col[4]) {
+    isPickabel = false;
 
     color[0] = col[0];
     color[1] = col[1];

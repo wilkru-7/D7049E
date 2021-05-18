@@ -9,11 +9,13 @@ Inventory::Inventory(std::list<Object*> *list) {
 }
 
 void Inventory::addToInventory(Object* item) {
+    item->physicsBody->setIsActive(false);
     inventory.push_back(item);
 }
 
 void Inventory::pickFromInventory() {
     Object* item = inventory.at(0);
+    item->physicsBody->setIsActive(true);
     objects->push_back(item);
 }
 
@@ -24,9 +26,11 @@ void Inventory::update(int id) {
             break;
         case 110:
             Object* item = objects->back();
-            addToInventory(item);
-            objects->remove(item);
-            std::cout << "Pick up" << std::endl;
+            if(item->isPickabel){
+                addToInventory(item);
+                objects->remove(item);
+                std::cout << "Pick up" << std::endl;
+            }
             break;
     }
 }

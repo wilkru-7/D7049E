@@ -6,7 +6,7 @@
 #define D7049E_CUBE_H
 
 #include "../resources.h"
-#include <reactphysics3d/reactphysics3d.h>
+//#include <reactphysics3d/reactphysics3d.h>
 #include "object.h"
 #include "../observer/observer.h"
 
@@ -23,7 +23,7 @@ namespace {
 
         void Cube::update(int id);
 
-        reactphysics3d::RigidBody* cubePhysics;
+        //reactphysics3d::RigidBody* cubePhysics;
         Mesh cubeMesh;
         float cubeMtx[16];
         float color[4];
