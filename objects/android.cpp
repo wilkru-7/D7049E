@@ -97,6 +97,18 @@ void Android::update(int id) {
             }
             break;
         }
+        /*case 111:
+            inventory->pickFromInventory();
+            break;
+        case 110: {
+            Object *item = inventory->objects->back();
+            if (item->isPickabel) {
+                inventory->addToInventory(item);
+                inventory->objects->remove(item);
+                std::cout << "Pick up" << std::endl;
+            }
+            break;
+        }*/
         default: setTransform(reactphysics3d::Vector3(0.0, 0.0, 0.0));
                 break;
     }

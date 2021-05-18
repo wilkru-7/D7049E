@@ -7,6 +7,7 @@
 
 #include "object.h"
 #include "../observer/observer.h"
+#include "inventory.h"
 
 namespace {
     class Android: public Object, public Observer {

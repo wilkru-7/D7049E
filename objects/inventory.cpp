@@ -4,8 +4,9 @@
 
 #include "inventory.h"
 
-Inventory::Inventory(std::list<Object*> *list) {
+Inventory::Inventory(std::list<Object*> *list, Object* object) {
     objects = list;
+    owner = object;
 }
 
 void Inventory::addToInventory(Object* item) {
@@ -16,6 +17,13 @@ void Inventory::addToInventory(Object* item) {
 void Inventory::pickFromInventory() {
     Object* item = inventory.at(0);
     item->physicsBody->setIsActive(true);
+
+    rp3d::Transform ownerTransform = owner->physicsBody->getTransform();
+    reactphysics3d::Vector3 ownerPos = ownerTransform.getPosition();
+
+    rp3d::Transform itemTransform = item->physicsBody->getTransform();
+    itemTransform.setPosition(reactphysics3d::Vector3(ownerPos.x + 1, ownerPos.y, ownerPos.z + 1));
+    item->physicsBody->setTransform(itemTransform);
     objects->push_back(item);
 }
 

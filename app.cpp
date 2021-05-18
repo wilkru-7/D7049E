@@ -110,10 +110,11 @@ namespace
             float yellow[4] = {1.0f, 0.7f, 0.2f, 0.0f};
 
             // init all the objects
+
             androidObj = new Android(blue, physicsWorld.android);
             cubeObj = new Cube(yellow, physicsWorld.cube);
             floorObj = new Floor(black, physicsWorld.floor);
-            lightObj = new Light(yellow);
+            lightObj = new Light(yellow, physicsWorld.light);
 
             physicsWorld.cube->setIsAllowedToSleep(true);
 
@@ -125,7 +126,8 @@ namespace
             objects.push_back(androidObj);
             objects.push_back(floorObj);
             objects.push_back(cubeObj);
-            Inventory* inventory = new Inventory(&objects);
+            Inventory* inventory = new Inventory(&objects, androidObj);
+            //androidObj->inventory = new Inventory(&objects);
             //inventory->addToInventory(cubeObj);
 
             soundManager.SoundManager::init();

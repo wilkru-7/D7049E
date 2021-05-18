@@ -14,14 +14,15 @@
 namespace {
     class Inventory : public Observer {
     public:
-        Inventory(std::list<Object *> *objects);
+        Inventory(std::list<Object *> *objects, Object* owner);
 
-        void Inventory::addToInventory(Object *item);
+        void addToInventory(Object *item);
 
-        void Inventory::pickFromInventory();
+        void pickFromInventory();
 
-        void Inventory::update(int id);
+        void update(int id) override;
 
+        Object* owner;
         std::vector<Object *> inventory;
         std::list<Object *> *objects;
 
