@@ -39,6 +39,7 @@ namespace {
         reactphysics3d::Collider* floorCollider;
 
         std::vector<reactphysics3d::RigidBody*> trees;
+        std::vector<reactphysics3d::RigidBody*> cubes;
 
     };
 }

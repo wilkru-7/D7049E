@@ -18,7 +18,7 @@ namespace {
 
         void addToInventory(Object *item);
 
-        void pickFromInventory();
+        void pickFromInventory(int id);
 
         void update(int id) override;
 

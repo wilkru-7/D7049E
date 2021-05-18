@@ -106,13 +106,14 @@ namespace
 
             float green[4]=  {0.0f,1.0f,0.0f,1.0f};
             float blue[4] = {0.0f,0.0f,1.0f,1.0f};
+            float red[4] = {1.0f,0.0f,0.0f,1.0f};
             float black[4] = {0.0f,0.0f,0.0f,1.0f};
             float yellow[4] = {1.0f, 0.7f, 0.2f, 0.0f};
 
             // init all the objects
 
             androidObj = new Android(blue, physicsWorld.android);
-            cubeObj = new Cube(yellow, physicsWorld.cube);
+            //cubeObj = new Cube(yellow, physicsWorld.cube);
             floorObj = new Floor(black, physicsWorld.floor);
             lightObj = new Light(yellow, physicsWorld.light);
 
@@ -125,7 +126,11 @@ namespace
             objects.push_back(lightObj);
             objects.push_back(androidObj);
             objects.push_back(floorObj);
-            objects.push_back(cubeObj);
+            objects.push_back(new Cube(green, physicsWorld.cubes.at(0)));
+            objects.push_back(new Cube(red, physicsWorld.cubes.at(1)));
+            objects.push_back(new Cube(blue, physicsWorld.cubes.at(2)));
+            objects.push_back(new Cube(yellow, physicsWorld.cubes.at(3)));
+            //objects.push_back(cubeObj);
             Inventory* inventory = new Inventory(&objects, androidObj);
             //androidObj->inventory = new Inventory(&objects);
             //inventory->addToInventory(cubeObj);

@@ -39,7 +39,13 @@ void KeyboardEvent::key_callback(int key, int action)
 {
     if (key == GLFW_KEY_E && action == GLFW_PRESS){
         notifyObservers(110);
-    }else if (key == GLFW_KEY_1 && action == GLFW_PRESS){
+    } else if (key == GLFW_KEY_1 && action == GLFW_PRESS){
         notifyObservers(111);
+    } else if (key == GLFW_KEY_2 && action == GLFW_PRESS){
+        notifyObservers(112);
+    } else if (key == GLFW_KEY_3 && action == GLFW_PRESS){
+        notifyObservers(113);
+    } else if (key == GLFW_KEY_4 && action == GLFW_PRESS){
+        notifyObservers(114);
     }
 }

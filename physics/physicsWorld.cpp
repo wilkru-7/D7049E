@@ -46,6 +46,11 @@ void PhysicsWorld::init(bool treesAtRandomPos, int numTrees) {
         trees.push_back(createPhysicsObj(reactphysics3d::Vector3(-14.0,0.0,-14.0), treeBox, reactphysics3d::BodyType::STATIC));
     }
 
+    cubes.push_back(createPhysicsObj(reactphysics3d::Vector3(10.0,0.0,10.0), cubeBox, reactphysics3d::BodyType::DYNAMIC));
+    cubes.push_back(createPhysicsObj(reactphysics3d::Vector3(-10.0,0.0,10.0), cubeBox, reactphysics3d::BodyType::DYNAMIC));
+    cubes.push_back(createPhysicsObj(reactphysics3d::Vector3(10.0,0.0,-10.0), cubeBox, reactphysics3d::BodyType::DYNAMIC));
+    cubes.push_back(createPhysicsObj(reactphysics3d::Vector3(-10.0,0.0,-10.0), cubeBox, reactphysics3d::BodyType::DYNAMIC));
+
     floor = createPhysicsObj(reactphysics3d::Vector3(0.0,0.0,0.0), floorBox, reactphysics3d::BodyType::STATIC);
     light = createPhysicsObj(reactphysics3d::Vector3(0.0,20.0,0.0), lightBox, reactphysics3d::BodyType::KINEMATIC);
 }
@@ -67,6 +72,9 @@ reactphysics3d::RigidBody* PhysicsWorld::createPhysicsObj(reactphysics3d::Vector
 void PhysicsWorld::shutdown() {
     for(int i = 0; i < trees.size(); ++i) {
         world->destroyRigidBody(trees.at(i));
+    }
+    for(int i = 0; i < cubes.size(); ++i) {
+        world->destroyRigidBody(cubes.at(i));
     }
     /*world->destroyRigidBody(tree1);
     world->destroyRigidBody(tree2);

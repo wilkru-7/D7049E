@@ -25,9 +25,10 @@ void Inventory::addToInventory(Object* item) {
     }
 }
 
-void Inventory::pickFromInventory() {
-    if (!inventory.empty()) {
-        Object* item = inventory.at(0);
+void Inventory::pickFromInventory(int id) {
+    if (!inventory.empty() && id < inventory.size()) {
+        Object* item = inventory.at(id);
+        inventory.erase(inventory.begin()+id);
         item->physicsBody->setIsActive(true);
 
         rp3d::Transform ownerTransform = owner->physicsBody->getTransform();
@@ -43,7 +44,16 @@ void Inventory::pickFromInventory() {
 void Inventory::update(int id) {
     switch(id) {
         case 111:
-            pickFromInventory();
+            pickFromInventory(0);
+            break;
+        case 112:
+            pickFromInventory(1);
+            break;
+        case 113:
+            pickFromInventory(2);
+            break;
+        case 114:
+            pickFromInventory(3);
             break;
         case 110:
             Object* item = objects->back();
