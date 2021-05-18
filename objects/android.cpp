@@ -8,7 +8,6 @@
 
 Android::Android(float col[4], reactphysics3d::RigidBody* body) {
     physicsBody = body;
-    isPickabel = false;
 
     color[0] = col[0];
     color[1] = col[1];
@@ -16,12 +15,12 @@ Android::Android(float col[4], reactphysics3d::RigidBody* body) {
     color[3] = col[3];
 
     velocity = 0.25f;
-    androidMesh.load("meshes/android.bin");
+    mesh.load("meshes/android.bin");
     programColorLighting = loadProgram("vs_stencil_color_lighting", "fs_stencil_color_lighting");
 }
 
 void Android::shutdown() {
-    androidMesh.unload();
+    mesh.unload();
     bgfx::destroy(programColorLighting);
 }
 
@@ -30,8 +29,8 @@ void Android::reflectSubmit() {
     mtxReflected(reflectMtx, { 0.0f, 0.01f, 0.0f }, { 0.0f, 1.0f, 0.0f });
 
     float mtxReflectedAndroid[16];
-    bx::mtxMul(mtxReflectedAndroid, androidMtx, reflectMtx);
-    androidMesh.submit(RENDER_VIEWID_RANGE1_PASS_1
+    bx::mtxMul(mtxReflectedAndroid, mtx, reflectMtx);
+    mesh.submit(RENDER_VIEWID_RANGE1_PASS_1
             , mtxReflectedAndroid
             , programColorLighting
             , s_renderStates[RenderState::StencilReflection_DrawReflected]
@@ -41,10 +40,10 @@ void Android::reflectSubmit() {
 
 void Android::drawSubmit() {
     reactphysics3d::Transform transform = physicsBody->getTransform();
-    transform.getOpenGLMatrix(androidMtx);
+    transform.getOpenGLMatrix(mtx);
 
-    androidMesh.submit(RENDER_VIEWID_RANGE1_PASS_3
-            , androidMtx
+    mesh.submit(RENDER_VIEWID_RANGE1_PASS_3
+            , mtx
             , programColorLighting
             , s_renderStates[RenderState::StencilReflection_DrawScene]
             , color
@@ -52,16 +51,16 @@ void Android::drawSubmit() {
 }
 
 void Android::updateRot(float rot) {
-    bx::mtxSRT(androidMtx
+    bx::mtxSRT(mtx
             , 2.0f
             , 2.0f
             , 2.0f
             , 0.0f
             , rot
             , 0.0f
-            , androidMtx[12]
+            , mtx[12]
             , 5.0f
-            , androidMtx[14]
+            , mtx[14]
     );
 }
 

@@ -14,9 +14,9 @@ Cube::Cube(float col[4], reactphysics3d::RigidBody* body) {
     color[3] = col[3];
 
     programColorLighting = loadProgram("vs_stencil_color_lighting",   "fs_stencil_color_lighting"  );
-    cubeMesh.load(s_cubeVertices, BX_COUNTOF(s_cubeVertices), PosNormalTexcoordVertex::ms_layout, s_cubeIndices, BX_COUNTOF(s_cubeIndices) );
+    mesh.load(s_cubeVertices, BX_COUNTOF(s_cubeVertices), PosNormalTexcoordVertex::ms_layout, s_cubeIndices, BX_COUNTOF(s_cubeIndices) );
 
-    bx::mtxSRT(cubeMtx
+    bx::mtxSRT(mtx
             , 1.0f
             , 1.0f
             , 1.0f
@@ -29,17 +29,13 @@ Cube::Cube(float col[4], reactphysics3d::RigidBody* body) {
     );
 }
 
-void Cube::shutdown() {
-    cubeMesh.unload();
-}
-
 void Cube::reflectSubmit() {
     float reflectMtx[16];
     mtxReflected(reflectMtx, { 0.0f, 0.01f, 0.0f }, { 0.0f, 1.0f, 0.0f });
 
     float mtxReflectedCube[16];
-    bx::mtxMul(mtxReflectedCube, cubeMtx, reflectMtx);
-    cubeMesh.submit(RENDER_VIEWID_RANGE1_PASS_1
+    bx::mtxMul(mtxReflectedCube, mtx, reflectMtx);
+    mesh.submit(RENDER_VIEWID_RANGE1_PASS_1
             , mtxReflectedCube
             , programColorLighting
             , s_renderStates[RenderState::StencilReflection_DrawReflected]
@@ -49,9 +45,9 @@ void Cube::reflectSubmit() {
 
 void Cube::drawSubmit() {
     reactphysics3d::Transform transform = physicsBody->getTransform();
-    transform.getOpenGLMatrix(cubeMtx);
-    cubeMesh.submit(RENDER_VIEWID_RANGE1_PASS_3
-            , cubeMtx
+    transform.getOpenGLMatrix(mtx);
+    mesh.submit(RENDER_VIEWID_RANGE1_PASS_3
+            , mtx
             , programColorLighting
             , s_renderStates[RenderState::StencilReflection_DrawScene]
             , color

@@ -32,6 +32,7 @@ namespace {
         reactphysics3d::RigidBody* tree4;
         reactphysics3d::RigidBody* floor;
         reactphysics3d::RigidBody* cube;
+        reactphysics3d::RigidBody* light;
         reactphysics3d::Quaternion orientation;
         reactphysics3d::Collider* androidCollider;
         reactphysics3d::Collider* treeCollider;

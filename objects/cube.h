@@ -5,8 +5,6 @@
 #ifndef D7049E_CUBE_H
 #define D7049E_CUBE_H
 
-#include "../resources.h"
-//#include <reactphysics3d/reactphysics3d.h>
 #include "object.h"
 #include "../observer/observer.h"
 
@@ -15,19 +13,11 @@ namespace {
     public:
         Cube(float color[4], reactphysics3d::RigidBody* body);
 
-        void Cube::shutdown();
+        void reflectSubmit() override;
 
-        void Cube::reflectSubmit();
+        void drawSubmit() override;
 
-        void Cube::drawSubmit();
-
-        void Cube::update(int id);
-
-        //reactphysics3d::RigidBody* cubePhysics;
-        Mesh cubeMesh;
-        float cubeMtx[16];
-        float color[4];
-        bgfx::ProgramHandle programColorLighting;
+        void update(int id) override;
     };
 }
 

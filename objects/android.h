@@ -5,10 +5,6 @@
 #ifndef D7049E_ANDROID_H
 #define D7049E_ANDROID_H
 
-#endif //D7049E_ANDROID_H
-
-#include "../resources.h"
-#include <reactphysics3d/reactphysics3d.h>
 #include "object.h"
 #include "../observer/observer.h"
 
@@ -17,25 +13,21 @@ namespace {
     public:
         Android(float color[4],  reactphysics3d::RigidBody* body);
 
-        void Android::shutdown();
+        void shutdown() override;
 
-        void Android::reflectSubmit();
+        void reflectSubmit() override;
 
-        void Android::drawSubmit();
+        void drawSubmit() override;
 
-        void Android::updateRot(float rot);
+        void updateRot(float rot);
 
-        void Android::update(int id);
+        void update(int id) override;
 
-        void Android::setTransform(reactphysics3d::Vector3 newPos);
+        void setTransform(reactphysics3d::Vector3 newPos);
 
-        //reactphysics3d::RigidBody* androidPhysics;
-        Mesh androidMesh;
-        float androidMtx[16];
         float position[3];
         float velocity;
-        bgfx::ProgramHandle programColorLighting;
-        float color[4];
     };
 }
 
+#endif //D7049E_ANDROID_H

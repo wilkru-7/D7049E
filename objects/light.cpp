@@ -6,8 +6,7 @@
 #include "bgfx_utils.h"
 #include "light.h"
 
-Light::Light(float col[4]) {
-    isPickabel = false;
+Light::Light(float col[4], reactphysics3d::RigidBody* body) {
 
     color[0] = col[0];
     color[1] = col[1];
@@ -21,15 +20,15 @@ Light::Light(float col[4]) {
 
     bx::memCopy(s_uniforms.m_lightRgbInnerR, color, MAX_NUM_LIGHTS * 4*sizeof(float) );
 
-    vplaneMesh.load(s_vplaneVertices, BX_COUNTOF(s_vplaneVertices), PosNormalTexcoordVertex::ms_layout, s_planeIndices, BX_COUNTOF(s_planeIndices) );
+    mesh.load(s_vplaneVertices, BX_COUNTOF(s_vplaneVertices), PosNormalTexcoordVertex::ms_layout, s_planeIndices, BX_COUNTOF(s_planeIndices) );
 
-    programColorTexture    = loadProgram("vs_stencil_color_texture",    "fs_stencil_color_texture"   );
+    programColorLighting    = loadProgram("vs_stencil_color_texture",    "fs_stencil_color_texture"   );
     flareTex      = loadTexture("textures/flare.dds");
 }
 
 void Light::shutdown() {
-    vplaneMesh.unload();
-    bgfx::destroy(programColorTexture);
+    mesh.unload();
+    bgfx::destroy(programColorLighting);
     bgfx::destroy(flareTex);
 }
 
@@ -55,12 +54,11 @@ void Light::setViewState(ViewState VS) {
 
 void Light::drawSubmit() {
     const float lightScale[3] = { 1.5f, 1.5f, 1.5f };
-    float lightMtx[16];
 
-    mtxBillboard(lightMtx, viewState.m_view, position, lightScale);
-    vplaneMesh.submit(RENDER_VIEWID_RANGE1_PASS_7
-            , lightMtx
-            , programColorTexture
+    mtxBillboard(mtx, viewState.m_view, position, lightScale);
+    mesh.submit(RENDER_VIEWID_RANGE1_PASS_7
+            , mtx
+            , programColorLighting
             , s_renderStates[RenderState::Custom_BlendLightTexture]
             , flareTex
             , color

@@ -22,8 +22,7 @@ void PhysicsWorld::init(bool treesAtRandomPos, int numTrees) {
     treeBox = physicsCommon.createBoxShape(rp3d::Vector3(1.5, 10.0, 1.5));
     floorBox = physicsCommon.createBoxShape(rp3d::Vector3(20.0, 0.01, 20.0));
     cubeBox = physicsCommon.createBoxShape(rp3d::Vector3(1.5, 1.5, 1.5));
-    /*orientation = reactphysics3d::Quaternion::identity();
-    transform = reactphysics3d::Transform::identity();*/
+    reactphysics3d::BoxShape* lightBox = physicsCommon.createBoxShape(rp3d::Vector3(0.1, 0.1, 0.1));
 
     android = createPhysicsObj(reactphysics3d::Vector3(0.0,1.8,0.0), androidBox, reactphysics3d::BodyType::DYNAMIC);
     android->enableGravity(true);
@@ -48,6 +47,7 @@ void PhysicsWorld::init(bool treesAtRandomPos, int numTrees) {
     }
 
     floor = createPhysicsObj(reactphysics3d::Vector3(0.0,0.0,0.0), floorBox, reactphysics3d::BodyType::STATIC);
+    light = createPhysicsObj(reactphysics3d::Vector3(0.0,20.0,0.0), lightBox, reactphysics3d::BodyType::KINEMATIC);
 }
 
 reactphysics3d::RigidBody* PhysicsWorld::createPhysicsObj(reactphysics3d::Vector3 pos, reactphysics3d::CollisionShape* shape, reactphysics3d::BodyType type) {
@@ -79,5 +79,5 @@ void PhysicsWorld::shutdown() {
 }
 
 void PhysicsWorld::update() {
-    world->update(1.0/60.0);
+    world->update(1.0 / 60.0);
 }

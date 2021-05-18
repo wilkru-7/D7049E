@@ -5,34 +5,28 @@
 #ifndef D7049E_LIGHT_H
 #define D7049E_LIGHT_H
 
-#endif //D7049E_LIGHT_H
-
-#include "../resources.h"
 #include "object.h"
 
 namespace {
     class Light : public Object {
     public:
-        Light::Light(float color[4]);
+        Light(float color[4], reactphysics3d::RigidBody* body);
 
-        void Light::update();
+        void shutdown() override;
 
-        void shutdown();
+        void reflectSubmit() override;
 
-        void Light::reflectSubmit();
+        void drawSubmit() override;
 
-        void Light::drawSubmit();
+        void setViewState(ViewState viewState);
 
-        void Light::setViewState(ViewState viewState);
+        void setLight();
 
-        void Light::setLight();
-
-        Mesh vplaneMesh;
-        bgfx::ProgramHandle programColorTexture;
         bgfx::TextureHandle flareTex;
         ViewState viewState;
-        float color[4];
         float position[3];
 
     };
 }
+
+#endif //D7049E_LIGHT_H

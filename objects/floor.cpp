@@ -7,10 +7,9 @@
 
 Floor::Floor(float col[4], reactphysics3d::RigidBody* body) {
     physicsBody = body;
-    isPickabel = false;
 
     physicsBody->getCollider(0)->getCollisionShape();
-    bx::mtxSRT(floorMtx
+    bx::mtxSRT(mtx
             , 20.0f  //scaleX
             , 1.0f  //scaleY
             , 20.0f  //scaleZ
@@ -27,15 +26,11 @@ Floor::Floor(float col[4], reactphysics3d::RigidBody* body) {
     color[2] = col[2];
     color[3] = col[3];
 
-    hplaneMesh.load(s_hplaneVertices, BX_COUNTOF(s_hplaneVertices), PosNormalTexcoordVertex::ms_layout, s_planeIndices, BX_COUNTOF(s_planeIndices) );
+    mesh.load(s_hplaneVertices, BX_COUNTOF(s_hplaneVertices), PosNormalTexcoordVertex::ms_layout, s_planeIndices, BX_COUNTOF(s_planeIndices) );
     programTextureLighting = loadProgram("vs_stencil_texture_lighting", "fs_stencil_texture_lighting");
-    programColorBlack      = loadProgram("vs_stencil_color",            "fs_stencil_color_black"     );
+    programColorLighting      = loadProgram("vs_stencil_color",            "fs_stencil_color_black"     );
     fieldstoneTex = loadTexture("textures/fieldstone-rgba.dds");
 
-}
-
-void Floor::shutdown() {
-    hplaneMesh.unload();
 }
 
 void Floor::drawSubmit() {
@@ -49,17 +44,17 @@ void Floor::drawSubmit() {
     /*bx::mtxMul(floorMtx, scalingMatrix, floorMtx);
     std::cout << floorMtx << std::endl;*/
 
-    hplaneMesh.submit(RENDER_VIEWID_RANGE1_PASS_0
-            , floorMtx
-            , programColorBlack
+    mesh.submit(RENDER_VIEWID_RANGE1_PASS_0
+            , mtx
+            , programColorLighting
             , s_renderStates[RenderState::StencilReflection_CraftStencil]
             , s_uniforms.m_color
     );
 }
 
 void Floor::reflectSubmit() {
-    hplaneMesh.submit(RENDER_VIEWID_RANGE1_PASS_2
-            , floorMtx
+    mesh.submit(RENDER_VIEWID_RANGE1_PASS_2
+            , mtx
             , programTextureLighting
             , s_renderStates[RenderState::StencilReflection_BlendPlane]
             , fieldstoneTex
