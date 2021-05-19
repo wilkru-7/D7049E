@@ -11,10 +11,15 @@
 namespace {
     class PhysicsWorld {
     public:
-        void PhysicsWorld::init(bool treesAtRandomPos, int numTrees);
-        reactphysics3d::RigidBody* PhysicsWorld::createPhysicsObj(reactphysics3d::Vector3 pos, reactphysics3d::CollisionShape* shape, reactphysics3d::BodyType type);
-        void PhysicsWorld::shutdown();
-        void PhysicsWorld::update();
+        void init(bool treesAtRandomPos, int numTrees, int numCubes);
+        void createAndroids();
+        void createFloors();
+        void createLights();
+        void createCubes(int numCubes);
+        void createTrees(bool treesAtRandomPos, int numTrees);
+        reactphysics3d::RigidBody* createPhysicsObj(reactphysics3d::Vector3 pos, reactphysics3d::CollisionShape* shape, reactphysics3d::BodyType type);
+        void shutdown();
+        void update();
 
         reactphysics3d::PhysicsWorld::WorldSettings settings;
         reactphysics3d::PhysicsCommon physicsCommon;
@@ -25,13 +30,12 @@ namespace {
         reactphysics3d::BoxShape* treeBox;
         reactphysics3d::BoxShape* cubeBox;
         reactphysics3d::RigidBody* android;
-        //reactphysics3d::RigidBody* tree;
         reactphysics3d::RigidBody* tree1;
         reactphysics3d::RigidBody* tree2;
         reactphysics3d::RigidBody* tree3;
         reactphysics3d::RigidBody* tree4;
         reactphysics3d::RigidBody* floor;
-        reactphysics3d::RigidBody* cube;
+        //reactphysics3d::RigidBody* cube;
         reactphysics3d::RigidBody* light;
         reactphysics3d::Quaternion orientation;
         reactphysics3d::Collider* androidCollider;

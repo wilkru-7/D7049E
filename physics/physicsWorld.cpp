@@ -5,8 +5,7 @@
 #include "physicsWorld.h"
 #include <random>
 
-
-void PhysicsWorld::init(bool treesAtRandomPos, int numTrees) {
+void PhysicsWorld::init(bool treesAtRandomPos, int numTrees, int numCubes) {
     // physics setup https://www.reactphysics3d.com/usermanual.html#x1-4500011
     settings.defaultVelocitySolverNbIterations = 20;
     settings.isSleepingEnabled = false;
@@ -18,18 +17,48 @@ void PhysicsWorld::init(bool treesAtRandomPos, int numTrees) {
     reactphysics3d::DebugRenderer& debugRenderer = world->getDebugRenderer();
     debugRenderer.setIsDebugItemDisplayed(rp3d::DebugRenderer::DebugItem::CONTACT_POINT, true);
 
-    androidBox = physicsCommon.createBoxShape(rp3d::Vector3(2.0, 1.8, 2.0));
-    treeBox = physicsCommon.createBoxShape(rp3d::Vector3(1.5, 10.0, 1.5));
-    floorBox = physicsCommon.createBoxShape(rp3d::Vector3(20.0, 0.01, 20.0));
-    cubeBox = physicsCommon.createBoxShape(rp3d::Vector3(1.5, 1.5, 1.5));
-    reactphysics3d::BoxShape* lightBox = physicsCommon.createBoxShape(rp3d::Vector3(0.1, 0.1, 0.1));
+    createAndroids();
+    createTrees(treesAtRandomPos, numTrees);
+    createCubes(numCubes);
+    createFloors();
+    createLights();
+}
 
+void PhysicsWorld::createFloors() {
+    floorBox = physicsCommon.createBoxShape(rp3d::Vector3(20.0, 0.01, 20.0));
+    floor = createPhysicsObj(reactphysics3d::Vector3(0.0,0.0,0.0), floorBox, reactphysics3d::BodyType::STATIC);
+}
+
+void PhysicsWorld::createLights() {
+    reactphysics3d::BoxShape* lightBox = physicsCommon.createBoxShape(rp3d::Vector3(0.1, 0.1, 0.1));
+    light = createPhysicsObj(reactphysics3d::Vector3(0.0,20.0,0.0), lightBox, reactphysics3d::BodyType::KINEMATIC);
+}
+
+void PhysicsWorld::createAndroids() {
+    androidBox = physicsCommon.createBoxShape(rp3d::Vector3(2.0, 1.8, 2.0));
     android = createPhysicsObj(reactphysics3d::Vector3(0.0,1.8,0.0), androidBox, reactphysics3d::BodyType::DYNAMIC);
     android->enableGravity(true);
+}
 
-    cube = createPhysicsObj(reactphysics3d::Vector3(3.0,1.8,-15.0), cubeBox, reactphysics3d::BodyType::DYNAMIC);
-    cube->enableGravity(true);
+void PhysicsWorld::createCubes(int numCubes) {
+    cubeBox = physicsCommon.createBoxShape(rp3d::Vector3(1.5, 1.5, 1.5));
+    //cube = createPhysicsObj(reactphysics3d::Vector3(3.0,1.8,-15.0), cubeBox, reactphysics3d::BodyType::DYNAMIC);
+    //cube->enableGravity(true);
+    std::random_device rd;
+    std::default_random_engine eng(rd());
+    std::uniform_real_distribution<> distr(-10.0, 10.0);
+    for(int i = 0; i < numCubes; ++i) {
+        cubes.push_back(createPhysicsObj(reactphysics3d::Vector3(distr(eng),0.0,distr(eng)), cubeBox, reactphysics3d::BodyType::DYNAMIC));
+        cubes.back()->setIsAllowedToSleep(true);
+    }
+    /*cubes.push_back(createPhysicsObj(reactphysics3d::Vector3(10.0,0.0,10.0), cubeBox, reactphysics3d::BodyType::DYNAMIC));
+    cubes.push_back(createPhysicsObj(reactphysics3d::Vector3(-10.0,0.0,10.0), cubeBox, reactphysics3d::BodyType::DYNAMIC));
+    cubes.push_back(createPhysicsObj(reactphysics3d::Vector3(10.0,0.0,-10.0), cubeBox, reactphysics3d::BodyType::DYNAMIC));
+    cubes.push_back(createPhysicsObj(reactphysics3d::Vector3(-10.0,0.0,-10.0), cubeBox, reactphysics3d::BodyType::DYNAMIC));*/
+}
 
+void PhysicsWorld::createTrees(bool treesAtRandomPos, int numTrees) {
+    treeBox = physicsCommon.createBoxShape(rp3d::Vector3(1.5, 10.0, 1.5));
     if (treesAtRandomPos) {
         std::random_device rd;
         std::default_random_engine eng(rd());
@@ -45,14 +74,6 @@ void PhysicsWorld::init(bool treesAtRandomPos, int numTrees) {
         trees.push_back(createPhysicsObj(reactphysics3d::Vector3(14.0,0.0,-14.0), treeBox, reactphysics3d::BodyType::STATIC));
         trees.push_back(createPhysicsObj(reactphysics3d::Vector3(-14.0,0.0,-14.0), treeBox, reactphysics3d::BodyType::STATIC));
     }
-
-    cubes.push_back(createPhysicsObj(reactphysics3d::Vector3(10.0,0.0,10.0), cubeBox, reactphysics3d::BodyType::DYNAMIC));
-    cubes.push_back(createPhysicsObj(reactphysics3d::Vector3(-10.0,0.0,10.0), cubeBox, reactphysics3d::BodyType::DYNAMIC));
-    cubes.push_back(createPhysicsObj(reactphysics3d::Vector3(10.0,0.0,-10.0), cubeBox, reactphysics3d::BodyType::DYNAMIC));
-    cubes.push_back(createPhysicsObj(reactphysics3d::Vector3(-10.0,0.0,-10.0), cubeBox, reactphysics3d::BodyType::DYNAMIC));
-
-    floor = createPhysicsObj(reactphysics3d::Vector3(0.0,0.0,0.0), floorBox, reactphysics3d::BodyType::STATIC);
-    light = createPhysicsObj(reactphysics3d::Vector3(0.0,20.0,0.0), lightBox, reactphysics3d::BodyType::KINEMATIC);
 }
 
 reactphysics3d::RigidBody* PhysicsWorld::createPhysicsObj(reactphysics3d::Vector3 pos, reactphysics3d::CollisionShape* shape, reactphysics3d::BodyType type) {
@@ -82,7 +103,7 @@ void PhysicsWorld::shutdown() {
     world->destroyRigidBody(tree4);*/
     world->destroyRigidBody(floor);
     world->destroyRigidBody(android);
-    world->destroyRigidBody(cube);
+    //world->destroyRigidBody(cube);
     physicsCommon.destroyPhysicsWorld(world);
 }
 

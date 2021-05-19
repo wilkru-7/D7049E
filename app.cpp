@@ -102,53 +102,50 @@ namespace
 
             m_timeOffset = bx::getHPCounter();
 
-            physicsWorld.init(false, 4);
+            // init all the objects
+            createObjects(1, 1, 1, 4, 10);
+        }
 
+        void createObjects(int androids, int floors, int lights, int trees, int cubes) {
             float green[4]=  {0.0f,1.0f,0.0f,1.0f};
             float blue[4] = {0.0f,0.0f,1.0f,1.0f};
             float red[4] = {1.0f,0.0f,0.0f,1.0f};
             float black[4] = {0.0f,0.0f,0.0f,1.0f};
             float yellow[4] = {1.0f, 0.7f, 0.2f, 0.0f};
 
-            // init all the objects
+            physicsWorld.init(false, trees, cubes);
 
-            androidObj = new Android(blue, physicsWorld.android);
-            //cubeObj = new Cube(yellow, physicsWorld.cube);
-            floorObj = new Floor(black, physicsWorld.floor);
             lightObj = new Light(yellow, physicsWorld.light);
 
-            physicsWorld.cube->setIsAllowedToSleep(true);
-
-            for(int i = 0; i < physicsWorld.trees.size(); ++i) {
+            for(int i = 0; i < trees; ++i) {
                 objects.push_back(new Tree(green, physicsWorld.trees.at(i)));
             }
 
             objects.push_back(lightObj);
-            objects.push_back(androidObj);
-            objects.push_back(floorObj);
-            objects.push_back(new Cube(green, physicsWorld.cubes.at(0)));
-            objects.push_back(new Cube(red, physicsWorld.cubes.at(1)));
-            objects.push_back(new Cube(blue, physicsWorld.cubes.at(2)));
-            objects.push_back(new Cube(yellow, physicsWorld.cubes.at(3)));
-            //objects.push_back(cubeObj);
-            Inventory* inventory = new Inventory(&objects, androidObj);
-            //androidObj->inventory = new Inventory(&objects);
-            //inventory->addToInventory(cubeObj);
+
+            for(int i = 0; i < androids; ++i) {
+                objects.push_back(new Android(blue, physicsWorld.android));
+                keyboardEvent.registerObserver((Android*) objects.back());
+                collisionEvent.registerObserver((Android*) objects.back());
+                inventory = new Inventory(&objects, (Android*) objects.back());
+            }
+
+            for(int i = 0; i < floors; ++i) {
+                objects.push_back(new Floor(black, physicsWorld.floor));
+            }
+
+            for(int i = 0; i < cubes; ++i) {
+                objects.push_back(new Cube(red, physicsWorld.cubes.at(i)));
+            }
+
+            keyboardEvent.registerObserver(inventory);
 
             soundManager.SoundManager::init();
-
-            keyboardEvent.registerObserver(androidObj);
-            //keyboardEvent.registerObserver(cubeObj);
-            keyboardEvent.registerObserver(inventory);
             keyboardEvent.registerObserver(&soundManager);
-
-            collisionEvent.registerObserver(androidObj);
-            //collisionEvent.registerObserver(cubeObj);
             collisionEvent.registerObserver(&soundManager);
+
             physicsWorld.world->setEventListener(&collisionEvent);
         }
-
-
 
         virtual int shutdown() override {
             // Cleanup.
@@ -247,11 +244,9 @@ namespace
 
         PhysicsWorld physicsWorld;
 
-        Android* androidObj;
-        Floor* floorObj;
         Light* lightObj;
-        Cube* cubeObj;
         std::list<Object*> objects;
+        Inventory* inventory;
 
         CollisionEvent collisionEvent;
         //KeyboardEvent keyboardEvent;
