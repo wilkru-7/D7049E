@@ -108,7 +108,7 @@ namespace
             float yellow[4] = {1.0f, 0.7f, 0.2f, 0.0f};
 
             physicsWorld.init(4, 10);
-            //physicsWorld.init(false, androids, floors, lights, trees, cubes, houses);
+            //physicsWorld.init(false, true, androids, floors, lights, trees, cubes, houses);
 
             lightObj = new Light(yellow, physicsWorld.lights.at(0));
 
