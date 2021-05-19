@@ -245,7 +245,7 @@ namespace
         PhysicsWorld physicsWorld;
 
         Light* lightObj;
-        std::list<Object*> objects;
+        std::vector<Object*> objects;
         Inventory* inventory;
 
         CollisionEvent collisionEvent;

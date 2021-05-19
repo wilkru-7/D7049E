@@ -9,8 +9,8 @@ void SoundManager::init() {
     collisionSound.load("../../../../assets/sounds/uh2.wav");
     walkingSound.load("../../../../assets/sounds/footstep.wav");
     backgroundMusic.load("../../../../assets/sounds/pianoloop.wav");
-    soloud.play(backgroundMusic);
     backgroundMusic.setLooping(true);
+    soloud.play(backgroundMusic);
     //h = soloud.play(sample, 1, 0, 1);
     //soloud.play(sample);
     //sample.load("../../../../mozart.wav"); // Load a wave file

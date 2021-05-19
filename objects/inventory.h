@@ -14,9 +14,9 @@
 namespace {
     class Inventory : public Observer {
     public:
-        Inventory(std::list<Object *> *objects, Object* owner);
+        Inventory(std::vector<Object *> *objects, Object* owner);
 
-        void addToInventory(Object *item);
+        void addToInventory(Object *item, int pos);
 
         void pickFromInventory(int id);
 
@@ -24,7 +24,7 @@ namespace {
 
         Object* owner;
         std::vector<Object *> inventory;
-        std::list<Object *> *objects;
+        std::vector<Object *> *objects;
 
     };
 }

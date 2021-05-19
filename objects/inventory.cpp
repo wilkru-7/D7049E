@@ -5,12 +5,12 @@
 #include "inventory.h"
 #include <iostream>
 
-Inventory::Inventory(std::list<Object*> *list, Object* object) {
+Inventory::Inventory(std::vector<Object*> *list, Object* object) {
     objects = list;
     owner = object;
 }
 
-void Inventory::addToInventory(Object* item) {
+void Inventory::addToInventory(Object* item, int pos) {
     rp3d::Transform ownerTransform = owner->physicsBody->getTransform();
     reactphysics3d::Vector3 ownerPos = ownerTransform.getPosition();
 
@@ -21,7 +21,7 @@ void Inventory::addToInventory(Object* item) {
     if (distance < 5.0) {
         item->physicsBody->setIsActive(false);
         inventory.push_back(item);
-        objects->remove(item);
+        objects->erase(objects->begin()+pos);
     }
 }
 
@@ -56,11 +56,28 @@ void Inventory::update(int id) {
             pickFromInventory(3);
             break;
         case 110:
-            Object* item = objects->back();
+            rp3d::Transform ownerTransform = owner->physicsBody->getTransform();
+            reactphysics3d::Vector3 ownerPos = ownerTransform.getPosition();
+            int i = objects->size();
+            while(i >= 1) {
+                Object* item = objects->at(i-1);
+                if (item->isPickabel) {
+                    rp3d::Transform itemTransform = item->physicsBody->getTransform();
+                    reactphysics3d::Vector3 itemPos = itemTransform.getPosition();
+                    double distance = sqrt(pow(ownerPos.x - itemPos.x, 2.0) + pow(ownerPos.z - itemPos.z, 2.0));
+                    if (distance < 5.0) {
+                        addToInventory(item, i-1);
+                        std::cout << "Pick up" << std::endl;
+                        break;
+                    }
+                }
+                i = i - 1;
+            }
+            /*Object* item = objects->back();
             if(item->isPickabel){
                 addToInventory(item);
                 std::cout << "Pick up" << std::endl;
-            }
+            }*/
             break;
     }
 }
