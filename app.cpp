@@ -42,25 +42,17 @@
 namespace
 {
     KeyboardEvent keyboardEvent;
-    void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods)
-    {
-        /*if (key == GLFW_KEY_E && action == GLFW_PRESS){
-            std::cout << "EEEEEEEEEE" << std::endl;
-            notifyObservers(111);
-        }*/
+    void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods){
         keyboardEvent.key_callback(key, action);
-
     }
+
     class Game : public entry::AppI
     {
     public:
         Game(const char* _name, const char* _description, const char* _url)
-                : entry::AppI(_name, _description, _url)
-        {
-        }
+                : entry::AppI(_name, _description, _url){}
 
-        virtual void init(int32_t _argc, const char* const* _argv, uint32_t _width, uint32_t _height) override
-        {
+        virtual void init(int32_t _argc, const char* const* _argv, uint32_t _width, uint32_t _height) override {
             Args args(_argc, _argv);
 
             m_viewState   = ViewState(_width, _height);
@@ -115,9 +107,10 @@ namespace
             float black[4] = {0.0f,0.0f,0.0f,1.0f};
             float yellow[4] = {1.0f, 0.7f, 0.2f, 0.0f};
 
-            physicsWorld.init(false, trees, cubes);
+            physicsWorld.init(4, 10);
+            //physicsWorld.init(false, androids, floors, lights, trees, cubes, houses);
 
-            lightObj = new Light(yellow, physicsWorld.light);
+            lightObj = new Light(yellow, physicsWorld.lights.at(0));
 
             for(int i = 0; i < trees; ++i) {
                 objects.push_back(new Tree(green, physicsWorld.trees.at(i)));
@@ -126,18 +119,18 @@ namespace
             objects.push_back(lightObj);
 
             for(int i = 0; i < androids; ++i) {
-                objects.push_back(new Android(blue, physicsWorld.android));
+                objects.push_back(new Android(blue, physicsWorld.androids.at(i)));
                 keyboardEvent.registerObserver((Android*) objects.back());
                 collisionEvent.registerObserver((Android*) objects.back());
                 inventory = new Inventory(&objects, (Android*) objects.back());
             }
 
             for(int i = 0; i < floors; ++i) {
-                objects.push_back(new Floor(black, physicsWorld.floor));
+                objects.push_back(new Floor(black, physicsWorld.floors.at(i)));
             }
 
             for(int i = 0; i < houses; ++i) {
-                objects.push_back(new House(red, physicsWorld.house));
+                objects.push_back(new House(red, physicsWorld.houses.at(i)));
             }
             for(int i = 0; i < cubes; ++i) {
                 objects.push_back(new Cube(red, physicsWorld.cubes.at(i)));
@@ -152,7 +145,7 @@ namespace
             physicsWorld.world->setEventListener(&collisionEvent);
         }
 
-        virtual int shutdown() override {
+        int shutdown() override {
             // Cleanup.
             for_each(objects.begin(), objects.end(),std::mem_fun(&Object::shutdown));
 
@@ -170,7 +163,7 @@ namespace
             return 0;
         }
 
-        virtual bool update() override
+        bool update() override
         {
 
             if (!entry::processEvents(m_viewState.m_width, m_viewState.m_height, m_debug, m_reset, &m_mouseState) )
@@ -183,9 +176,9 @@ namespace
                 static int64_t last = now;
                 const int64_t frameTime = now - last;
                 last = now;
-                const double freq = double(bx::getHPFrequency() );
-                const float time = (float)( (now - m_timeOffset)/double(bx::getHPFrequency() ) );
-                const float deltaTime = float(frameTime/freq);
+                const auto freq = double(bx::getHPFrequency() );
+                const auto time = (float)( (now - m_timeOffset)/double(bx::getHPFrequency() ) );
+                const auto deltaTime = float(frameTime/freq);
                 s_uniforms.m_time = time;
 
                 // Update camera.
