@@ -30,6 +30,8 @@
 #include "objects/tree.cpp"
 #include "objects/cube.cpp"
 #include "objects/inventory.cpp"
+//#include "objects/house.h"
+#include "objects/house.cpp"
 
 #include "events/keyboardEvent.cpp"
 #include "sound/soundManager.cpp"
@@ -103,10 +105,10 @@ namespace
             m_timeOffset = bx::getHPCounter();
 
             // init all the objects
-            createObjects(1, 1, 1, 4, 10);
+            createObjects(1, 1, 1, 4, 10, 0);
         }
 
-        void createObjects(int androids, int floors, int lights, int trees, int cubes) {
+        void createObjects(int androids, int floors, int lights, int trees, int cubes, int houses) {
             float green[4]=  {0.0f,1.0f,0.0f,1.0f};
             float blue[4] = {0.0f,0.0f,1.0f,1.0f};
             float red[4] = {1.0f,0.0f,0.0f,1.0f};
@@ -134,6 +136,9 @@ namespace
                 objects.push_back(new Floor(black, physicsWorld.floor));
             }
 
+            for(int i = 0; i < houses; ++i) {
+                objects.push_back(new House(red, physicsWorld.house));
+            }
             for(int i = 0; i < cubes; ++i) {
                 objects.push_back(new Cube(red, physicsWorld.cubes.at(i)));
             }

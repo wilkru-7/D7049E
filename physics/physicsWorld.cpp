@@ -22,8 +22,13 @@ void PhysicsWorld::init(bool treesAtRandomPos, int numTrees, int numCubes) {
     createCubes(numCubes);
     createFloors();
     createLights();
+    createHouses();
 }
+void PhysicsWorld::createHouses() {
+    reactphysics3d::BoxShape* houseShape = physicsCommon.createBoxShape(rp3d::Vector3(10.0,10.0,10.0));
+    house = createPhysicsObj(rp3d::Vector3(5.0,15.0,0.0), houseShape, reactphysics3d::BodyType::STATIC);
 
+}
 void PhysicsWorld::createFloors() {
     floorBox = physicsCommon.createBoxShape(rp3d::Vector3(20.0, 0.01, 20.0));
     floor = createPhysicsObj(reactphysics3d::Vector3(0.0,0.0,0.0), floorBox, reactphysics3d::BodyType::STATIC);

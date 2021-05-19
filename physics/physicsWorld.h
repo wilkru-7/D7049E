@@ -17,6 +17,7 @@ namespace {
         void createLights();
         void createCubes(int numCubes);
         void createTrees(bool treesAtRandomPos, int numTrees);
+        void createHouses();
         reactphysics3d::RigidBody* createPhysicsObj(reactphysics3d::Vector3 pos, reactphysics3d::CollisionShape* shape, reactphysics3d::BodyType type);
         void shutdown();
         void update();
@@ -30,6 +31,7 @@ namespace {
         reactphysics3d::BoxShape* treeBox;
         reactphysics3d::BoxShape* cubeBox;
         reactphysics3d::RigidBody* android;
+        reactphysics3d::RigidBody* house;
         reactphysics3d::RigidBody* tree1;
         reactphysics3d::RigidBody* tree2;
         reactphysics3d::RigidBody* tree3;
