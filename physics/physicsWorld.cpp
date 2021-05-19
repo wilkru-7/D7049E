@@ -5,8 +5,8 @@
 #include "physicsWorld.h"
 #include <random>
 
-void PhysicsWorld::init(int trees, int cubes) {
-    init(false, true, 1, 1, 1, trees, cubes, 0);
+void PhysicsWorld::init(int androids, int floors, int lights, int trees, int cubes, int houses) {
+    init(false, true, androids, floors, lights, trees, cubes, houses);
 }
 
 void PhysicsWorld::init(bool treesRandom, bool cubesRandom, int numAndroids, int numFloors, int numLights, int numTrees, int numCubes, int numHouses) {

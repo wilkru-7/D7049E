@@ -11,7 +11,7 @@
 namespace {
     class PhysicsWorld {
     public:
-        void init(int trees, int cubes);
+        void init(int androids, int floors, int lights, int trees, int cubes, int houses);
         void init(bool treesRandom, bool cubesRandom,int androids, int floors, int lights, int trees, int cubes, int houses);
 
         //void createObjectsList(std::vector<reactphysics3d::RigidBody*>* list, rp3d::Vector3 dimensions, rp3d::Vector3 position, reactphysics3d::BodyType type, int num);
@@ -22,6 +22,7 @@ namespace {
         void createCubes(int num);
         void createTrees(int num);
         void createHouses(int num);
+
         reactphysics3d::RigidBody* createPhysicsObj(reactphysics3d::Vector3 pos, reactphysics3d::CollisionShape* shape, reactphysics3d::BodyType type);
         void shutdown();
         void update();

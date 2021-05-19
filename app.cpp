@@ -97,7 +97,12 @@ namespace
             m_timeOffset = bx::getHPCounter();
 
             // init all the objects
-            createObjects(1, 1, 1, 4, 10, 0);
+            createObjects(4, 10, 0);
+            //createObjects(1, 1, 1, 4, 10, 0);
+        }
+
+        void createObjects(int trees, int cubes, int houses) {
+            createObjects(1,1,1,trees,cubes,houses);
         }
 
         void createObjects(int androids, int floors, int lights, int trees, int cubes, int houses) {
@@ -107,7 +112,7 @@ namespace
             float black[4] = {0.0f,0.0f,0.0f,1.0f};
             float yellow[4] = {1.0f, 0.7f, 0.2f, 0.0f};
 
-            physicsWorld.init(4, 10);
+            physicsWorld.init(androids, floors, lights, trees, cubes, houses);
             //physicsWorld.init(false, true, androids, floors, lights, trees, cubes, houses);
 
             lightObj = new Light(yellow, physicsWorld.lights.at(0));
