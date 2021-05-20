@@ -115,6 +115,7 @@ void PhysicsWorld::createFloors(bool random, int num) {
     } else {
         floors.push_back(createPhysicsObj(reactphysics3d::Vector3(0.0,0.0,0.0), floorBox, reactphysics3d::BodyType::STATIC));
         floors.push_back(createPhysicsObj(reactphysics3d::Vector3(42.0,0.0,0.0), floorBox, reactphysics3d::BodyType::STATIC));
+        floors.push_back(createPhysicsObj(reactphysics3d::Vector3(-42.0,0.0,0.0), floorBox, reactphysics3d::BodyType::STATIC));
     }
 }
 

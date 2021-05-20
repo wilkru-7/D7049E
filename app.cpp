@@ -97,12 +97,12 @@ namespace
             m_timeOffset = bx::getHPCounter();
 
             // init all the objects
-            createObjects(4, 5, 0);
+            createObjects(4, 8, 0);
             //createObjects(1, 1, 1, 4, 10, 0);
         }
 
         void createObjects(int trees, int cubes, int houses) {
-            createObjects(1,2,1,trees,cubes,houses);
+            createObjects(1,3,1,trees,cubes,houses);
         }
 
         void createObjects(int androids, int floors, int lights, int trees, int cubes, int houses) {
@@ -143,6 +143,7 @@ namespace
             }
 
             cubeBot = new Cube(black, physicsWorld.cubes.at(cubes-1));
+            cubeBot->isPickabel = false;
             objects.push_back(cubeBot);
 
             keyboardEvent.registerObserver(inventory);

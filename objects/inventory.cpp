@@ -52,7 +52,7 @@ void Inventory::update(int id) {
             int i = objects->size();
             while(i >= 1) {
                 Object* item = objects->at(i-1);
-                if (item->isPickabel) {
+                if (item->isPickabel && inventory.size() < 4) {
                     rp3d::Transform itemTransform = item->physicsBody->getTransform();
                     reactphysics3d::Vector3 itemPos = itemTransform.getPosition();
                     double distance = sqrt(pow(ownerPos.x - itemPos.x, 2.0) + pow(ownerPos.z - itemPos.z, 2.0));
