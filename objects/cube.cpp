@@ -3,10 +3,12 @@
 //
 
 #include "cube.h"
+#include <iostream>
 
 Cube::Cube(float col[4], reactphysics3d::RigidBody* body) {
     physicsBody = body;
     isPickabel = true;
+    goLeft = false;
 
     color[0] = col[0];
     color[1] = col[1];
@@ -56,4 +58,20 @@ void Cube::drawSubmit() {
 
 void Cube::update(int id) {
     //cubePhysics->applyForceToCenterOfMass(rp3d::Vector3(0.0,100.0,0.0));
+}
+
+void Cube::updatePos() {
+    rp3d::Transform transform = physicsBody->getTransform();
+    reactphysics3d::Vector3 pos = transform.getPosition();
+    std::cout << pos.x << std::endl;
+    if (pos.x > 55.0f && !goLeft) {
+        goLeft = true;
+    } else if (pos.x < 55.0f && !goLeft){
+        transform.setPosition(reactphysics3d::Vector3(pos.x + 0.05, pos.y, pos.z));
+    } else if (pos.x < 29.0f && goLeft) {
+        goLeft = false;
+    } else if (pos.x > 29.0f && goLeft){
+        transform.setPosition(reactphysics3d::Vector3(pos.x - 0.05, pos.y, pos.z));
+    }
+    physicsBody->setTransform(transform);
 }

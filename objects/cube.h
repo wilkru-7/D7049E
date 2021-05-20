@@ -18,6 +18,10 @@ namespace {
         void drawSubmit() override;
 
         void update(int id) override;
+
+        void updatePos();
+
+        bool goLeft;
     };
 }
 

@@ -138,9 +138,12 @@ namespace
                 objects.push_back(new House(red, physicsWorld.houses.at(i)));
             }
 
-            for(int i = 0; i < cubes; ++i) {
+            for(int i = 0; i < cubes-1; ++i) {
                 objects.push_back(new Cube(red, physicsWorld.cubes.at(i)));
             }
+
+            cubeBot = new Cube(black, physicsWorld.cubes.at(cubes-1));
+            objects.push_back(cubeBot);
 
             keyboardEvent.registerObserver(inventory);
 
@@ -223,6 +226,7 @@ namespace
                 setViewTransformMask(s_viewMask, m_viewState.m_view, m_viewState.m_proj);
                 s_viewMask = 0;
 
+                cubeBot->updatePos();
                 keyboardEvent.checkKeyboardInput(window);
                 /*world->update(1.0f / 60.0f);*/
 
@@ -251,6 +255,7 @@ namespace
         Light* lightObj;
         std::vector<Object*> objects;
         Inventory* inventory;
+        Cube* cubeBot;
 
         CollisionEvent collisionEvent;
         //KeyboardEvent keyboardEvent;

@@ -11,18 +11,9 @@ Inventory::Inventory(std::vector<Object*> *list, Object* object) {
 }
 
 void Inventory::addToInventory(Object* item, int pos) {
-    rp3d::Transform ownerTransform = owner->physicsBody->getTransform();
-    reactphysics3d::Vector3 ownerPos = ownerTransform.getPosition();
-
-    rp3d::Transform itemTransform = item->physicsBody->getTransform();
-    reactphysics3d::Vector3 itemPos = itemTransform.getPosition();
-    double distance = sqrt(pow(ownerPos.x - itemPos.x, 2.0) + pow(ownerPos.z - itemPos.z, 2.0));
-
-    if (distance < 5.0) {
-        item->physicsBody->setIsActive(false);
-        inventory.push_back(item);
-        objects->erase(objects->begin()+pos);
-    }
+    item->physicsBody->setIsActive(false);
+    inventory.push_back(item);
+    objects->erase(objects->begin()+pos);
 }
 
 void Inventory::pickFromInventory(int id) {
