@@ -191,6 +191,14 @@ namespace
                 const auto deltaTime = float(frameTime/freq);
                 s_uniforms.m_time = time;
 
+                const double toMs = 1000.0 / freq;
+
+                // Use transient text to display debug information.
+                char fpsText[64];
+                bx::snprintf(fpsText, BX_COUNTOF(fpsText), "Frame: % 7.3f[ms]", double(frameTime) * toMs);
+
+                std::cout << fpsText << std::endl;
+
                 // Update camera.
                 cameraUpdate(deltaTime, m_mouseState);
                 cameraGetViewMtx(m_viewState.m_view);

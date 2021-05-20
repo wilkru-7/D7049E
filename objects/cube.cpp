@@ -63,7 +63,6 @@ void Cube::update(int id) {
 void Cube::updatePos() {
     rp3d::Transform transform = physicsBody->getTransform();
     reactphysics3d::Vector3 pos = transform.getPosition();
-    std::cout << pos.x << std::endl;
     if (pos.x > 55.0f && !goLeft) {
         goLeft = true;
     } else if (pos.x < 55.0f && !goLeft){
