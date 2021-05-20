@@ -31,6 +31,7 @@ namespace {
         // Extras
         void createTrees(bool random, int num);
         void createCubes(bool random, int num);
+        void createFloors(bool random, int num);
 
         reactphysics3d::PhysicsWorld::WorldSettings settings;
         reactphysics3d::PhysicsCommon physicsCommon;

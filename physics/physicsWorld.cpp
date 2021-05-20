@@ -5,8 +5,8 @@
 #include "physicsWorld.h"
 #include <random>
 
-void PhysicsWorld::init(int androids, int floors, int lights, int trees, int cubes, int houses) {
-    init(false, true, androids, floors, lights, trees, cubes, houses);
+void PhysicsWorld::init(int numAndroids, int numFloors, int numLights, int numTrees, int numCubes, int numHouses) {
+    init(false, true, numAndroids, numFloors, numLights, numTrees, numCubes, numHouses);
 }
 
 void PhysicsWorld::init(bool treesRandom, bool cubesRandom, int numAndroids, int numFloors, int numLights, int numTrees, int numCubes, int numHouses) {
@@ -24,7 +24,7 @@ void PhysicsWorld::init(bool treesRandom, bool cubesRandom, int numAndroids, int
     createAndroids(numAndroids);
     createTrees(treesRandom, numTrees);
     createCubes(cubesRandom, numCubes);
-    createFloors(numFloors);
+    createFloors(treesRandom, numFloors);
     createLights(numLights);
     createHouses(numHouses);
 }
@@ -63,13 +63,15 @@ void PhysicsWorld::createAndroids(int num) {
     for(int i = 0; i < num; ++i) {
         androids.push_back(createPhysicsObj(reactphysics3d::Vector3(0.0,1.8,0.0), androidBox, reactphysics3d::BodyType::DYNAMIC));
         androids.back()->enableGravity(true);
+        androids.back()->setMass(40);
     }
 }
 
 void PhysicsWorld::createCubes(int num) {
     reactphysics3d::BoxShape *cubeBox = physicsCommon.createBoxShape(rp3d::Vector3(1.5, 1.5, 1.5));
     for(int i = 0; i < num; ++i) {
-        cubes.push_back(createPhysicsObj(reactphysics3d::Vector3(randomize(-10,10),0.0,randomize(-10,10)), cubeBox, reactphysics3d::BodyType::DYNAMIC));
+        //cubes.push_back(createPhysicsObj(reactphysics3d::Vector3(randomize(-10,10),0.0,randomize(-10,10)), cubeBox, reactphysics3d::BodyType::DYNAMIC));
+        cubes.push_back(createPhysicsObj(reactphysics3d::Vector3(randomize(37,47),0.0,randomize(-10,10)), cubeBox, reactphysics3d::BodyType::DYNAMIC));
         cubes.back()->setIsAllowedToSleep(true);
         //cubes.back()->enableGravity(true);
     }
@@ -103,6 +105,16 @@ void PhysicsWorld::createTrees(bool random, int num) {
         trees.push_back(createPhysicsObj(reactphysics3d::Vector3(-14.0,0.0,14.0), treeBox, reactphysics3d::BodyType::STATIC));
         trees.push_back(createPhysicsObj(reactphysics3d::Vector3(14.0,0.0,-14.0), treeBox, reactphysics3d::BodyType::STATIC));
         trees.push_back(createPhysicsObj(reactphysics3d::Vector3(-14.0,0.0,-14.0), treeBox, reactphysics3d::BodyType::STATIC));
+    }
+}
+
+void PhysicsWorld::createFloors(bool random, int num) {
+    reactphysics3d::BoxShape *floorBox = physicsCommon.createBoxShape(rp3d::Vector3(20.0, 0.01, 20.0));
+    if (random) {
+        createFloors(num);
+    } else {
+        floors.push_back(createPhysicsObj(reactphysics3d::Vector3(0.0,0.0,0.0), floorBox, reactphysics3d::BodyType::STATIC));
+        floors.push_back(createPhysicsObj(reactphysics3d::Vector3(42.0,0.0,0.0), floorBox, reactphysics3d::BodyType::STATIC));
     }
 }
 

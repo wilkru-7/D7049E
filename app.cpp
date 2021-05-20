@@ -90,19 +90,19 @@ namespace
             bx::mtxProj(m_viewState.m_proj, 60.0f, aspect, 0.1f, 100.0f, caps->homogeneousDepth);
 
             cameraCreate();
-            cameraSetPosition({ 0.0f, 18.0f, -40.0f });
+            cameraSetPosition({ 0.0f, 28.0f, -60.0f });
             cameraSetVerticalAngle(-0.35f);
             cameraGetViewMtx(m_viewState.m_view);
 
             m_timeOffset = bx::getHPCounter();
 
             // init all the objects
-            createObjects(4, 10, 0);
+            createObjects(4, 5, 0);
             //createObjects(1, 1, 1, 4, 10, 0);
         }
 
         void createObjects(int trees, int cubes, int houses) {
-            createObjects(1,1,1,trees,cubes,houses);
+            createObjects(1,2,1,trees,cubes,houses);
         }
 
         void createObjects(int androids, int floors, int lights, int trees, int cubes, int houses) {
@@ -137,6 +137,7 @@ namespace
             for(int i = 0; i < houses; ++i) {
                 objects.push_back(new House(red, physicsWorld.houses.at(i)));
             }
+
             for(int i = 0; i < cubes; ++i) {
                 objects.push_back(new Cube(red, physicsWorld.cubes.at(i)));
             }

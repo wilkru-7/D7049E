@@ -86,7 +86,7 @@ void Android::update(int id) {
                 break;
         case 19:{
             if (currPos.y < 2.0f){
-                physicsBody->applyForceToCenterOfMass(rp3d::Vector3(0.0,1000.0,0.0));
+                physicsBody->applyForceToCenterOfMass(rp3d::Vector3(0.0,3000.0,0.0));
             }
             break;
         }
