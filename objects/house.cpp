@@ -6,6 +6,7 @@
 
 House::House(float col[4], reactphysics3d::RigidBody* body){
     physicsBody = body;
+    type = "House";
 
     mesh.load("meshes/bambo_house.bin");
     programColorLighting   = loadProgram("vs_stencil_color_lighting",   "fs_stencil_color_lighting"  );

@@ -9,6 +9,7 @@ Cube::Cube(float col[4], reactphysics3d::RigidBody* body) {
     physicsBody = body;
     isPickabel = true;
     goLeft = false;
+    type = "Cube";
 
     color[0] = col[0];
     color[1] = col[1];

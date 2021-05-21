@@ -6,6 +6,7 @@
 
 Tree::Tree(float col[4], reactphysics3d::RigidBody* body) {
     physicsBody = body;
+    type = "Tree";
 
     mesh.load("meshes/polytree.bin");
     programColorLighting   = loadProgram("vs_stencil_color_lighting",   "fs_stencil_color_lighting"  );

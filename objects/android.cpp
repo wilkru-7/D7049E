@@ -8,6 +8,7 @@
 
 Android::Android(float col[4], reactphysics3d::RigidBody* body) {
     physicsBody = body;
+    type = "Android";
 
     color[0] = col[0];
     color[1] = col[1];

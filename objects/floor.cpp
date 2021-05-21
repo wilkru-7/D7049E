@@ -7,6 +7,7 @@
 
 Floor::Floor(float col[4], reactphysics3d::RigidBody* body) {
     physicsBody = body;
+    type = "Floor";
 
     physicsBody->getCollider(0)->getCollisionShape();
     bx::mtxSRT(mtx

@@ -7,12 +7,18 @@
 
 #include "event.h"
 #include "reactphysics3d/reactphysics3d.h"
+#include "../objects/object.h"
+
 namespace {
     class CollisionEvent : public Event, public reactphysics3d::EventListener {
     public:
+        CollisionEvent(std::vector<Object*> *objects);
+
         int id() override {return 2;}
 
         void onContact(const CollisionCallback::CallbackData &callbackData) override;
+
+        std::vector<Object*> *objects;
     };
 }
 

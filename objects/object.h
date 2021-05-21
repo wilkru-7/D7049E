@@ -26,5 +26,6 @@ namespace {
         float mtx[16];
         float color[4];
         bool isPickabel = false;
+        std::string type;
     };
 }

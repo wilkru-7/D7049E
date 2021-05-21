@@ -96,9 +96,11 @@ namespace
 
             m_timeOffset = bx::getHPCounter();
 
+            collisionEvent = new CollisionEvent(&objects);
             // init all the objects
             createObjects(4, 8, 0);
             //createObjects(1, 1, 1, 4, 10, 0);
+
         }
 
         void createObjects(int trees, int cubes, int houses) {
@@ -126,7 +128,7 @@ namespace
             for(int i = 0; i < androids; ++i) {
                 objects.push_back(new Android(blue, physicsWorld.androids.at(i)));
                 keyboardEvent.registerObserver((Android*) objects.back());
-                collisionEvent.registerObserver((Android*) objects.back());
+                collisionEvent->registerObserver((Android*) objects.back());
                 inventory = new Inventory(&objects, (Android*) objects.back());
             }
 
@@ -150,9 +152,9 @@ namespace
 
             soundManager.SoundManager::init();
             keyboardEvent.registerObserver(&soundManager);
-            collisionEvent.registerObserver(&soundManager);
+            collisionEvent->registerObserver(&soundManager);
 
-            physicsWorld.world->setEventListener(&collisionEvent);
+            physicsWorld.world->setEventListener(collisionEvent);
         }
 
         int shutdown() override {
@@ -197,7 +199,7 @@ namespace
                 char fpsText[64];
                 bx::snprintf(fpsText, BX_COUNTOF(fpsText), "Frame: % 7.3f[ms]", double(frameTime) * toMs);
 
-                std::cout << fpsText << std::endl;
+                //std::cout << fpsText << std::endl;
 
                 // Update camera.
                 cameraUpdate(deltaTime, m_mouseState);
@@ -266,7 +268,7 @@ namespace
         Inventory* inventory;
         Cube* cubeBot;
 
-        CollisionEvent collisionEvent;
+        CollisionEvent* collisionEvent;
         //KeyboardEvent keyboardEvent;
         SoundManager soundManager;
 
