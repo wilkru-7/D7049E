@@ -33,7 +33,7 @@ void CollisionEvent::onContact(const CollisionCallback::CallbackData& callbackDa
         }
         for(auto & obj : *objects) {
             if(android && obj->type == "Floor" && (obj->physicsBody == body1 || obj->physicsBody == body2) && contactPair.getEventType() == CollisionCallback::ContactPair::EventType::ContactExit) {
-                notifyObservers(22);
+                //notifyObservers(22);
             }
             if (android && obj->type != "Floor" && obj->type != "Android" && (obj->physicsBody == body1 || obj->physicsBody == body2) && contactPair.getEventType() == CollisionCallback::ContactPair::EventType::ContactStart) {
                 notifyObservers(id());

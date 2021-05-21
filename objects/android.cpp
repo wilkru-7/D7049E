@@ -26,7 +26,7 @@ void Android::shutdown() {
 }
 
 void Android::reflectSubmit() {
-    float reflectMtx[16];
+    /*float reflectMtx[16];
     mtxReflected(reflectMtx, { 0.0f, 0.01f, 0.0f }, { 0.0f, 1.0f, 0.0f });
 
     float mtxReflectedAndroid[16];
@@ -36,7 +36,7 @@ void Android::reflectSubmit() {
             , programColorLighting
             , s_renderStates[RenderState::StencilReflection_DrawReflected]
             , color
-    );
+    );*/
 }
 
 void Android::drawSubmit() {
@@ -86,18 +86,20 @@ void Android::update(int id) {
         case 18: setTransform(reactphysics3d::Vector3(0.0, 0.0, velocity + 0.1));
                 break;
         case 19:{
-            if (currPos.y < 2.0f){
-                physicsBody->applyForceToCenterOfMass(rp3d::Vector3(0.0,3000.0,0.0));
+            if (currPos.y < 3.0f){
+                physicsBody->applyForceToCenterOfMass(rp3d::Vector3(0.0,2000.0,0.0));
             }
             break;
         }
-        case 22: {
-            if(currPos.y < 1.8) {
-                currTransform.setPosition(reactphysics3d::Vector3(0.0, 5.0, 0.0));
-                physicsBody->setTransform(currTransform);
-            }
+        case 22:
+            currTransform.setPosition(reactphysics3d::Vector3(0.0, 5.0, 0.0));
+            currTransform.setOrientation(reactphysics3d::Quaternion::identity());
+            physicsBody->setLinearVelocity(reactphysics3d::Vector3(0.0, 0.0, 0.0));
+            physicsBody->setTransform(currTransform);
+            physicsBody->setLinearVelocity(reactphysics3d::Vector3(0.0, 0.0, 0.0));
+            std::cout << "Android position: " << currPos.y << std::endl;
             break;
-        }
+
         /*case 111:
             inventory->pickFromInventory();
             break;
@@ -110,12 +112,14 @@ void Android::update(int id) {
             }
             break;
         }*/
-        default: setTransform(reactphysics3d::Vector3(0.0, 0.0, 0.0));
-                break;
+        /*default: setTransform(reactphysics3d::Vector3(0.0, 0.0, 0.0));
+                std::cout << "Default" << std::endl;
+                break;*/
     }
 }
 
 void Android::setTransform(reactphysics3d::Vector3 newPos) {
+    std::cout << "SEtting transform" << std::endl;
     rp3d::Transform currTransform = physicsBody->getTransform();
     reactphysics3d::Vector3 currPos = currTransform.getPosition();
     currTransform.setPosition(reactphysics3d::Vector3(currPos.x + newPos.x, currPos.y + newPos.y, currPos.z + newPos.z));

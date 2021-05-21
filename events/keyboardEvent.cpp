@@ -47,5 +47,7 @@ void KeyboardEvent::key_callback(int key, int action)
         notifyObservers(113);
     } else if (key == GLFW_KEY_4 && action == GLFW_PRESS){
         notifyObservers(114);
+    }else if (key == GLFW_KEY_R && action == GLFW_PRESS){
+        notifyObservers(22);
     }
 }

@@ -59,7 +59,7 @@ void PhysicsWorld::createLights(int num) {
 }
 
 void PhysicsWorld::createAndroids(int num) {
-    reactphysics3d::BoxShape *androidBox = physicsCommon.createBoxShape(rp3d::Vector3(2.0, 1.8, 2.0));
+    reactphysics3d::BoxShape *androidBox = physicsCommon.createBoxShape(rp3d::Vector3(1.8, 1.8, 1.8));
     for(int i = 0; i < num; ++i) {
         androids.push_back(createPhysicsObj(reactphysics3d::Vector3(0.0,1.8,0.0), androidBox, reactphysics3d::BodyType::DYNAMIC));
         androids.back()->enableGravity(true);
