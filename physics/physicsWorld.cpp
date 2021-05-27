@@ -103,8 +103,8 @@ void PhysicsWorld::createAndroids(int num) {
 void PhysicsWorld::createCubes(int num) {
     reactphysics3d::BoxShape *cubeBox = physicsCommon.createBoxShape(rp3d::Vector3(1.5, 1.5, 1.5));
     for(int i = 0; i < num; ++i) {
-        cubes.push_back(createPhysicsObj(reactphysics3d::Vector3(randomize(-10,10),0.0,randomize(-10,10)), cubeBox, reactphysics3d::BodyType::DYNAMIC));
-        //cubes.push_back(createPhysicsObj(reactphysics3d::Vector3(randomize(37,47),0.0,randomize(-10,10)), cubeBox, reactphysics3d::BodyType::DYNAMIC));
+        //cubes.push_back(createPhysicsObj(reactphysics3d::Vector3(randomize(-10,10),0.0,randomize(-10,10)), cubeBox, reactphysics3d::BodyType::DYNAMIC));
+        cubes.push_back(createPhysicsObj(reactphysics3d::Vector3(randomize(37,47),0.0,randomize(-10,10)), cubeBox, reactphysics3d::BodyType::DYNAMIC));
         cubes.back()->setIsAllowedToSleep(true);
         //cubes.back()->enableGravity(true);
     }
@@ -166,8 +166,8 @@ void PhysicsWorld::createFloors(bool random, int num) {
         createFloors(num);
     } else {
         floors.push_back(createPhysicsObj(reactphysics3d::Vector3(0.0,0.0,0.0), floorBox, reactphysics3d::BodyType::STATIC));
-        /*floors.push_back(createPhysicsObj(reactphysics3d::Vector3(42.0,0.0,0.0), floorBox, reactphysics3d::BodyType::STATIC));
-        floors.push_back(createPhysicsObj(reactphysics3d::Vector3(-42.0,0.0,0.0), floorBox, reactphysics3d::BodyType::STATIC));*/
+        floors.push_back(createPhysicsObj(reactphysics3d::Vector3(42.0,0.0,0.0), floorBox, reactphysics3d::BodyType::STATIC));
+        floors.push_back(createPhysicsObj(reactphysics3d::Vector3(-42.0,0.0,0.0), floorBox, reactphysics3d::BodyType::STATIC));
     }
 }
 /**

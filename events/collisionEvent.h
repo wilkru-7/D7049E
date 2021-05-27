@@ -1,5 +1,6 @@
 //
-// Created by Wilma on 10/05/2021.
+// Class for collision event. It inherits the Event class and the EventListener
+// class from ReactPhysics3D.
 //
 
 #ifndef D7049E_COLLISIONEVENT_H

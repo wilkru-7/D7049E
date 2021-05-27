@@ -79,7 +79,7 @@ void Inventory::update(int id) {
                     double distance = sqrt(pow(ownerPos.x - itemPos.x, 2.0) + pow(ownerPos.z - itemPos.z, 2.0));
                     if (distance < 5.0) {
                         addToInventory(item, i-1);
-                        std::cout << "Pick up" << std::endl;
+                        //std::cout << "Pick up" << std::endl;
                         break;
                     }
                 }

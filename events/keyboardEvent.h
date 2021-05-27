@@ -1,5 +1,5 @@
 //
-// Created by Wilma on 07/05/2021.
+// Class for keyboard event. It inherits the Event class.
 //
 
 #ifndef D7049E_KEYBOARDEVENT_H

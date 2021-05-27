@@ -1,22 +1,24 @@
 //
-// Created by Wilma on 10/05/2021.
+// Implemented functions for the collision event class.
 //
 
 #include "collisionEvent.h"
 
+/**
+ * Constructor that takes a pointer to the object vector from app.cpp as parameter.
+ * @param list
+ */
 CollisionEvent::CollisionEvent(std::vector<Object*> *list) {
     objects = list;
 }
 
+/**
+ * Function that gets called automatically in the case of a collision between two
+ * collision bodies in the physics world.
+ * @param callbackData
+ */
 void CollisionEvent::onContact(const CollisionCallback::CallbackData& callbackData) {
-    // Android and all other objects except floor
-    /*if(callbackData.getNbContactPairs() > 2 && callbackData.getContactPair(2).getEventType() == CollisionCallback::ContactPair::EventType::ContactStart) {
-        notifyObservers(id());
-    }
-    // Andorid and floor
-    if(callbackData.getNbContactPairs() > 1 && callbackData.getContactPair(1).getEventType() == CollisionCallback::ContactPair::EventType::ContactExit) {
-        notifyObservers(22);
-    }*/
+
     // For each contact pair
     for (int p = 0; p < callbackData.getNbContactPairs(); p++) {
 
@@ -26,15 +28,14 @@ void CollisionEvent::onContact(const CollisionCallback::CallbackData& callbackDa
         reactphysics3d::CollisionBody* body2 = contactPair.getBody2();
         bool android = false;
 
+        // check if an object of type android is in the contact pair
         for(auto & obj : *objects) {
             if(obj->type == "Android" && (obj->physicsBody == body1 || obj->physicsBody == body2)) {
                 android = true;
             }
         }
         for(auto & obj : *objects) {
-            if(android && obj->type == "Floor" && (obj->physicsBody == body1 || obj->physicsBody == body2) && contactPair.getEventType() == CollisionCallback::ContactPair::EventType::ContactExit) {
-                //notifyObservers(22);
-            }
+            // check if the android has collided with an object of other type than floor or android
             if (android && obj->type != "Floor" && obj->type != "Android" && (obj->physicsBody == body1 || obj->physicsBody == body2) && contactPair.getEventType() == CollisionCallback::ContactPair::EventType::ContactStart) {
                 notifyObservers(id());
             }
