@@ -6,6 +6,9 @@
 #include "bgfx_utils.h"
 #include "light.h"
 
+/**
+ * Class for the static object representing a floor, inherit object
+ */
 Light::Light(float col[4], reactphysics3d::RigidBody* body) {
     type = "Light";
 
@@ -44,15 +47,6 @@ void Light::reflectSubmit() {
     setLight();
 }
 
-void Light::setLight() {
-    bx::memCopy(s_uniforms.m_lightPosRadius, position, 4*sizeof(float) );
-}
-
-void Light::setViewState(ViewState VS) {
-    viewState = VS;
-}
-
-
 void Light::drawSubmit() {
     const float lightScale[3] = { 1.5f, 1.5f, 1.5f };
 
@@ -65,3 +59,16 @@ void Light::drawSubmit() {
             , color
     );
 }
+
+/**
+ * To set the light position and radius over the world
+ */
+void Light::setLight() {
+    bx::memCopy(s_uniforms.m_lightPosRadius, position, 4*sizeof(float) );
+}
+
+void Light::setViewState(ViewState VS) {
+    viewState = VS;
+}
+
+

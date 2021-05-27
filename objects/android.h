@@ -9,6 +9,9 @@
 #include "../observer/observer.h"
 #include "inventory.h"
 
+/**
+ * Class for the main character Android, inherit object and observer
+ */
 namespace {
     class Android: public Object, public Observer {
     public:

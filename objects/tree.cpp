@@ -4,6 +4,9 @@
 
 #include "tree.h"
 
+/**
+ * Class for the static object representing a Tree, inherit object
+ */
 Tree::Tree(float col[4], reactphysics3d::RigidBody* body) {
     physicsBody = body;
     type = "Tree";

@@ -7,6 +7,9 @@
 
 #include "object.h"
 
+/**
+ * Class for the static object representing a light, inherit object
+ */
 namespace {
     class Light : public Object {
     public:

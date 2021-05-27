@@ -4,7 +4,9 @@
 
 #include "floor.h"
 
-
+/**
+ * Class for the static object representing a floor, inherit object
+ */
 Floor::Floor(float col[4], reactphysics3d::RigidBody* body) {
     physicsBody = body;
     type = "Floor";
@@ -35,16 +37,6 @@ Floor::Floor(float col[4], reactphysics3d::RigidBody* body) {
 }
 
 void Floor::drawSubmit() {
-    /*reactphysics3d::Transform transform = physicsBody->getTransform();
-    transform.getOpenGLMatrix(floorMtx);*/
-    //floorMtx = bgfx::mul(floorMtx, scalingMatrix);
-
-    /*scalingMatrix[12] = physicsBody->getTransform().getPosition().x;
-    scalingMatrix[13] = physicsBody->getTransform().getPosition().y;
-    scalingMatrix[14] = physicsBody->getTransform().getPosition().z;*/
-    /*bx::mtxMul(floorMtx, scalingMatrix, floorMtx);
-    std::cout << floorMtx << std::endl;*/
-
     mesh.submit(RENDER_VIEWID_RANGE1_PASS_0
             , mtx
             , programColorLighting
@@ -62,12 +54,3 @@ void Floor::reflectSubmit() {
             , s_uniforms.m_color
     );
 }
-
-/*void Floor::drawBottomSubmit(bgfx::ProgramHandle programTexture, bgfx::TextureHandle figureTex) {
-    hplaneMesh.submit(RENDER_VIEWID_RANGE1_PASS_7
-            , floorBottomMtx
-            , programTexture
-            , s_renderStates[RenderState::Custom_DrawPlaneBottom]
-            , figureTex
-    );
-}*/

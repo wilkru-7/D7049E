@@ -5,6 +5,9 @@
 #include "cube.h"
 #include <iostream>
 
+/**
+ * Class for the dynamic object representing a cube, inherit object and observer
+ */
 Cube::Cube(float col[4], reactphysics3d::RigidBody* body) {
     physicsBody = body;
     isPickabel = true;
@@ -61,6 +64,9 @@ void Cube::update(int id) {
     //cubePhysics->applyForceToCenterOfMass(rp3d::Vector3(0.0,100.0,0.0));
 }
 
+/**
+ * Update method for black cube to continuosly move left and right
+ */
 void Cube::updatePos() {
     rp3d::Transform transform = physicsBody->getTransform();
     reactphysics3d::Vector3 pos = transform.getPosition();

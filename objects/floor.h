@@ -7,6 +7,9 @@
 
 #include "object.h"
 
+/**
+ * Class for the static object representing a floor, inherit object
+ */
 namespace {
     class Floor : public Object{
     public:

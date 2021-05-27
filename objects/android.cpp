@@ -6,6 +6,9 @@
 #include "bgfx_utils.h"
 #include "android.h"
 
+/**
+ * Class for the main character Android, inherit object and observer
+ */
 Android::Android(float col[4], reactphysics3d::RigidBody* body) {
     physicsBody = body;
     type = "Android";
@@ -34,6 +37,7 @@ void Android::reflectSubmit() {
     mesh.submit(RENDER_VIEWID_RANGE1_PASS_1
             , mtxReflectedAndroid
             , programColorLighting
+
             , s_renderStates[RenderState::StencilReflection_DrawReflected]
             , color
     );*/
@@ -65,6 +69,10 @@ void Android::updateRot(float rot) {
     );
 }
 
+/**
+ * Update method called from notifyobservers in events. If id starting with 1 move android on keyboard event.
+ * @param id
+ */
 void Android::update(int id) {
     rp3d::Transform currTransform = physicsBody->getTransform();
     reactphysics3d::Vector3 currPos = currTransform.getPosition();
@@ -91,35 +99,21 @@ void Android::update(int id) {
             }
             break;
         }
-        case 22:
+        case 115:
             currTransform.setPosition(reactphysics3d::Vector3(0.0, 5.0, 0.0));
             currTransform.setOrientation(reactphysics3d::Quaternion::identity());
             physicsBody->setLinearVelocity(reactphysics3d::Vector3(0.0, 0.0, 0.0));
             physicsBody->setTransform(currTransform);
             physicsBody->setLinearVelocity(reactphysics3d::Vector3(0.0, 0.0, 0.0));
-            std::cout << "Android position: " << currPos.y << std::endl;
             break;
-
-        /*case 111:
-            inventory->pickFromInventory();
-            break;
-        case 110: {
-            Object *item = inventory->objects->back();
-            if (item->isPickabel) {
-                inventory->addToInventory(item);
-                inventory->objects->remove(item);
-                std::cout << "Pick up" << std::endl;
-            }
-            break;
-        }*/
-        /*default: setTransform(reactphysics3d::Vector3(0.0, 0.0, 0.0));
-                std::cout << "Default" << std::endl;
-                break;*/
     }
 }
 
+/**
+ * Help method for changing android position in update()
+ * @param newPos
+ */
 void Android::setTransform(reactphysics3d::Vector3 newPos) {
-    std::cout << "SEtting transform" << std::endl;
     rp3d::Transform currTransform = physicsBody->getTransform();
     reactphysics3d::Vector3 currPos = currTransform.getPosition();
     currTransform.setPosition(reactphysics3d::Vector3(currPos.x + newPos.x, currPos.y + newPos.y, currPos.z + newPos.z));

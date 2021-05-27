@@ -8,6 +8,9 @@
 #include "object.h"
 #include "../observer/observer.h"
 
+/**
+ * Class for the dynamic object representing a cube, inherit object and observer
+ */
 namespace {
     class Cube : public Object, public Observer {
     public:

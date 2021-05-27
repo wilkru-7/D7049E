@@ -7,6 +7,9 @@
 
 #include "object.h"
 
+/**
+ * Class for the static object representing a tree, inherit object
+ */
 namespace {
     class Tree: public Object {
     public:

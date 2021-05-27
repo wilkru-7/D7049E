@@ -5,17 +5,32 @@
 #include "inventory.h"
 #include <iostream>
 
+/**
+ * Inventory have an Object as owner and stored the objects in an vector.
+ * A pointer to the worlds object vector is also required to remove and add objects
+ */
 Inventory::Inventory(std::vector<Object*> *list, Object* object) {
     objects = list;
     owner = object;
 }
 
+/**
+ * Deactivate collider and remove object from the world and add it to the inventory.
+ * @param item
+ * @param pos
+ */
 void Inventory::addToInventory(Object* item, int pos) {
     item->physicsBody->setIsActive(false);
     inventory.push_back(item);
     objects->erase(objects->begin()+pos);
 }
 
+/**
+ * If inventory not empty add the object back to the world vector and remove from inventory
+ * Activate the collider for the object.
+ * Set the position of the object to beside the owners current position
+ * @param id
+ */
 void Inventory::pickFromInventory(int id) {
     if (!inventory.empty() && id < inventory.size()) {
         Object* item = inventory.at(id);
@@ -32,6 +47,12 @@ void Inventory::pickFromInventory(int id) {
     }
 }
 
+/**
+ * Called from the notifyObserver.
+ * 1,2,3,4 correspondes to the inventory slots and E (110) picks up an object
+ * if there is one close to the current position of the owner.
+ * @param id
+ */
 void Inventory::update(int id) {
     switch(id) {
         case 111:
@@ -64,11 +85,6 @@ void Inventory::update(int id) {
                 }
                 i = i - 1;
             }
-            /*Object* item = objects->back();
-            if(item->isPickabel){
-                addToInventory(item);
-                std::cout << "Pick up" << std::endl;
-            }*/
             break;
     }
 }

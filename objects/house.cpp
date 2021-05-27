@@ -4,6 +4,9 @@
 
 #include "house.h"
 
+/**
+ * Class for the static object representing a house, inherit object
+ */
 House::House(float col[4], reactphysics3d::RigidBody* body){
     physicsBody = body;
     type = "House";

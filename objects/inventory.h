@@ -11,6 +11,10 @@
 #include <list>
 #include <iostream>
 
+/**
+ * Inventory have an Object as owner and stored the objects in an vector.
+ * A pointer to the worlds object vector is also required to remove and add objects
+ */
 namespace {
     class Inventory : public Observer {
     public:

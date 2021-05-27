@@ -7,6 +7,13 @@
 #include "../resources.h"
 #include "reactphysics3d/reactphysics3d.h"
 
+/**
+ * Abstract class to be inherited by all objects.
+ * An Object has a Rigid Body, ProgramHandle, Mesh, position, color,
+ * bool for being pickable or not and type for collision check
+ *
+ * reflectSubmit and drawSubmit is used for rendering and shutdown to unload all meshes
+ */
 namespace {
     class Object {
     public:
