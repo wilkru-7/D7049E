@@ -1,3 +1,10 @@
+
+/**
+ * Helper functions and variables used by the game. All code here is copied from the BGFX library.
+ * Source: https://github.com/bkaradzic/bgfx/blob/5b05c6c09e3884143491f289f456d6e98579c7ae/examples/13-stencil/stencil.cpp
+ */
+
+
 #include <string>
 #include <vector>
 
@@ -186,36 +193,6 @@ namespace {
         _result[15] =  1.0f;
     }
 
-    /*void mtxShadow(float* _result, const float* _ground, const float* _light)
-    {
-        const float dot =
-                _ground[0] * _light[0]
-                + _ground[1] * _light[1]
-                + _ground[2] * _light[2]
-                + _ground[3] * _light[3]
-        ;
-
-        _result[ 0] =  dot - _light[0] * _ground[0];
-        _result[ 1] = 0.0f - _light[1] * _ground[0];
-        _result[ 2] = 0.0f - _light[2] * _ground[0];
-        _result[ 3] = 0.0f - _light[3] * _ground[0];
-
-        _result[ 4] = 0.0f - _light[0] * _ground[1];
-        _result[ 5] =  dot - _light[1] * _ground[1];
-        _result[ 6] = 0.0f - _light[2] * _ground[1];
-        _result[ 7] = 0.0f - _light[3] * _ground[1];
-
-        _result[ 8] = 0.0f - _light[0] * _ground[2];
-        _result[ 9] = 0.0f - _light[1] * _ground[2];
-        _result[10] =  dot - _light[2] * _ground[2];
-        _result[11] = 0.0f - _light[3] * _ground[2];
-
-        _result[12] = 0.0f - _light[0] * _ground[3];
-        _result[13] = 0.0f - _light[1] * _ground[3];
-        _result[14] = 0.0f - _light[2] * _ground[3];
-        _result[15] =  dot - _light[3] * _ground[3];
-    }*/
-
     void mtxBillboard(float* _result, const float* _view, const float* _pos, const float* _scale)
     {
         _result[ 0] = _view[0]  * _scale[0];
@@ -343,12 +320,6 @@ namespace {
         float m_lightPosRadius[MAX_NUM_LIGHTS][4];
         float m_lightRgbInnerR[MAX_NUM_LIGHTS][4];
 
-        /**
-         * u_params.x - u_ambientPass
-         * u_params.y - u_lightingPass
-         * u_params.z - u_lightCount
-         * u_params.w - u_lightIndex
-         */
         bgfx::UniformHandle u_params;
         bgfx::UniformHandle u_ambient;
         bgfx::UniformHandle u_diffuse;
@@ -558,23 +529,6 @@ namespace {
         // Keep track of cleared views
         s_clearMask |= _viewMask;
     }
-
-    /*struct Aabb
-    {
-        float m_min[3];
-        float m_max[3];
-    };
-
-    struct Obb
-    {
-        float m_mtx[16];
-    };
-
-    struct Sphere
-    {
-        float m_center[3];
-        float m_radius;
-    };*/
 
     struct Primitive
     {
