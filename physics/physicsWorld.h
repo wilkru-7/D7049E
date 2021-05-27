@@ -9,6 +9,10 @@
 #include <vector>
 
 namespace {
+    /**
+     * Class for physicsWorld
+     * contains all physics objects
+     */
     class PhysicsWorld {
     public:
         void init(int androids, int floors, int lights, int trees, int cubes, int houses);

@@ -1,7 +1,9 @@
 #include "soundManager.h"
 
 int h, h2;
-
+/**
+ * Initializes SoLoud and loads wav files needed in the game
+ */
 void SoundManager::init() {
     // Initialize SoLoud (automatic back-end selection)
     soloud.init();
@@ -15,7 +17,10 @@ void SoundManager::init() {
     //soloud.play(sample);
     //sample.load("../../../../mozart.wav"); // Load a wave file
 }
-
+/**
+ * Plays sound based on events that SoundManager observes
+ * @param id
+ */
 void SoundManager::update(int id){
     switch(id) {
         case 1: soloud.stop(h);

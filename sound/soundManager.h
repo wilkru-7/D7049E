@@ -5,7 +5,10 @@
 #include "soloud_wav.h"
 #include "soloud_thread.h"
 #include "../events/event.h"
-
+/**
+ * Class for soundmanager
+ * Defining sound files and methods
+ */
 class SoundManager: public Observer {
 public:
     void SoundManager::init();
